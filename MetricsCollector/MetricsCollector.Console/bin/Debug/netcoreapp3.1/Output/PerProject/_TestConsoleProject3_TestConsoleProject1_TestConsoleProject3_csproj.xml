@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="TestConsoleProject3.csproj">
+      <Assembly Name="TestConsoleProject3, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="79" />
+          <Metric Name="CyclomaticComplexity" Value="18" />
+          <Metric Name="ClassCoupling" Value="1" />
+          <Metric Name="DepthOfInheritance" Value="1" />
+          <Metric Name="SourceLines" Value="59" />
+          <Metric Name="ExecutableLines" Value="18" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="TestConsoleProject1">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="79" />
+              <Metric Name="CyclomaticComplexity" Value="18" />
+              <Metric Name="ClassCoupling" Value="1" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="59" />
+              <Metric Name="ExecutableLines" Value="18" />
+            </Metrics>
+            <Types>
+              <NamedType Name="lowercaseClass">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="58" />
+                  <Metric Name="CyclomaticComplexity" Value="17" />
+                  <Metric Name="ClassCoupling" Value="1" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="48" />
+                  <Metric Name="ExecutableLines" Value="17" />
+                </Metrics>
+                <Members>
+                  <Method Name="int lowercaseClass.ComplexMethod()" File="I:\Dev\Projects\MetricsCollector\TestSolutions\TestConsoleProject3\TestConsoleProject1\Program.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="58" />
+                      <Metric Name="CyclomaticComplexity" Value="17" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="45" />
+                      <Metric Name="ExecutableLines" Value="17" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="Program">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="1" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="7" />
+                  <Metric Name="ExecutableLines" Value="1" />
+                </Metrics>
+                <Members>
+                  <Method Name="void Program.Main(string[] args)" File="I:\Dev\Projects\MetricsCollector\TestSolutions\TestConsoleProject3\TestConsoleProject1\Program.cs" Line="7">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

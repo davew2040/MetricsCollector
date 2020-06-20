@@ -7,18 +7,19 @@ namespace MetricsCollector.Console
 {
     class Program
     {
+        private const string ConfigPath = "config.xml";
+
         static async Task Main(string[] args)
         {
-            CollectionConfiguration config = new CollectionConfiguration()
-            {
-                CollectionMethod = CollectionMethod.AttachedNuget,
-                OutputFile = @"C:\temp\output.xml",
-                MsBuildPath = @"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin",
-                RootDirectory = @"C:\Dev\MetricsCollection\MetricsCollector\TestSolutions"
-            };
+            var config = await Parsing.Parsing.Config.LoadConfig(ConfigPath);
 
-            var collector = new MetricsCollector();
+            var collector = new MetricsCollector(statusUpdater: 
+                update => System.Console.WriteLine(update)
+            );
             await collector.Run(config);
+
+            System.Console.WriteLine("Metrics collection complete.");
+            System.Console.ReadKey();
         }
     }
 }

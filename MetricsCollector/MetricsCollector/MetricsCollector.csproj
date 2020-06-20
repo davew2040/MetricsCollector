@@ -6,12 +6,241 @@
 
   <ItemGroup>
     <None Remove="included_files\Metrics.exe" />
+    <None Remove="included_files\metrics\Metrics.exe" />
+    <None Remove="included_files\metrics\Metrics.exe.config" />
+    <None Remove="included_files\metrics\Metrics.xml" />
+    <None Remove="included_files\metrics\metrics\Metrics.exe" />
+    <None Remove="included_files\metrics\metrics\Metrics.exe.config" />
+    <None Remove="included_files\metrics\metrics\Metrics.xml" />
+    <None Remove="included_files\metrics\metrics\Microsoft.Build.Locator.dll" />
+    <None Remove="included_files\metrics\metrics\Microsoft.CodeAnalysis.CSharp.dll" />
+    <None Remove="included_files\metrics\metrics\Microsoft.CodeAnalysis.CSharp.Features.dll" />
+    <None Remove="included_files\metrics\metrics\Microsoft.CodeAnalysis.CSharp.Workspaces.dll" />
+    <None Remove="included_files\metrics\metrics\Microsoft.CodeAnalysis.dll" />
+    <None Remove="included_files\metrics\metrics\Microsoft.CodeAnalysis.Features.dll" />
+    <None Remove="included_files\metrics\metrics\Microsoft.CodeAnalysis.FlowAnalysis.Utilities.dll" />
+    <None Remove="included_files\metrics\metrics\Microsoft.CodeAnalysis.VisualBasic.dll" />
+    <None Remove="included_files\metrics\metrics\Microsoft.CodeAnalysis.VisualBasic.Features.dll" />
+    <None Remove="included_files\metrics\metrics\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll" />
+    <None Remove="included_files\metrics\metrics\Microsoft.CodeAnalysis.Workspaces.dll" />
+    <None Remove="included_files\metrics\metrics\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll" />
+    <None Remove="included_files\metrics\metrics\Microsoft.DiaSymReader.dll" />
+    <None Remove="included_files\metrics\metrics\System.Buffers.dll" />
+    <None Remove="included_files\metrics\metrics\System.Collections.Immutable.dll" />
+    <None Remove="included_files\metrics\metrics\System.Composition.AttributedModel.dll" />
+    <None Remove="included_files\metrics\metrics\System.Composition.Convention.dll" />
+    <None Remove="included_files\metrics\metrics\System.Composition.Hosting.dll" />
+    <None Remove="included_files\metrics\metrics\System.Composition.Runtime.dll" />
+    <None Remove="included_files\metrics\metrics\System.Composition.TypedParts.dll" />
+    <None Remove="included_files\metrics\metrics\System.Memory.dll" />
+    <None Remove="included_files\metrics\metrics\System.Numerics.Vectors.dll" />
+    <None Remove="included_files\metrics\metrics\System.Reflection.Metadata.dll" />
+    <None Remove="included_files\metrics\metrics\System.Runtime.CompilerServices.Unsafe.dll" />
+    <None Remove="included_files\metrics\metrics\System.Text.Encoding.CodePages.dll" />
+    <None Remove="included_files\metrics\metrics\System.Threading.Tasks.Extensions.dll" />
+    <None Remove="included_files\metrics\Microsoft.Build.Locator.dll" />
+    <None Remove="included_files\metrics\Microsoft.CodeAnalysis.CSharp.dll" />
+    <None Remove="included_files\metrics\Microsoft.CodeAnalysis.CSharp.Features.dll" />
+    <None Remove="included_files\metrics\Microsoft.CodeAnalysis.CSharp.Workspaces.dll" />
+    <None Remove="included_files\metrics\Microsoft.CodeAnalysis.dll" />
+    <None Remove="included_files\metrics\Microsoft.CodeAnalysis.Features.dll" />
+    <None Remove="included_files\metrics\Microsoft.CodeAnalysis.FlowAnalysis.Utilities.dll" />
+    <None Remove="included_files\metrics\Microsoft.CodeAnalysis.VisualBasic.dll" />
+    <None Remove="included_files\metrics\Microsoft.CodeAnalysis.VisualBasic.Features.dll" />
+    <None Remove="included_files\metrics\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll" />
+    <None Remove="included_files\metrics\Microsoft.CodeAnalysis.Workspaces.dll" />
+    <None Remove="included_files\metrics\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll" />
+    <None Remove="included_files\metrics\Microsoft.DiaSymReader.dll" />
+    <None Remove="included_files\metrics\System.Buffers.dll" />
+    <None Remove="included_files\metrics\System.Collections.Immutable.dll" />
+    <None Remove="included_files\metrics\System.Composition.AttributedModel.dll" />
+    <None Remove="included_files\metrics\System.Composition.Convention.dll" />
+    <None Remove="included_files\metrics\System.Composition.Hosting.dll" />
+    <None Remove="included_files\metrics\System.Composition.Runtime.dll" />
+    <None Remove="included_files\metrics\System.Composition.TypedParts.dll" />
+    <None Remove="included_files\metrics\System.Memory.dll" />
+    <None Remove="included_files\metrics\System.Numerics.Vectors.dll" />
+    <None Remove="included_files\metrics\System.Reflection.Metadata.dll" />
+    <None Remove="included_files\metrics\System.Runtime.CompilerServices.Unsafe.dll" />
+    <None Remove="included_files\metrics\System.Text.Encoding.CodePages.dll" />
+    <None Remove="included_files\metrics\System.Threading.Tasks.Extensions.dll" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="included_files\Metrics.exe">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <EmbeddedResource Include="included_files\metrics\Metrics.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
+    <EmbeddedResource Include="included_files\metrics\Metrics.exe.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="included_files\metrics\Metrics.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="included_files\metrics\metrics\Metrics.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="included_files\metrics\Microsoft.Build.Locator.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="included_files\metrics\Microsoft.CodeAnalysis.CSharp.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="included_files\metrics\Microsoft.CodeAnalysis.CSharp.Features.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="included_files\metrics\Microsoft.CodeAnalysis.CSharp.Workspaces.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="included_files\metrics\Microsoft.CodeAnalysis.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="included_files\metrics\Microsoft.CodeAnalysis.Features.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="included_files\metrics\Microsoft.CodeAnalysis.FlowAnalysis.Utilities.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="included_files\metrics\Microsoft.CodeAnalysis.VisualBasic.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="included_files\metrics\Microsoft.CodeAnalysis.VisualBasic.Features.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="included_files\metrics\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="included_files\metrics\Microsoft.CodeAnalysis.Workspaces.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="included_files\metrics\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="included_files\metrics\Microsoft.DiaSymReader.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="included_files\metrics\System.Buffers.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="included_files\metrics\System.Collections.Immutable.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="included_files\metrics\System.Composition.AttributedModel.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="included_files\metrics\System.Composition.Convention.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="included_files\metrics\System.Composition.Hosting.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="included_files\metrics\System.Composition.Runtime.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="included_files\metrics\System.Composition.TypedParts.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="included_files\metrics\System.Memory.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="included_files\metrics\System.Numerics.Vectors.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="included_files\metrics\System.Reflection.Metadata.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="included_files\metrics\System.Runtime.CompilerServices.Unsafe.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="included_files\metrics\System.Text.Encoding.CodePages.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="included_files\metrics\System.Threading.Tasks.Extensions.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <Resource Include="included_files\metrics\metrics\Metrics.exe.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="included_files\metrics\metrics\Metrics.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="included_files\metrics\metrics\Microsoft.Build.Locator.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="included_files\metrics\metrics\Microsoft.CodeAnalysis.CSharp.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="included_files\metrics\metrics\Microsoft.CodeAnalysis.CSharp.Features.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="included_files\metrics\metrics\Microsoft.CodeAnalysis.CSharp.Workspaces.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="included_files\metrics\metrics\Microsoft.CodeAnalysis.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="included_files\metrics\metrics\Microsoft.CodeAnalysis.Features.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="included_files\metrics\metrics\Microsoft.CodeAnalysis.FlowAnalysis.Utilities.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="included_files\metrics\metrics\Microsoft.CodeAnalysis.VisualBasic.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="included_files\metrics\metrics\Microsoft.CodeAnalysis.VisualBasic.Features.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="included_files\metrics\metrics\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="included_files\metrics\metrics\Microsoft.CodeAnalysis.Workspaces.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="included_files\metrics\metrics\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="included_files\metrics\metrics\Microsoft.DiaSymReader.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="included_files\metrics\metrics\System.Buffers.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="included_files\metrics\metrics\System.Collections.Immutable.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="included_files\metrics\metrics\System.Composition.AttributedModel.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="included_files\metrics\metrics\System.Composition.Convention.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="included_files\metrics\metrics\System.Composition.Hosting.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="included_files\metrics\metrics\System.Composition.Runtime.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="included_files\metrics\metrics\System.Composition.TypedParts.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="included_files\metrics\metrics\System.Memory.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="included_files\metrics\metrics\System.Numerics.Vectors.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="included_files\metrics\metrics\System.Reflection.Metadata.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="included_files\metrics\metrics\System.Runtime.CompilerServices.Unsafe.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="included_files\metrics\metrics\System.Text.Encoding.CodePages.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="included_files\metrics\metrics\System.Threading.Tasks.Extensions.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
 </Project>
