@@ -19,7 +19,6 @@ namespace MetricsCollector.Console
             await collector.Run(config);
 
             System.Console.WriteLine("Metrics collection complete.");
-            System.Console.ReadKey();
         }
     }
 }
