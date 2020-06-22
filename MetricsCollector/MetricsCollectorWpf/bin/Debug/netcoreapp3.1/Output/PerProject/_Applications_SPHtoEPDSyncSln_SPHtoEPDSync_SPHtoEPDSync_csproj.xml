@@ -1,0 +1,1136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="SPHtoEPDSync.csproj">
+      <Assembly Name="SPHtoEPDSync, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="85" />
+          <Metric Name="CyclomaticComplexity" Value="102" />
+          <Metric Name="ClassCoupling" Value="57" />
+          <Metric Name="DepthOfInheritance" Value="1" />
+          <Metric Name="SourceLines" Value="569" />
+          <Metric Name="ExecutableLines" Value="165" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="SPHtoEPDSync">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="85" />
+              <Metric Name="CyclomaticComplexity" Value="102" />
+              <Metric Name="ClassCoupling" Value="57" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="569" />
+              <Metric Name="ExecutableLines" Value="165" />
+            </Metrics>
+            <Types>
+              <NamedType Name="ErrorMessage">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="95" />
+                  <Metric Name="CyclomaticComplexity" Value="6" />
+                  <Metric Name="ClassCoupling" Value="0" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="12" />
+                  <Metric Name="ExecutableLines" Value="2" />
+                </Metrics>
+                <Members>
+                  <Property Name="string ErrorMessage.Error" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\ErrorMessage.cs" Line="11">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ErrorMessage.Error.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\ErrorMessage.cs" Line="11">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ErrorMessage.Error.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\ErrorMessage.cs" Line="11">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ErrorMessage.Message" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\ErrorMessage.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ErrorMessage.Message.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\ErrorMessage.cs" Line="12">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ErrorMessage.Message.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\ErrorMessage.cs" Line="12">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Method Name="ErrorMessage.ErrorMessage()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\ErrorMessage.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="ErrorMessage.ErrorMessage(string error, string msg)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\ErrorMessage.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="85" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="ObjectCache">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="87" />
+                  <Metric Name="CyclomaticComplexity" Value="29" />
+                  <Metric Name="ClassCoupling" Value="16" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="267" />
+                  <Metric Name="ExecutableLines" Value="41" />
+                </Metrics>
+                <Members>
+                  <Field Name="int ObjectCache.DEFAULT_TIMEOUT" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\ObjectCache.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="ObjectCache ObjectCache._cacheInstance" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\ObjectCache.cs" Line="23">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Dictionary&lt;string, CacheItem&gt; ObjectCache._items" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\ObjectCache.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="TimerCallback ObjectCache._itemExpiredDelegate" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\ObjectCache.cs" Line="25">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="ObjectCache.ObjectCache()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\ObjectCache.cs" Line="30">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="ObjectCache ObjectCache.Cache" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\ObjectCache.cs" Line="36">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="84" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="13" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="ObjectCache ObjectCache.Cache.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\ObjectCache.cs" Line="38">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="84" />
+                          <Metric Name="CyclomaticComplexity" Value="2" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="6" />
+                          <Metric Name="ExecutableLines" Value="2" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Method Name="void ObjectCache.Add(string key, object value)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\ObjectCache.cs" Line="51">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="94" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="9" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ObjectCache.Add(string key, object value, int expireTime)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\ObjectCache.cs" Line="62">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="86" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="15" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ObjectCache.Add(KeyValuePair&lt;string, object&gt; item)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\ObjectCache.cs" Line="76">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool ObjectCache.ContainsKey(string key)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\ObjectCache.cs" Line="86">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="9" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="ICollection&lt;string&gt; ObjectCache.Keys" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\ObjectCache.cs" Line="94">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="95" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="ICollection&lt;string&gt; ObjectCache.Keys.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\ObjectCache.cs" Line="96">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="95" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="4" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Method Name="bool ObjectCache.Remove(string key)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\ObjectCache.cs" Line="104">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="81" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="15" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool ObjectCache.Remove(KeyValuePair&lt;string, object&gt; item)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\ObjectCache.cs" Line="120">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="9" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool ObjectCache.TryGetValue(string key, out object value)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\ObjectCache.cs" Line="132">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="72" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="ICollection&lt;object&gt; ObjectCache.Values" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\ObjectCache.cs" Line="149">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="83" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="ICollection&lt;object&gt; ObjectCache.Values.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\ObjectCache.cs" Line="151">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="83" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="7" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="2" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="object ObjectCache.this[string key]" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\ObjectCache.cs" Line="159">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="74" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="30" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="object ObjectCache.this[string key].get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\ObjectCache.cs" Line="161">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="70" />
+                          <Metric Name="CyclomaticComplexity" Value="2" />
+                          <Metric Name="ClassCoupling" Value="3" />
+                          <Metric Name="SourceLines" Value="12" />
+                          <Metric Name="ExecutableLines" Value="6" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ObjectCache.this[string key].set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\ObjectCache.cs" Line="173">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="78" />
+                          <Metric Name="CyclomaticComplexity" Value="2" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="10" />
+                          <Metric Name="ExecutableLines" Value="3" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Method Name="void ObjectCache.Clear()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\ObjectCache.cs" Line="188">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool ObjectCache.Contains(KeyValuePair&lt;string, object&gt; item)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\ObjectCache.cs" Line="199">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="88" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="9" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ObjectCache.CopyTo(KeyValuePair&lt;string, object&gt;[] array, int arrayIndex)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\ObjectCache.cs" Line="209">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="9" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="int ObjectCache.Count" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\ObjectCache.cs" Line="217">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="95" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int ObjectCache.Count.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\ObjectCache.cs" Line="219">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="95" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="bool ObjectCache.IsReadOnly" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\ObjectCache.cs" Line="225">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="bool ObjectCache.IsReadOnly.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\ObjectCache.cs" Line="227">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Method Name="IEnumerator&lt;KeyValuePair&lt;string, object&gt;&gt; ObjectCache.GetEnumerator()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\ObjectCache.cs" Line="234">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="81" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="9" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="IEnumerator ObjectCache.GetEnumerator()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\ObjectCache.cs" Line="244">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ObjectCache.ItemExpired(object key)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\ObjectCache.cs" Line="253">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ObjectCache.ExpireItem(string key)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\ObjectCache.cs" Line="262">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="90" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ObjectCache.ResetItemExpiration(string key)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\ObjectCache.cs" Line="271">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="82" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="9" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="ObjectCache.CacheItem">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="6" />
+                  <Metric Name="ClassCoupling" Value="1" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="6" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+                <Members>
+                  <Property Name="object CacheItem.Value" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\ObjectCache.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="object CacheItem.Value.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\ObjectCache.cs" Line="17">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void CacheItem.Value.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\ObjectCache.cs" Line="17">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="int CacheItem.ExpireTime" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\ObjectCache.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int CacheItem.ExpireTime.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\ObjectCache.cs" Line="18">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void CacheItem.ExpireTime.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\ObjectCache.cs" Line="18">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="Timer CacheItem.ExpirationTimer" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\ObjectCache.cs" Line="19">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="Timer CacheItem.ExpirationTimer.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\ObjectCache.cs" Line="19">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void CacheItem.ExpirationTimer.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\ObjectCache.cs" Line="19">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+              <NamedType Name="StateLicenseType">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="83" />
+                  <Metric Name="CyclomaticComplexity" Value="10" />
+                  <Metric Name="ClassCoupling" Value="6" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="20" />
+                  <Metric Name="ExecutableLines" Value="12" />
+                </Metrics>
+                <Members>
+                  <Property Name="string StateLicenseType.Number" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\SyncMessage.cs" Line="54">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="2" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string StateLicenseType.Number.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\SyncMessage.cs" Line="54">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void StateLicenseType.Number.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\SyncMessage.cs" Line="54">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string StateLicenseType.Agency" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\SyncMessage.cs" Line="57">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="2" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string StateLicenseType.Agency.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\SyncMessage.cs" Line="57">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void StateLicenseType.Agency.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\SyncMessage.cs" Line="57">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string StateLicenseType.State" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\SyncMessage.cs" Line="60">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="2" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string StateLicenseType.State.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\SyncMessage.cs" Line="60">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void StateLicenseType.State.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\SyncMessage.cs" Line="60">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DateTime StateLicenseType.Issued" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\SyncMessage.cs" Line="63">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="2" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DateTime StateLicenseType.Issued.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\SyncMessage.cs" Line="63">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void StateLicenseType.Issued.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\SyncMessage.cs" Line="63">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DateTime StateLicenseType.Expires" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\SyncMessage.cs" Line="66">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="2" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DateTime StateLicenseType.Expires.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\SyncMessage.cs" Line="66">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void StateLicenseType.Expires.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\SyncMessage.cs" Line="66">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+              <NamedType Name="Synchronizer">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="64" />
+                  <Metric Name="CyclomaticComplexity" Value="31" />
+                  <Metric Name="ClassCoupling" Value="35" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="219" />
+                  <Metric Name="ExecutableLines" Value="82" />
+                </Metrics>
+                <Members>
+                  <Field Name="string Synchronizer.SYNC_QUEUE_PATH" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\Synchronizer.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Synchronizer.ERROR_QUEUE_PATH" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\Synchronizer.cs" Line="21">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="MessageQueue Synchronizer._syncQ" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\Synchronizer.cs" Line="23">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="MessageQueue Synchronizer._errorQ" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\Synchronizer.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="bool Synchronizer.running" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\Synchronizer.cs" Line="25">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="Synchronizer.Synchronizer()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\Synchronizer.cs" Line="30">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="90" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="11" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Synchronizer.Start(string[] args)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\Synchronizer.cs" Line="44">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="66" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="18" />
+                      <Metric Name="ExecutableLines" Value="7" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Synchronizer.Queue_ReceiveCompleted(object sender, ReceiveCompletedEventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\Synchronizer.cs" Line="64">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="58" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="12" />
+                      <Metric Name="SourceLines" Value="38" />
+                      <Metric Name="ExecutableLines" Value="13" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Synchronizer.ProcessMessage(SyncMessage msg)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\Synchronizer.cs" Line="98">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="63" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="18" />
+                      <Metric Name="ExecutableLines" Value="10" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Synchronizer.UpdatePerson(Person p)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\Synchronizer.cs" Line="117">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Synchronizer.UpdatePhysician(Physician physician, SyncMessage msg)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\Synchronizer.cs" Line="122">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="46" />
+                      <Metric Name="CyclomaticComplexity" Value="11" />
+                      <Metric Name="ClassCoupling" Value="15" />
+                      <Metric Name="SourceLines" Value="65" />
+                      <Metric Name="ExecutableLines" Value="29" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="Person Synchronizer.GetPerson(string ssn)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\Synchronizer.cs" Line="188">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="74" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="12" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Synchronizer.Stop()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\Synchronizer.cs" Line="204">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="74" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="12" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Synchronizer.DumpObjectProperties(object o, int indent = 0, string[] excludeProperties = null)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\Synchronizer.cs" Line="214">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="57" />
+                      <Metric Name="CyclomaticComplexity" Value="7" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="22" />
+                      <Metric Name="ExecutableLines" Value="10" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="SyncMessage">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="81" />
+                  <Metric Name="CyclomaticComplexity" Value="20" />
+                  <Metric Name="ClassCoupling" Value="11" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="38" />
+                  <Metric Name="ExecutableLines" Value="28" />
+                </Metrics>
+                <Members>
+                  <Property Name="string SyncMessage.SSN" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\SyncMessage.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="2" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string SyncMessage.SSN.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\SyncMessage.cs" Line="17">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void SyncMessage.SSN.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\SyncMessage.cs" Line="17">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DateTime SyncMessage.DOB" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\SyncMessage.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="2" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DateTime SyncMessage.DOB.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\SyncMessage.cs" Line="20">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void SyncMessage.DOB.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\SyncMessage.cs" Line="20">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string SyncMessage.UPIN" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\SyncMessage.cs" Line="23">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="2" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string SyncMessage.UPIN.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\SyncMessage.cs" Line="23">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void SyncMessage.UPIN.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\SyncMessage.cs" Line="23">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="StateLicenseType SyncMessage.StateLicense" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\SyncMessage.cs" Line="26">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="2" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="StateLicenseType SyncMessage.StateLicense.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\SyncMessage.cs" Line="26">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void SyncMessage.StateLicense.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\SyncMessage.cs" Line="26">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string SyncMessage.NPI" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\SyncMessage.cs" Line="29">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="2" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string SyncMessage.NPI.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\SyncMessage.cs" Line="29">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void SyncMessage.NPI.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\SyncMessage.cs" Line="29">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string SyncMessage.Privileges" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\SyncMessage.cs" Line="32">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="2" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string SyncMessage.Privileges.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\SyncMessage.cs" Line="32">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void SyncMessage.Privileges.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\SyncMessage.cs" Line="32">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string SyncMessage.DEANumber" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\SyncMessage.cs" Line="35">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="2" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string SyncMessage.DEANumber.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\SyncMessage.cs" Line="35">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void SyncMessage.DEANumber.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\SyncMessage.cs" Line="35">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string[] SyncMessage.Specialties" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\SyncMessage.cs" Line="39">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="3" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string[] SyncMessage.Specialties.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\SyncMessage.cs" Line="39">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void SyncMessage.Specialties.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\SyncMessage.cs" Line="39">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string SyncMessage.Email" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\SyncMessage.cs" Line="42">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="2" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string SyncMessage.Email.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\SyncMessage.cs" Line="42">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void SyncMessage.Email.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\SyncMessage.cs" Line="42">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="int SyncMessage.CernerID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\SyncMessage.cs" Line="45">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="2" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int SyncMessage.CernerID.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\SyncMessage.cs" Line="45">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void SyncMessage.CernerID.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SPHtoEPDSyncSln\SPHtoEPDSync\SyncMessage.cs" Line="45">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

@@ -1,0 +1,656 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="CM_DataImport.csproj">
+      <Assembly Name="CM_DataImport, Version=1.0.0.5, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="74" />
+          <Metric Name="CyclomaticComplexity" Value="57" />
+          <Metric Name="ClassCoupling" Value="36" />
+          <Metric Name="DepthOfInheritance" Value="3" />
+          <Metric Name="SourceLines" Value="571" />
+          <Metric Name="ExecutableLines" Value="184" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="CM_DataImport">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="61" />
+              <Metric Name="CyclomaticComplexity" Value="24" />
+              <Metric Name="ClassCoupling" Value="21" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="301" />
+              <Metric Name="ExecutableLines" Value="116" />
+            </Metrics>
+            <Types>
+              <NamedType Name="CM_DataImportProcessor">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="52" />
+                  <Metric Name="CyclomaticComplexity" Value="21" />
+                  <Metric Name="ClassCoupling" Value="20" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="274" />
+                  <Metric Name="ExecutableLines" Value="110" />
+                </Metrics>
+                <Members>
+                  <Method Name="void CM_DataImportProcessor.Engage(string arg)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\CM_DataImport\CM_DataImport\CM_DataImport.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="58" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="32" />
+                      <Metric Name="ExecutableLines" Value="13" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void CM_DataImportProcessor.FullFileImport(ImportConfigElement config)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\CM_DataImport\CM_DataImport\CM_DataImport.cs" Line="48">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="44" />
+                      <Metric Name="CyclomaticComplexity" Value="6" />
+                      <Metric Name="ClassCoupling" Value="15" />
+                      <Metric Name="SourceLines" Value="90" />
+                      <Metric Name="ExecutableLines" Value="35" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void CM_DataImportProcessor.PartialFileImport(ImportConfigElement config)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\CM_DataImport\CM_DataImport\CM_DataImport.cs" Line="139">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="43" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="15" />
+                      <Metric Name="SourceLines" Value="82" />
+                      <Metric Name="ExecutableLines" Value="38" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool CM_DataImportProcessor.ReWriteFile(string sFileName, string sTableName, string tempFilePath)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\CM_DataImport\CM_DataImport\CM_DataImport.cs" Line="222">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="51" />
+                      <Metric Name="CyclomaticComplexity" Value="7" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="57" />
+                      <Metric Name="ExecutableLines" Value="21" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="int CM_DataImportProcessor._primaryKeyColumn" File="C:\Dev\Repos\TFSRoot\SHP\Applications\CM_DataImport\CM_DataImport\CM_DataImport.cs" Line="280">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="91" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="int CM_DataImportProcessor.PrimaryKeyColumn" File="C:\Dev\Repos\TFSRoot\SHP\Applications\CM_DataImport\CM_DataImport\CM_DataImport.cs" Line="281">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int CM_DataImportProcessor.PrimaryKeyColumn.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\CM_DataImport\CM_DataImport\CM_DataImport.cs" Line="283">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void CM_DataImportProcessor.PrimaryKeyColumn.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\CM_DataImport\CM_DataImport\CM_DataImport.cs" Line="284">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+              <NamedType Name="Program">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="71" />
+                  <Metric Name="CyclomaticComplexity" Value="3" />
+                  <Metric Name="ClassCoupling" Value="3" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="21" />
+                  <Metric Name="ExecutableLines" Value="6" />
+                </Metrics>
+                <Members>
+                  <Method Name="void Program.Main(string[] args)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\CM_DataImport\CM_DataImport\Program.cs" Line="7">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="71" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="18" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="CM_DataImport.ImportsConfigSettings">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="84" />
+              <Metric Name="CyclomaticComplexity" Value="21" />
+              <Metric Name="ClassCoupling" Value="7" />
+              <Metric Name="DepthOfInheritance" Value="3" />
+              <Metric Name="SourceLines" Value="142" />
+              <Metric Name="ExecutableLines" Value="40" />
+            </Metrics>
+            <Types>
+              <NamedType Name="ImportConfigElement">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="76" />
+                  <Metric Name="CyclomaticComplexity" Value="14" />
+                  <Metric Name="ClassCoupling" Value="2" />
+                  <Metric Name="DepthOfInheritance" Value="2" />
+                  <Metric Name="SourceLines" Value="68" />
+                  <Metric Name="ExecutableLines" Value="30" />
+                </Metrics>
+                <Members>
+                  <Field Name="string ImportConfigElement.ERROR_LOG_NAME" File="C:\Dev\Repos\TFSRoot\SHP\Applications\CM_DataImport\CM_DataImport\ImportsConfigSettings\ImportsConfigSettings.cs" Line="26">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ImportConfigElement.FULL_IMPORT" File="C:\Dev\Repos\TFSRoot\SHP\Applications\CM_DataImport\CM_DataImport\ImportsConfigSettings\ImportsConfigSettings.cs" Line="27">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ImportConfigElement.IMPORT_FULL_FILE_LOCATION" File="C:\Dev\Repos\TFSRoot\SHP\Applications\CM_DataImport\CM_DataImport\ImportsConfigSettings\ImportsConfigSettings.cs" Line="28">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ImportConfigElement.IMPORT_PARTIAL_FILE_LOCATION" File="C:\Dev\Repos\TFSRoot\SHP\Applications\CM_DataImport\CM_DataImport\ImportsConfigSettings\ImportsConfigSettings.cs" Line="29">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ImportConfigElement.PARTIAL_IMPORT" File="C:\Dev\Repos\TFSRoot\SHP\Applications\CM_DataImport\CM_DataImport\ImportsConfigSettings\ImportsConfigSettings.cs" Line="30">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ImportConfigElement.TEMP_FILE_LOCATION" File="C:\Dev\Repos\TFSRoot\SHP\Applications\CM_DataImport\CM_DataImport\ImportsConfigSettings\ImportsConfigSettings.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ImportConfigElement.VALIDATION_KEY" File="C:\Dev\Repos\TFSRoot\SHP\Applications\CM_DataImport\CM_DataImport\ImportsConfigSettings\ImportsConfigSettings.cs" Line="32">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="string ImportConfigElement.ErrorLogName" File="C:\Dev\Repos\TFSRoot\SHP\Applications\CM_DataImport\CM_DataImport\ImportsConfigSettings\ImportsConfigSettings.cs" Line="35">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="94" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ImportConfigElement.ErrorLogName.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\CM_DataImport\CM_DataImport\ImportsConfigSettings\ImportsConfigSettings.cs" Line="37">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="95" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ImportConfigElement.ErrorLogName.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\CM_DataImport\CM_DataImport\ImportsConfigSettings\ImportsConfigSettings.cs" Line="38">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="94" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ImportConfigElement.FullImport" File="C:\Dev\Repos\TFSRoot\SHP\Applications\CM_DataImport\CM_DataImport\ImportsConfigSettings\ImportsConfigSettings.cs" Line="42">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="94" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ImportConfigElement.FullImport.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\CM_DataImport\CM_DataImport\ImportsConfigSettings\ImportsConfigSettings.cs" Line="44">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="95" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ImportConfigElement.FullImport.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\CM_DataImport\CM_DataImport\ImportsConfigSettings\ImportsConfigSettings.cs" Line="45">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="94" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ImportConfigElement.ImportFullFileLocation" File="C:\Dev\Repos\TFSRoot\SHP\Applications\CM_DataImport\CM_DataImport\ImportsConfigSettings\ImportsConfigSettings.cs" Line="49">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="94" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ImportConfigElement.ImportFullFileLocation.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\CM_DataImport\CM_DataImport\ImportsConfigSettings\ImportsConfigSettings.cs" Line="51">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="95" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ImportConfigElement.ImportFullFileLocation.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\CM_DataImport\CM_DataImport\ImportsConfigSettings\ImportsConfigSettings.cs" Line="52">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="94" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ImportConfigElement.ImportPartialFileLocation" File="C:\Dev\Repos\TFSRoot\SHP\Applications\CM_DataImport\CM_DataImport\ImportsConfigSettings\ImportsConfigSettings.cs" Line="56">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="94" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ImportConfigElement.ImportPartialFileLocation.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\CM_DataImport\CM_DataImport\ImportsConfigSettings\ImportsConfigSettings.cs" Line="58">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="95" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ImportConfigElement.ImportPartialFileLocation.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\CM_DataImport\CM_DataImport\ImportsConfigSettings\ImportsConfigSettings.cs" Line="59">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="94" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ImportConfigElement.PartialImport" File="C:\Dev\Repos\TFSRoot\SHP\Applications\CM_DataImport\CM_DataImport\ImportsConfigSettings\ImportsConfigSettings.cs" Line="63">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="94" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ImportConfigElement.PartialImport.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\CM_DataImport\CM_DataImport\ImportsConfigSettings\ImportsConfigSettings.cs" Line="65">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="95" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ImportConfigElement.PartialImport.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\CM_DataImport\CM_DataImport\ImportsConfigSettings\ImportsConfigSettings.cs" Line="66">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="94" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ImportConfigElement.TempFileLocation" File="C:\Dev\Repos\TFSRoot\SHP\Applications\CM_DataImport\CM_DataImport\ImportsConfigSettings\ImportsConfigSettings.cs" Line="70">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="94" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ImportConfigElement.TempFileLocation.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\CM_DataImport\CM_DataImport\ImportsConfigSettings\ImportsConfigSettings.cs" Line="72">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="95" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ImportConfigElement.TempFileLocation.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\CM_DataImport\CM_DataImport\ImportsConfigSettings\ImportsConfigSettings.cs" Line="73">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="94" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ImportConfigElement.ValidationKey" File="C:\Dev\Repos\TFSRoot\SHP\Applications\CM_DataImport\CM_DataImport\ImportsConfigSettings\ImportsConfigSettings.cs" Line="77">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="94" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ImportConfigElement.ValidationKey.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\CM_DataImport\CM_DataImport\ImportsConfigSettings\ImportsConfigSettings.cs" Line="79">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="95" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ImportConfigElement.ValidationKey.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\CM_DataImport\CM_DataImport\ImportsConfigSettings\ImportsConfigSettings.cs" Line="80">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="94" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+              <NamedType Name="ImportsCollection">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="92" />
+                  <Metric Name="CyclomaticComplexity" Value="5" />
+                  <Metric Name="ClassCoupling" Value="3" />
+                  <Metric Name="DepthOfInheritance" Value="3" />
+                  <Metric Name="SourceLines" Value="36" />
+                  <Metric Name="ExecutableLines" Value="5" />
+                </Metrics>
+                <Members>
+                  <Method Name="ImportsCollection.ImportsCollection()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\CM_DataImport\CM_DataImport\ImportsConfigSettings\ImportsConfigSettings.cs" Line="95">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="object ImportsCollection.GetElementKey(ConfigurationElement ceElement)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\CM_DataImport\CM_DataImport\ImportsConfigSettings\ImportsConfigSettings.cs" Line="100">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="95" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="ConfigurationElement ImportsCollection.CreateNewElement()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\CM_DataImport\CM_DataImport\ImportsConfigSettings\ImportsConfigSettings.cs" Line="105">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="ImportConfigElement ImportsCollection.this[string key]" File="C:\Dev\Repos\TFSRoot\SHP\Applications\CM_DataImport\CM_DataImport\ImportsConfigSettings\ImportsConfigSettings.cs" Line="110">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="95" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="ImportConfigElement ImportsCollection.this[string key].get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\CM_DataImport\CM_DataImport\ImportsConfigSettings\ImportsConfigSettings.cs" Line="112">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="95" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="3" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="ImportConfigElement ImportsCollection.this[int index]" File="C:\Dev\Repos\TFSRoot\SHP\Applications\CM_DataImport\CM_DataImport\ImportsConfigSettings\ImportsConfigSettings.cs" Line="115">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="95" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="ImportConfigElement ImportsCollection.this[int index].get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\CM_DataImport\CM_DataImport\ImportsConfigSettings\ImportsConfigSettings.cs" Line="117">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="95" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="3" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+              <NamedType Name="ImportsConfigurationSection">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="85" />
+                  <Metric Name="CyclomaticComplexity" Value="2" />
+                  <Metric Name="ClassCoupling" Value="4" />
+                  <Metric Name="DepthOfInheritance" Value="3" />
+                  <Metric Name="SourceLines" Value="24" />
+                  <Metric Name="ExecutableLines" Value="5" />
+                </Metrics>
+                <Members>
+                  <Field Name="string ImportsConfigurationSection.sectionName" File="C:\Dev\Repos\TFSRoot\SHP\Applications\CM_DataImport\CM_DataImport\ImportsConfigSettings\ImportsConfigSettings.cs" Line="132">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="ImportsCollection ImportsConfigurationSection.Imports" File="C:\Dev\Repos\TFSRoot\SHP\Applications\CM_DataImport\CM_DataImport\ImportsConfigSettings\ImportsConfigSettings.cs" Line="135">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="95" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="ImportsCollection ImportsConfigurationSection.Imports.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\CM_DataImport\CM_DataImport\ImportsConfigSettings\ImportsConfigSettings.cs" Line="137">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="95" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Method Name="ImportsConfigurationSection ImportsConfigurationSection.GetSection()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\CM_DataImport\CM_DataImport\ImportsConfigSettings\ImportsConfigSettings.cs" Line="140">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="95" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="CM_DataImport.Utilities">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="74" />
+              <Metric Name="CyclomaticComplexity" Value="12" />
+              <Metric Name="ClassCoupling" Value="16" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="128" />
+              <Metric Name="ExecutableLines" Value="28" />
+            </Metrics>
+            <Types>
+              <NamedType Name="Housekeeping">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="66" />
+                  <Metric Name="CyclomaticComplexity" Value="7" />
+                  <Metric Name="ClassCoupling" Value="14" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="62" />
+                  <Metric Name="ExecutableLines" Value="21" />
+                </Metrics>
+                <Members>
+                  <Method Name="void Housekeeping.CleanHouse(string tempFilePath)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\CM_DataImport\CM_DataImport\Utilities\Housekeeping.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Housekeeping.ManageLogFiles()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\CM_DataImport\CM_DataImport\Utilities\Housekeeping.cs" Line="29">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="55" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="12" />
+                      <Metric Name="SourceLines" Value="41" />
+                      <Metric Name="ExecutableLines" Value="16" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Housekeeping.DeleteAllTempFiles(string tempFilePath)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\CM_DataImport\CM_DataImport\Utilities\Housekeeping.cs" Line="70">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="80" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="Log">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="82" />
+                  <Metric Name="CyclomaticComplexity" Value="5" />
+                  <Metric Name="ClassCoupling" Value="2" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="41" />
+                  <Metric Name="ExecutableLines" Value="7" />
+                </Metrics>
+                <Members>
+                  <Field Name="ILog Log.logger" File="C:\Dev\Repos\TFSRoot\SHP\Applications\CM_DataImport\CM_DataImport\Utilities\Log.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="90" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Log.LogError(string strErrorMessage, string exceptionMessage = null, string stackTrace = null)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\CM_DataImport\CM_DataImport\Utilities\Log.cs" Line="30">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="69" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="14" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Log.LogInfo(string strInfoMessage)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\CM_DataImport\CM_DataImport\Utilities\Log.cs" Line="43">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Log.LogWarning(string strWarningMessage)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\CM_DataImport\CM_DataImport\Utilities\Log.cs" Line="52">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="PRDBJSONExtract.csproj">
+      <Assembly Name="PRDBJSONExtract, Version=1.0.0.8, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="68" />
+          <Metric Name="CyclomaticComplexity" Value="17" />
+          <Metric Name="ClassCoupling" Value="35" />
+          <Metric Name="DepthOfInheritance" Value="1" />
+          <Metric Name="SourceLines" Value="215" />
+          <Metric Name="ExecutableLines" Value="73" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="PRDBJSONExtract">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="68" />
+              <Metric Name="CyclomaticComplexity" Value="17" />
+              <Metric Name="ClassCoupling" Value="35" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="215" />
+              <Metric Name="ExecutableLines" Value="73" />
+            </Metrics>
+            <Types>
+              <NamedType Name="Helper">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="64" />
+                  <Metric Name="CyclomaticComplexity" Value="6" />
+                  <Metric Name="ClassCoupling" Value="20" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="97" />
+                  <Metric Name="ExecutableLines" Value="30" />
+                </Metrics>
+                <Members>
+                  <Field Name="string Helper.Subject" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBJSONExtract\PRDBJSONExtract\Helper.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="bool Helper.ErrorFlag" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBJSONExtract\PRDBJSONExtract\Helper.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Helper.SendEmail(string subject, string body)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBJSONExtract\PRDBJSONExtract\Helper.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="60" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="11" />
+                      <Metric Name="SourceLines" Value="34" />
+                      <Metric Name="ExecutableLines" Value="10" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Helper.CreateLogFile(string error)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBJSONExtract\PRDBJSONExtract\Helper.cs" Line="60">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="61" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="31" />
+                      <Metric Name="ExecutableLines" Value="10" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Helper.DoLogCleanUp()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBJSONExtract\PRDBJSONExtract\Helper.cs" Line="82">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="61" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="13" />
+                      <Metric Name="SourceLines" Value="24" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="PRDBJSONExtractApp">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="41" />
+                  <Metric Name="CyclomaticComplexity" Value="10" />
+                  <Metric Name="ClassCoupling" Value="20" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="102" />
+                  <Metric Name="ExecutableLines" Value="42" />
+                </Metrics>
+                <Members>
+                  <Method Name="void PRDBJSONExtractApp.Run()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBJSONExtract\PRDBJSONExtract\PRDBJSONExtractApp.cs" Line="11">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="41" />
+                      <Metric Name="CyclomaticComplexity" Value="10" />
+                      <Metric Name="ClassCoupling" Value="20" />
+                      <Metric Name="SourceLines" Value="99" />
+                      <Metric Name="ExecutableLines" Value="42" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="PRDBJSONExtractMain">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="1" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="7" />
+                  <Metric Name="ExecutableLines" Value="1" />
+                </Metrics>
+                <Members>
+                  <Method Name="void PRDBJSONExtractMain.Main()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBJSONExtract\PRDBJSONExtract\PRDBJSONExtractMain.cs" Line="5">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

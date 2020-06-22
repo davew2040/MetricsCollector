@@ -1,0 +1,1113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="SentaraPayrollR2W.csproj">
+      <Assembly Name="SentaraPayrollR2W, Version=1.0.0.26, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="70" />
+          <Metric Name="CyclomaticComplexity" Value="82" />
+          <Metric Name="ClassCoupling" Value="78" />
+          <Metric Name="DepthOfInheritance" Value="7" />
+          <Metric Name="SourceLines" Value="1381" />
+          <Metric Name="ExecutableLines" Value="545" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="SentaraPayrollR2W">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="68" />
+              <Metric Name="CyclomaticComplexity" Value="76" />
+              <Metric Name="ClassCoupling" Value="66" />
+              <Metric Name="DepthOfInheritance" Value="7" />
+              <Metric Name="SourceLines" Value="1292" />
+              <Metric Name="ExecutableLines" Value="528" />
+            </Metrics>
+            <Types>
+              <NamedType Name="Helper">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="60" />
+                  <Metric Name="CyclomaticComplexity" Value="20" />
+                  <Metric Name="ClassCoupling" Value="16" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="260" />
+                  <Metric Name="ExecutableLines" Value="106" />
+                </Metrics>
+                <Members>
+                  <Field Name="string Helper.mModName" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\Common\Helper.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="bool Helper.CheckFile(string strFullPath)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\Common\Helper.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="70" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="19" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Helper.GetDateForFile()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\Common\Helper.cs" Line="35">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="68" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Helper.LogProcessedRecords(string strModName, string strDescription)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\Common\Helper.cs" Line="56">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="52" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="43" />
+                      <Metric Name="ExecutableLines" Value="20" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Helper.LogException(string strModName, string strErrDesc, string strDescription)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\Common\Helper.cs" Line="100">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="51" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="44" />
+                      <Metric Name="ExecutableLines" Value="22" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Helper.DoLogCleanup()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\Common\Helper.cs" Line="150">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="58" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="31" />
+                      <Metric Name="ExecutableLines" Value="12" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Helper.EmailNotice()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\Common\Helper.cs" Line="177">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="53" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="29" />
+                      <Metric Name="ExecutableLines" Value="17" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Helper.SendMail(string strTo, string strFrom, string strCC, string strSubject, string strBody)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\Common\Helper.cs" Line="207">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="56" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="35" />
+                      <Metric Name="ExecutableLines" Value="15" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool Helper.CheckEmailDisabled()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\Common\Helper.cs" Line="243">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="69" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="17" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Helper.RecordErrorInProcessor(string strDescription)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\Common\Helper.cs" Line="261">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="94" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="Process_RestFulService">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="54" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="10" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="53" />
+                  <Metric Name="ExecutableLines" Value="17" />
+                </Metrics>
+                <Members>
+                  <Method Name="string Process_RestFulService.Process(string xmlRequest, string strURL)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\Common\Process_RestFulService.cs" Line="19">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="54" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="10" />
+                      <Metric Name="SourceLines" Value="49" />
+                      <Metric Name="ExecutableLines" Value="17" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="SendEmailToOncall">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="98" />
+                  <Metric Name="CyclomaticComplexity" Value="2" />
+                  <Metric Name="ClassCoupling" Value="0" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="10" />
+                  <Metric Name="ExecutableLines" Value="2" />
+                </Metrics>
+                <Members>
+                  <Field Name="bool SendEmailToOncall.m_ErrorOccurred" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\SendEmailToOncall.cs" Line="6">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="bool SendEmailToOncall.ErrorTracker" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\SendEmailToOncall.cs" Line="8">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="bool SendEmailToOncall.ErrorTracker.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\SendEmailToOncall.cs" Line="10">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void SendEmailToOncall.ErrorTracker.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\SendEmailToOncall.cs" Line="11">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+              <NamedType Name="SentaraPayrollR2W_Main">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="70" />
+                  <Metric Name="CyclomaticComplexity" Value="3" />
+                  <Metric Name="ClassCoupling" Value="11" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="38" />
+                  <Metric Name="ExecutableLines" Value="12" />
+                </Metrics>
+                <Members>
+                  <Field Name="string SentaraPayrollR2W_Main.mModName" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\SentaraPayrollR2W_Main.cs" Line="10">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void SentaraPayrollR2W_Main.Main()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\SentaraPayrollR2W_Main.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="62" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="11" />
+                      <Metric Name="SourceLines" Value="31" />
+                      <Metric Name="ExecutableLines" Value="11" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="SentaraPayrollR2W_Process">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="52" />
+                  <Metric Name="CyclomaticComplexity" Value="19" />
+                  <Metric Name="ClassCoupling" Value="22" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="432" />
+                  <Metric Name="ExecutableLines" Value="134" />
+                </Metrics>
+                <Members>
+                  <Field Name="string SentaraPayrollR2W_Process.mModName" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\SentaraPayrollR2W_Process.cs" Line="27">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="int SentaraPayrollR2W_Process.iDaysToPickUp" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\SentaraPayrollR2W_Process.cs" Line="29">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="85" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string SentaraPayrollR2W_Process.sR2W_CatalogID_Employees" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\SentaraPayrollR2W_Process.cs" Line="30">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string SentaraPayrollR2W_Process.sLogin" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\SentaraPayrollR2W_Process.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string SentaraPayrollR2W_Process.sPassword" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\SentaraPayrollR2W_Process.cs" Line="32">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string SentaraPayrollR2W_Process.sR2W_URL" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\SentaraPayrollR2W_Process.cs" Line="33">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string SentaraPayrollR2W_Process.xmlRequest" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\SentaraPayrollR2W_Process.cs" Line="34">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string SentaraPayrollR2W_Process.sEmployeeLoginID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\SentaraPayrollR2W_Process.cs" Line="35">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string SentaraPayrollR2W_Process.sURL" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\SentaraPayrollR2W_Process.cs" Line="36">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string SentaraPayrollR2W_Process.sResult" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\SentaraPayrollR2W_Process.cs" Line="37">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Process_RestFulService SentaraPayrollR2W_Process.oProcessRestFulService" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\SentaraPayrollR2W_Process.cs" Line="38">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="XactionDetailArchiveDAO SentaraPayrollR2W_Process.oXactionDetailArchiveDao1" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\SentaraPayrollR2W_Process.cs" Line="39">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="SendEmailToOncall SentaraPayrollR2W_Process.bEmailToOncall" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\SentaraPayrollR2W_Process.cs" Line="40">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void SentaraPayrollR2W_Process.ProcessRecords(XactionDetailArchiveDAO oXactionDetailArchiveDao)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\SentaraPayrollR2W_Process.cs" Line="42">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="46" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="17" />
+                      <Metric Name="SourceLines" Value="64" />
+                      <Metric Name="ExecutableLines" Value="32" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void SentaraPayrollR2W_Process.ProcessEach(XactionDetailArchiveDAO oXactionDetailArchiveDao1)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\SentaraPayrollR2W_Process.cs" Line="107">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="58" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="45" />
+                      <Metric Name="ExecutableLines" Value="12" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void SentaraPayrollR2W_Process.RemoveEmployee(Person oPerson)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\SentaraPayrollR2W_Process.cs" Line="153">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="45" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="15" />
+                      <Metric Name="SourceLines" Value="122" />
+                      <Metric Name="ExecutableLines" Value="31" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void SentaraPayrollR2W_Process.AddNewEmployee(Person oPerson)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\SentaraPayrollR2W_Process.cs" Line="276">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="37" />
+                      <Metric Name="CyclomaticComplexity" Value="8" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="164" />
+                      <Metric Name="ExecutableLines" Value="55" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="TesterForm">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="45" />
+                  <Metric Name="CyclomaticComplexity" Value="13" />
+                  <Metric Name="ClassCoupling" Value="31" />
+                  <Metric Name="DepthOfInheritance" Value="7" />
+                  <Metric Name="SourceLines" Value="462" />
+                  <Metric Name="ExecutableLines" Value="257" />
+                </Metrics>
+                <Members>
+                  <Method Name="TesterForm.TesterForm()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\TesterForm.cs" Line="10">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void TesterForm.btnExecute_Click(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\TesterForm.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="41" />
+                      <Metric Name="CyclomaticComplexity" Value="5" />
+                      <Metric Name="ClassCoupling" Value="14" />
+                      <Metric Name="SourceLines" Value="93" />
+                      <Metric Name="ExecutableLines" Value="46" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void TesterForm.cmdExit_Click(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\TesterForm.cs" Line="110">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void TesterForm.lblNotes_Click(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\TesterForm.cs" Line="115">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void TesterForm.txtPKAffected_TextChanged(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\TesterForm.cs" Line="120">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="IContainer TesterForm.components" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\TesterForm.Designer.cs" Line="8">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void TesterForm.Dispose(bool disposing)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\TesterForm.Designer.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="79" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="12" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void TesterForm.InitializeComponent()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\TesterForm.Designer.cs" Line="29">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="21" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="17" />
+                      <Metric Name="SourceLines" Value="291" />
+                      <Metric Name="ExecutableLines" Value="205" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="Label TesterForm.lblXactionID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\TesterForm.Designer.cs" Line="317">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label TesterForm.lblSourceSys" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\TesterForm.Designer.cs" Line="318">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label TesterForm.lblXationTypeID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\TesterForm.Designer.cs" Line="319">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label TesterForm.lblActionCodeID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\TesterForm.Designer.cs" Line="320">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label TesterForm.lblXactionDate" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\TesterForm.Designer.cs" Line="321">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label TesterForm.lblPKAffected" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\TesterForm.Designer.cs" Line="322">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label TesterForm.lblItemData" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\TesterForm.Designer.cs" Line="323">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label TesterForm.lblLoginID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\TesterForm.Designer.cs" Line="324">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="TextBox TesterForm.txtXactionID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\TesterForm.Designer.cs" Line="325">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="TextBox TesterForm.txtSourceSystem" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\TesterForm.Designer.cs" Line="326">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="TextBox TesterForm.txtXactionTypeID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\TesterForm.Designer.cs" Line="327">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="TextBox TesterForm.txtActionCodeID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\TesterForm.Designer.cs" Line="328">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="TextBox TesterForm.txtXactionDate" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\TesterForm.Designer.cs" Line="329">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="TextBox TesterForm.txtPKAffected" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\TesterForm.Designer.cs" Line="330">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="TextBox TesterForm.txtItemData" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\TesterForm.Designer.cs" Line="331">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="TextBox TesterForm.txtLoginID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\TesterForm.Designer.cs" Line="332">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Button TesterForm.btnExecute" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\TesterForm.Designer.cs" Line="333">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Button TesterForm.cmdExit" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\TesterForm.Designer.cs" Line="334">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RadioButton TesterForm.rdoRunPerRecord" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\TesterForm.Designer.cs" Line="335">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RadioButton TesterForm.rdoRunByFile" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\TesterForm.Designer.cs" Line="336">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel TesterForm.panel1" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\TesterForm.Designer.cs" Line="337">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label TesterForm.lblSelectOne" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\TesterForm.Designer.cs" Line="338">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="TextBox TesterForm.txtLocationAndFileName" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\TesterForm.Designer.cs" Line="339">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label TesterForm.lblNotes" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\TesterForm.Designer.cs" Line="340">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="XactionDetailArchiveDAO">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="18" />
+                  <Metric Name="ClassCoupling" Value="2" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="12" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+                <Members>
+                  <Property Name="int XactionDetailArchiveDAO.XactionDetailID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\XactionDetailArchiveDAO.cs" Line="10">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int XactionDetailArchiveDAO.XactionDetailID.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\XactionDetailArchiveDAO.cs" Line="10">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void XactionDetailArchiveDAO.XactionDetailID.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\XactionDetailArchiveDAO.cs" Line="10">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string XactionDetailArchiveDAO.SourceSystem" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\XactionDetailArchiveDAO.cs" Line="11">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string XactionDetailArchiveDAO.SourceSystem.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\XactionDetailArchiveDAO.cs" Line="11">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void XactionDetailArchiveDAO.SourceSystem.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\XactionDetailArchiveDAO.cs" Line="11">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="int XactionDetailArchiveDAO.XactionTypeID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\XactionDetailArchiveDAO.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int XactionDetailArchiveDAO.XactionTypeID.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\XactionDetailArchiveDAO.cs" Line="12">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void XactionDetailArchiveDAO.XactionTypeID.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\XactionDetailArchiveDAO.cs" Line="12">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="int XactionDetailArchiveDAO.ActionCodeID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\XactionDetailArchiveDAO.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int XactionDetailArchiveDAO.ActionCodeID.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\XactionDetailArchiveDAO.cs" Line="13">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void XactionDetailArchiveDAO.ActionCodeID.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\XactionDetailArchiveDAO.cs" Line="13">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DateTime? XactionDetailArchiveDAO.XactionDate" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\XactionDetailArchiveDAO.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DateTime? XactionDetailArchiveDAO.XactionDate.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\XactionDetailArchiveDAO.cs" Line="14">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void XactionDetailArchiveDAO.XactionDate.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\XactionDetailArchiveDAO.cs" Line="14">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="long XactionDetailArchiveDAO.PK_affected" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\XactionDetailArchiveDAO.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="long XactionDetailArchiveDAO.PK_affected.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\XactionDetailArchiveDAO.cs" Line="15">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void XactionDetailArchiveDAO.PK_affected.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\XactionDetailArchiveDAO.cs" Line="15">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DateTime? XactionDetailArchiveDAO.ProcessedDate" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\XactionDetailArchiveDAO.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DateTime? XactionDetailArchiveDAO.ProcessedDate.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\XactionDetailArchiveDAO.cs" Line="16">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void XactionDetailArchiveDAO.ProcessedDate.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\XactionDetailArchiveDAO.cs" Line="16">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string XactionDetailArchiveDAO.ItemData" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\XactionDetailArchiveDAO.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string XactionDetailArchiveDAO.ItemData.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\XactionDetailArchiveDAO.cs" Line="17">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void XactionDetailArchiveDAO.ItemData.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\XactionDetailArchiveDAO.cs" Line="17">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string XactionDetailArchiveDAO.LoginID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\XactionDetailArchiveDAO.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string XactionDetailArchiveDAO.LoginID.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\XactionDetailArchiveDAO.cs" Line="18">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void XactionDetailArchiveDAO.LoginID.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\XactionDetailArchiveDAO.cs" Line="18">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="SentaraPayrollR2W.Properties">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="80" />
+              <Metric Name="CyclomaticComplexity" Value="6" />
+              <Metric Name="ClassCoupling" Value="12" />
+              <Metric Name="DepthOfInheritance" Value="3" />
+              <Metric Name="SourceLines" Value="89" />
+              <Metric Name="ExecutableLines" Value="17" />
+            </Metrics>
+            <Types>
+              <NamedType Name="Resources">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="75" />
+                  <Metric Name="CyclomaticComplexity" Value="5" />
+                  <Metric Name="ClassCoupling" Value="10" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="48" />
+                  <Metric Name="ExecutableLines" Value="13" />
+                </Metrics>
+                <Members>
+                  <Field Name="ResourceManager Resources.resourceMan" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\Properties\Resources.Designer.cs" Line="27">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="CultureInfo Resources.resourceCulture" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\Properties\Resources.Designer.cs" Line="29">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="Resources.Resources()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\Properties\Resources.Designer.cs" Line="32">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="3" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="ResourceManager Resources.ResourceManager" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\Properties\Resources.Designer.cs" Line="39">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="74" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="13" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="ResourceManager Resources.ResourceManager.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\Properties\Resources.Designer.cs" Line="40">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="74" />
+                          <Metric Name="CyclomaticComplexity" Value="2" />
+                          <Metric Name="ClassCoupling" Value="3" />
+                          <Metric Name="SourceLines" Value="7" />
+                          <Metric Name="ExecutableLines" Value="4" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="CultureInfo Resources.Culture" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\Properties\Resources.Designer.cs" Line="54">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="13" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="CultureInfo Resources.Culture.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\Properties\Resources.Designer.cs" Line="55">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="3" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Resources.Culture.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\Properties\Resources.Designer.cs" Line="58">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="3" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+              <NamedType Name="Settings">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="85" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="4" />
+                  <Metric Name="DepthOfInheritance" Value="3" />
+                  <Metric Name="SourceLines" Value="12" />
+                  <Metric Name="ExecutableLines" Value="4" />
+                </Metrics>
+                <Members>
+                  <Field Name="Settings Settings.defaultInstance" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\Properties\Settings.Designer.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="89" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="Settings Settings.Default" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\Properties\Settings.Designer.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="Settings Settings.Default.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\SentaraPayrollR2W\SentaraPayrollR2W\Properties\Settings.Designer.cs" Line="21">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="3" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

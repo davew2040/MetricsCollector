@@ -1,0 +1,1383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="Provider_Dependencies.csproj">
+      <Assembly Name="Provider_Dependencies, Version=1.0.0.72, Culture=neutral, PublicKeyToken=ad1cb31a5c7174a8">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="72" />
+          <Metric Name="CyclomaticComplexity" Value="189" />
+          <Metric Name="ClassCoupling" Value="89" />
+          <Metric Name="DepthOfInheritance" Value="3" />
+          <Metric Name="SourceLines" Value="1682" />
+          <Metric Name="ExecutableLines" Value="450" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="Provider_Dependencies">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="71" />
+              <Metric Name="CyclomaticComplexity" Value="188" />
+              <Metric Name="ClassCoupling" Value="85" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="1656" />
+              <Metric Name="ExecutableLines" Value="446" />
+            </Metrics>
+            <Types>
+              <NamedType Name="AuditLog">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="64" />
+                  <Metric Name="CyclomaticComplexity" Value="8" />
+                  <Metric Name="ClassCoupling" Value="10" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="65" />
+                  <Metric Name="ExecutableLines" Value="28" />
+                </Metrics>
+                <Members>
+                  <Property Name="int AuditLog.MessageTypeId" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\AuditLog.cs" Line="10">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int AuditLog.MessageTypeId.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\AuditLog.cs" Line="10">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void AuditLog.MessageTypeId.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\AuditLog.cs" Line="10">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="int AuditLog.SiteTransactionId" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\AuditLog.cs" Line="11">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int AuditLog.SiteTransactionId.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\AuditLog.cs" Line="11">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void AuditLog.SiteTransactionId.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\AuditLog.cs" Line="11">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Method Name="AuditLog.AuditLog(string SiteTransactionKey, string MessageTypeKey)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\AuditLog.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="54" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="10" />
+                      <Metric Name="SourceLines" Value="35" />
+                      <Metric Name="ExecutableLines" Value="16" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool AuditLog.CreateAuditEntry(string user, string message)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\AuditLog.cs" Line="49">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="58" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="22" />
+                      <Metric Name="ExecutableLines" Value="12" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="Cryptography">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="83" />
+                  <Metric Name="CyclomaticComplexity" Value="2" />
+                  <Metric Name="ClassCoupling" Value="3" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="17" />
+                  <Metric Name="ExecutableLines" Value="7" />
+                </Metrics>
+                <Members>
+                  <Field Name="string Cryptography.encKey" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\Cryptography.cs" Line="7">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="string Cryptography.Encrypt(string plaintext)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\Cryptography.cs" Line="8">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="79" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Cryptography.Decrypt(string plaintext)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\Cryptography.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="79" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="CSCDataAccess">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="75" />
+                  <Metric Name="CyclomaticComplexity" Value="16" />
+                  <Metric Name="ClassCoupling" Value="12" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="99" />
+                  <Metric Name="ExecutableLines" Value="27" />
+                </Metrics>
+                <Members>
+                  <Property Name="bool CSCDataAccess._isSEP" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\CSCDataAccess.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="bool CSCDataAccess._isSEP.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\CSCDataAccess.cs" Line="13">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void CSCDataAccess._isSEP.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\CSCDataAccess.cs" Line="13">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string CSCDataAccess._U2UIDKey" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\CSCDataAccess.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string CSCDataAccess._U2UIDKey.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\CSCDataAccess.cs" Line="17">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="93" />
+                          <Metric Name="CyclomaticComplexity" Value="2" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string CSCDataAccess._U2PWKey" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\CSCDataAccess.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string CSCDataAccess._U2PWKey.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\CSCDataAccess.cs" Line="22">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="93" />
+                          <Metric Name="CyclomaticComplexity" Value="2" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string CSCDataAccess._U2ServerKey" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\CSCDataAccess.cs" Line="25">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string CSCDataAccess._U2ServerKey.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\CSCDataAccess.cs" Line="27">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="93" />
+                          <Metric Name="CyclomaticComplexity" Value="2" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string CSCDataAccess._U2DatabaseKey" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\CSCDataAccess.cs" Line="30">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string CSCDataAccess._U2DatabaseKey.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\CSCDataAccess.cs" Line="32">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="93" />
+                          <Metric Name="CyclomaticComplexity" Value="2" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string CSCDataAccess._U2ServerTypeKey" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\CSCDataAccess.cs" Line="35">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string CSCDataAccess._U2ServerTypeKey.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\CSCDataAccess.cs" Line="37">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="93" />
+                          <Metric Name="CyclomaticComplexity" Value="2" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string CSCDataAccess._U2PoolingKey" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\CSCDataAccess.cs" Line="40">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string CSCDataAccess._U2PoolingKey.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\CSCDataAccess.cs" Line="42">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="93" />
+                          <Metric Name="CyclomaticComplexity" Value="2" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Method Name="CSCDataAccess.CSCDataAccess(bool isSEP)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\CSCDataAccess.cs" Line="45">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="DataTable CSCDataAccess.Fetch(string commandText)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\CSCDataAccess.cs" Line="55">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="51" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="12" />
+                      <Metric Name="SourceLines" Value="56" />
+                      <Metric Name="ExecutableLines" Value="20" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="EnrollmentStatus">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="70" />
+                  <Metric Name="CyclomaticComplexity" Value="10" />
+                  <Metric Name="ClassCoupling" Value="2" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="33" />
+                  <Metric Name="ExecutableLines" Value="8" />
+                </Metrics>
+                <Members>
+                  <Method Name="int EnrollmentStatus.GetEnrollStatus(string strEnrollCode, DateTime dtEnrollDate)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\EnrollmentStatus.cs" Line="8">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="71" />
+                      <Metric Name="CyclomaticComplexity" Value="5" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="14" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="int EnrollmentStatus.GetEnrollStatus(string strEnrollCode, SmartDate dtEnrollDate)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\EnrollmentStatus.cs" Line="23">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="71" />
+                      <Metric Name="CyclomaticComplexity" Value="5" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="14" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="FormatProviderList">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="65" />
+                  <Metric Name="CyclomaticComplexity" Value="24" />
+                  <Metric Name="ClassCoupling" Value="9" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="134" />
+                  <Metric Name="ExecutableLines" Value="57" />
+                </Metrics>
+                <Members>
+                  <Field Name="string FormatProviderList.SpecialtiesInitialized" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\FormatProviderList.cs" Line="11">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="bool FormatProviderList.HasOB" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\FormatProviderList.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="bool FormatProviderList.hasSpecialist" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\FormatProviderList.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="bool FormatProviderList.hasPCP" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\FormatProviderList.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="bool FormatProviderList.ProviderHasOB(string strProviderID)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\FormatProviderList.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="81" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="9" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool FormatProviderList.ProviderHasPCP(string strProviderID)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\FormatProviderList.cs" Line="26">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="81" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="9" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool FormatProviderList.ProviderHasSpecialty(string strProviderID)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\FormatProviderList.cs" Line="36">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="81" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="9" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool FormatProviderList.BuildProviderList(string strVendorID, DropDownList cboProviderList, bool blnAllPhysMsg)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\FormatProviderList.cs" Line="46">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="57" />
+                      <Metric Name="CyclomaticComplexity" Value="5" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="24" />
+                      <Metric Name="ExecutableLines" Value="13" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string FormatProviderList.InvalidProviderErrMsg(string strVendorID)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\FormatProviderList.cs" Line="71">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="72" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="9" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void FormatProviderList.GetSpecialtyType(string strCSCProvID)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\FormatProviderList.cs" Line="81">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="56" />
+                      <Metric Name="CyclomaticComplexity" Value="7" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="31" />
+                      <Metric Name="ExecutableLines" Value="14" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool FormatProviderList.BuildDefaultProviderList(string strVendorID, string strDefaultID, DropDownList cboProviderList)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\FormatProviderList.cs" Line="114">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="55" />
+                      <Metric Name="CyclomaticComplexity" Value="5" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="27" />
+                      <Metric Name="ExecutableLines" Value="15" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="FormatStrings">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="68" />
+                  <Metric Name="CyclomaticComplexity" Value="7" />
+                  <Metric Name="ClassCoupling" Value="0" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="88" />
+                  <Metric Name="ExecutableLines" Value="16" />
+                </Metrics>
+                <Members>
+                  <Method Name="string FormatStrings.FormatPhone(string strPhone)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\FormatStrings.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="66" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="28" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string FormatStrings.Format_Bracketed_Phone(string strphone)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\FormatStrings.cs" Line="44">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="78" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="16" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string FormatStrings.FormatSSN(string strSSN)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\FormatStrings.cs" Line="64">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="65" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="38" />
+                      <Metric Name="ExecutableLines" Value="7" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="FormatVendorList">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="63" />
+                  <Metric Name="CyclomaticComplexity" Value="47" />
+                  <Metric Name="ClassCoupling" Value="19" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="369" />
+                  <Metric Name="ExecutableLines" Value="97" />
+                </Metrics>
+                <Members>
+                  <Field Name="string FormatVendorList.SpecialtiesInitialized" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\FormatVendorList.cs" Line="35">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="bool FormatVendorList.HasOB" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\FormatVendorList.cs" Line="36">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="bool FormatVendorList.hasSpecialist" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\FormatVendorList.cs" Line="37">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="bool FormatVendorList.hasPCP" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\FormatVendorList.cs" Line="38">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void FormatVendorList.BindVendorList(List&lt;AssignedPractice&gt; oAPL, DropDownList cboVendorList, bool blnListAll)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\FormatVendorList.cs" Line="51">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="59" />
+                      <Metric Name="CyclomaticComplexity" Value="5" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="38" />
+                      <Metric Name="ExecutableLines" Value="12" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void FormatVendorList.BindVendorList(AssignedPracticeList oAPL, DropDownList cboVendorList, bool blnListAll)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\FormatVendorList.cs" Line="92">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="59" />
+                      <Metric Name="CyclomaticComplexity" Value="5" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="40" />
+                      <Metric Name="ExecutableLines" Value="12" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void FormatVendorList.BindVendorLabel(AssignedPracticeList oAPL, Label lblVendorName, TextBox txtVendorID)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\FormatVendorList.cs" Line="129">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="65" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="27" />
+                      <Metric Name="ExecutableLines" Value="7" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void FormatVendorList.BindVendorLabel(List&lt;AssignedPractice&gt; oAPL, Label lblVendorName, TextBox txtVendorID)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\FormatVendorList.cs" Line="157">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="65" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="27" />
+                      <Metric Name="ExecutableLines" Value="7" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void FormatVendorList.GetSpecialtyType(string strVendorID)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\FormatVendorList.cs" Line="190">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="49" />
+                      <Metric Name="CyclomaticComplexity" Value="12" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="81" />
+                      <Metric Name="ExecutableLines" Value="23" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool FormatVendorList.VendorHasOB(string strVendorID)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\FormatVendorList.cs" Line="256">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="81" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="10" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool FormatVendorList.VendorHasPCP(string strVendorID)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\FormatVendorList.cs" Line="267">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="81" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="10" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool FormatVendorList.VendorHasSpecialty(string strVendorID)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\FormatVendorList.cs" Line="278">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="81" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="10" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string FormatVendorList.InvalidVendorErrMsg()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\FormatVendorList.cs" Line="288">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="63" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="10" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string FormatVendorList.BuildVendorAllList(AssignedPracticeList oAPL)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\FormatVendorList.cs" Line="321">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="65" />
+                      <Metric Name="CyclomaticComplexity" Value="5" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="36" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string FormatVendorList.BuildVendorAllList(List&lt;AssignedPractice&gt; oAPL)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\FormatVendorList.cs" Line="358">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="65" />
+                      <Metric Name="CyclomaticComplexity" Value="5" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="36" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="GenerateMail">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="61" />
+                  <Metric Name="CyclomaticComplexity" Value="8" />
+                  <Metric Name="ClassCoupling" Value="12" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="97" />
+                  <Metric Name="ExecutableLines" Value="40" />
+                </Metrics>
+                <Members>
+                  <Method Name="void GenerateMail.SendMail(string strTo, string strSubject, string strBody, bool HTMLFormat)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\GenerateMail.cs" Line="9">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="92" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void GenerateMail.SendMail(string strTo, string strFrom, string strSubject, string strBody, bool HTMLFormat)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\GenerateMail.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="56" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="8" />
+                      <Metric Name="SourceLines" Value="34" />
+                      <Metric Name="ExecutableLines" Value="15" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void GenerateMail.SendMailWithAttachment(string strTo, string strFrom, string strSubject, string strBody, bool HTMLFormat, string strAttach)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\GenerateMail.cs" Line="49">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="53" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="11" />
+                      <Metric Name="SourceLines" Value="40" />
+                      <Metric Name="ExecutableLines" Value="19" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool GenerateMail.CheckEmailDisabled()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\GenerateMail.cs" Line="90">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="74" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="13" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="ProviderContext">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="67" />
+                  <Metric Name="CyclomaticComplexity" Value="23" />
+                  <Metric Name="ClassCoupling" Value="27" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="244" />
+                  <Metric Name="ExecutableLines" Value="56" />
+                </Metrics>
+                <Members>
+                  <Field Name="string ProviderContext._physCtxTkn" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\ProviderContext.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="bool ProviderContext.HasValidMDORelationship" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\ProviderContext.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="AssignedPracticeList ProviderContext.mPracticeList" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\ProviderContext.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="bool ProviderContext.mIsEmployee" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\ProviderContext.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="int ProviderContext.mValidVendorCount" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\ProviderContext.cs" Line="19">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="ProviderContext.ProviderContext()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\ProviderContext.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="43" />
+                      <Metric Name="CyclomaticComplexity" Value="11" />
+                      <Metric Name="ClassCoupling" Value="27" />
+                      <Metric Name="SourceLines" Value="90" />
+                      <Metric Name="ExecutableLines" Value="35" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="ProviderContext ProviderContext.Current" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\ProviderContext.cs" Line="157">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="62" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="82" />
+                      <Metric Name="ExecutableLines" Value="10" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="ProviderContext ProviderContext.Current.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\ProviderContext.cs" Line="159">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="62" />
+                          <Metric Name="CyclomaticComplexity" Value="4" />
+                          <Metric Name="ClassCoupling" Value="3" />
+                          <Metric Name="SourceLines" Value="33" />
+                          <Metric Name="ExecutableLines" Value="10" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Method Name="void ProviderContext.Clear()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\ProviderContext.cs" Line="202">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="13" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ProviderContext.Refresh()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\ProviderContext.cs" Line="219">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="72" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="25" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="bool ProviderContext.HasRelationship" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\ProviderContext.cs" Line="231">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="bool ProviderContext.HasRelationship.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\ProviderContext.cs" Line="233">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="AssignedPracticeList ProviderContext.PracticeList" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\ProviderContext.cs" Line="235">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="AssignedPracticeList ProviderContext.PracticeList.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\ProviderContext.cs" Line="237">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="bool ProviderContext.IsEmployee" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\ProviderContext.cs" Line="239">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="bool ProviderContext.IsEmployee.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\ProviderContext.cs" Line="241">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="int ProviderContext.ValidVendorCount" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\ProviderContext.cs" Line="243">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int ProviderContext.ValidVendorCount.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\ProviderContext.cs" Line="245">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+              <NamedType Name="SecureUser">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="72" />
+                  <Metric Name="CyclomaticComplexity" Value="18" />
+                  <Metric Name="ClassCoupling" Value="20" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="287" />
+                  <Metric Name="ExecutableLines" Value="62" />
+                </Metrics>
+                <Members>
+                  <Field Name="string SecureUser.encKey" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\SecureUser.cs" Line="34">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string SecureUser.AUDITLOGINID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\SecureUser.cs" Line="35">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="UserMode SecureUser.m_Mode" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\SecureUser.cs" Line="52">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string SecureUser.m_sLoginId" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\SecureUser.cs" Line="53">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string SecureUser.m_sPassword" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\SecureUser.cs" Line="54">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string SecureUser.m_sNewPassword" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\SecureUser.cs" Line="55">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="int SecureUser.m_iSecretQuestionId" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\SecureUser.cs" Line="56">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string SecureUser.m_sSecretAnswer" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\SecureUser.cs" Line="57">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string SecureUser.m_sUserDN" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\SecureUser.cs" Line="58">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="bool SecureUser.m_bOnGraceLogins" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\SecureUser.cs" Line="59">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="string SecureUser.LoginId" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\SecureUser.cs" Line="61">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string SecureUser.LoginId.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\SecureUser.cs" Line="63">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string SecureUser.Password" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\SecureUser.cs" Line="65">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="95" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string SecureUser.Password.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\SecureUser.cs" Line="67">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="95" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string SecureUser.DN" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\SecureUser.cs" Line="69">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string SecureUser.DN.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\SecureUser.cs" Line="71">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="bool SecureUser.OnGraceLogins" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\SecureUser.cs" Line="73">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="bool SecureUser.OnGraceLogins.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\SecureUser.cs" Line="75">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Method Name="SecureUser.SecureUser(string mSUserDn)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\SecureUser.cs" Line="78">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="SecureUser.SecureUser(string LoginId, string Password, string mSUserDn)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\SecureUser.cs" Line="95">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="74" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="19" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="SecureUser.SecureUser(string LoginId, string OldPassword, string NewPassword, string mSUserDn)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\SecureUser.cs" Line="117">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="72" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="22" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="SecureUser.SecureUser(string LoginId, int SecretQuestionId, string SecretAnswer, string NewPassword, string mSUserDn)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\SecureUser.cs" Line="142">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="69" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="25" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void SecureUser.Authenticate()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\SecureUser.cs" Line="152">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="76" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="14" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void SecureUser.AuditLogin()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\SecureUser.cs" Line="175">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="51" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="10" />
+                      <Metric Name="SourceLines" Value="53" />
+                      <Metric Name="ExecutableLines" Value="20" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool SecureUser.ChangePassword()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\SecureUser.cs" Line="230">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="64" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="40" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string SecureUser.EncryptPassword(string pwd)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\SecureUser.cs" Line="272">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="76" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="18" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string SecureUser.DecryptPassword(string encryptedPassword)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\SecureUser.cs" Line="291">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="76" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="18" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="SecureUser.UserMode">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="0" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="14" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+                <Members>
+                  <Field Name="UserMode.Authentication" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\SecureUser.cs" Line="48">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="UserMode.ChangePassword" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\SecureUser.cs" Line="49">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="SQLDataAccess">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="58" />
+                  <Metric Name="CyclomaticComplexity" Value="4" />
+                  <Metric Name="ClassCoupling" Value="9" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="67" />
+                  <Metric Name="ExecutableLines" Value="26" />
+                </Metrics>
+                <Members>
+                  <Method Name="int SQLDataAccess.Create(string cmdtext, List&lt;SqlParameter&gt; cmdparms, string connectionStringKey, CommandType cmdtype)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\SQLDataAccess.cs" Line="10">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="60" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="26" />
+                      <Metric Name="ExecutableLines" Value="12" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="DataTable SQLDataAccess.Fetch(string cmdtext, List&lt;SqlParameter&gt; cmdparms, string connectionStringKey, CommandType cmdtype)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\SQLDataAccess.cs" Line="44">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="58" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="38" />
+                      <Metric Name="ExecutableLines" Value="14" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="Utility">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="81" />
+                  <Metric Name="CyclomaticComplexity" Value="20" />
+                  <Metric Name="ClassCoupling" Value="4" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="121" />
+                  <Metric Name="ExecutableLines" Value="22" />
+                </Metrics>
+                <Members>
+                  <Method Name="string Utility.CheckStringForNull(object value)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\Utility.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="77" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="13" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool Utility.IsVerboseLoggingEnabled()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\Utility.cs" Line="29">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="84" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="12" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool Utility.IsAuditLoggingEnabled()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\Utility.cs" Line="42">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="84" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="12" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Utility.GetWebConfigValue(string configKey)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\Utility.cs" Line="56">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="78" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="14" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool Utility.IsElapsedTimeLoggingEnabled()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\Utility.cs" Line="70">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="84" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="11" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Utility.GetApplicationGUID()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\Utility.cs" Line="82">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="91" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Utility.GetAuditLogType()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\Utility.cs" Line="91">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="91" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="int Utility.GetConnectionTimeout()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\Utility.cs" Line="99">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="91" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Utility.ReplaceSingleQuote(string strIn)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\Utility.cs" Line="104">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="92" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="double Utility.CheckDoubleForNull(object Value)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\Utility.cs" Line="109">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="77" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="int Utility.CheckIntForNull(object value)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\Utility.cs" Line="118">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="77" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="Provider_Dependencies.Properties">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="85" />
+              <Metric Name="CyclomaticComplexity" Value="1" />
+              <Metric Name="ClassCoupling" Value="4" />
+              <Metric Name="DepthOfInheritance" Value="3" />
+              <Metric Name="SourceLines" Value="26" />
+              <Metric Name="ExecutableLines" Value="4" />
+            </Metrics>
+            <Types>
+              <NamedType Name="Settings">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="85" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="4" />
+                  <Metric Name="DepthOfInheritance" Value="3" />
+                  <Metric Name="SourceLines" Value="12" />
+                  <Metric Name="ExecutableLines" Value="4" />
+                </Metrics>
+                <Members>
+                  <Field Name="Settings Settings.defaultInstance" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\Properties\Settings.Designer.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="89" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="Settings Settings.Default" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\Properties\Settings.Designer.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="Settings Settings.Default.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_DependenciesSln\Provider_Dependencies\Properties\Settings.Designer.cs" Line="21">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="3" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

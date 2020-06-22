@@ -1,0 +1,1399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="AMAPharmacyConversion.csproj">
+      <Assembly Name="AMAPharmacyConversion, Version=1.0.0.4, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="91" />
+          <Metric Name="CyclomaticComplexity" Value="22" />
+          <Metric Name="ClassCoupling" Value="36" />
+          <Metric Name="DepthOfInheritance" Value="1" />
+          <Metric Name="SourceLines" Value="749" />
+          <Metric Name="ExecutableLines" Value="152" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="AMAPharmacyConversion">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="39" />
+              <Metric Name="CyclomaticComplexity" Value="16" />
+              <Metric Name="ClassCoupling" Value="32" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="286" />
+              <Metric Name="ExecutableLines" Value="140" />
+            </Metrics>
+            <Types>
+              <NamedType Name="Program">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="39" />
+                  <Metric Name="CyclomaticComplexity" Value="16" />
+                  <Metric Name="ClassCoupling" Value="32" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="283" />
+                  <Metric Name="ExecutableLines" Value="140" />
+                </Metrics>
+                <Members>
+                  <Field Name="ILog Program.Log" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\Program.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Program.Main(string[] args)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\Program.cs" Line="28">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="25" />
+                      <Metric Name="CyclomaticComplexity" Value="11" />
+                      <Metric Name="ClassCoupling" Value="30" />
+                      <Metric Name="SourceLines" Value="252" />
+                      <Metric Name="ExecutableLines" Value="134" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="Type Program.CustomSelector(MultiRecordEngine engine, string recordLine)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\Program.cs" Line="284">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="69" />
+                      <Metric Name="CyclomaticComplexity" Value="5" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="25" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="AMAPharmacyConversion.ExportLayout">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="100" />
+              <Metric Name="CyclomaticComplexity" Value="3" />
+              <Metric Name="ClassCoupling" Value="1" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="224" />
+              <Metric Name="ExecutableLines" Value="6" />
+            </Metrics>
+            <Types>
+              <NamedType Name="AmaRxClaimDetailExport">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="1" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="49" />
+                  <Metric Name="ExecutableLines" Value="2" />
+                </Metrics>
+                <Members>
+                  <Field Name="string AmaRxClaimDetailExport.NumIcn" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimDetailExport.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimDetailExport.DetailNumber" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimDetailExport.cs" Line="19">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimDetailExport.RcdId" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimDetailExport.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimDetailExport.DtlStateInd" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimDetailExport.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimDetailExport.DrugForm" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimDetailExport.cs" Line="27">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimDetailExport.NdcCode" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimDetailExport.cs" Line="30">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimDetailExport.DscNdc" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimDetailExport.cs" Line="33">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimDetailExport.QtyDispense" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimDetailExport.cs" Line="36">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimDetailExport.AmtAllowed" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimDetailExport.cs" Line="39">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimDetailExport.AmtPaid" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimDetailExport.cs" Line="42">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimDetailExport.AmtBilled" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimDetailExport.cs" Line="45">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimDetailExport.IndPriciing" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimDetailExport.cs" Line="47">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimDetailExport.AmtRatePrice" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimDetailExport.cs" Line="49">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimDetailExport.RatePrice" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimDetailExport.cs" Line="51">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimDetailExport.IndPrefDrugPref" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimDetailExport.cs" Line="53">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimDetailExport.PriorAuthNum" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimDetailExport.cs" Line="55">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimDetailExport.Region" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimDetailExport.cs" Line="57">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="AmaRxClaimEobExport">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="1" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="22" />
+                  <Metric Name="ExecutableLines" Value="2" />
+                </Metrics>
+                <Members>
+                  <Field Name="string AmaRxClaimEobExport.NumIcn" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaClaimEobExport.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimEobExport.DetailNumber" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaClaimEobExport.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimEobExport.RcdId" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaClaimEobExport.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimEobExport.CdeEob" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaClaimEobExport.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimEobExport.CdeEsc" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaClaimEobExport.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimEobExport.CdeErrorNcpdp" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaClaimEobExport.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimEobExport.DscEob" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaClaimEobExport.cs" Line="26">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimEobExport.Region" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaClaimEobExport.cs" Line="28">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="AmaRxClaimHeaderExport">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="1" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="138" />
+                  <Metric Name="ExecutableLines" Value="2" />
+                </Metrics>
+                <Members>
+                  <Field Name="string AmaRxClaimHeaderExport.NumIcn" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimHeaderExport.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderExport.DetailNumber" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimHeaderExport.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderExport.RcdId" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimHeaderExport.cs" Line="21">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderExport.NumDtlTotal" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimHeaderExport.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderExport.RcdType" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimHeaderExport.cs" Line="27">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderExport.ClmTypeAlpha" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimHeaderExport.cs" Line="30">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderExport.ClmStatInd" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimHeaderExport.cs" Line="33">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderExport.CdeClmVersion" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimHeaderExport.cs" Line="36">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderExport.RcoProv" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimHeaderExport.cs" Line="39">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderExport.BillingProviderNpi" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimHeaderExport.cs" Line="42">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderExport.BillingProviderMcd" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimHeaderExport.cs" Line="45">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderExport.BillingProviderName" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimHeaderExport.cs" Line="48">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderExport.PrescribingProviderNpi" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimHeaderExport.cs" Line="51">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderExport.PrescribingProviderMcd" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimHeaderExport.cs" Line="54">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderExport.IdProvdPrescrb" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimHeaderExport.cs" Line="57">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderExport.IdMedicaid" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimHeaderExport.cs" Line="60">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderExport.NamLast" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimHeaderExport.cs" Line="62">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderExport.NamFirst" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimHeaderExport.cs" Line="65">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderExport.NameMidInit" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimHeaderExport.cs" Line="68">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderExport.DteBilled" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimHeaderExport.cs" Line="71">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderExport.DtePrescribe" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimHeaderExport.cs" Line="74">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderExport.DteDispense" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimHeaderExport.cs" Line="77">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderExport.AmtBilled" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimHeaderExport.cs" Line="80">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderExport.AmtCopay" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimHeaderExport.cs" Line="83">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderExport.AmtTotReimb" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimHeaderExport.cs" Line="86">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderExport.AmtNdcProfee" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimHeaderExport.cs" Line="89">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderExport.TplAmt" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimHeaderExport.cs" Line="92">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderExport.CdeOtherCoverage" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimHeaderExport.cs" Line="95">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderExport.IndEmergency" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimHeaderExport.cs" Line="98">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderExport.NumPrscrip" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimHeaderExport.cs" Line="101">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderExport.QtyRefill" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimHeaderExport.cs" Line="104">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderExport.NumDaySupply" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimHeaderExport.cs" Line="107">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderExport.CdeNcpdpConflict" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimHeaderExport.cs" Line="110">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderExport.CdeDurIntrvntin" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimHeaderExport.cs" Line="113">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderExport.CdeDurOutcome" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimHeaderExport.cs" Line="116">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderExport.IndPregnancy" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimHeaderExport.cs" Line="119">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderExport.IndNurseHome" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimHeaderExport.cs" Line="122">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderExport.IndBrandMedNec" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimHeaderExport.cs" Line="125">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderExport.CdePgmHealth" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimHeaderExport.cs" Line="127">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderExport.CdeAidCategory" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimHeaderExport.cs" Line="130">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderExport.CdeDistrictPlan" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimHeaderExport.cs" Line="133">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderExport.CdeCCdeClarification" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimHeaderExport.cs" Line="136">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderExport.CdeCmpdRteAdmin" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimHeaderExport.cs" Line="139">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderExport.IcnOrig" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimHeaderExport.cs" Line="142">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderExport.Region" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ExportLayout\AmaRxClaimHeaderExport.cs" Line="144">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="AMAPharmacyConversion.ImportLayout">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="100" />
+              <Metric Name="CyclomaticComplexity" Value="3" />
+              <Metric Name="ClassCoupling" Value="4" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="239" />
+              <Metric Name="ExecutableLines" Value="6" />
+            </Metrics>
+            <Types>
+              <NamedType Name="AmaRxClaimDetailImport">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="4" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="55" />
+                  <Metric Name="ExecutableLines" Value="2" />
+                </Metrics>
+                <Members>
+                  <Field Name="string AmaRxClaimDetailImport.NumIcn" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimDetailImport..cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="int AmaRxClaimDetailImport.DetailNumber" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimDetailImport..cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="int AmaRxClaimDetailImport.RcdId" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimDetailImport..cs" Line="21">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimDetailImport.DtlStateInd" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimDetailImport..cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimDetailImport.DrugForm" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimDetailImport..cs" Line="27">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimDetailImport.NdcCode" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimDetailImport..cs" Line="30">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimDetailImport.DscNdc" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimDetailImport..cs" Line="33">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="decimal AmaRxClaimDetailImport.QtyDispense" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimDetailImport..cs" Line="36">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="decimal AmaRxClaimDetailImport.AmtAllowed" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimDetailImport..cs" Line="39">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="decimal AmaRxClaimDetailImport.AmtPaid" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimDetailImport..cs" Line="42">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="decimal AmaRxClaimDetailImport.AmtBilled" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimDetailImport..cs" Line="45">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimDetailImport.IndPriciing" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimDetailImport..cs" Line="48">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="decimal AmaRxClaimDetailImport.AmtRatePrice" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimDetailImport..cs" Line="51">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimDetailImport.RatePrice" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimDetailImport..cs" Line="54">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimDetailImport.IndPrefDrugPref" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimDetailImport..cs" Line="57">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimDetailImport.PriorAuthNum" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimDetailImport..cs" Line="60">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="AmaRxClaimEobImport">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="3" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="29" />
+                  <Metric Name="ExecutableLines" Value="2" />
+                </Metrics>
+                <Members>
+                  <Field Name="string AmaRxClaimEobImport.NumIcn" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaClaimEobImport.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="int AmaRxClaimEobImport.DetailNumber" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaClaimEobImport.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="int AmaRxClaimEobImport.RcdId" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaClaimEobImport.cs" Line="21">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimEobImport.CdeEob" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaClaimEobImport.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimEobImport.CdeEsc" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaClaimEobImport.cs" Line="27">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimEobImport.CdeErrorNcpdp" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaClaimEobImport.cs" Line="30">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimEobImport.DscEob" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaClaimEobImport.cs" Line="33">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="AmaRxClaimHeaderImort">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="4" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="140" />
+                  <Metric Name="ExecutableLines" Value="2" />
+                </Metrics>
+                <Members>
+                  <Field Name="string AmaRxClaimHeaderImort.NumIcn" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimHeaderImport.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="int AmaRxClaimHeaderImort.DetailNumber" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimHeaderImport.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="int AmaRxClaimHeaderImort.RcdId" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimHeaderImport.cs" Line="21">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="int AmaRxClaimHeaderImort.NumDtlTotal" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimHeaderImport.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderImort.RcdType" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimHeaderImport.cs" Line="27">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderImort.ClmTypeAlpha" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimHeaderImport.cs" Line="30">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderImort.ClmStatInd" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimHeaderImport.cs" Line="33">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderImort.CdeClmVersion" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimHeaderImport.cs" Line="36">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderImort.RcoProv" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimHeaderImport.cs" Line="39">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderImort.BillingProviderNpi" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimHeaderImport.cs" Line="42">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderImort.BillingProviderMcd" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimHeaderImport.cs" Line="45">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderImort.BillingProviderName" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimHeaderImport.cs" Line="48">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderImort.PrescribingProviderNpi" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimHeaderImport.cs" Line="51">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderImort.PrescribingProviderMcd" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimHeaderImport.cs" Line="54">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderImort.IdProvdPrescrb" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimHeaderImport.cs" Line="57">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderImort.IdMedicaid" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimHeaderImport.cs" Line="60">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderImort.NamLast" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimHeaderImport.cs" Line="63">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderImort.NamFirst" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimHeaderImport.cs" Line="66">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderImort.NameMidInit" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimHeaderImport.cs" Line="69">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="int AmaRxClaimHeaderImort.DteBilled" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimHeaderImport.cs" Line="72">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="int AmaRxClaimHeaderImort.DtePrescribe" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimHeaderImport.cs" Line="75">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="int AmaRxClaimHeaderImort.DteDispense" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimHeaderImport.cs" Line="78">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="decimal AmaRxClaimHeaderImort.AmtBilled" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimHeaderImport.cs" Line="81">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="decimal AmaRxClaimHeaderImort.AmtCopay" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimHeaderImport.cs" Line="84">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="decimal AmaRxClaimHeaderImort.AmtTotReimb" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimHeaderImport.cs" Line="87">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="decimal AmaRxClaimHeaderImort.AmtNdcProfee" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimHeaderImport.cs" Line="90">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="decimal AmaRxClaimHeaderImort.TplAmt" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimHeaderImport.cs" Line="93">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderImort.CdeOtherCoverage" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimHeaderImport.cs" Line="96">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderImort.IndEmergency" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimHeaderImport.cs" Line="99">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderImort.NumPrscrip" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimHeaderImport.cs" Line="102">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderImort.QtyRefill" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimHeaderImport.cs" Line="105">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="int AmaRxClaimHeaderImort.NumDaySupply" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimHeaderImport.cs" Line="108">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderImort.CdeNcpdpConflict" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimHeaderImport.cs" Line="111">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderImort.CdeDurIntrvntin" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimHeaderImport.cs" Line="114">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderImort.CdeDurOutcome" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimHeaderImport.cs" Line="117">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderImort.IndPregnancy" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimHeaderImport.cs" Line="120">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderImort.IndNurseHome" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimHeaderImport.cs" Line="123">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderImort.IndBrandMedNec" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimHeaderImport.cs" Line="126">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderImort.CdePgmHealth" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimHeaderImport.cs" Line="129">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderImort.CdeAidCategory" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimHeaderImport.cs" Line="132">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderImort.CdeDistrictPlan" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimHeaderImport.cs" Line="135">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderImort.CdeCCdeClarification" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimHeaderImport.cs" Line="138">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderImort.CdeCmpdRteAdmin" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimHeaderImport.cs" Line="141">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AmaRxClaimHeaderImort.IcnOrig" File="C:\Dev\Repos\TFSRoot\SHP\Applications\AMAPharmacyConversion\AMAPharmacyConversion\ImportLayout\AmaRxClaimHeaderImport.cs" Line="144">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

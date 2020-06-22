@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="Tester.csproj">
+      <Assembly Name="Tester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="69" />
+          <Metric Name="CyclomaticComplexity" Value="29" />
+          <Metric Name="ClassCoupling" Value="45" />
+          <Metric Name="DepthOfInheritance" Value="7" />
+          <Metric Name="SourceLines" Value="377" />
+          <Metric Name="ExecutableLines" Value="195" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="Tester">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="69" />
+              <Metric Name="CyclomaticComplexity" Value="29" />
+              <Metric Name="ClassCoupling" Value="45" />
+              <Metric Name="DepthOfInheritance" Value="7" />
+              <Metric Name="SourceLines" Value="377" />
+              <Metric Name="ExecutableLines" Value="195" />
+            </Metrics>
+            <Types>
+              <NamedType Name="Program">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="84" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="3" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="9" />
+                  <Metric Name="ExecutableLines" Value="3" />
+                </Metrics>
+                <Members>
+                  <Method Name="void Program.Main(string[] args)" File="C:\Dev\Repos\TFSRoot\SHP\Components\MdmRepository\Tester\Program.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="84" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="TesterForm">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="55" />
+                  <Metric Name="CyclomaticComplexity" Value="28" />
+                  <Metric Name="ClassCoupling" Value="43" />
+                  <Metric Name="DepthOfInheritance" Value="7" />
+                  <Metric Name="SourceLines" Value="360" />
+                  <Metric Name="ExecutableLines" Value="192" />
+                </Metrics>
+                <Members>
+                  <Method Name="TesterForm.TesterForm()" File="C:\Dev\Repos\TFSRoot\SHP\Components\MdmRepository\Tester\TesterForm.cs" Line="11">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="58" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="13" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="IEnumerable&lt;Type&gt; TesterForm.GetAllTypes(Assembly assembly)" File="C:\Dev\Repos\TFSRoot\SHP\Components\MdmRepository\Tester\TesterForm.cs" Line="32">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="72" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="9" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="List&lt;string&gt; TesterForm.GetMethodsForClass(Type type)" File="C:\Dev\Repos\TFSRoot\SHP\Components\MdmRepository\Tester\TesterForm.cs" Line="42">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="78" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="List&lt;string&gt; TesterForm.GetParametersForMethod(MethodInfo method)" File="C:\Dev\Repos\TFSRoot\SHP\Components\MdmRepository\Tester\TesterForm.cs" Line="48">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="73" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="11" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="List&lt;object&gt; TesterForm.GetParameterValuesForMethod(MethodInfo method)" File="C:\Dev\Repos\TFSRoot\SHP\Components\MdmRepository\Tester\TesterForm.cs" Line="60">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="62" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="12" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void TesterForm.UpdateParameterPanelControls(List&lt;string&gt; methodParameters)" File="C:\Dev\Repos\TFSRoot\SHP\Components\MdmRepository\Tester\TesterForm.cs" Line="81">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="54" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="31" />
+                      <Metric Name="ExecutableLines" Value="18" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void TesterForm.cbClassNames_SelectedIndexChanged(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Components\MdmRepository\Tester\TesterForm.cs" Line="114">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="73" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void TesterForm.cbMethods_SelectedIndexChanged(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Components\MdmRepository\Tester\TesterForm.cs" Line="123">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="66" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="12" />
+                      <Metric Name="ExecutableLines" Value="7" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void TesterForm.btnRun_Click(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Components\MdmRepository\Tester\TesterForm.cs" Line="136">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="49" />
+                      <Metric Name="CyclomaticComplexity" Value="5" />
+                      <Metric Name="ClassCoupling" Value="18" />
+                      <Metric Name="SourceLines" Value="39" />
+                      <Metric Name="ExecutableLines" Value="23" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="MethodInfo[] TesterForm.GetAllMethodsExceptDepreciated(Type t)" File="C:\Dev\Repos\TFSRoot\SHP\Components\MdmRepository\Tester\TesterForm.cs" Line="182">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="58" />
+                      <Metric Name="CyclomaticComplexity" Value="5" />
+                      <Metric Name="ClassCoupling" Value="10" />
+                      <Metric Name="SourceLines" Value="30" />
+                      <Metric Name="ExecutableLines" Value="12" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="IContainer TesterForm.components" File="C:\Dev\Repos\TFSRoot\SHP\Components\MdmRepository\Tester\TesterForm.Designer.cs" Line="8">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void TesterForm.Dispose(bool disposing)" File="C:\Dev\Repos\TFSRoot\SHP\Components\MdmRepository\Tester\TesterForm.Designer.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="79" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="12" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void TesterForm.InitializeComponent()" File="C:\Dev\Repos\TFSRoot\SHP\Components\MdmRepository\Tester\TesterForm.Designer.cs" Line="29">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="32" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="17" />
+                      <Metric Name="SourceLines" Value="129" />
+                      <Metric Name="ExecutableLines" Value="89" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="DataGridView TesterForm.dgvResults" File="C:\Dev\Repos\TFSRoot\SHP\Components\MdmRepository\Tester\TesterForm.Designer.cs" Line="155">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label TesterForm.label4" File="C:\Dev\Repos\TFSRoot\SHP\Components\MdmRepository\Tester\TesterForm.Designer.cs" Line="156">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Button TesterForm.btnRun" File="C:\Dev\Repos\TFSRoot\SHP\Components\MdmRepository\Tester\TesterForm.Designer.cs" Line="157">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label TesterForm.label3" File="C:\Dev\Repos\TFSRoot\SHP\Components\MdmRepository\Tester\TesterForm.Designer.cs" Line="158">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel TesterForm.pnlParameters" File="C:\Dev\Repos\TFSRoot\SHP\Components\MdmRepository\Tester\TesterForm.Designer.cs" Line="159">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label TesterForm.label2" File="C:\Dev\Repos\TFSRoot\SHP\Components\MdmRepository\Tester\TesterForm.Designer.cs" Line="160">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="ComboBox TesterForm.cbMethods" File="C:\Dev\Repos\TFSRoot\SHP\Components\MdmRepository\Tester\TesterForm.Designer.cs" Line="161">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label TesterForm.label1" File="C:\Dev\Repos\TFSRoot\SHP\Components\MdmRepository\Tester\TesterForm.Designer.cs" Line="162">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="ComboBox TesterForm.cbClassNames" File="C:\Dev\Repos\TFSRoot\SHP\Components\MdmRepository\Tester\TesterForm.Designer.cs" Line="163">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

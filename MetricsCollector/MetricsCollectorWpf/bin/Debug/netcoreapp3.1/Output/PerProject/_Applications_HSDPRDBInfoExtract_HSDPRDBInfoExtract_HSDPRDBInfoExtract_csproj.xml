@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="HSDPRDBInfoExtract.csproj">
+      <Assembly Name="HSDPRDBInfoExtract, Version=1.0.0.5, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="62" />
+          <Metric Name="CyclomaticComplexity" Value="18" />
+          <Metric Name="ClassCoupling" Value="27" />
+          <Metric Name="DepthOfInheritance" Value="1" />
+          <Metric Name="SourceLines" Value="267" />
+          <Metric Name="ExecutableLines" Value="78" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="HSDPRDBInfoExtract">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="62" />
+              <Metric Name="CyclomaticComplexity" Value="18" />
+              <Metric Name="ClassCoupling" Value="27" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="267" />
+              <Metric Name="ExecutableLines" Value="78" />
+            </Metrics>
+            <Types>
+              <NamedType Name="Helper">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="62" />
+                  <Metric Name="CyclomaticComplexity" Value="4" />
+                  <Metric Name="ClassCoupling" Value="16" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="114" />
+                  <Metric Name="ExecutableLines" Value="26" />
+                </Metrics>
+                <Members>
+                  <Method Name="void Helper.SendEmail()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HSDPRDBInfoExtract\HSDPRDBInfoExtract\Helper.cs" Line="21">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="58" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="12" />
+                      <Metric Name="SourceLines" Value="44" />
+                      <Metric Name="ExecutableLines" Value="10" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Helper.CreateLogFile(string error)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HSDPRDBInfoExtract\HSDPRDBInfoExtract\Helper.cs" Line="67">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="61" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="31" />
+                      <Metric Name="ExecutableLines" Value="10" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Helper.DecryptCredentials(string sEncPassword)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HSDPRDBInfoExtract\HSDPRDBInfoExtract\Helper.cs" Line="106">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="69" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="34" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="HSDPRDBInfoExtractApp">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="38" />
+                  <Metric Name="CyclomaticComplexity" Value="13" />
+                  <Metric Name="ClassCoupling" Value="17" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="136" />
+                  <Metric Name="ExecutableLines" Value="50" />
+                </Metrics>
+                <Members>
+                  <Method Name="void HSDPRDBInfoExtractApp.RunApp()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HSDPRDBInfoExtract\HSDPRDBInfoExtract\HSDPRDBInfoExtractApp.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="38" />
+                      <Metric Name="CyclomaticComplexity" Value="13" />
+                      <Metric Name="ClassCoupling" Value="17" />
+                      <Metric Name="SourceLines" Value="133" />
+                      <Metric Name="ExecutableLines" Value="50" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="HSDPRDBInfoExtractMain">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="88" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="1" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="8" />
+                  <Metric Name="ExecutableLines" Value="2" />
+                </Metrics>
+                <Members>
+                  <Method Name="void HSDPRDBInfoExtractMain.Main()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HSDPRDBInfoExtract\HSDPRDBInfoExtract\HSDPRDBInfoExtractMain.cs" Line="10">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="88" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

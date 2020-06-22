@@ -15,20 +15,28 @@ namespace MetricsCollector
         private readonly string MetricsExePath = "included_files" + Path.DirectorySeparatorChar + "metrics" + Path.DirectorySeparatorChar + "metrics.exe";
         private readonly string ProjectMetricsOutputDirectory = RootOutputDirectory + Path.DirectorySeparatorChar + "PerProject";
         private readonly Action<string> statusUpdater;
+        private readonly Throttler throttler;
+        private const int MaxConcurrentProcesses = 5;
 
         public MetricsCollector(Action<string> statusUpdater)
         {
+            this.throttler = new Throttler(MaxConcurrentProcesses);
             this.statusUpdater = statusUpdater;
         }
 
         public async Task Run(CollectionConfiguration config)
         {
             bool rootExists = Directory.Exists(config.RootDirectory);
-
             if (!rootExists)
             {
                 throw new ArgumentException($"Could not locate directory: {config.RootDirectory}");
             }
+
+            if (!Directory.Exists(this.GetPerProjectOutputPath()))
+            {
+                Directory.CreateDirectory(this.GetPerProjectOutputPath());
+            }
+            this.ClearExistingOutputFiles();
 
             List<Task> metricsCollectionTasks = new List<Task>();
 
@@ -51,7 +59,12 @@ namespace MetricsCollector
             {
                 if (file.ToLower().EndsWith("." + CsProjExtension))
                 {
-                    tasks.Add(this.CollectMetricsAsync(file, config));
+                    tasks.Add(
+                        this.throttler.Throttle(
+                            async() => { await this.CollectMetricsAsync(file, config); 
+                            }
+                        )
+                    );
                 }
             }
 
@@ -63,13 +76,6 @@ namespace MetricsCollector
 
         private async Task CollectMetricsAsync(string projPath, CollectionConfiguration config)
         {
-            if (!Directory.Exists(this.GetPerProjectOutputPath()))
-            {
-                Directory.CreateDirectory(this.GetPerProjectOutputPath());
-            }
-
-            this.ClearExistingOutputFiles();
-
             if (config.CollectionMethod == CollectionMethod.ProjectNuGet)
             {
                 await this.CollectMetricsMsBuildAsync(projPath, config);

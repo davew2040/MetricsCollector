@@ -1,0 +1,1176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="OhioMbr_Registration.csproj">
+      <Assembly Name="OhioMbr_Registration, Version=1.0.0.5, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="74" />
+          <Metric Name="CyclomaticComplexity" Value="172" />
+          <Metric Name="ClassCoupling" Value="115" />
+          <Metric Name="DepthOfInheritance" Value="4" />
+          <Metric Name="SourceLines" Value="2102" />
+          <Metric Name="ExecutableLines" Value="532" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="OhioMbr_Registration.HelperMethods">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="71" />
+              <Metric Name="CyclomaticComplexity" Value="23" />
+              <Metric Name="ClassCoupling" Value="38" />
+              <Metric Name="DepthOfInheritance" Value="2" />
+              <Metric Name="SourceLines" Value="407" />
+              <Metric Name="ExecutableLines" Value="105" />
+            </Metrics>
+            <Types>
+              <NamedType Name="RequestReg">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="41" />
+                  <Metric Name="CyclomaticComplexity" Value="4" />
+                  <Metric Name="ClassCoupling" Value="14" />
+                  <Metric Name="DepthOfInheritance" Value="2" />
+                  <Metric Name="SourceLines" Value="83" />
+                  <Metric Name="ExecutableLines" Value="42" />
+                </Metrics>
+                <Members>
+                  <Method Name="void RequestReg.RequestRegistrationLetter(ref Person oPerson, string ipAddress, string memberID)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\HelperMethods\RequestReg.cs" Line="11">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="41" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="13" />
+                      <Metric Name="SourceLines" Value="80" />
+                      <Metric Name="ExecutableLines" Value="42" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="SecureUser">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="72" />
+                  <Metric Name="CyclomaticComplexity" Value="18" />
+                  <Metric Name="ClassCoupling" Value="24" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="318" />
+                  <Metric Name="ExecutableLines" Value="63" />
+                </Metrics>
+                <Members>
+                  <Field Name="string SecureUser.encKey" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\HelperMethods\SecureUser.cs" Line="26">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string SecureUser.AUDITLOGINID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\HelperMethods\SecureUser.cs" Line="28">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="UserMode SecureUser.m_Mode" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\HelperMethods\SecureUser.cs" Line="47">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string SecureUser.m_sLoginId" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\HelperMethods\SecureUser.cs" Line="48">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string SecureUser.m_sPassword" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\HelperMethods\SecureUser.cs" Line="49">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string SecureUser.m_sNewPassword" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\HelperMethods\SecureUser.cs" Line="50">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="int SecureUser.m_iSecretQuestionId" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\HelperMethods\SecureUser.cs" Line="51">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string SecureUser.m_sSecretAnswer" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\HelperMethods\SecureUser.cs" Line="52">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string SecureUser.m_sUserDN" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\HelperMethods\SecureUser.cs" Line="53">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="bool SecureUser.m_bOnGraceLogins" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\HelperMethods\SecureUser.cs" Line="55">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="string SecureUser.LoginId" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\HelperMethods\SecureUser.cs" Line="59">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string SecureUser.LoginId.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\HelperMethods\SecureUser.cs" Line="61">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string SecureUser.Password" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\HelperMethods\SecureUser.cs" Line="63">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="95" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string SecureUser.Password.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\HelperMethods\SecureUser.cs" Line="65">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="95" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string SecureUser.DN" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\HelperMethods\SecureUser.cs" Line="67">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string SecureUser.DN.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\HelperMethods\SecureUser.cs" Line="69">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="bool SecureUser.OnGraceLogins" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\HelperMethods\SecureUser.cs" Line="71">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="bool SecureUser.OnGraceLogins.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\HelperMethods\SecureUser.cs" Line="73">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Method Name="SecureUser.SecureUser()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\HelperMethods\SecureUser.cs" Line="79">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="SecureUser.SecureUser(string LoginId, string Password)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\HelperMethods\SecureUser.cs" Line="94">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="78" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="18" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="SecureUser.SecureUser(string LoginId, string OldPassword, string NewPassword)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\HelperMethods\SecureUser.cs" Line="115">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="75" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="21" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="SecureUser.SecureUser(string LoginId, int SecretQuestionId, string SecretAnswer, string NewPassword)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\HelperMethods\SecureUser.cs" Line="139">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="72" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="24" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void SecureUser.Authenticate(TargetDirectory dir)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\HelperMethods\SecureUser.cs" Line="159">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="71" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="28" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void SecureUser.AuditLogin()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\HelperMethods\SecureUser.cs" Line="184">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="51" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="13" />
+                      <Metric Name="SourceLines" Value="61" />
+                      <Metric Name="ExecutableLines" Value="21" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool SecureUser.ChangePassword()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\HelperMethods\SecureUser.cs" Line="247">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="62" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="8" />
+                      <Metric Name="SourceLines" Value="46" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string SecureUser.EncryptPassword(string pwd)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\HelperMethods\SecureUser.cs" Line="297">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="73" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="22" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string SecureUser.DecryptPassword(string encryptedPassword)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\HelperMethods\SecureUser.cs" Line="316">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="73" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="19" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="SecureUser.UserMode">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="0" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="16" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+                <Members>
+                  <Field Name="UserMode.Authentication" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\HelperMethods\SecureUser.cs" Line="43">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="UserMode.ChangePassword" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\HelperMethods\SecureUser.cs" Line="44">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="OhioMbr_Registration.Registration">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="76" />
+              <Metric Name="CyclomaticComplexity" Value="134" />
+              <Metric Name="ClassCoupling" Value="78" />
+              <Metric Name="DepthOfInheritance" Value="4" />
+              <Metric Name="SourceLines" Value="1523" />
+              <Metric Name="ExecutableLines" Value="372" />
+            </Metrics>
+            <Types>
+              <NamedType Name="MemberRegistration">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="52" />
+                  <Metric Name="CyclomaticComplexity" Value="133" />
+                  <Metric Name="ClassCoupling" Value="78" />
+                  <Metric Name="DepthOfInheritance" Value="4" />
+                  <Metric Name="SourceLines" Value="1507" />
+                  <Metric Name="ExecutableLines" Value="372" />
+                </Metrics>
+                <Members>
+                  <Field Name="string MemberRegistration._mSForwardUrl" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.cs" Line="44">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberRegistration.MMessage" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.cs" Line="45">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberRegistration.StrChangeMailSettingsUrl" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.cs" Line="47">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void MemberRegistration.Page_Load(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.cs" Line="49">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="60" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="31" />
+                      <Metric Name="ExecutableLines" Value="12" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void MemberRegistration.PopulateSecretQuestions()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.cs" Line="91">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="67" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="23" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void MemberRegistration.Load_DateOfBirth_Selections()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.cs" Line="109">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="54" />
+                      <Metric Name="CyclomaticComplexity" Value="6" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="34" />
+                      <Metric Name="ExecutableLines" Value="15" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="int MemberRegistration.GetPersonIdByMemberId(string strMemberId)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.cs" Line="151">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="73" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="23" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void MemberRegistration.SetPrincipal()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.cs" Line="175">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="55" />
+                      <Metric Name="CyclomaticComplexity" Value="8" />
+                      <Metric Name="ClassCoupling" Value="12" />
+                      <Metric Name="SourceLines" Value="54" />
+                      <Metric Name="ExecutableLines" Value="13" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void MemberRegistration.SendEmail()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.cs" Line="231">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="46" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="82" />
+                      <Metric Name="ExecutableLines" Value="34" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string MemberRegistration.GetEnvironment()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.cs" Line="307">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="63" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="27" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool MemberRegistration.AddMemberRelationship(Person pr)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.cs" Line="342">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="63" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="35" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool MemberRegistration.HasValidUserNameCharacters(string input)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.cs" Line="372">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="85" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="10" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool MemberRegistration.HasValidPassword(string input)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.cs" Line="383">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="57" />
+                      <Metric Name="CyclomaticComplexity" Value="5" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="41" />
+                      <Metric Name="ExecutableLines" Value="15" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool MemberRegistration.IsEmail(string myEmail)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.cs" Line="431">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="84" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="16" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string MemberRegistration.ParseMemberName(string fname, string mInit, string lname)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.cs" Line="447">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="66" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="30" />
+                      <Metric Name="ExecutableLines" Value="7" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool MemberRegistration.ValidatePersonalParameters()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.cs" Line="472">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="44" />
+                      <Metric Name="CyclomaticComplexity" Value="14" />
+                      <Metric Name="ClassCoupling" Value="8" />
+                      <Metric Name="SourceLines" Value="79" />
+                      <Metric Name="ExecutableLines" Value="29" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool MemberRegistration.ValidateAuthenticationParameters()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.cs" Line="552">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="37" />
+                      <Metric Name="CyclomaticComplexity" Value="17" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="122" />
+                      <Metric Name="ExecutableLines" Value="52" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="RegisterMemberCodes MemberRegistration.RegMem(string sRemoteIp, Person per, Member m, Person pers)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.cs" Line="679">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="38" />
+                      <Metric Name="CyclomaticComplexity" Value="17" />
+                      <Metric Name="ClassCoupling" Value="26" />
+                      <Metric Name="SourceLines" Value="135" />
+                      <Metric Name="ExecutableLines" Value="48" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void MemberRegistration.ChangeOptimaRelationshipToOhioRelationship(Person pers)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.cs" Line="807">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="65" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="24" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="RegisterMemberCodes MemberRegistration.ValidateInfo(Person per, Member m)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.cs" Line="832">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="49" />
+                      <Metric Name="CyclomaticComplexity" Value="9" />
+                      <Metric Name="ClassCoupling" Value="8" />
+                      <Metric Name="SourceLines" Value="57" />
+                      <Metric Name="ExecutableLines" Value="22" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void MemberRegistration.UpdateExcludeEmailWeb(Member m, int confNum)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.cs" Line="890">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="56" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="20" />
+                      <Metric Name="SourceLines" Value="35" />
+                      <Metric Name="ExecutableLines" Value="13" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void MemberRegistration.UpdateCheckEmailDateAndFlag(Member m)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.cs" Line="926">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="58" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="16" />
+                      <Metric Name="SourceLines" Value="34" />
+                      <Metric Name="ExecutableLines" Value="12" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void MemberRegistration.btnRegistration_OnServerClick(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.cs" Line="961">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="43" />
+                      <Metric Name="CyclomaticComplexity" Value="18" />
+                      <Metric Name="ClassCoupling" Value="25" />
+                      <Metric Name="SourceLines" Value="121" />
+                      <Metric Name="ExecutableLines" Value="28" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void MemberRegistration.btnConfirm_OnServerClick(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.cs" Line="1083">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="42" />
+                      <Metric Name="CyclomaticComplexity" Value="17" />
+                      <Metric Name="ClassCoupling" Value="26" />
+                      <Metric Name="SourceLines" Value="112" />
+                      <Metric Name="ExecutableLines" Value="30" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="HtmlForm MemberRegistration.form" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.designer.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel MemberRegistration.pnlPersonalInfo" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.designer.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel MemberRegistration.pnlPersonalHeaderInfo" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.designer.cs" Line="40">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlInputText MemberRegistration.tbMbrId" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.designer.cs" Line="49">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlInputText MemberRegistration.tbSuffix" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.designer.cs" Line="58">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label MemberRegistration.lblMemberIDPartsRequired" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.designer.cs" Line="67">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlInputText MemberRegistration.tbFirstName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.designer.cs" Line="76">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlInputText MemberRegistration.tbMidInitial" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.designer.cs" Line="85">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlInputText MemberRegistration.tbLastName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.designer.cs" Line="94">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label MemberRegistration.lblMemberNameRequired" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.designer.cs" Line="103">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="DropDownList MemberRegistration.ddlMonth" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.designer.cs" Line="112">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="DropDownList MemberRegistration.ddlDay" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.designer.cs" Line="121">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="DropDownList MemberRegistration.ddlYear" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.designer.cs" Line="130">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label MemberRegistration.lblDOBRequired" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.designer.cs" Line="139">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlInputText MemberRegistration.tbSSN" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.designer.cs" Line="148">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label MemberRegistration.lblSSNRequired" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.designer.cs" Line="157">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlInputSubmit MemberRegistration.btnConfirm" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.designer.cs" Line="166">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel MemberRegistration.pnlAccountInfo" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.designer.cs" Line="175">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlInputText MemberRegistration.txtUserName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.designer.cs" Line="184">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label MemberRegistration.lblUserNameRequirements" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.designer.cs" Line="193">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlInputPassword MemberRegistration.txtPassword" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.designer.cs" Line="202">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlInputPassword MemberRegistration.txtPasswordConfirm" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.designer.cs" Line="211">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label MemberRegistration.lblPasswordRequirements" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.designer.cs" Line="220">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label MemberRegistration.lblPasswordConfirmRequirements" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.designer.cs" Line="229">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="DropDownList MemberRegistration.lstSecretQuestion" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.designer.cs" Line="238">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label MemberRegistration.lblSecretQuestionRequirements" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.designer.cs" Line="247">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlInputText MemberRegistration.txtSecretAnswer" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.designer.cs" Line="256">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label MemberRegistration.lblSecretAnswerRequirments" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.designer.cs" Line="265">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlInputText MemberRegistration.txtEmailAddress" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.designer.cs" Line="274">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label MemberRegistration.lblEmailAddressRequirments" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.designer.cs" Line="283">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlInputCheckBox MemberRegistration.chkAccept" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.designer.cs" Line="292">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label MemberRegistration.lblAcceptTermsRequired" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.designer.cs" Line="301">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlInputSubmit MemberRegistration.btnRegistration" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.designer.cs" Line="310">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel MemberRegistration.pnlRegSuccess" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.designer.cs" Line="319">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlAnchor MemberRegistration.hlLogin" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.designer.cs" Line="328">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HiddenField MemberRegistration.hdnFirstName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.designer.cs" Line="337">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HiddenField MemberRegistration.hdnLastName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.designer.cs" Line="346">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="MemberRegistration.RegisterMemberCodes">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="0" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="17" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+                <Members>
+                  <Field Name="RegisterMemberCodes.RegisterMemberSuccess" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.cs" Line="28">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RegisterMemberCodes.MemberNumberNotFound" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.cs" Line="29">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RegisterMemberCodes.MemberRelationshipNotFound" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.cs" Line="30">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RegisterMemberCodes.NameNotValid" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RegisterMemberCodes.DOBNotValid" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.cs" Line="32">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RegisterMemberCodes.SSNNotValid" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.cs" Line="33">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RegisterMemberCodes.DuplicateLoginID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.cs" Line="34">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RegisterMemberCodes.HasStandardLoginID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.cs" Line="35">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RegisterMemberCodes.SSNNotOnFile" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.cs" Line="36">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RegisterMemberCodes.DOBNotOver14" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.cs" Line="37">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RegisterMemberCodes.WebAccessDenied" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.cs" Line="38">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RegisterMemberCodes.MedicaidIDNotValid" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.cs" Line="39">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RegisterMemberCodes.AlreadyRegistered" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.cs" Line="40">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RegisterMemberCodes.MedicareIDNotValid" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Registration\MemberRegistration.aspx.cs" Line="41">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="OhioMbr_Registration.Utility">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="76" />
+              <Metric Name="CyclomaticComplexity" Value="15" />
+              <Metric Name="ClassCoupling" Value="16" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="172" />
+              <Metric Name="ExecutableLines" Value="55" />
+            </Metrics>
+            <Types>
+              <NamedType Name="GenerateMail">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="59" />
+                  <Metric Name="CyclomaticComplexity" Value="11" />
+                  <Metric Name="ClassCoupling" Value="14" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="120" />
+                  <Metric Name="ExecutableLines" Value="49" />
+                </Metrics>
+                <Members>
+                  <Method Name="void GenerateMail.SendMail(string strTo, string strSubject, string strBody, bool HTMLFormat)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Utility\GenerateMail.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="92" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void GenerateMail.SendMail(string strTo, string strFrom, string strSubject, string strBody, bool HTMLFormat)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Utility\GenerateMail.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="54" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="41" />
+                      <Metric Name="ExecutableLines" Value="18" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void GenerateMail.SendMailWithAttachment(string strTo, string strFrom, string strSubject, string strBody, bool HTMLFormat, string strAttach)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Utility\GenerateMail.cs" Line="60">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="49" />
+                      <Metric Name="CyclomaticComplexity" Value="5" />
+                      <Metric Name="ClassCoupling" Value="12" />
+                      <Metric Name="SourceLines" Value="55" />
+                      <Metric Name="ExecutableLines" Value="25" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool GenerateMail.CheckEmailDisabled()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Utility\GenerateMail.cs" Line="116">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="72" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="14" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="Log">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="93" />
+                  <Metric Name="CyclomaticComplexity" Value="2" />
+                  <Metric Name="ClassCoupling" Value="2" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="26" />
+                  <Metric Name="ExecutableLines" Value="3" />
+                </Metrics>
+                <Members>
+                  <Field Name="ILog Log.logger" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Utility\Log.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="90" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Log.LogError(string strErrorMessage)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Utility\Log.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Log.LogInfo(string strInfoMessage)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Utility\Log.cs" Line="29">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="Utility">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="78" />
+                  <Metric Name="CyclomaticComplexity" Value="2" />
+                  <Metric Name="ClassCoupling" Value="2" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="17" />
+                  <Metric Name="ExecutableLines" Value="3" />
+                </Metrics>
+                <Members>
+                  <Method Name="string Utility.GetConfigValue(string configKey)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\OhioMembers\OhioMbr_Registration\OhioMbr_Registration\Utility\Utility.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="78" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="14" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

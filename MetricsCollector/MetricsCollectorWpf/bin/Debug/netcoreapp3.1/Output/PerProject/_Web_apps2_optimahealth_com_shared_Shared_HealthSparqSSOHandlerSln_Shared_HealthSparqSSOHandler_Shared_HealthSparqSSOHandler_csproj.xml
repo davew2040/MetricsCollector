@@ -1,0 +1,1617 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="Shared_HealthSparqSSOHandler.csproj">
+      <Assembly Name="Shared_HealthSparqSSOHandler, Version=1.0.0.8, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="84" />
+          <Metric Name="CyclomaticComplexity" Value="183" />
+          <Metric Name="ClassCoupling" Value="64" />
+          <Metric Name="DepthOfInheritance" Value="4" />
+          <Metric Name="SourceLines" Value="856" />
+          <Metric Name="ExecutableLines" Value="245" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="Shared_HealthSparqSSOHandler.HealthSparqSSO">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="72" />
+              <Metric Name="CyclomaticComplexity" Value="39" />
+              <Metric Name="ClassCoupling" Value="42" />
+              <Metric Name="DepthOfInheritance" Value="4" />
+              <Metric Name="SourceLines" Value="448" />
+              <Metric Name="ExecutableLines" Value="137" />
+            </Metrics>
+            <Types>
+              <NamedType Name="ErrorPage">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="4" />
+                  <Metric Name="DepthOfInheritance" Value="4" />
+                  <Metric Name="SourceLines" Value="27" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+                <Members>
+                  <Method Name="void ErrorPage.Page_Load(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\HealthSparqSSO\ErrorPage.aspx.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="HtmlForm ErrorPage.form1" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\HealthSparqSSO\ErrorPage.aspx.designer.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label ErrorPage.lblError" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\HealthSparqSSO\ErrorPage.aspx.designer.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="HealthSparqSSOHandler">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="45" />
+                  <Metric Name="CyclomaticComplexity" Value="38" />
+                  <Metric Name="ClassCoupling" Value="38" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="402" />
+                  <Metric Name="ExecutableLines" Value="137" />
+                </Metrics>
+                <Members>
+                  <Field Name="MultiStringDictionary HealthSparqSSOHandler.dUserInfo" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\HealthSparqSSO\HealthSparqSSOHandler.ashx.cs" Line="27">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string HealthSparqSSOHandler.attr_default" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\HealthSparqSSO\HealthSparqSSOHandler.ashx.cs" Line="28">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string HealthSparqSSOHandler.attr_brandCode" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\HealthSparqSSO\HealthSparqSSOHandler.ashx.cs" Line="29">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string HealthSparqSSOHandler.attr_insurerCode" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\HealthSparqSSO\HealthSparqSSOHandler.ashx.cs" Line="30">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void HealthSparqSSOHandler.ProcessRequest(HttpContext context)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\HealthSparqSSO\HealthSparqSSOHandler.ashx.cs" Line="32">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="29" />
+                      <Metric Name="CyclomaticComplexity" Value="23" />
+                      <Metric Name="ClassCoupling" Value="27" />
+                      <Metric Name="SourceLines" Value="227" />
+                      <Metric Name="ExecutableLines" Value="87" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="List&lt;HealthSparqMember&gt; HealthSparqSSOHandler.GetAuthorizedMembers(Member currentMember)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\HealthSparqSSO\HealthSparqSSOHandler.ashx.cs" Line="260">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="44" />
+                      <Metric Name="CyclomaticComplexity" Value="9" />
+                      <Metric Name="ClassCoupling" Value="13" />
+                      <Metric Name="SourceLines" Value="103" />
+                      <Metric Name="ExecutableLines" Value="26" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void HealthSparqSSOHandler.HandleIdPSSORequest(HttpContext context, HttpResponse response)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\HealthSparqSSO\HealthSparqSSOHandler.ashx.cs" Line="366">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="58" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="8" />
+                      <Metric Name="SourceLines" Value="28" />
+                      <Metric Name="ExecutableLines" Value="14" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string HealthSparqSSOHandler.setOpenToken(HttpContext context, string url, MultiStringDictionary userInfo)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\HealthSparqSSO\HealthSparqSSOHandler.ashx.cs" Line="404">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="70" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="18" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="bool HealthSparqSSOHandler.IsReusable" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\HealthSparqSSO\HealthSparqSSOHandler.ashx.cs" Line="414">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="bool HealthSparqSSOHandler.IsReusable.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\HealthSparqSSO\HealthSparqSSOHandler.ashx.cs" Line="416">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="Shared_HealthSparqSSOHandler.Shared">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="88" />
+              <Metric Name="CyclomaticComplexity" Value="144" />
+              <Metric Name="ClassCoupling" Value="31" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="408" />
+              <Metric Name="ExecutableLines" Value="108" />
+            </Metrics>
+            <Types>
+              <NamedType Name="AuthTicket">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="14" />
+                  <Metric Name="ClassCoupling" Value="1" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="11" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+                <Members>
+                  <Property Name="int AuthTicket.version" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\AuthTicket.cs" Line="7">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int AuthTicket.version.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\AuthTicket.cs" Line="7">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void AuthTicket.version.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\AuthTicket.cs" Line="7">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string AuthTicket.name" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\AuthTicket.cs" Line="8">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string AuthTicket.name.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\AuthTicket.cs" Line="8">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void AuthTicket.name.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\AuthTicket.cs" Line="8">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DateTime AuthTicket.issueDate" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\AuthTicket.cs" Line="9">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DateTime AuthTicket.issueDate.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\AuthTicket.cs" Line="9">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void AuthTicket.issueDate.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\AuthTicket.cs" Line="9">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DateTime AuthTicket.expiration" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\AuthTicket.cs" Line="10">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DateTime AuthTicket.expiration.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\AuthTicket.cs" Line="10">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void AuthTicket.expiration.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\AuthTicket.cs" Line="10">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="bool AuthTicket.isPersistent" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\AuthTicket.cs" Line="11">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="bool AuthTicket.isPersistent.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\AuthTicket.cs" Line="11">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void AuthTicket.isPersistent.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\AuthTicket.cs" Line="11">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string AuthTicket.userData" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\AuthTicket.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string AuthTicket.userData.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\AuthTicket.cs" Line="12">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void AuthTicket.userData.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\AuthTicket.cs" Line="12">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string AuthTicket.cookiePath" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\AuthTicket.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string AuthTicket.cookiePath.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\AuthTicket.cs" Line="13">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void AuthTicket.cookiePath.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\AuthTicket.cs" Line="13">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+              <NamedType Name="Decryptor">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="60" />
+                  <Metric Name="CyclomaticComplexity" Value="12" />
+                  <Metric Name="ClassCoupling" Value="12" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="102" />
+                  <Metric Name="ExecutableLines" Value="30" />
+                </Metrics>
+                <Members>
+                  <Method Name="byte[] Decryptor.Decrypt(byte[] data, byte[] key)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\Decryptor.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="56" />
+                      <Metric Name="CyclomaticComplexity" Value="5" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="43" />
+                      <Metric Name="ExecutableLines" Value="15" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Decryptor.Decrypt(string data, string key)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\Decryptor.cs" Line="61">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="71" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="19" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="ICryptoTransform Decryptor.GetCryptoServiceProvider(byte[] key, byte[] IV)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\Decryptor.cs" Line="80">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="62" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="35" />
+                      <Metric Name="ExecutableLines" Value="10" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="HealthSparqMember">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="44" />
+                  <Metric Name="ClassCoupling" Value="1" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="27" />
+                  <Metric Name="ExecutableLines" Value="2" />
+                </Metrics>
+                <Members>
+                  <Property Name="string HealthSparqMember.isDefault" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="8">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="2" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string HealthSparqMember.isDefault.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="8">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void HealthSparqMember.isDefault.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="8">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string HealthSparqMember.firstName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="9">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string HealthSparqMember.firstName.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="9">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void HealthSparqMember.firstName.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="9">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string HealthSparqMember.middleName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="10">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string HealthSparqMember.middleName.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="10">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void HealthSparqMember.middleName.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="10">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string HealthSparqMember.lastName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="11">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string HealthSparqMember.lastName.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="11">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void HealthSparqMember.lastName.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="11">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string HealthSparqMember.suffix" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string HealthSparqMember.suffix.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="12">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void HealthSparqMember.suffix.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="12">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string HealthSparqMember.dob" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string HealthSparqMember.dob.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="13">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void HealthSparqMember.dob.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="13">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string HealthSparqMember.gender" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string HealthSparqMember.gender.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="14">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void HealthSparqMember.gender.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="14">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string HealthSparqMember.address" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string HealthSparqMember.address.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="15">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void HealthSparqMember.address.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="15">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string HealthSparqMember.memberId" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string HealthSparqMember.memberId.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="16">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void HealthSparqMember.memberId.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="16">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string HealthSparqMember.hsaMemberId" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string HealthSparqMember.hsaMemberId.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="17">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void HealthSparqMember.hsaMemberId.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="17">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string HealthSparqMember.memberIdSuffix" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string HealthSparqMember.memberIdSuffix.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="18">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void HealthSparqMember.memberIdSuffix.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="18">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string HealthSparqMember.relationshipCode" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="19">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string HealthSparqMember.relationshipCode.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="19">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void HealthSparqMember.relationshipCode.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="19">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string HealthSparqMember.brandCode" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string HealthSparqMember.brandCode.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="20">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void HealthSparqMember.brandCode.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="20">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string HealthSparqMember.insurerCode" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="21">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string HealthSparqMember.insurerCode.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="21">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void HealthSparqMember.insurerCode.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="21">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string HealthSparqMember.productCode" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string HealthSparqMember.productCode.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="22">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void HealthSparqMember.productCode.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="22">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string HealthSparqMember.networkCode" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="23">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string HealthSparqMember.networkCode.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="23">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void HealthSparqMember.networkCode.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="23">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string HealthSparqMember.groupID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string HealthSparqMember.groupID.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="24">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void HealthSparqMember.groupID.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="24">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string HealthSparqMember.tierPlanCd" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="25">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string HealthSparqMember.tierPlanCd.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="25">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void HealthSparqMember.tierPlanCd.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="25">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string HealthSparqMember.gracePeriod" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="26">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string HealthSparqMember.gracePeriod.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="26">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void HealthSparqMember.gracePeriod.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="26">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string HealthSparqMember.memberEnablePlans" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="27">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string HealthSparqMember.memberEnablePlans.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="27">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void HealthSparqMember.memberEnablePlans.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="27">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string HealthSparqMember.memberPCPID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="28">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string HealthSparqMember.memberPCPID.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="28">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void HealthSparqMember.memberPCPID.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="28">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string HealthSparqMember.personId" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="29">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string HealthSparqMember.personId.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="29">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void HealthSparqMember.personId.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="29">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+              <NamedType Name="HealthSparqMemberAddress">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="8" />
+                  <Metric Name="ClassCoupling" Value="0" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="7" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+                <Members>
+                  <Property Name="string HealthSparqMemberAddress.line1" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="35">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string HealthSparqMemberAddress.line1.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="35">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void HealthSparqMemberAddress.line1.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="35">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string HealthSparqMemberAddress.city" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="36">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string HealthSparqMemberAddress.city.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="36">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void HealthSparqMemberAddress.city.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="36">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string HealthSparqMemberAddress.state" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="37">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string HealthSparqMemberAddress.state.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="37">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void HealthSparqMemberAddress.state.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="37">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string HealthSparqMemberAddress.zip" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="38">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string HealthSparqMemberAddress.zip.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="38">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void HealthSparqMemberAddress.zip.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqMember.cs" Line="38">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+              <NamedType Name="HealthSparqSSOMemberData">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="10" />
+                  <Metric Name="ClassCoupling" Value="0" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="8" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+                <Members>
+                  <Property Name="string HealthSparqSSOMemberData.subject" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqSSOMemberData.cs" Line="6">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string HealthSparqSSOMemberData.subject.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqSSOMemberData.cs" Line="6">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void HealthSparqSSOMemberData.subject.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqSSOMemberData.cs" Line="6">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string HealthSparqSSOMemberData.NameID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqSSOMemberData.cs" Line="7">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string HealthSparqSSOMemberData.NameID.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqSSOMemberData.cs" Line="7">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void HealthSparqSSOMemberData.NameID.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqSSOMemberData.cs" Line="7">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string HealthSparqSSOMemberData.primaryMember" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqSSOMemberData.cs" Line="8">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string HealthSparqSSOMemberData.primaryMember.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqSSOMemberData.cs" Line="8">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void HealthSparqSSOMemberData.primaryMember.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqSSOMemberData.cs" Line="8">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string HealthSparqSSOMemberData.authorizedMembers" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqSSOMemberData.cs" Line="9">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string HealthSparqSSOMemberData.authorizedMembers.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqSSOMemberData.cs" Line="9">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void HealthSparqSSOMemberData.authorizedMembers.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqSSOMemberData.cs" Line="9">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string HealthSparqSSOMemberData.additionalDetails" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqSSOMemberData.cs" Line="10">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string HealthSparqSSOMemberData.additionalDetails.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqSSOMemberData.cs" Line="10">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void HealthSparqSSOMemberData.additionalDetails.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqSSOMemberData.cs" Line="10">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+              <NamedType Name="HealthSparqSSOProviderData">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="8" />
+                  <Metric Name="ClassCoupling" Value="0" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="7" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+                <Members>
+                  <Property Name="string HealthSparqSSOProviderData.subject" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqSSOProviderData.cs" Line="10">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string HealthSparqSSOProviderData.subject.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqSSOProviderData.cs" Line="10">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void HealthSparqSSOProviderData.subject.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqSSOProviderData.cs" Line="10">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string HealthSparqSSOProviderData.NameID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqSSOProviderData.cs" Line="11">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string HealthSparqSSOProviderData.NameID.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqSSOProviderData.cs" Line="11">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void HealthSparqSSOProviderData.NameID.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqSSOProviderData.cs" Line="11">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string HealthSparqSSOProviderData.provider" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqSSOProviderData.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string HealthSparqSSOProviderData.provider.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqSSOProviderData.cs" Line="12">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void HealthSparqSSOProviderData.provider.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqSSOProviderData.cs" Line="12">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string HealthSparqSSOProviderData.additionalDetails" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqSSOProviderData.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string HealthSparqSSOProviderData.additionalDetails.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqSSOProviderData.cs" Line="13">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void HealthSparqSSOProviderData.additionalDetails.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\HealthSparqSSOProviderData.cs" Line="13">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+              <NamedType Name="Log">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="89" />
+                  <Metric Name="CyclomaticComplexity" Value="3" />
+                  <Metric Name="ClassCoupling" Value="4" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="36" />
+                  <Metric Name="ExecutableLines" Value="6" />
+                </Metrics>
+                <Members>
+                  <Field Name="ILog Log.logger" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\Log.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="90" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Log.LogError(string strErrorMessage)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\Log.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Log.LogInfo(string strInfoMessage)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\Log.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Log.LogElapsedTimeInfo(Stopwatch sw, string callInfo)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\Log.cs" Line="36">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="76" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="MemberInfo">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="58" />
+                  <Metric Name="CyclomaticComplexity" Value="45" />
+                  <Metric Name="ClassCoupling" Value="14" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="188" />
+                  <Metric Name="ExecutableLines" Value="70" />
+                </Metrics>
+                <Members>
+                  <Method Name="Member MemberInfo.GetDefaultMemberByPersonId(int personId)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\MemberInfo.cs" Line="11">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="65" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="18" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="IEnumerable&lt;Member&gt; MemberInfo.GetFilteredMemberList(IEnumerable&lt;Member&gt; mbrList)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\MemberInfo.cs" Line="30">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="61" />
+                      <Metric Name="CyclomaticComplexity" Value="7" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="21" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool MemberInfo.IsOOA(Member m, LineOfBusiness lob)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\MemberInfo.cs" Line="52">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="55" />
+                      <Metric Name="CyclomaticComplexity" Value="10" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="38" />
+                      <Metric Name="ExecutableLines" Value="14" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool MemberInfo.IsPPO(Member m, LineOfBusiness lob)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\MemberInfo.cs" Line="91">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="51" />
+                      <Metric Name="CyclomaticComplexity" Value="15" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="52" />
+                      <Metric Name="ExecutableLines" Value="18" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool MemberInfo.CanChangePCP(Member m)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\MemberInfo.cs" Line="144">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="54" />
+                      <Metric Name="CyclomaticComplexity" Value="8" />
+                      <Metric Name="ClassCoupling" Value="8" />
+                      <Metric Name="SourceLines" Value="44" />
+                      <Metric Name="ExecutableLines" Value="17" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="int MemberInfo.CalcAge(DateTime bday)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_HealthSparqSSOHandlerSln\Shared_HealthSparqSSOHandler\Shared\MemberInfo.cs" Line="189">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="73" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

@@ -1,0 +1,2174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="OptimaMember_VendorSSO.csproj">
+      <Assembly Name="OptimaMember_VendorSSO, Version=1.0.0.27, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="67" />
+          <Metric Name="CyclomaticComplexity" Value="284" />
+          <Metric Name="ClassCoupling" Value="94" />
+          <Metric Name="DepthOfInheritance" Value="4" />
+          <Metric Name="SourceLines" Value="2466" />
+          <Metric Name="ExecutableLines" Value="724" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="OptimaMember_VendorSSO.MemberHelpers">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="63" />
+              <Metric Name="CyclomaticComplexity" Value="10" />
+              <Metric Name="ClassCoupling" Value="10" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="46" />
+              <Metric Name="ExecutableLines" Value="17" />
+            </Metrics>
+            <Types>
+              <NamedType Name="MemberInfo">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="63" />
+                  <Metric Name="CyclomaticComplexity" Value="10" />
+                  <Metric Name="ClassCoupling" Value="10" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="43" />
+                  <Metric Name="ExecutableLines" Value="17" />
+                </Metrics>
+                <Members>
+                  <Method Name="Member MemberInfo.GetDefaultMemberByPersonId(int personId)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\MemberHelpers\MemberHelpers.cs" Line="10">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="65" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="18" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="IEnumerable&lt;Member&gt; MemberInfo.GetFilteredMemberList(IEnumerable&lt;Member&gt; mbrList)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\MemberHelpers\MemberHelpers.cs" Line="29">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="61" />
+                      <Metric Name="CyclomaticComplexity" Value="7" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="21" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="OptimaMember_VendorSSO.Shared">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="81" />
+              <Metric Name="CyclomaticComplexity" Value="50" />
+              <Metric Name="ClassCoupling" Value="34" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="313" />
+              <Metric Name="ExecutableLines" Value="72" />
+            </Metrics>
+            <Types>
+              <NamedType Name="AuthTicket">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="14" />
+                  <Metric Name="ClassCoupling" Value="1" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="10" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+                <Members>
+                  <Property Name="int AuthTicket.version" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\AuthTicket.cs" Line="10">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int AuthTicket.version.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\AuthTicket.cs" Line="10">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void AuthTicket.version.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\AuthTicket.cs" Line="10">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string AuthTicket.name" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\AuthTicket.cs" Line="11">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string AuthTicket.name.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\AuthTicket.cs" Line="11">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void AuthTicket.name.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\AuthTicket.cs" Line="11">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DateTime AuthTicket.issueDate" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\AuthTicket.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DateTime AuthTicket.issueDate.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\AuthTicket.cs" Line="12">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void AuthTicket.issueDate.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\AuthTicket.cs" Line="12">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DateTime AuthTicket.expiration" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\AuthTicket.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DateTime AuthTicket.expiration.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\AuthTicket.cs" Line="13">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void AuthTicket.expiration.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\AuthTicket.cs" Line="13">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="bool AuthTicket.isPersistent" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\AuthTicket.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="bool AuthTicket.isPersistent.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\AuthTicket.cs" Line="14">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void AuthTicket.isPersistent.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\AuthTicket.cs" Line="14">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string AuthTicket.userData" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\AuthTicket.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string AuthTicket.userData.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\AuthTicket.cs" Line="15">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void AuthTicket.userData.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\AuthTicket.cs" Line="15">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string AuthTicket.cookiePath" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\AuthTicket.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string AuthTicket.cookiePath.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\AuthTicket.cs" Line="16">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void AuthTicket.cookiePath.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\AuthTicket.cs" Line="16">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+              <NamedType Name="COVADentalSSOData">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="89" />
+                  <Metric Name="CyclomaticComplexity" Value="6" />
+                  <Metric Name="ClassCoupling" Value="5" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="31" />
+                  <Metric Name="ExecutableLines" Value="6" />
+                </Metrics>
+                <Members>
+                  <Field Name="Member COVADentalSSOData._member" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\COVADentalSSOData.cs" Line="9">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Person COVADentalSSOData._person" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\COVADentalSSOData.cs" Line="10">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="string COVADentalSSOData.MemberID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\COVADentalSSOData.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="89" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string COVADentalSSOData.MemberID.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\COVADentalSSOData.cs" Line="14">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="89" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string COVADentalSSOData.FirstName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\COVADentalSSOData.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="95" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string COVADentalSSOData.FirstName.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\COVADentalSSOData.cs" Line="19">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="95" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string COVADentalSSOData.LastName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\COVADentalSSOData.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="95" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string COVADentalSSOData.LastName.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\COVADentalSSOData.cs" Line="24">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="95" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string COVADentalSSOData.DeepLink" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\COVADentalSSOData.cs" Line="27">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="91" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string COVADentalSSOData.DeepLink.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\COVADentalSSOData.cs" Line="29">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="91" />
+                          <Metric Name="CyclomaticComplexity" Value="2" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Method Name="COVADentalSSOData.COVADentalSSOData(Member member, Person person)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\COVADentalSSOData.cs" Line="32">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="85" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="DentalSSODataFactory">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="75" />
+                  <Metric Name="CyclomaticComplexity" Value="4" />
+                  <Metric Name="ClassCoupling" Value="5" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="21" />
+                  <Metric Name="ExecutableLines" Value="3" />
+                </Metrics>
+                <Members>
+                  <Method Name="IDentalSSOData DentalSSODataFactory.GetDentalSSOData(Member member, Person person)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\DentalSSODataFactory.cs" Line="8">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="75" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="18" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="Encryptor">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="62" />
+                  <Metric Name="CyclomaticComplexity" Value="9" />
+                  <Metric Name="ClassCoupling" Value="12" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="99" />
+                  <Metric Name="ExecutableLines" Value="29" />
+                </Metrics>
+                <Members>
+                  <Method Name="byte[] Encryptor.Encrypt(byte[] bytesData, byte[] bytesKey)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\Encryptor.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="57" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="41" />
+                      <Metric Name="ExecutableLines" Value="14" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Encryptor.Encrypt(string data, string key)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\Encryptor.cs" Line="58">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="70" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="18" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="ICryptoTransform Encryptor.GetCryptoServiceProvider(byte[] bytesKey, out byte[] IV)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\Encryptor.cs" Line="77">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="62" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="35" />
+                      <Metric Name="ExecutableLines" Value="10" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="IDentalSSOData">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="4" />
+                  <Metric Name="ClassCoupling" Value="0" />
+                  <Metric Name="DepthOfInheritance" Value="0" />
+                  <Metric Name="SourceLines" Value="7" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+                <Members>
+                  <Property Name="string IDentalSSOData.MemberID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\IDentalSSOData.cs" Line="6">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string IDentalSSOData.MemberID.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\IDentalSSOData.cs" Line="6">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string IDentalSSOData.FirstName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\IDentalSSOData.cs" Line="7">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string IDentalSSOData.FirstName.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\IDentalSSOData.cs" Line="7">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string IDentalSSOData.LastName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\IDentalSSOData.cs" Line="8">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string IDentalSSOData.LastName.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\IDentalSSOData.cs" Line="8">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string IDentalSSOData.DeepLink" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\IDentalSSOData.cs" Line="9">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string IDentalSSOData.DeepLink.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\IDentalSSOData.cs" Line="9">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+              <NamedType Name="Log">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="93" />
+                  <Metric Name="CyclomaticComplexity" Value="2" />
+                  <Metric Name="ClassCoupling" Value="2" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="30" />
+                  <Metric Name="ExecutableLines" Value="3" />
+                </Metrics>
+                <Members>
+                  <Field Name="ILog Log.logger" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\Log.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="90" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Log.LogError(string strErrorMessage)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\Log.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Log.LogInfo(string strInfoMessage)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\Log.cs" Line="29">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="MedicareDentalSSOData">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="89" />
+                  <Metric Name="CyclomaticComplexity" Value="6" />
+                  <Metric Name="ClassCoupling" Value="5" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="31" />
+                  <Metric Name="ExecutableLines" Value="6" />
+                </Metrics>
+                <Members>
+                  <Field Name="Member MedicareDentalSSOData._member" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\MedicareDentalSSOData.cs" Line="9">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Person MedicareDentalSSOData._person" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\MedicareDentalSSOData.cs" Line="10">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="string MedicareDentalSSOData.MemberID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\MedicareDentalSSOData.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="89" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string MedicareDentalSSOData.MemberID.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\MedicareDentalSSOData.cs" Line="14">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="89" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string MedicareDentalSSOData.FirstName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\MedicareDentalSSOData.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="95" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string MedicareDentalSSOData.FirstName.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\MedicareDentalSSOData.cs" Line="19">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="95" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string MedicareDentalSSOData.LastName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\MedicareDentalSSOData.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="95" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string MedicareDentalSSOData.LastName.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\MedicareDentalSSOData.cs" Line="24">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="95" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string MedicareDentalSSOData.DeepLink" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\MedicareDentalSSOData.cs" Line="27">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="91" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string MedicareDentalSSOData.DeepLink.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\MedicareDentalSSOData.cs" Line="29">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="91" />
+                          <Metric Name="CyclomaticComplexity" Value="2" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Method Name="MedicareDentalSSOData.MedicareDentalSSOData(Member member, Person person)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\MedicareDentalSSOData.cs" Line="32">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="85" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="MemberHelper">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="62" />
+                  <Metric Name="CyclomaticComplexity" Value="4" />
+                  <Metric Name="ClassCoupling" Value="8" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="38" />
+                  <Metric Name="ExecutableLines" Value="18" />
+                </Metrics>
+                <Members>
+                  <Method Name="string MemberHelper.GetMemberID(string userName)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\MemberHelper.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="62" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="8" />
+                      <Metric Name="SourceLines" Value="17" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string MemberHelper.GetFamilyID(string userName)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\MemberHelper.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="62" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="8" />
+                      <Metric Name="SourceLines" Value="17" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="SentaraEncryptor">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="67" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="6" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="19" />
+                  <Metric Name="ExecutableLines" Value="7" />
+                </Metrics>
+                <Members>
+                  <Method Name="string SentaraEncryptor.EncryptString(string strValue)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\Shared\SentaraEncryptor.cs" Line="9">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="67" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="16" />
+                      <Metric Name="ExecutableLines" Value="7" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="OptimaMember_VendorSSO.SSO">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="60" />
+              <Metric Name="CyclomaticComplexity" Value="224" />
+              <Metric Name="ClassCoupling" Value="77" />
+              <Metric Name="DepthOfInheritance" Value="4" />
+              <Metric Name="SourceLines" Value="2107" />
+              <Metric Name="ExecutableLines" Value="635" />
+            </Metrics>
+            <Types>
+              <NamedType Name="BenefitFocusSSO">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="60" />
+                  <Metric Name="CyclomaticComplexity" Value="11" />
+                  <Metric Name="ClassCoupling" Value="25" />
+                  <Metric Name="DepthOfInheritance" Value="4" />
+                  <Metric Name="SourceLines" Value="90" />
+                  <Metric Name="ExecutableLines" Value="29" />
+                </Metrics>
+                <Members>
+                  <Method Name="void BenefitFocusSSO.Page_Load(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\BenefitFocusSSO.aspx.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="49" />
+                      <Metric Name="CyclomaticComplexity" Value="7" />
+                      <Metric Name="ClassCoupling" Value="18" />
+                      <Metric Name="SourceLines" Value="53" />
+                      <Metric Name="ExecutableLines" Value="21" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="Member BenefitFocusSSO.GetMember(string user)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\BenefitFocusSSO.aspx.cs" Line="70">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="67" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="13" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool BenefitFocusSSO.IsVerboseLoggingEnabled()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\BenefitFocusSSO.aspx.cs" Line="84">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="84" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="HtmlForm BenefitFocusSSO.form1" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\BenefitFocusSSO.aspx.designer.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="ChoiceStrategiesSSO">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="59" />
+                  <Metric Name="CyclomaticComplexity" Value="11" />
+                  <Metric Name="ClassCoupling" Value="25" />
+                  <Metric Name="DepthOfInheritance" Value="4" />
+                  <Metric Name="SourceLines" Value="89" />
+                  <Metric Name="ExecutableLines" Value="30" />
+                </Metrics>
+                <Members>
+                  <Method Name="void ChoiceStrategiesSSO.Page_Load(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\ChoiceStrategiesSSO.aspx.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="49" />
+                      <Metric Name="CyclomaticComplexity" Value="7" />
+                      <Metric Name="ClassCoupling" Value="18" />
+                      <Metric Name="SourceLines" Value="53" />
+                      <Metric Name="ExecutableLines" Value="22" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="Member ChoiceStrategiesSSO.GetMember(string user)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\ChoiceStrategiesSSO.aspx.cs" Line="71">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="67" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="13" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool ChoiceStrategiesSSO.IsVerboseLoggingEnabled()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\ChoiceStrategiesSSO.aspx.cs" Line="85">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="84" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="HtmlForm ChoiceStrategiesSSO.form1" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\ChoiceStrategiesSSO.aspx.designer.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="CoreHealthSSO">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="58" />
+                  <Metric Name="CyclomaticComplexity" Value="8" />
+                  <Metric Name="ClassCoupling" Value="11" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="87" />
+                  <Metric Name="ExecutableLines" Value="37" />
+                </Metrics>
+                <Members>
+                  <Field Name="string CoreHealthSSO._Action" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\CoreHealthSSO.ashx.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string CoreHealthSSO._User" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\CoreHealthSSO.ashx.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string CoreHealthSSO._Password" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\CoreHealthSSO.ashx.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string CoreHealthSSO._UserAccountDomain" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\CoreHealthSSO.ashx.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void CoreHealthSSO.ProcessRequest(HttpContext context)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\CoreHealthSSO.ashx.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="45" />
+                      <Metric Name="CyclomaticComplexity" Value="6" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="61" />
+                      <Metric Name="ExecutableLines" Value="34" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="bool CoreHealthSSO.IsReusable" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\CoreHealthSSO.ashx.cs" Line="82">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="bool CoreHealthSSO.IsReusable.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\CoreHealthSSO.ashx.cs" Line="84">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Method Name="bool CoreHealthSSO.IsVerboseLoggingEnabled()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\CoreHealthSSO.ashx.cs" Line="90">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="84" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="DentalSSO">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="57" />
+                  <Metric Name="CyclomaticComplexity" Value="14" />
+                  <Metric Name="ClassCoupling" Value="28" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="132" />
+                  <Metric Name="ExecutableLines" Value="55" />
+                </Metrics>
+                <Members>
+                  <Field Name="bool DentalSSO._useVerboseLogging" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\DentalSSO.ashx.cs" Line="23">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void DentalSSO.ProcessRequest(HttpContext context)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\DentalSSO.ashx.cs" Line="25">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="47" />
+                      <Metric Name="CyclomaticComplexity" Value="8" />
+                      <Metric Name="ClassCoupling" Value="17" />
+                      <Metric Name="SourceLines" Value="58" />
+                      <Metric Name="ExecutableLines" Value="28" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void DentalSSO.HandleIdPSSORequest(HttpContext context, HttpResponse response, IDentalSSOData ssoData)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\DentalSSO.ashx.cs" Line="84">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="55" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="10" />
+                      <Metric Name="SourceLines" Value="34" />
+                      <Metric Name="ExecutableLines" Value="17" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string DentalSSO.setOpenToken(HttpContext context, string url, MultiStringDictionary userInfo)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\DentalSSO.ashx.cs" Line="128">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="70" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="18" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="bool DentalSSO.IsReusable" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\DentalSSO.ashx.cs" Line="138">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="bool DentalSSO.IsReusable.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\DentalSSO.ashx.cs" Line="140">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+              <NamedType Name="HealthEquitySSOHandler">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="60" />
+                  <Metric Name="CyclomaticComplexity" Value="13" />
+                  <Metric Name="ClassCoupling" Value="19" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="122" />
+                  <Metric Name="ExecutableLines" Value="44" />
+                </Metrics>
+                <Members>
+                  <Field Name="MultiStringDictionary HealthEquitySSOHandler.dUserInfo" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\HealthEquitySSOHandler.ashx.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void HealthEquitySSOHandler.ProcessRequest(HttpContext context)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\HealthEquitySSOHandler.ashx.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="52" />
+                      <Metric Name="CyclomaticComplexity" Value="7" />
+                      <Metric Name="ClassCoupling" Value="11" />
+                      <Metric Name="SourceLines" Value="59" />
+                      <Metric Name="ExecutableLines" Value="20" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void HealthEquitySSOHandler.HandleIdPSSORequest(HttpContext context, HttpResponse response)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\HealthEquitySSOHandler.ashx.cs" Line="78">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="58" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="8" />
+                      <Metric Name="SourceLines" Value="28" />
+                      <Metric Name="ExecutableLines" Value="14" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string HealthEquitySSOHandler.setOpenToken(HttpContext context, string url, MultiStringDictionary userInfo)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\HealthEquitySSOHandler.ashx.cs" Line="116">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="70" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="18" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="bool HealthEquitySSOHandler.IsReusable" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\HealthEquitySSOHandler.ashx.cs" Line="126">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="bool HealthEquitySSOHandler.IsReusable.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\HealthEquitySSOHandler.ashx.cs" Line="128">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+              <NamedType Name="MDLiveSSO">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="62" />
+                  <Metric Name="CyclomaticComplexity" Value="10" />
+                  <Metric Name="ClassCoupling" Value="24" />
+                  <Metric Name="DepthOfInheritance" Value="4" />
+                  <Metric Name="SourceLines" Value="84" />
+                  <Metric Name="ExecutableLines" Value="26" />
+                </Metrics>
+                <Members>
+                  <Method Name="void MDLiveSSO.Page_Load(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\MDLiveSSO.aspx.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="51" />
+                      <Metric Name="CyclomaticComplexity" Value="6" />
+                      <Metric Name="ClassCoupling" Value="17" />
+                      <Metric Name="SourceLines" Value="47" />
+                      <Metric Name="ExecutableLines" Value="18" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="Member MDLiveSSO.GetMember(string user)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\MDLiveSSO.aspx.cs" Line="64">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="67" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="13" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool MDLiveSSO.IsVerboseLoggingEnabled()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\MDLiveSSO.aspx.cs" Line="78">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="84" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="HtmlForm MDLiveSSO.form1" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\MDLiveSSO.aspx.designer.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="MemberEmpowered">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="59" />
+                  <Metric Name="CyclomaticComplexity" Value="5" />
+                  <Metric Name="ClassCoupling" Value="19" />
+                  <Metric Name="DepthOfInheritance" Value="4" />
+                  <Metric Name="SourceLines" Value="86" />
+                  <Metric Name="ExecutableLines" Value="23" />
+                </Metrics>
+                <Members>
+                  <Field Name="string MemberEmpowered.m_strMsg" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\MemberEmpowered.aspx.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void MemberEmpowered.Page_Load(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\MemberEmpowered.aspx.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="51" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="17" />
+                      <Metric Name="SourceLines" Value="45" />
+                      <Metric Name="ExecutableLines" Value="21" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool MemberEmpowered.IsVerboseLoggingEnabled()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\MemberEmpowered.aspx.cs" Line="61">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="84" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="Panel MemberEmpowered.pnlResults" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\MemberEmpowered.aspx.designer.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel MemberEmpowered.pnlError" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\MemberEmpowered.aspx.designer.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label MemberEmpowered.lblError" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\MemberEmpowered.aspx.designer.cs" Line="40">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="MemberEnrollment">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="55" />
+                  <Metric Name="CyclomaticComplexity" Value="36" />
+                  <Metric Name="ClassCoupling" Value="41" />
+                  <Metric Name="DepthOfInheritance" Value="4" />
+                  <Metric Name="SourceLines" Value="389" />
+                  <Metric Name="ExecutableLines" Value="129" />
+                </Metrics>
+                <Members>
+                  <Field Name="string MemberEnrollment.targURLEmpowered" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\MemberEnrollment.aspx.cs" Line="19">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberEnrollment.targURLSiebel" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\MemberEnrollment.aspx.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberEnrollment.targURLBenefitFocus" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\MemberEnrollment.aspx.cs" Line="21">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void MemberEnrollment.Page_Load(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\MemberEnrollment.aspx.cs" Line="23">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="52" />
+                      <Metric Name="CyclomaticComplexity" Value="5" />
+                      <Metric Name="ClassCoupling" Value="15" />
+                      <Metric Name="SourceLines" Value="42" />
+                      <Metric Name="ExecutableLines" Value="19" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string MemberEnrollment.GetMemberID(string user)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\MemberEnrollment.aspx.cs" Line="66">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="60" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="24" />
+                      <Metric Name="ExecutableLines" Value="11" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool MemberEnrollment.IsVerboseLoggingEnabled()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\MemberEnrollment.aspx.cs" Line="91">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="84" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void MemberEnrollment.btnSubmit_Click(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\MemberEnrollment.aspx.cs" Line="98">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="38" />
+                      <Metric Name="CyclomaticComplexity" Value="11" />
+                      <Metric Name="ClassCoupling" Value="29" />
+                      <Metric Name="SourceLines" Value="113" />
+                      <Metric Name="ExecutableLines" Value="47" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="HttpCookie MemberEnrollment.GetHttpCookie(string userID, string userCustomData)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\MemberEnrollment.aspx.cs" Line="213">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="58" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="34" />
+                      <Metric Name="ExecutableLines" Value="10" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string MemberEnrollment.BuildSiebelSSOURL(string siterole, string ssn, string memberid)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\MemberEnrollment.aspx.cs" Line="248">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="57" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="28" />
+                      <Metric Name="ExecutableLines" Value="14" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool MemberEnrollment.IsPotentialMember(Person p, string memberID)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\MemberEnrollment.aspx.cs" Line="277">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="51" />
+                      <Metric Name="CyclomaticComplexity" Value="10" />
+                      <Metric Name="ClassCoupling" Value="10" />
+                      <Metric Name="SourceLines" Value="45" />
+                      <Metric Name="ExecutableLines" Value="20" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string MemberEnrollment.EncryptString(string strValue)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\MemberEnrollment.aspx.cs" Line="323">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="75" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="HtmlForm MemberEnrollment.form" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\MemberEnrollment.aspx.designer.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel MemberEnrollment.pnlDisplayPersonalInfo" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\MemberEnrollment.aspx.designer.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel MemberEnrollment.pnlError" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\MemberEnrollment.aspx.designer.cs" Line="40">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label MemberEnrollment.lblFirstName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\MemberEnrollment.aspx.designer.cs" Line="49">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label MemberEnrollment.lblLastName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\MemberEnrollment.aspx.designer.cs" Line="58">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label MemberEnrollment.lblDOB" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\MemberEnrollment.aspx.designer.cs" Line="67">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="TextBox MemberEnrollment.employeraccesscode" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\MemberEnrollment.aspx.designer.cs" Line="76">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlInputSubmit MemberEnrollment.btnViewClaims" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\MemberEnrollment.aspx.designer.cs" Line="85">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="OptumRxLanding">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="63" />
+                  <Metric Name="CyclomaticComplexity" Value="3" />
+                  <Metric Name="ClassCoupling" Value="10" />
+                  <Metric Name="DepthOfInheritance" Value="4" />
+                  <Metric Name="SourceLines" Value="32" />
+                  <Metric Name="ExecutableLines" Value="8" />
+                </Metrics>
+                <Members>
+                  <Method Name="void OptumRxLanding.Page_Load(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\OptumRxLanding.aspx.cs" Line="11">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="63" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="8" />
+                      <Metric Name="SourceLines" Value="18" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="HtmlForm OptumRxLanding.form" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\OptumRxLanding.aspx.designer.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="OptumRxSSO">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="59" />
+                  <Metric Name="CyclomaticComplexity" Value="24" />
+                  <Metric Name="ClassCoupling" Value="36" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="178" />
+                  <Metric Name="ExecutableLines" Value="77" />
+                </Metrics>
+                <Members>
+                  <Field Name="bool OptumRxSSO._useVerboseLogging" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\OptumRxSSO.ashx.cs" Line="25">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void OptumRxSSO.ProcessRequest(HttpContext context)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\OptumRxSSO.ashx.cs" Line="27">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="50" />
+                      <Metric Name="CyclomaticComplexity" Value="7" />
+                      <Metric Name="ClassCoupling" Value="15" />
+                      <Metric Name="SourceLines" Value="51" />
+                      <Metric Name="ExecutableLines" Value="23" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="Member OptumRxSSO.GetCurrentMember(Person person)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\OptumRxSSO.ashx.cs" Line="79">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="Member OptumRxSSO.GetDefaultMemberByPersonId(int personId)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\OptumRxSSO.ashx.cs" Line="84">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="65" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="18" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="IEnumerable&lt;Member&gt; OptumRxSSO.GetFilteredMemberList(IEnumerable&lt;Member&gt; mbrList)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\OptumRxSSO.ashx.cs" Line="103">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="59" />
+                      <Metric Name="CyclomaticComplexity" Value="7" />
+                      <Metric Name="ClassCoupling" Value="10" />
+                      <Metric Name="SourceLines" Value="23" />
+                      <Metric Name="ExecutableLines" Value="11" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void OptumRxSSO.HandleIdPSSORequest(HttpContext context, HttpResponse response, OptumRxSSOData ssoData)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\OptumRxSSO.ashx.cs" Line="127">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="50" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="10" />
+                      <Metric Name="SourceLines" Value="41" />
+                      <Metric Name="ExecutableLines" Value="24" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string OptumRxSSO.setOpenToken(HttpContext context, string url, MultiStringDictionary userInfo)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\OptumRxSSO.ashx.cs" Line="178">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="70" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="18" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="bool OptumRxSSO.IsReusable" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\OptumRxSSO.ashx.cs" Line="188">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="bool OptumRxSSO.IsReusable.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\OptumRxSSO.ashx.cs" Line="190">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+              <NamedType Name="OptumRxSSOData">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="87" />
+                  <Metric Name="CyclomaticComplexity" Value="26" />
+                  <Metric Name="ClassCoupling" Value="9" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="39" />
+                  <Metric Name="ExecutableLines" Value="15" />
+                </Metrics>
+                <Members>
+                  <Property Name="string OptumRxSSOData.SAML_SUBJECT" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\OptumRxSSO.ashx.cs" Line="199">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string OptumRxSSOData.SAML_SUBJECT.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\OptumRxSSO.ashx.cs" Line="199">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void OptumRxSSOData.SAML_SUBJECT.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\OptumRxSSO.ashx.cs" Line="199">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string OptumRxSSOData.Action" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\OptumRxSSO.ashx.cs" Line="200">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string OptumRxSSOData.Action.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\OptumRxSSO.ashx.cs" Line="200">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void OptumRxSSOData.Action.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\OptumRxSSO.ashx.cs" Line="200">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string OptumRxSSOData.Address1" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\OptumRxSSO.ashx.cs" Line="201">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string OptumRxSSOData.Address1.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\OptumRxSSO.ashx.cs" Line="201">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void OptumRxSSOData.Address1.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\OptumRxSSO.ashx.cs" Line="201">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string OptumRxSSOData.City" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\OptumRxSSO.ashx.cs" Line="202">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string OptumRxSSOData.City.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\OptumRxSSO.ashx.cs" Line="202">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void OptumRxSSOData.City.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\OptumRxSSO.ashx.cs" Line="202">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string OptumRxSSOData.DOB" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\OptumRxSSO.ashx.cs" Line="203">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string OptumRxSSOData.DOB.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\OptumRxSSO.ashx.cs" Line="203">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void OptumRxSSOData.DOB.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\OptumRxSSO.ashx.cs" Line="203">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string OptumRxSSOData.FirstName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\OptumRxSSO.ashx.cs" Line="204">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string OptumRxSSOData.FirstName.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\OptumRxSSO.ashx.cs" Line="204">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void OptumRxSSOData.FirstName.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\OptumRxSSO.ashx.cs" Line="204">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string OptumRxSSOData.Gender" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\OptumRxSSO.ashx.cs" Line="205">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string OptumRxSSOData.Gender.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\OptumRxSSO.ashx.cs" Line="205">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void OptumRxSSOData.Gender.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\OptumRxSSO.ashx.cs" Line="205">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string OptumRxSSOData.LastName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\OptumRxSSO.ashx.cs" Line="206">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string OptumRxSSOData.LastName.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\OptumRxSSO.ashx.cs" Line="206">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void OptumRxSSOData.LastName.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\OptumRxSSO.ashx.cs" Line="206">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string OptumRxSSOData.MemberID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\OptumRxSSO.ashx.cs" Line="207">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string OptumRxSSOData.MemberID.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\OptumRxSSO.ashx.cs" Line="207">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void OptumRxSSOData.MemberID.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\OptumRxSSO.ashx.cs" Line="207">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string OptumRxSSOData.State" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\OptumRxSSO.ashx.cs" Line="208">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string OptumRxSSOData.State.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\OptumRxSSO.ashx.cs" Line="208">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void OptumRxSSOData.State.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\OptumRxSSO.ashx.cs" Line="208">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string OptumRxSSOData.UserID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\OptumRxSSO.ashx.cs" Line="209">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string OptumRxSSOData.UserID.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\OptumRxSSO.ashx.cs" Line="209">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void OptumRxSSOData.UserID.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\OptumRxSSO.ashx.cs" Line="209">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string OptumRxSSOData.PostalCode" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\OptumRxSSO.ashx.cs" Line="210">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string OptumRxSSOData.PostalCode.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\OptumRxSSO.ashx.cs" Line="210">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void OptumRxSSOData.PostalCode.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\OptumRxSSO.ashx.cs" Line="210">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Method Name="OptumRxSSOData.OptumRxSSOData(string user, Person person, Member member)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\OptumRxSSO.ashx.cs" Line="212">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="54" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="22" />
+                      <Metric Name="ExecutableLines" Value="15" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="PharmacySSO">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="62" />
+                  <Metric Name="CyclomaticComplexity" Value="10" />
+                  <Metric Name="ClassCoupling" Value="24" />
+                  <Metric Name="DepthOfInheritance" Value="4" />
+                  <Metric Name="SourceLines" Value="83" />
+                  <Metric Name="ExecutableLines" Value="26" />
+                </Metrics>
+                <Members>
+                  <Method Name="void PharmacySSO.Page_Load(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\PharmacySSO.aspx.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="51" />
+                      <Metric Name="CyclomaticComplexity" Value="6" />
+                      <Metric Name="ClassCoupling" Value="17" />
+                      <Metric Name="SourceLines" Value="47" />
+                      <Metric Name="ExecutableLines" Value="18" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="Member PharmacySSO.GetMember(string user)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\PharmacySSO.aspx.cs" Line="64">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="67" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="13" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool PharmacySSO.IsVerboseLoggingEnabled()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\PharmacySSO.aspx.cs" Line="78">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="84" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="HtmlForm PharmacySSO.form1" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\PharmacySSO.aspx.designer.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="SiebelSSO">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="56" />
+                  <Metric Name="CyclomaticComplexity" Value="13" />
+                  <Metric Name="ClassCoupling" Value="30" />
+                  <Metric Name="DepthOfInheritance" Value="4" />
+                  <Metric Name="SourceLines" Value="180" />
+                  <Metric Name="ExecutableLines" Value="66" />
+                </Metrics>
+                <Members>
+                  <Method Name="void SiebelSSO.Page_Load(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\SiebelSSO.aspx.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="46" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="26" />
+                      <Metric Name="SourceLines" Value="70" />
+                      <Metric Name="ExecutableLines" Value="29" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string SiebelSSO.GetMemberID(string user)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\SiebelSSO.aspx.cs" Line="88">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="60" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="24" />
+                      <Metric Name="ExecutableLines" Value="11" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool SiebelSSO.IsVerboseLoggingEnabled()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\SiebelSSO.aspx.cs" Line="113">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="84" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="HttpCookie SiebelSSO.GetHttpCookie(string userID, string userCustomData)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\SiebelSSO.aspx.cs" Line="120">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="58" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="34" />
+                      <Metric Name="ExecutableLines" Value="10" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string SiebelSSO.BuildSiebelSSOURL(string siterole, string ssn, string memberid)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\SiebelSSO.aspx.cs" Line="155">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="57" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="27" />
+                      <Metric Name="ExecutableLines" Value="14" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="HtmlForm SiebelSSO.form1" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\SiebelSSO.aspx.designer.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="SSOLanding">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="55" />
+                  <Metric Name="CyclomaticComplexity" Value="15" />
+                  <Metric Name="ClassCoupling" Value="10" />
+                  <Metric Name="DepthOfInheritance" Value="4" />
+                  <Metric Name="SourceLines" Value="122" />
+                  <Metric Name="ExecutableLines" Value="8" />
+                </Metrics>
+                <Members>
+                  <Method Name="void SSOLanding.Page_Load(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\SSOLanding.aspx.cs" Line="9">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="55" />
+                      <Metric Name="CyclomaticComplexity" Value="15" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="71" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="Literal SSOLanding.lTitleLarge" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\SSOLanding.aspx.designer.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Literal SSOLanding.lTitleSmall" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\SSOLanding.aspx.designer.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Literal SSOLanding.bcCurrentText" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\SSOLanding.aspx.designer.cs" Line="40">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlForm SSOLanding.form" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\SSOLanding.aspx.designer.cs" Line="49">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HyperLink SSOLanding.hlSSOURL" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\SSOLanding.aspx.designer.cs" Line="58">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="TruvenSSO">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="62" />
+                  <Metric Name="CyclomaticComplexity" Value="10" />
+                  <Metric Name="ClassCoupling" Value="24" />
+                  <Metric Name="DepthOfInheritance" Value="4" />
+                  <Metric Name="SourceLines" Value="83" />
+                  <Metric Name="ExecutableLines" Value="26" />
+                </Metrics>
+                <Members>
+                  <Method Name="void TruvenSSO.Page_Load(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\TruvenSSO.aspx.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="51" />
+                      <Metric Name="CyclomaticComplexity" Value="6" />
+                      <Metric Name="ClassCoupling" Value="17" />
+                      <Metric Name="SourceLines" Value="47" />
+                      <Metric Name="ExecutableLines" Value="18" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="Member TruvenSSO.GetMember(string user)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\TruvenSSO.aspx.cs" Line="64">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="67" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="13" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool TruvenSSO.IsVerboseLoggingEnabled()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\TruvenSSO.aspx.cs" Line="78">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="84" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="HtmlForm TruvenSSO.form1" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\TruvenSSO.aspx.designer.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="WebMDSSO">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="60" />
+                  <Metric Name="CyclomaticComplexity" Value="15" />
+                  <Metric Name="ClassCoupling" Value="26" />
+                  <Metric Name="DepthOfInheritance" Value="4" />
+                  <Metric Name="SourceLines" Value="114" />
+                  <Metric Name="ExecutableLines" Value="36" />
+                </Metrics>
+                <Members>
+                  <Method Name="void WebMDSSO.Page_Load(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\WebMDSSO.aspx.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="48" />
+                      <Metric Name="CyclomaticComplexity" Value="7" />
+                      <Metric Name="ClassCoupling" Value="19" />
+                      <Metric Name="SourceLines" Value="60" />
+                      <Metric Name="ExecutableLines" Value="24" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="Member WebMDSSO.GetMember(string user)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\WebMDSSO.aspx.cs" Line="77">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="67" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="13" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool WebMDSSO.IsVerboseLoggingEnabled()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\WebMDSSO.aspx.cs" Line="91">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="84" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="HttpCookie WebMDSSO.GetHttpCookie(string encryptedAuthTicket)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\WebMDSSO.aspx.cs" Line="98">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="70" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="17" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="HtmlForm WebMDSSO.form1" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_VendorSSO\OptimaMember_VendorSSO\SSO\WebMDSSO.aspx.designer.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

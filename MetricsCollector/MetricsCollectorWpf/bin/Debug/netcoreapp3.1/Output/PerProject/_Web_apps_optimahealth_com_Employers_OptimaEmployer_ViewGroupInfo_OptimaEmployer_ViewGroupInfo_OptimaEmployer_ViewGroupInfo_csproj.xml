@@ -1,0 +1,2713 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="OptimaEmployer_ViewGroupInfo.csproj">
+      <Assembly Name="OptimaEmployer_ViewGroupInfo, Version=1.0.0.5, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="82" />
+          <Metric Name="CyclomaticComplexity" Value="232" />
+          <Metric Name="ClassCoupling" Value="85" />
+          <Metric Name="DepthOfInheritance" Value="4" />
+          <Metric Name="SourceLines" Value="1164" />
+          <Metric Name="ExecutableLines" Value="311" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="OptimaEmployer_ViewGroupInfo.Entities">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="99" />
+              <Metric Name="CyclomaticComplexity" Value="129" />
+              <Metric Name="ClassCoupling" Value="13" />
+              <Metric Name="DepthOfInheritance" Value="2" />
+              <Metric Name="SourceLines" Value="183" />
+              <Metric Name="ExecutableLines" Value="6" />
+            </Metrics>
+            <Types>
+              <NamedType Name="BenefitRepositoryEntities">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="98" />
+                  <Metric Name="CyclomaticComplexity" Value="4" />
+                  <Metric Name="ClassCoupling" Value="5" />
+                  <Metric Name="DepthOfInheritance" Value="2" />
+                  <Metric Name="SourceLines" Value="14" />
+                  <Metric Name="ExecutableLines" Value="1" />
+                </Metrics>
+                <Members>
+                  <Method Name="BenefitRepositoryEntities.BenefitRepositoryEntities()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\CorePlanSBCDocDataContext.Context.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void BenefitRepositoryEntities.OnModelCreating(DbModelBuilder modelBuilder)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\CorePlanSBCDocDataContext.Context.cs" Line="23">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="DbSet&lt;GroupPlanLegacySBC&gt; BenefitRepositoryEntities.GroupPlanLegacySBCs" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\CorePlanSBCDocDataContext.Context.cs" Line="28">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DbSet&lt;GroupPlanLegacySBC&gt; BenefitRepositoryEntities.GroupPlanLegacySBCs.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\CorePlanSBCDocDataContext.Context.cs" Line="28">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitRepositoryEntities.GroupPlanLegacySBCs.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\CorePlanSBCDocDataContext.Context.cs" Line="28">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+              <NamedType Name="GroupPlan">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="91" />
+                  <Metric Name="ClassCoupling" Value="7" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="56" />
+                  <Metric Name="ExecutableLines" Value="4" />
+                </Metrics>
+                <Members>
+                  <Method Name="GroupPlan.GroupPlan()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="85" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="int GroupPlan.ID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="23">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int GroupPlan.ID.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="23">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlan.ID.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="23">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DateTime? GroupPlan.EffectiveStartDate" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DateTime? GroupPlan.EffectiveStartDate.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="24">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlan.EffectiveStartDate.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="24">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DateTime? GroupPlan.EffectiveEndDate" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="25">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DateTime? GroupPlan.EffectiveEndDate.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="25">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlan.EffectiveEndDate.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="25">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string GroupPlan.BenefitStackID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="26">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string GroupPlan.BenefitStackID.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="26">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlan.BenefitStackID.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="26">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="int GroupPlan.InsuranceTypeID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="27">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int GroupPlan.InsuranceTypeID.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="27">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlan.InsuranceTypeID.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="27">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string GroupPlan.Plan" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="28">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string GroupPlan.Plan.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="28">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlan.Plan.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="28">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="bool GroupPlan.ReferralsRequired" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="29">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="bool GroupPlan.ReferralsRequired.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="29">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlan.ReferralsRequired.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="29">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="int GroupPlan.PlanStatusID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="30">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int GroupPlan.PlanStatusID.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="30">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlan.PlanStatusID.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="30">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="int GroupPlan.MetallicTierID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int GroupPlan.MetallicTierID.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="31">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlan.MetallicTierID.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="31">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="int GroupPlan.PlanStateID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="32">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int GroupPlan.PlanStateID.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="32">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlan.PlanStateID.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="32">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="int GroupPlan.ProductID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="33">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int GroupPlan.ProductID.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="33">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlan.ProductID.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="33">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string GroupPlan.GroupName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="34">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string GroupPlan.GroupName.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="34">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlan.GroupName.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="34">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string GroupPlan.GroupID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="35">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string GroupPlan.GroupID.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="35">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlan.GroupID.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="35">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string GroupPlan.PlanCategory" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="36">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string GroupPlan.PlanCategory.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="36">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlan.PlanCategory.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="36">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="bool? GroupPlan.IsExchange" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="37">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="bool? GroupPlan.IsExchange.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="37">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlan.IsExchange.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="37">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DateTime? GroupPlan.CreatedDate" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="38">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DateTime? GroupPlan.CreatedDate.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="38">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlan.CreatedDate.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="38">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="int GroupPlan.GroupSizeID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="39">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int GroupPlan.GroupSizeID.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="39">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlan.GroupSizeID.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="39">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="int GroupPlan.YearBasisID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="40">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int GroupPlan.YearBasisID.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="40">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlan.YearBasisID.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="40">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="bool? GroupPlan.FEHB" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="41">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="bool? GroupPlan.FEHB.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="41">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlan.FEHB.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="41">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="bool? GroupPlan.HealthWellness_Maternity" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="42">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="bool? GroupPlan.HealthWellness_Maternity.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="42">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlan.HealthWellness_Maternity.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="42">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="bool? GroupPlan.HealthWellness_Diabetes" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="43">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="bool? GroupPlan.HealthWellness_Diabetes.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="43">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlan.HealthWellness_Diabetes.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="43">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="bool? GroupPlan.HRA" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="44">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="bool? GroupPlan.HRA.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="44">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlan.HRA.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="44">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="bool? GroupPlan.Municipality" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="45">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="bool? GroupPlan.Municipality.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="45">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlan.Municipality.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="45">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string GroupPlan.ContactPhone" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="46">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string GroupPlan.ContactPhone.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="46">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlan.ContactPhone.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="46">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="bool GroupPlan.ChildCoverage" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="47">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="bool GroupPlan.ChildCoverage.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="47">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlan.ChildCoverage.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="47">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="int GroupPlan.ChildEligilityAgeLimit" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="48">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int GroupPlan.ChildEligilityAgeLimit.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="48">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlan.ChildEligilityAgeLimit.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="48">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="int GroupPlan.ChildCovBoundaryID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="49">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int GroupPlan.ChildCovBoundaryID.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="49">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlan.ChildCovBoundaryID.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="49">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string GroupPlan.FaceSheetFormNum" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="50">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string GroupPlan.FaceSheetFormNum.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="50">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlan.FaceSheetFormNum.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="50">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string GroupPlan.HIOSPlan" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="51">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string GroupPlan.HIOSPlan.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="51">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlan.HIOSPlan.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="51">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="int GroupPlan.InNetOverallCoIns" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="52">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int GroupPlan.InNetOverallCoIns.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="52">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlan.InNetOverallCoIns.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="52">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="int GroupPlan.OutNetOverallCoIns" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="53">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int GroupPlan.OutNetOverallCoIns.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="53">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlan.OutNetOverallCoIns.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="53">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string GroupPlan.PlanRateCode" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="54">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string GroupPlan.PlanRateCode.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="54">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlan.PlanRateCode.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="54">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="bool GroupPlan.Embedded_Deductible" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="55">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="bool GroupPlan.Embedded_Deductible.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="55">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlan.Embedded_Deductible.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="55">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="bool GroupPlan.MinEssentialCoverage" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="56">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="bool GroupPlan.MinEssentialCoverage.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="56">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlan.MinEssentialCoverage.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="56">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="bool GroupPlan.MinValueStandard" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="57">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="bool GroupPlan.MinValueStandard.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="57">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlan.MinValueStandard.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="57">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="bool GroupPlan.Association" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="58">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="bool GroupPlan.Association.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="58">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlan.Association.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="58">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="bool GroupPlan.OOA" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="59">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="bool GroupPlan.OOA.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="59">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlan.OOA.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="59">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="decimal GroupPlan.ActuarialValue" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="60">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="decimal GroupPlan.ActuarialValue.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="60">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlan.ActuarialValue.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="60">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="bool GroupPlan.HSA" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="61">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="bool GroupPlan.HSA.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="61">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlan.HSA.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="61">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="int GroupPlan.CostSharingID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="62">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int GroupPlan.CostSharingID.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="62">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlan.CostSharingID.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="62">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string GroupPlan.SBCRptName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="63">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string GroupPlan.SBCRptName.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="63">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlan.SBCRptName.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="63">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string GroupPlan.SOBRptName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="64">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string GroupPlan.SOBRptName.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="64">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlan.SOBRptName.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="64">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="int? GroupPlan.NetworkMarketID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="65">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int? GroupPlan.NetworkMarketID.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="65">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlan.NetworkMarketID.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="65">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="bool GroupPlan.Embedded_OutOfPocketMax" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="66">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="bool GroupPlan.Embedded_OutOfPocketMax.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="66">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlan.Embedded_OutOfPocketMax.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="66">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="ICollection&lt;GroupPlanSBCFile&gt; GroupPlan.GroupPlanSBCFiles" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="69">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="2" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="ICollection&lt;GroupPlanSBCFile&gt; GroupPlan.GroupPlanSBCFiles.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="69">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlan.GroupPlanSBCFiles.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlan.cs" Line="69">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+              <NamedType Name="GroupPlanLegacySBC">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="14" />
+                  <Metric Name="ClassCoupling" Value="2" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="10" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+                <Members>
+                  <Property Name="int GroupPlanLegacySBC.Id" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlanLegacySBC.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int GroupPlanLegacySBC.Id.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlanLegacySBC.cs" Line="17">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlanLegacySBC.Id.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlanLegacySBC.cs" Line="17">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DateTime GroupPlanLegacySBC.creationtime" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlanLegacySBC.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DateTime GroupPlanLegacySBC.creationtime.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlanLegacySBC.cs" Line="18">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlanLegacySBC.creationtime.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlanLegacySBC.cs" Line="18">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string GroupPlanLegacySBC.filename" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlanLegacySBC.cs" Line="19">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string GroupPlanLegacySBC.filename.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlanLegacySBC.cs" Line="19">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlanLegacySBC.filename.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlanLegacySBC.cs" Line="19">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DateTime GroupPlanLegacySBC.EffectiveDate" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlanLegacySBC.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DateTime GroupPlanLegacySBC.EffectiveDate.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlanLegacySBC.cs" Line="20">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlanLegacySBC.EffectiveDate.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlanLegacySBC.cs" Line="20">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DateTime? GroupPlanLegacySBC.EffectiveEndDate" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlanLegacySBC.cs" Line="21">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DateTime? GroupPlanLegacySBC.EffectiveEndDate.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlanLegacySBC.cs" Line="21">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlanLegacySBC.EffectiveEndDate.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlanLegacySBC.cs" Line="21">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="byte[] GroupPlanLegacySBC.Pdf" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlanLegacySBC.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="byte[] GroupPlanLegacySBC.Pdf.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlanLegacySBC.cs" Line="22">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlanLegacySBC.Pdf.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlanLegacySBC.cs" Line="22">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string GroupPlanLegacySBC.GroupID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlanLegacySBC.cs" Line="23">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string GroupPlanLegacySBC.GroupID.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlanLegacySBC.cs" Line="23">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlanLegacySBC.GroupID.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlanLegacySBC.cs" Line="23">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+              <NamedType Name="GroupPlanSBCFile">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="14" />
+                  <Metric Name="ClassCoupling" Value="2" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="11" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+                <Members>
+                  <Property Name="int GroupPlanSBCFile.ID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlanSBCFile.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int GroupPlanSBCFile.ID.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlanSBCFile.cs" Line="17">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlanSBCFile.ID.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlanSBCFile.cs" Line="17">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="int GroupPlanSBCFile.GroupPlanID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlanSBCFile.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int GroupPlanSBCFile.GroupPlanID.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlanSBCFile.cs" Line="18">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlanSBCFile.GroupPlanID.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlanSBCFile.cs" Line="18">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="long GroupPlanSBCFile.FileSize" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlanSBCFile.cs" Line="19">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="long GroupPlanSBCFile.FileSize.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlanSBCFile.cs" Line="19">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlanSBCFile.FileSize.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlanSBCFile.cs" Line="19">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string GroupPlanSBCFile.MimeType" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlanSBCFile.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string GroupPlanSBCFile.MimeType.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlanSBCFile.cs" Line="20">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlanSBCFile.MimeType.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlanSBCFile.cs" Line="20">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="byte[] GroupPlanSBCFile.Data" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlanSBCFile.cs" Line="21">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="byte[] GroupPlanSBCFile.Data.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlanSBCFile.cs" Line="21">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlanSBCFile.Data.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlanSBCFile.cs" Line="21">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DateTime GroupPlanSBCFile.DateCreated" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlanSBCFile.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DateTime GroupPlanSBCFile.DateCreated.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlanSBCFile.cs" Line="22">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlanSBCFile.DateCreated.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlanSBCFile.cs" Line="22">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="GroupPlan GroupPlanSBCFile.GroupPlan" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlanSBCFile.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="GroupPlan GroupPlanSBCFile.GroupPlan.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlanSBCFile.cs" Line="24">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void GroupPlanSBCFile.GroupPlan.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\GroupPlanSBCFile.cs" Line="24">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+              <NamedType Name="OptimaBenefitRepositoryEntities">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="99" />
+                  <Metric Name="CyclomaticComplexity" Value="6" />
+                  <Metric Name="ClassCoupling" Value="6" />
+                  <Metric Name="DepthOfInheritance" Value="2" />
+                  <Metric Name="SourceLines" Value="15" />
+                  <Metric Name="ExecutableLines" Value="1" />
+                </Metrics>
+                <Members>
+                  <Method Name="OptimaBenefitRepositoryEntities.OptimaBenefitRepositoryEntities()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\OptimaBenefitRepository.Context.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void OptimaBenefitRepositoryEntities.OnModelCreating(DbModelBuilder modelBuilder)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\OptimaBenefitRepository.Context.cs" Line="23">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="DbSet&lt;GroupPlan&gt; OptimaBenefitRepositoryEntities.GroupPlans" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\OptimaBenefitRepository.Context.cs" Line="28">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DbSet&lt;GroupPlan&gt; OptimaBenefitRepositoryEntities.GroupPlans.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\OptimaBenefitRepository.Context.cs" Line="28">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void OptimaBenefitRepositoryEntities.GroupPlans.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\OptimaBenefitRepository.Context.cs" Line="28">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DbSet&lt;GroupPlanSBCFile&gt; OptimaBenefitRepositoryEntities.GroupPlanSBCFiles" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\OptimaBenefitRepository.Context.cs" Line="29">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DbSet&lt;GroupPlanSBCFile&gt; OptimaBenefitRepositoryEntities.GroupPlanSBCFiles.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\OptimaBenefitRepository.Context.cs" Line="29">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void OptimaBenefitRepositoryEntities.GroupPlanSBCFiles.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\Entities\OptimaBenefitRepository.Context.cs" Line="29">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="OptimaEmployer_ViewGroupInfo.HelperClasses">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="73" />
+              <Metric Name="CyclomaticComplexity" Value="61" />
+              <Metric Name="ClassCoupling" Value="55" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="467" />
+              <Metric Name="ExecutableLines" Value="152" />
+            </Metrics>
+            <Types>
+              <NamedType Name="Eoc">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="51" />
+                  <Metric Name="CyclomaticComplexity" Value="23" />
+                  <Metric Name="ClassCoupling" Value="16" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="162" />
+                  <Metric Name="ExecutableLines" Value="58" />
+                </Metrics>
+                <Members>
+                  <Field Name="string Eoc._strEocPdfPath" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\HelperClasses\EOC.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="string Eoc.GetEocPdf(string strGroupId, string type)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\HelperClasses\EOC.cs" Line="28">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="38" />
+                      <Metric Name="CyclomaticComplexity" Value="20" />
+                      <Metric Name="ClassCoupling" Value="13" />
+                      <Metric Name="SourceLines" Value="131" />
+                      <Metric Name="ExecutableLines" Value="48" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Eoc.GetLatest(ArrayList fileArray)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\HelperClasses\EOC.cs" Line="148">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="64" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="23" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="Globals">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="82" />
+                  <Metric Name="CyclomaticComplexity" Value="6" />
+                  <Metric Name="ClassCoupling" Value="4" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="47" />
+                  <Metric Name="ExecutableLines" Value="13" />
+                </Metrics>
+                <Members>
+                  <Field Name="int Globals.LogonTypeInteractive" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\HelperClasses\Globals.cs" Line="9">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="int Globals.LogonTypeProviderDefault" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\HelperClasses\Globals.cs" Line="10">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Globals.StrImpAccount" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\HelperClasses\Globals.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="90" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Globals.StrImpDomain" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\HelperClasses\Globals.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="90" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Globals.StrImpPassword" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\HelperClasses\Globals.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="90" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="bool Globals.LogonUser(string lpszUsername, string lpszDomain, string lpszPassword, int dwLogonType, int dwLogonProvider, ref IntPtr phToken)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\HelperClasses\Globals.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="82" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="2" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool Globals.CloseHandle(IntPtr handle)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\HelperClasses\Globals.cs" Line="21">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="85" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="2" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="bool? Globals._isVerboseLoggingEnabled" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\HelperClasses\Globals.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="bool Globals.IsVerboseLoggingEnabled" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\HelperClasses\Globals.cs" Line="25">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="77" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="13" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="bool Globals.IsVerboseLoggingEnabled.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\HelperClasses\Globals.cs" Line="27">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="77" />
+                          <Metric Name="CyclomaticComplexity" Value="2" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="10" />
+                          <Metric Name="ExecutableLines" Value="3" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="bool? Globals._isAuditLoggingEnabled" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\HelperClasses\Globals.cs" Line="39">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="bool Globals.IsAuditLoggingEnabled" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\HelperClasses\Globals.cs" Line="40">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="77" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="13" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="bool Globals.IsAuditLoggingEnabled.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\HelperClasses\Globals.cs" Line="42">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="77" />
+                          <Metric Name="CyclomaticComplexity" Value="2" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="10" />
+                          <Metric Name="ExecutableLines" Value="3" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+              <NamedType Name="GroupInformation">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="62" />
+                  <Metric Name="CyclomaticComplexity" Value="18" />
+                  <Metric Name="ClassCoupling" Value="36" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="138" />
+                  <Metric Name="ExecutableLines" Value="58" />
+                </Metrics>
+                <Members>
+                  <Field Name="Person GroupInformation.P" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\HelperClasses\GroupInformation.cs" Line="26">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="string GroupInformation.AuthType" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\HelperClasses\GroupInformation.cs" Line="28">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string GroupInformation.AuthType.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\HelperClasses\GroupInformation.cs" Line="28">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="93" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="3" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Method Name="List&lt;Sbc&gt; GroupInformation.GetSbcDetails(string sbcGroupId)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\HelperClasses\GroupInformation.cs" Line="30">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="50" />
+                      <Metric Name="CyclomaticComplexity" Value="5" />
+                      <Metric Name="ClassCoupling" Value="17" />
+                      <Metric Name="SourceLines" Value="43" />
+                      <Metric Name="ExecutableLines" Value="19" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="GroupPlanLegacySBC GroupInformation.GroupPlanLegacySbCs(string groupid)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\HelperClasses\GroupInformation.cs" Line="74">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="70" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="10" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="GroupPlanSBCFile GroupInformation.GroupPlanSbcFiles(string groupid)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\HelperClasses\GroupInformation.cs" Line="83">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="71" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="10" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void GroupInformation.GetPerson()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\HelperClasses\GroupInformation.cs" Line="90">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="63" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="12" />
+                      <Metric Name="SourceLines" Value="24" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="Dictionary&lt;string, string&gt; GroupInformation.GetAssignedInsuranceGroupList()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\HelperClasses\GroupInformation.cs" Line="116">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="70" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="16" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="InsuranceGroup GroupInformation.GetInsuranceGroup(string groupId)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\HelperClasses\GroupInformation.cs" Line="132">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="59" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="29" />
+                      <Metric Name="ExecutableLines" Value="13" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="Log">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="89" />
+                  <Metric Name="CyclomaticComplexity" Value="3" />
+                  <Metric Name="ClassCoupling" Value="4" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="37" />
+                  <Metric Name="ExecutableLines" Value="6" />
+                </Metrics>
+                <Members>
+                  <Field Name="ILog Log.Logger" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\HelperClasses\Log.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="90" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Log.LogError(string strErrorMessage)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\HelperClasses\Log.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Log.LogInfo(string strInfoMessage)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\HelperClasses\Log.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Log.LogElapsedTimeInfo(Stopwatch sw, string callInfo)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\HelperClasses\Log.cs" Line="36">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="76" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="Sbc">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="8" />
+                  <Metric Name="ClassCoupling" Value="0" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="10" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+                <Members>
+                  <Property Name="string Sbc.EffectiveDate" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\HelperClasses\GroupInformation.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string Sbc.EffectiveDate.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\HelperClasses\GroupInformation.cs" Line="16">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Sbc.EffectiveDate.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\HelperClasses\GroupInformation.cs" Line="16">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="int Sbc.PlanId" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\HelperClasses\GroupInformation.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int Sbc.PlanId.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\HelperClasses\GroupInformation.cs" Line="18">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Sbc.PlanId.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\HelperClasses\GroupInformation.cs" Line="18">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string Sbc.System" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\HelperClasses\GroupInformation.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string Sbc.System.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\HelperClasses\GroupInformation.cs" Line="20">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Sbc.System.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\HelperClasses\GroupInformation.cs" Line="20">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string Sbc.GroupId" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\HelperClasses\GroupInformation.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string Sbc.GroupId.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\HelperClasses\GroupInformation.cs" Line="22">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Sbc.GroupId.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\HelperClasses\GroupInformation.cs" Line="22">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+              <NamedType Name="SOB">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="55" />
+                  <Metric Name="CyclomaticComplexity" Value="3" />
+                  <Metric Name="ClassCoupling" Value="6" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="58" />
+                  <Metric Name="ExecutableLines" Value="17" />
+                </Metrics>
+                <Members>
+                  <Method Name="bool SOB.CheckSob(string strSob)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\HelperClasses\SOB.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="55" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="55" />
+                      <Metric Name="ExecutableLines" Value="17" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="OptimaEmployer_ViewGroupInfo.ViewGroupInfo">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="55" />
+              <Metric Name="CyclomaticComplexity" Value="42" />
+              <Metric Name="ClassCoupling" Value="44" />
+              <Metric Name="DepthOfInheritance" Value="4" />
+              <Metric Name="SourceLines" Value="514" />
+              <Metric Name="ExecutableLines" Value="153" />
+            </Metrics>
+            <Types>
+              <NamedType Name="ViewGroupInfo">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="55" />
+                  <Metric Name="CyclomaticComplexity" Value="42" />
+                  <Metric Name="ClassCoupling" Value="44" />
+                  <Metric Name="DepthOfInheritance" Value="4" />
+                  <Metric Name="SourceLines" Value="498" />
+                  <Metric Name="ExecutableLines" Value="153" />
+                </Metrics>
+                <Members>
+                  <Field Name="string ViewGroupInfo.SbcGroupIdSelect" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\ViewGroupInfo\ViewGroupInfo.aspx.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ViewGroupInfo.PstrSobLink" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\ViewGroupInfo\ViewGroupInfo.aspx.cs" Line="19">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ViewGroupInfo.PstrGpiLink" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\ViewGroupInfo\ViewGroupInfo.aspx.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="int ViewGroupInfo._mIntCnt" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\ViewGroupInfo\ViewGroupInfo.aspx.cs" Line="21">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ViewGroupInfo.SbcGroupId" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\ViewGroupInfo\ViewGroupInfo.aspx.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Dictionary&lt;string, string&gt; ViewGroupInfo.Aigl" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\ViewGroupInfo\ViewGroupInfo.aspx.cs" Line="23">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void ViewGroupInfo.Page_Load(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\ViewGroupInfo\ViewGroupInfo.aspx.cs" Line="25">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="52" />
+                      <Metric Name="CyclomaticComplexity" Value="6" />
+                      <Metric Name="ClassCoupling" Value="11" />
+                      <Metric Name="SourceLines" Value="52" />
+                      <Metric Name="ExecutableLines" Value="20" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ViewGroupInfo.BindGroupList()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\ViewGroupInfo\ViewGroupInfo.aspx.cs" Line="78">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="60" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="10" />
+                      <Metric Name="SourceLines" Value="24" />
+                      <Metric Name="ExecutableLines" Value="10" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ViewGroupInfo.DisplayGroupInfo()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\ViewGroupInfo\ViewGroupInfo.aspx.cs" Line="103">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="38" />
+                      <Metric Name="CyclomaticComplexity" Value="14" />
+                      <Metric Name="ClassCoupling" Value="20" />
+                      <Metric Name="SourceLines" Value="115" />
+                      <Metric Name="ExecutableLines" Value="54" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ViewGroupInfo.GetSbc()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\ViewGroupInfo\ViewGroupInfo.aspx.cs" Line="220">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="67" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="8" />
+                      <Metric Name="SourceLines" Value="18" />
+                      <Metric Name="ExecutableLines" Value="7" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ViewGroupInfo.lstGroups_SelectedIndexChanged(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\ViewGroupInfo\ViewGroupInfo.aspx.cs" Line="238">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ViewGroupInfo.DisplayResults(object source, DataGridCommandEventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\ViewGroupInfo\ViewGroupInfo.aspx.cs" Line="243">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="46" />
+                      <Metric Name="CyclomaticComplexity" Value="11" />
+                      <Metric Name="ClassCoupling" Value="18" />
+                      <Metric Name="SourceLines" Value="68" />
+                      <Metric Name="ExecutableLines" Value="29" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ViewGroupInfo.lbEOC_Click(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\ViewGroupInfo\ViewGroupInfo.aspx.cs" Line="312">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="68" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="10" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ViewGroupInfo.lbSOB_OnClick(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\ViewGroupInfo\ViewGroupInfo.aspx.cs" Line="323">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="68" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="11" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ViewGroupInfo.GetDoc(string path)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\ViewGroupInfo\ViewGroupInfo.aspx.cs" Line="336">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="54" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="32" />
+                      <Metric Name="ExecutableLines" Value="18" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="HtmlForm ViewGroupInfo.form" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\ViewGroupInfo\ViewGroupInfo.aspx.designer.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel ViewGroupInfo.pnlSelectGroup" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\ViewGroupInfo\ViewGroupInfo.aspx.designer.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="DropDownList ViewGroupInfo.lstGroups" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\ViewGroupInfo\ViewGroupInfo.aspx.designer.cs" Line="40">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label ViewGroupInfo.lblGroupName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\ViewGroupInfo\ViewGroupInfo.aspx.designer.cs" Line="49">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label ViewGroupInfo.lblGroupNumber" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\ViewGroupInfo\ViewGroupInfo.aspx.designer.cs" Line="58">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label ViewGroupInfo.lblHealthPlanType" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\ViewGroupInfo\ViewGroupInfo.aspx.designer.cs" Line="67">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label ViewGroupInfo.lblTermEffectiveDate" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\ViewGroupInfo\ViewGroupInfo.aspx.designer.cs" Line="76">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label ViewGroupInfo.lblTermRenewalDate" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\ViewGroupInfo\ViewGroupInfo.aspx.designer.cs" Line="85">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel ViewGroupInfo.pnlSOB" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\ViewGroupInfo\ViewGroupInfo.aspx.designer.cs" Line="94">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlGenericControl ViewGroupInfo.dtSOB" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\ViewGroupInfo\ViewGroupInfo.aspx.designer.cs" Line="103">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="LinkButton ViewGroupInfo.lbSOB" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\ViewGroupInfo\ViewGroupInfo.aspx.designer.cs" Line="112">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel ViewGroupInfo.pnlGPI" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\ViewGroupInfo\ViewGroupInfo.aspx.designer.cs" Line="121">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlGenericControl ViewGroupInfo.dtGPI" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\ViewGroupInfo\ViewGroupInfo.aspx.designer.cs" Line="130">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="LinkButton ViewGroupInfo.lbEOC" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\ViewGroupInfo\ViewGroupInfo.aspx.designer.cs" Line="139">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel ViewGroupInfo.pnlSBC" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\ViewGroupInfo\ViewGroupInfo.aspx.designer.cs" Line="148">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="DataGrid ViewGroupInfo.dgViewSBC" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Employers\OptimaEmployer_ViewGroupInfo\OptimaEmployer_ViewGroupInfo\ViewGroupInfo\ViewGroupInfo.aspx.designer.cs" Line="157">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

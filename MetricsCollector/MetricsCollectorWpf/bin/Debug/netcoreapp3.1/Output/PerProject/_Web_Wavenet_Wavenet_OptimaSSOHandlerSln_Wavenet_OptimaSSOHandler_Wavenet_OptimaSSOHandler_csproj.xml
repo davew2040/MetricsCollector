@@ -1,0 +1,540 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="Wavenet_OptimaSSOHandler.csproj">
+      <Assembly Name="Wavenet_OptimaSSOHandler, Version=1.0.0.9, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="73" />
+          <Metric Name="CyclomaticComplexity" Value="49" />
+          <Metric Name="ClassCoupling" Value="41" />
+          <Metric Name="DepthOfInheritance" Value="1" />
+          <Metric Name="SourceLines" Value="406" />
+          <Metric Name="ExecutableLines" Value="118" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="Wavenet_OptimaSSOHandler.AIMSSO">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="61" />
+              <Metric Name="CyclomaticComplexity" Value="5" />
+              <Metric Name="ClassCoupling" Value="17" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="58" />
+              <Metric Name="ExecutableLines" Value="18" />
+            </Metrics>
+            <Types>
+              <NamedType Name="AIMSSOHandler">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="61" />
+                  <Metric Name="CyclomaticComplexity" Value="5" />
+                  <Metric Name="ClassCoupling" Value="17" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="55" />
+                  <Metric Name="ExecutableLines" Value="18" />
+                </Metrics>
+                <Members>
+                  <Method Name="void AIMSSOHandler.ProcessRequest(HttpContext context)" File="C:\Dev\Repos\TFSRoot\SHP\Web\Wavenet\Wavenet_OptimaSSOHandlerSln\Wavenet_OptimaSSOHandler\AIMSSO\AIMSSOHandler.ashx.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="52" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="16" />
+                      <Metric Name="SourceLines" Value="40" />
+                      <Metric Name="ExecutableLines" Value="17" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="bool AIMSSOHandler.IsReusable" File="C:\Dev\Repos\TFSRoot\SHP\Web\Wavenet\Wavenet_OptimaSSOHandlerSln\Wavenet_OptimaSSOHandler\AIMSSO\AIMSSOHandler.ashx.cs" Line="59">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="bool AIMSSOHandler.IsReusable.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\Wavenet\Wavenet_OptimaSSOHandlerSln\Wavenet_OptimaSSOHandler\AIMSSO\AIMSSOHandler.ashx.cs" Line="61">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="Wavenet_OptimaSSOHandler.MedeSSO">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="61" />
+              <Metric Name="CyclomaticComplexity" Value="10" />
+              <Metric Name="ClassCoupling" Value="17" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="95" />
+              <Metric Name="ExecutableLines" Value="29" />
+            </Metrics>
+            <Types>
+              <NamedType Name="MedeSSOHandler">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="61" />
+                  <Metric Name="CyclomaticComplexity" Value="10" />
+                  <Metric Name="ClassCoupling" Value="17" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="92" />
+                  <Metric Name="ExecutableLines" Value="29" />
+                </Metrics>
+                <Members>
+                  <Method Name="void MedeSSOHandler.ProcessRequest(HttpContext context)" File="C:\Dev\Repos\TFSRoot\SHP\Web\Wavenet\Wavenet_OptimaSSOHandlerSln\Wavenet_OptimaSSOHandler\MedeSSO\MedeSSOHandler.ashx.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="53" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="16" />
+                      <Metric Name="SourceLines" Value="40" />
+                      <Metric Name="ExecutableLines" Value="17" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="bool MedeSSOHandler.IsReusable" File="C:\Dev\Repos\TFSRoot\SHP\Web\Wavenet\Wavenet_OptimaSSOHandlerSln\Wavenet_OptimaSSOHandler\MedeSSO\MedeSSOHandler.ashx.cs" Line="59">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="bool MedeSSOHandler.IsReusable.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\Wavenet\Wavenet_OptimaSSOHandlerSln\Wavenet_OptimaSSOHandler\MedeSSO\MedeSSOHandler.ashx.cs" Line="61">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Method Name="string MedeSSOHandler.GetRoleValueFromADRole(HttpContext context)" File="C:\Dev\Repos\TFSRoot\SHP\Web\Wavenet\Wavenet_OptimaSSOHandlerSln\Wavenet_OptimaSSOHandler\MedeSSO\MedeSSOHandler.ashx.cs" Line="74">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="60" />
+                      <Metric Name="CyclomaticComplexity" Value="6" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="35" />
+                      <Metric Name="ExecutableLines" Value="11" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="Wavenet_OptimaSSOHandler.Shared">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="82" />
+              <Metric Name="CyclomaticComplexity" Value="30" />
+              <Metric Name="ClassCoupling" Value="23" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="182" />
+              <Metric Name="ExecutableLines" Value="42" />
+            </Metrics>
+            <Types>
+              <NamedType Name="AuthTicket">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="14" />
+                  <Metric Name="ClassCoupling" Value="1" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="10" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+                <Members>
+                  <Property Name="int AuthTicket.version" File="C:\Dev\Repos\TFSRoot\SHP\Web\Wavenet\Wavenet_OptimaSSOHandlerSln\Wavenet_OptimaSSOHandler\Shared\AuthTicket.cs" Line="7">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int AuthTicket.version.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\Wavenet\Wavenet_OptimaSSOHandlerSln\Wavenet_OptimaSSOHandler\Shared\AuthTicket.cs" Line="7">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void AuthTicket.version.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\Wavenet\Wavenet_OptimaSSOHandlerSln\Wavenet_OptimaSSOHandler\Shared\AuthTicket.cs" Line="7">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string AuthTicket.name" File="C:\Dev\Repos\TFSRoot\SHP\Web\Wavenet\Wavenet_OptimaSSOHandlerSln\Wavenet_OptimaSSOHandler\Shared\AuthTicket.cs" Line="8">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string AuthTicket.name.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\Wavenet\Wavenet_OptimaSSOHandlerSln\Wavenet_OptimaSSOHandler\Shared\AuthTicket.cs" Line="8">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void AuthTicket.name.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\Wavenet\Wavenet_OptimaSSOHandlerSln\Wavenet_OptimaSSOHandler\Shared\AuthTicket.cs" Line="8">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DateTime AuthTicket.issueDate" File="C:\Dev\Repos\TFSRoot\SHP\Web\Wavenet\Wavenet_OptimaSSOHandlerSln\Wavenet_OptimaSSOHandler\Shared\AuthTicket.cs" Line="9">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DateTime AuthTicket.issueDate.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\Wavenet\Wavenet_OptimaSSOHandlerSln\Wavenet_OptimaSSOHandler\Shared\AuthTicket.cs" Line="9">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void AuthTicket.issueDate.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\Wavenet\Wavenet_OptimaSSOHandlerSln\Wavenet_OptimaSSOHandler\Shared\AuthTicket.cs" Line="9">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DateTime AuthTicket.expiration" File="C:\Dev\Repos\TFSRoot\SHP\Web\Wavenet\Wavenet_OptimaSSOHandlerSln\Wavenet_OptimaSSOHandler\Shared\AuthTicket.cs" Line="10">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DateTime AuthTicket.expiration.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\Wavenet\Wavenet_OptimaSSOHandlerSln\Wavenet_OptimaSSOHandler\Shared\AuthTicket.cs" Line="10">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void AuthTicket.expiration.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\Wavenet\Wavenet_OptimaSSOHandlerSln\Wavenet_OptimaSSOHandler\Shared\AuthTicket.cs" Line="10">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="bool AuthTicket.isPersistent" File="C:\Dev\Repos\TFSRoot\SHP\Web\Wavenet\Wavenet_OptimaSSOHandlerSln\Wavenet_OptimaSSOHandler\Shared\AuthTicket.cs" Line="11">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="bool AuthTicket.isPersistent.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\Wavenet\Wavenet_OptimaSSOHandlerSln\Wavenet_OptimaSSOHandler\Shared\AuthTicket.cs" Line="11">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void AuthTicket.isPersistent.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\Wavenet\Wavenet_OptimaSSOHandlerSln\Wavenet_OptimaSSOHandler\Shared\AuthTicket.cs" Line="11">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string AuthTicket.userData" File="C:\Dev\Repos\TFSRoot\SHP\Web\Wavenet\Wavenet_OptimaSSOHandlerSln\Wavenet_OptimaSSOHandler\Shared\AuthTicket.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string AuthTicket.userData.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\Wavenet\Wavenet_OptimaSSOHandlerSln\Wavenet_OptimaSSOHandler\Shared\AuthTicket.cs" Line="12">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void AuthTicket.userData.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\Wavenet\Wavenet_OptimaSSOHandlerSln\Wavenet_OptimaSSOHandler\Shared\AuthTicket.cs" Line="12">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string AuthTicket.cookiePath" File="C:\Dev\Repos\TFSRoot\SHP\Web\Wavenet\Wavenet_OptimaSSOHandlerSln\Wavenet_OptimaSSOHandler\Shared\AuthTicket.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string AuthTicket.cookiePath.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\Wavenet\Wavenet_OptimaSSOHandlerSln\Wavenet_OptimaSSOHandler\Shared\AuthTicket.cs" Line="13">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void AuthTicket.cookiePath.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\Wavenet\Wavenet_OptimaSSOHandlerSln\Wavenet_OptimaSSOHandler\Shared\AuthTicket.cs" Line="13">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+              <NamedType Name="Encryptor">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="62" />
+                  <Metric Name="CyclomaticComplexity" Value="9" />
+                  <Metric Name="ClassCoupling" Value="12" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="99" />
+                  <Metric Name="ExecutableLines" Value="29" />
+                </Metrics>
+                <Members>
+                  <Method Name="byte[] Encryptor.Encrypt(byte[] bytesData, byte[] bytesKey)" File="C:\Dev\Repos\TFSRoot\SHP\Web\Wavenet\Wavenet_OptimaSSOHandlerSln\Wavenet_OptimaSSOHandler\Shared\Encryptor.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="57" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="41" />
+                      <Metric Name="ExecutableLines" Value="14" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Encryptor.Encrypt(string data, string key)" File="C:\Dev\Repos\TFSRoot\SHP\Web\Wavenet\Wavenet_OptimaSSOHandlerSln\Wavenet_OptimaSSOHandler\Shared\Encryptor.cs" Line="58">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="70" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="18" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="ICryptoTransform Encryptor.GetCryptoServiceProvider(byte[] bytesKey, out byte[] IV)" File="C:\Dev\Repos\TFSRoot\SHP\Web\Wavenet\Wavenet_OptimaSSOHandlerSln\Wavenet_OptimaSSOHandler\Shared\Encryptor.cs" Line="77">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="62" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="35" />
+                      <Metric Name="ExecutableLines" Value="10" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="Log">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="93" />
+                  <Metric Name="CyclomaticComplexity" Value="2" />
+                  <Metric Name="ClassCoupling" Value="2" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="30" />
+                  <Metric Name="ExecutableLines" Value="3" />
+                </Metrics>
+                <Members>
+                  <Field Name="ILog Log.logger" File="C:\Dev\Repos\TFSRoot\SHP\Web\Wavenet\Wavenet_OptimaSSOHandlerSln\Wavenet_OptimaSSOHandler\Shared\Log.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="90" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Log.LogError(string strErrorMessage)" File="C:\Dev\Repos\TFSRoot\SHP\Web\Wavenet\Wavenet_OptimaSSOHandlerSln\Wavenet_OptimaSSOHandler\Shared\Log.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Log.LogInfo(string strInfoMessage)" File="C:\Dev\Repos\TFSRoot\SHP\Web\Wavenet\Wavenet_OptimaSSOHandlerSln\Wavenet_OptimaSSOHandler\Shared\Log.cs" Line="29">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="Utility">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="75" />
+                  <Metric Name="CyclomaticComplexity" Value="5" />
+                  <Metric Name="ClassCoupling" Value="8" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="31" />
+                  <Metric Name="ExecutableLines" Value="10" />
+                </Metrics>
+                <Members>
+                  <Method Name="string Utility.EncryptString(string strValue)" File="C:\Dev\Repos\TFSRoot\SHP\Web\Wavenet\Wavenet_OptimaSSOHandlerSln\Wavenet_OptimaSSOHandler\Shared\Utility.cs" Line="11">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="74" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Utility.GetLogin(string username)" File="C:\Dev\Repos\TFSRoot\SHP\Web\Wavenet\Wavenet_OptimaSSOHandlerSln\Wavenet_OptimaSSOHandler\Shared\Utility.cs" Line="19">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="79" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Utility.CreateApplicationContext()" File="C:\Dev\Repos\TFSRoot\SHP\Web\Wavenet\Wavenet_OptimaSSOHandlerSln\Wavenet_OptimaSSOHandler\Shared\Utility.cs" Line="25">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="75" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="14" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="Wavenet_OptimaSSOHandler.WebMDSSO">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="61" />
+              <Metric Name="CyclomaticComplexity" Value="4" />
+              <Metric Name="ClassCoupling" Value="22" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="71" />
+              <Metric Name="ExecutableLines" Value="29" />
+            </Metrics>
+            <Types>
+              <NamedType Name="WebMDSSOHandler">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="61" />
+                  <Metric Name="CyclomaticComplexity" Value="4" />
+                  <Metric Name="ClassCoupling" Value="22" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="68" />
+                  <Metric Name="ExecutableLines" Value="29" />
+                </Metrics>
+                <Members>
+                  <Method Name="void WebMDSSOHandler.ProcessRequest(HttpContext context)" File="C:\Dev\Repos\TFSRoot\SHP\Web\Wavenet\Wavenet_OptimaSSOHandlerSln\Wavenet_OptimaSSOHandler\WebMDSSO\WebMDSSOHandler.ashx.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="52" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="17" />
+                      <Metric Name="SourceLines" Value="38" />
+                      <Metric Name="ExecutableLines" Value="18" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string WebMDSSOHandler.GetQueryString(int personID, string user, string encryptedAuthTicket)" File="C:\Dev\Repos\TFSRoot\SHP\Web\Wavenet\Wavenet_OptimaSSOHandlerSln\Wavenet_OptimaSSOHandler\WebMDSSO\WebMDSSOHandler.ashx.cs" Line="59">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="62" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="14" />
+                      <Metric Name="ExecutableLines" Value="10" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="bool WebMDSSOHandler.IsReusable" File="C:\Dev\Repos\TFSRoot\SHP\Web\Wavenet\Wavenet_OptimaSSOHandlerSln\Wavenet_OptimaSSOHandler\WebMDSSO\WebMDSSOHandler.ashx.cs" Line="74">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="bool WebMDSSOHandler.IsReusable.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\Wavenet\Wavenet_OptimaSSOHandlerSln\Wavenet_OptimaSSOHandler\WebMDSSO\WebMDSSOHandler.ashx.cs" Line="76">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

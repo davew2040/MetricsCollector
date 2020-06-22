@@ -1,0 +1,2735 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="Provider_PCPMembershipRpt.csproj">
+      <Assembly Name="Provider_PCPMembershipRpt, Version=1.0.0.30, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="80" />
+          <Metric Name="CyclomaticComplexity" Value="159" />
+          <Metric Name="ClassCoupling" Value="88" />
+          <Metric Name="DepthOfInheritance" Value="5" />
+          <Metric Name="SourceLines" Value="1542" />
+          <Metric Name="ExecutableLines" Value="344" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="Provider_PCPMembershipRpt">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="78" />
+              <Metric Name="CyclomaticComplexity" Value="136" />
+              <Metric Name="ClassCoupling" Value="65" />
+              <Metric Name="DepthOfInheritance" Value="5" />
+              <Metric Name="SourceLines" Value="1137" />
+              <Metric Name="ExecutableLines" Value="289" />
+            </Metrics>
+            <Types>
+              <NamedType Name="MemberPCPSearch">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="65" />
+                  <Metric Name="CyclomaticComplexity" Value="20" />
+                  <Metric Name="ClassCoupling" Value="19" />
+                  <Metric Name="DepthOfInheritance" Value="5" />
+                  <Metric Name="SourceLines" Value="679" />
+                  <Metric Name="ExecutableLines" Value="59" />
+                </Metrics>
+                <Members>
+                  <Method Name="MemberPCPSearchInfo MemberPCPSearch.ItemByMbrID(string strMbrID)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="482">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="71" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="24" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="MemberPCPSearchInfo MemberPCPSearch.this[string MemberID]" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="506">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="71" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="27" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="MemberPCPSearchInfo MemberPCPSearch.this[string MemberID].get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="508">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="71" />
+                          <Metric Name="CyclomaticComplexity" Value="3" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="14" />
+                          <Metric Name="ExecutableLines" Value="6" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Method Name="bool MemberPCPSearch.Contains(MemberPCPSearchInfo item)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="535">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="73" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="23" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="MemberPCPSearch MemberPCPSearch.Execute(string strVendorID, string strPCPID, int intNewMembers, string strSortOption)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="558">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="70" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="21" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string MemberPCPSearch.FormatPhone(string strPhone)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="570">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="66" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="21" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="MemberPCPSearch.MemberPCPSearch()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="592">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void MemberPCPSearch.DataPortal_Fetch(object Criteria)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="614">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="80" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void MemberPCPSearch.CriteriaSearch(Criteria Crit)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="633">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="48" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="15" />
+                      <Metric Name="SourceLines" Value="68" />
+                      <Metric Name="ExecutableLines" Value="28" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="MemberPCPSearch.Criteria">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="75" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="1" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="16" />
+                  <Metric Name="ExecutableLines" Value="4" />
+                </Metrics>
+                <Members>
+                  <Field Name="string Criteria.mVendorID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="600">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Criteria.mPCPID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="601">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="int Criteria.mNewMembers" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="602">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Criteria.mSortOption" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="603">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="Criteria.Criteria(string strVendorID, string strPCPID, int intNewMembers, string strSortOption)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="605">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="75" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="MemberPCPSearch.MemberPCPSearchInfo">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="79" />
+                  <Metric Name="CyclomaticComplexity" Value="55" />
+                  <Metric Name="ClassCoupling" Value="8" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="435" />
+                  <Metric Name="ExecutableLines" Value="110" />
+                </Metrics>
+                <Members>
+                  <Field Name="string MemberPCPSearchInfo.mMemberID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="39">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberPCPSearchInfo.mLOB" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="40">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberPCPSearchInfo.mLastName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="41">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberPCPSearchInfo.mFirstName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="42">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberPCPSearchInfo.mMiddle" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="43">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberPCPSearchInfo.mSuffix" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="44">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberPCPSearchInfo.mMemberFullNameSSN" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="46">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberPCPSearchInfo.mMemberFullName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="47">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberPCPSearchInfo.mSSN" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="48">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="SmartDate MemberPCPSearchInfo.mDOB" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="49">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberPCPSearchInfo.mInsuranceGroupID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="50">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="SmartDate MemberPCPSearchInfo.mEffDate" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="51">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="SmartDate MemberPCPSearchInfo.mPlanEffDate" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="52">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="SmartDate MemberPCPSearchInfo.mPCPEffDate" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="53">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberPCPSearchInfo.mHomePhone" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="54">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberPCPSearchInfo.mWorkPhone" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="55">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberPCPSearchInfo.mPhones" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="57">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberPCPSearchInfo.mAddress" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="58">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberPCPSearchInfo.mCity" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="59">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberPCPSearchInfo.mState" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="60">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberPCPSearchInfo.mPostalCode" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="61">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberPCPSearchInfo.mCompleteAddress" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="63">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberPCPSearchInfo.mCopay" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="64">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberPCPSearchInfo.mPCPID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="65">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberPCPSearchInfo.mPCPLastname" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="66">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberPCPSearchInfo.mPCPFirstname" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="67">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberPCPSearchInfo.mPCPTitle" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="68">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberPCPSearchInfo.mPCPNameDate" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="70">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberPCPSearchInfo.mPCPFullName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="71">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberPCPSearchInfo.mPCPNameID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="72">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberPCPSearchInfo.mGrpIDThruDate" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="74">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberPCPSearchInfo.mEnrollCode" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="75">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberPCPSearchInfo.mGroupName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="76">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberPCPSearchInfo.mGender" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="77">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="int MemberPCPSearchInfo.mAge" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="78">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberPCPSearchInfo.mSxAge" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="80">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="SmartDate MemberPCPSearchInfo.mInsuranceGroupEndDate" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="81">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="SmartDate MemberPCPSearchInfo.mPlanDate" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="82">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberPCPSearchInfo.mVendorID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="83">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberPCPSearchInfo.mVendorName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="84">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberPCPSearchInfo.mAddress1" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="85">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberPCPSearchInfo.mAddress2" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="86">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberPCPSearchInfo.mAddress3" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="87">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="int MemberPCPSearchInfo.mPersonID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="89">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberPCPSearchInfo.mPCPNameIDEffDate" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="90">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="string MemberPCPSearchInfo.MemberID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="92">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string MemberPCPSearchInfo.MemberID.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="94">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string MemberPCPSearchInfo.LOB" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="96">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string MemberPCPSearchInfo.LOB.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="98">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string MemberPCPSearchInfo.LastName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="100">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string MemberPCPSearchInfo.LastName.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="102">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string MemberPCPSearchInfo.FirstName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="104">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string MemberPCPSearchInfo.FirstName.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="106">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string MemberPCPSearchInfo.Middle" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="108">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string MemberPCPSearchInfo.Middle.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="110">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string MemberPCPSearchInfo.Suffix" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="112">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string MemberPCPSearchInfo.Suffix.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="114">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string MemberPCPSearchInfo.MemberFullName_SSN" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="117">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string MemberPCPSearchInfo.MemberFullName_SSN.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="119">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string MemberPCPSearchInfo.MemberFullName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="122">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string MemberPCPSearchInfo.MemberFullName.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="124">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="SmartDate MemberPCPSearchInfo.DOB" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="127">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="SmartDate MemberPCPSearchInfo.DOB.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="129">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string MemberPCPSearchInfo.SSN" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="131">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string MemberPCPSearchInfo.SSN.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="133">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string MemberPCPSearchInfo.InsuranceGroupID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="135">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string MemberPCPSearchInfo.InsuranceGroupID.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="137">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="SmartDate MemberPCPSearchInfo.EffDate" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="139">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="SmartDate MemberPCPSearchInfo.EffDate.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="141">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="SmartDate MemberPCPSearchInfo.PlanEffDate" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="143">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="SmartDate MemberPCPSearchInfo.PlanEffDate.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="145">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="SmartDate MemberPCPSearchInfo.PCPEffDate" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="147">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="SmartDate MemberPCPSearchInfo.PCPEffDate.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="149">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string MemberPCPSearchInfo.HomePhone" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="151">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string MemberPCPSearchInfo.HomePhone.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="153">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string MemberPCPSearchInfo.WorkPhone" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="155">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string MemberPCPSearchInfo.WorkPhone.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="157">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string MemberPCPSearchInfo.AllPhones" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="160">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string MemberPCPSearchInfo.AllPhones.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="162">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string MemberPCPSearchInfo.Address" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="165">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string MemberPCPSearchInfo.Address.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="167">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string MemberPCPSearchInfo.City" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="169">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string MemberPCPSearchInfo.City.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="171">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string MemberPCPSearchInfo.PostalCode" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="173">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string MemberPCPSearchInfo.PostalCode.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="175">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string MemberPCPSearchInfo.State" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="177">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string MemberPCPSearchInfo.State.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="179">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string MemberPCPSearchInfo.CompleteAddress" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="182">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string MemberPCPSearchInfo.CompleteAddress.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="184">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string MemberPCPSearchInfo.Copay" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="189">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string MemberPCPSearchInfo.Copay.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="191">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="int MemberPCPSearchInfo.PersonId" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="193">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int MemberPCPSearchInfo.PersonId.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="195">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string MemberPCPSearchInfo.PCPID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="197">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string MemberPCPSearchInfo.PCPID.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="199">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string MemberPCPSearchInfo.PCPLastname" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="201">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string MemberPCPSearchInfo.PCPLastname.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="203">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string MemberPCPSearchInfo.PCPFirstname" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="205">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string MemberPCPSearchInfo.PCPFirstname.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="207">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string MemberPCPSearchInfo.PCPTitle" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="209">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string MemberPCPSearchInfo.PCPTitle.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="211">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string MemberPCPSearchInfo.PCPFullName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="214">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string MemberPCPSearchInfo.PCPFullName.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="216">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string MemberPCPSearchInfo.PCPFullNameEffectDate" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="219">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string MemberPCPSearchInfo.PCPFullNameEffectDate.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="221">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string MemberPCPSearchInfo.PCPFullNameId" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="225">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string MemberPCPSearchInfo.PCPFullNameId.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="227">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string MemberPCPSearchInfo.GrpIdThruDate" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="230">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string MemberPCPSearchInfo.GrpIdThruDate.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="232">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string MemberPCPSearchInfo.EnrollCode" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="235">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string MemberPCPSearchInfo.EnrollCode.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="237">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string MemberPCPSearchInfo.GroupName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="239">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string MemberPCPSearchInfo.GroupName.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="241">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string MemberPCPSearchInfo.Gender" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="244">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string MemberPCPSearchInfo.Gender.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="246">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="int MemberPCPSearchInfo.Age" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="248">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int MemberPCPSearchInfo.Age.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="250">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string MemberPCPSearchInfo.SxAge" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="253">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string MemberPCPSearchInfo.SxAge.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="255">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="SmartDate MemberPCPSearchInfo.InsuranceGroupEndDate" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="259">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="SmartDate MemberPCPSearchInfo.InsuranceGroupEndDate.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="261">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="SmartDate MemberPCPSearchInfo.PlanDate" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="263">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="SmartDate MemberPCPSearchInfo.PlanDate.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="265">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string MemberPCPSearchInfo.VendorID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="267">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string MemberPCPSearchInfo.VendorID.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="269">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string MemberPCPSearchInfo.VendorName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="271">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string MemberPCPSearchInfo.VendorName.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="273">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string MemberPCPSearchInfo.Address1" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="275">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string MemberPCPSearchInfo.Address1.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="277">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string MemberPCPSearchInfo.Address2" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="279">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string MemberPCPSearchInfo.Address2.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="281">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string MemberPCPSearchInfo.Address3" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="283">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string MemberPCPSearchInfo.Address3.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="285">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string MemberPCPSearchInfo.PCPNameIDEffDate" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="288">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string MemberPCPSearchInfo.PCPNameIDEffDate.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="290">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Method Name="MemberPCPSearchInfo MemberPCPSearchInfo.GetMemberSearchInfo(SafeDataReader dr)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="304">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="73" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="27" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void MemberPCPSearchInfo.Fetch(SafeDataReader dr)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="331">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="35" />
+                      <Metric Name="CyclomaticComplexity" Value="9" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="149" />
+                      <Metric Name="ExecutableLines" Value="60" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="PCPMembershipReportPage">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="58" />
+                  <Metric Name="CyclomaticComplexity" Value="22" />
+                  <Metric Name="ClassCoupling" Value="46" />
+                  <Metric Name="DepthOfInheritance" Value="4" />
+                  <Metric Name="SourceLines" Value="403" />
+                  <Metric Name="ExecutableLines" Value="114" />
+                </Metrics>
+                <Members>
+                  <Field Name="string PCPMembershipReportPage.strTitle" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\PCPMembershipReportPage.ascx.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string PCPMembershipReportPage.pstrAnalyticsFile" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\PCPMembershipReportPage.ascx.cs" Line="19">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="int PCPMembershipReportPage.intNewMembers" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\PCPMembershipReportPage.ascx.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string PCPMembershipReportPage.strSearchOption" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\PCPMembershipReportPage.ascx.cs" Line="25">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string PCPMembershipReportPage.strVendorID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\PCPMembershipReportPage.ascx.cs" Line="26">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string PCPMembershipReportPage.strPCPID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\PCPMembershipReportPage.ascx.cs" Line="27">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void PCPMembershipReportPage.Page_Load(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\PCPMembershipReportPage.ascx.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="46" />
+                      <Metric Name="CyclomaticComplexity" Value="6" />
+                      <Metric Name="ClassCoupling" Value="14" />
+                      <Metric Name="SourceLines" Value="63" />
+                      <Metric Name="ExecutableLines" Value="28" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void PCPMembershipReportPage.GetResults(string strVendID, string strPCID, string strSrchOption, int intNewM)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\PCPMembershipReportPage.ascx.cs" Line="93">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="40" />
+                      <Metric Name="CyclomaticComplexity" Value="5" />
+                      <Metric Name="ClassCoupling" Value="12" />
+                      <Metric Name="SourceLines" Value="73" />
+                      <Metric Name="ExecutableLines" Value="47" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void PCPMembershipReportPage.Export_Results()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\PCPMembershipReportPage.ascx.cs" Line="178">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="53" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="8" />
+                      <Metric Name="SourceLines" Value="51" />
+                      <Metric Name="ExecutableLines" Value="20" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void PCPMembershipReportPage.DataGrid1_SortCommand(object source, DataGridSortCommandEventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\PCPMembershipReportPage.ascx.cs" Line="219">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="75" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void PCPMembershipReportPage.imbExportTop_Click(object sender, ImageClickEventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\PCPMembershipReportPage.ascx.cs" Line="226">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void PCPMembershipReportPage.DataGrid1_Sorting(object sender, GridViewSortEventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\PCPMembershipReportPage.ascx.cs" Line="236">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="68" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="23" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="List&lt;T&gt; PCPMembershipReportPage.GetSortedData&lt;T&gt;(List&lt;T&gt; data, string sortExpression)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\PCPMembershipReportPage.ascx.cs" Line="261">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="74" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="15" />
+                      <Metric Name="SourceLines" Value="19" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void PCPMembershipReportPage.SetSortDirection(string sortExpression)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\PCPMembershipReportPage.ascx.cs" Line="280">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="71" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="21" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="Panel PCPMembershipReportPage.pnlerror" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\PCPMembershipReportPage.ascx.designer.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel PCPMembershipReportPage.Panel1" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\PCPMembershipReportPage.ascx.designer.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="ImageButton PCPMembershipReportPage.imbPrintTop" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\PCPMembershipReportPage.ascx.designer.cs" Line="40">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="ImageButton PCPMembershipReportPage.imbCloseTop" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\PCPMembershipReportPage.ascx.designer.cs" Line="49">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label PCPMembershipReportPage.lblRsltTop" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\PCPMembershipReportPage.ascx.designer.cs" Line="58">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlInputHidden PCPMembershipReportPage.hidVendorID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\PCPMembershipReportPage.ascx.designer.cs" Line="67">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlInputHidden PCPMembershipReportPage.hidPCPId" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\PCPMembershipReportPage.ascx.designer.cs" Line="76">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlInputHidden PCPMembershipReportPage.hidNewMembers" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\PCPMembershipReportPage.ascx.designer.cs" Line="85">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlInputHidden PCPMembershipReportPage.hidSortValue" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\PCPMembershipReportPage.ascx.designer.cs" Line="94">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="GridView PCPMembershipReportPage.DataGrid1" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\PCPMembershipReportPage.ascx.designer.cs" Line="103">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label PCPMembershipReportPage.lblRsltBot" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\PCPMembershipReportPage.ascx.designer.cs" Line="112">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="ImageButton PCPMembershipReportPage.imbPrintBot" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\PCPMembershipReportPage.ascx.designer.cs" Line="121">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="ImageButton PCPMembershipReportPage.imbCloseBot" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\PCPMembershipReportPage.ascx.designer.cs" Line="130">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="PCPMembershipRptSearch">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="93" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="0" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="4" />
+                  <Metric Name="ExecutableLines" Value="1" />
+                </Metrics>
+                <Members>
+                  <Field Name="string PCPMembershipRptSearch.l_searchResults" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="695">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="ResultItem">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="98" />
+                  <Metric Name="CyclomaticComplexity" Value="37" />
+                  <Metric Name="ClassCoupling" Value="5" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="30" />
+                  <Metric Name="ExecutableLines" Value="1" />
+                </Metrics>
+                <Members>
+                  <Property Name="string ResultItem.GroupLOB" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="700">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ResultItem.GroupLOB.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="700">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ResultItem.GroupLOB.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="700">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ResultItem.MemberID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="701">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ResultItem.MemberID.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="701">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ResultItem.MemberID.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="701">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ResultItem.MemberFullName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="702">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ResultItem.MemberFullName.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="702">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ResultItem.MemberFullName.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="702">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ResultItem.LastName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="703">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ResultItem.LastName.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="703">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ResultItem.LastName.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="703">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ResultItem.CompleteAddress" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="704">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ResultItem.CompleteAddress.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="704">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ResultItem.CompleteAddress.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="704">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ResultItem.PostalCode" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="705">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ResultItem.PostalCode.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="705">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ResultItem.PostalCode.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="705">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ResultItem.SxAge" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="706">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ResultItem.SxAge.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="706">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ResultItem.SxAge.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="706">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="SmartDate ResultItem.DOB" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="707">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="SmartDate ResultItem.DOB.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="707">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ResultItem.DOB.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="707">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ResultItem.Allphones" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="708">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ResultItem.Allphones.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="708">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ResultItem.Allphones.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="708">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ResultItem.Copay" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="709">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ResultItem.Copay.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="709">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ResultItem.Copay.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="709">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ResultItem.PCPFullNameEffectDate" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="710">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ResultItem.PCPFullNameEffectDate.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="710">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ResultItem.PCPFullNameEffectDate.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="710">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="SmartDate ResultItem.PCPEffDate" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="711">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="SmartDate ResultItem.PCPEffDate.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="711">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ResultItem.PCPEffDate.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="711">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ResultItem.PCPNameIDEffDate" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="712">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ResultItem.PCPNameIDEffDate.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="712">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ResultItem.PCPNameIDEffDate.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="712">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ResultItem.PCPFullName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="713">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ResultItem.PCPFullName.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="713">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ResultItem.PCPFullName.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="713">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ResultItem.GrpIdThruDate" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="714">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ResultItem.GrpIdThruDate.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="714">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ResultItem.GrpIdThruDate.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="714">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ResultItem.InsuranceGroupID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="715">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ResultItem.InsuranceGroupID.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="715">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ResultItem.InsuranceGroupID.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="715">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="int ResultItem.Sex" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="716">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int ResultItem.Sex.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="716">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ResultItem.Sex.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="716">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="int ResultItem.Age" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="717">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int ResultItem.Age.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="717">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ResultItem.Age.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="717">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="int ResultItem.GenAge" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="718">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="89" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int ResultItem.GenAge.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\MemberPCPSearch.cs" Line="720">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="89" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="3" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="Provider_PCPMembershipRpt.PCPMembershipRpt">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="83" />
+              <Metric Name="CyclomaticComplexity" Value="20" />
+              <Metric Name="ClassCoupling" Value="33" />
+              <Metric Name="DepthOfInheritance" Value="4" />
+              <Metric Name="SourceLines" Value="366" />
+              <Metric Name="ExecutableLines" Value="49" />
+            </Metrics>
+            <Types>
+              <NamedType Name="PCPMembershipReport">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="64" />
+                  <Metric Name="CyclomaticComplexity" Value="17" />
+                  <Metric Name="ClassCoupling" Value="29" />
+                  <Metric Name="DepthOfInheritance" Value="4" />
+                  <Metric Name="SourceLines" Value="260" />
+                  <Metric Name="ExecutableLines" Value="47" />
+                </Metrics>
+                <Members>
+                  <Field Name="ImageButton PCPMembershipReport.btnViewReport" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\PCPMembershipReport.ascx.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel PCPMembershipReport.pnlLinkPCP" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\PCPMembershipReport.ascx.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel PCPMembershipReport.pnlWait" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\PCPMembershipReport.ascx.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="ImageButton PCPMembershipReport.btnPCPReport" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\PCPMembershipReport.ascx.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="TextBox PCPMembershipReport.txtWait" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\PCPMembershipReport.ascx.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="TextBox PCPMembershipReport.txtTrueVendorID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\PCPMembershipReport.ascx.cs" Line="19">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void PCPMembershipReport.Page_Load(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\PCPMembershipReport.ascx.cs" Line="21">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="56" />
+                      <Metric Name="CyclomaticComplexity" Value="6" />
+                      <Metric Name="ClassCoupling" Value="15" />
+                      <Metric Name="SourceLines" Value="39" />
+                      <Metric Name="ExecutableLines" Value="13" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void PCPMembershipReport.LoadListboxes()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\PCPMembershipReport.ascx.cs" Line="61">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="48" />
+                      <Metric Name="CyclomaticComplexity" Value="6" />
+                      <Metric Name="ClassCoupling" Value="13" />
+                      <Metric Name="SourceLines" Value="59" />
+                      <Metric Name="ExecutableLines" Value="25" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void PCPMembershipReport.cboVendorList_SelectedIndexChanged(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\PCPMembershipReport.ascx.cs" Line="121">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="65" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="17" />
+                      <Metric Name="ExecutableLines" Value="7" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void PCPMembershipReport.btnClear_Click(object sender, ImageClickEventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\PCPMembershipReport.ascx.cs" Line="139">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void PCPMembershipReport.btnSearch_Click(object sender, ImageClickEventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\PCPMembershipReport.ascx.cs" Line="144">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="3" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="PCPMembershipReport.PCPMembershipReport()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\PCPMembershipReport.ascx.cs" Line="148">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="95" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="Panel PCPMembershipReport.pnlError" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\PCPMembershipReport.ascx.designer.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label PCPMembershipReport.Errorlabel" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\PCPMembershipReport.ascx.designer.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel PCPMembershipReport.pnlCriteria" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\PCPMembershipReport.ascx.designer.cs" Line="40">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel PCPMembershipReport.pnlMultiVendor" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\PCPMembershipReport.ascx.designer.cs" Line="49">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="DropDownList PCPMembershipReport.cboVendorList" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\PCPMembershipReport.ascx.designer.cs" Line="58">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel PCPMembershipReport.pnlSingleVendor" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\PCPMembershipReport.ascx.designer.cs" Line="67">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label PCPMembershipReport.lblVendorName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\PCPMembershipReport.ascx.designer.cs" Line="76">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label PCPMembershipReport.lblVendorID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\PCPMembershipReport.ascx.designer.cs" Line="85">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="TextBox PCPMembershipReport.txtVendorID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\PCPMembershipReport.ascx.designer.cs" Line="94">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="DropDownList PCPMembershipReport.cboProviderList" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\PCPMembershipReport.ascx.designer.cs" Line="103">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="CheckBox PCPMembershipReport.chkNewMbrs1" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\PCPMembershipReport.ascx.designer.cs" Line="112">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="ImageButton PCPMembershipReport.btnSearch" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\PCPMembershipReport.ascx.designer.cs" Line="121">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="ImageButton PCPMembershipReport.btnClear" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\PCPMembershipReport.ascx.designer.cs" Line="130">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="PCPMembershipReportPage">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="4" />
+                  <Metric Name="DepthOfInheritance" Value="4" />
+                  <Metric Name="SourceLines" Value="27" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+                <Members>
+                  <Method Name="void PCPMembershipReportPage.Page_Load(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\PCPMembershipReportPage.aspx.cs" Line="8">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="HtmlForm PCPMembershipReportPage.form1" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\PCPMembershipReportPage.aspx.designer.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="PCPMembershipReportPage PCPMembershipReportPage.PCPMembershipReportPage1" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\PCPMembershipReportPage.aspx.designer.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="SP_PCPMembershipReport">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="85" />
+                  <Metric Name="CyclomaticComplexity" Value="2" />
+                  <Metric Name="ClassCoupling" Value="5" />
+                  <Metric Name="DepthOfInheritance" Value="4" />
+                  <Metric Name="SourceLines" Value="31" />
+                  <Metric Name="ExecutableLines" Value="2" />
+                </Metrics>
+                <Members>
+                  <Method Name="void SP_PCPMembershipReport.Page_Load(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\SP_PCPMembershipReport.aspx.cs" Line="9">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="85" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="HtmlForm SP_PCPMembershipReport.form1" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\SP_PCPMembershipReport.aspx.designer.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="PCPMembershipReport SP_PCPMembershipReport.PCPMembershipReport1" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\PCPMembershipRpt\SP_PCPMembershipReport.aspx.designer.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="Provider_PCPMembershipRpt.Shared">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="89" />
+              <Metric Name="CyclomaticComplexity" Value="3" />
+              <Metric Name="ClassCoupling" Value="4" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="39" />
+              <Metric Name="ExecutableLines" Value="6" />
+            </Metrics>
+            <Types>
+              <NamedType Name="Log">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="89" />
+                  <Metric Name="CyclomaticComplexity" Value="3" />
+                  <Metric Name="ClassCoupling" Value="4" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="37" />
+                  <Metric Name="ExecutableLines" Value="6" />
+                </Metrics>
+                <Members>
+                  <Field Name="ILog Log.logger" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\Shared\Log.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="90" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Log.LogError(string strErrorMessage)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\Shared\Log.cs" Line="21">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Log.LogInfo(string strInfoMessage)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\Shared\Log.cs" Line="30">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Log.LogElapsedTimeInfo(Stopwatch sw, string callInfo)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\providers\Provider_PCPMembershipRptSln\Provider_PCPMembershipRpt\Shared\Log.cs" Line="35">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="76" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

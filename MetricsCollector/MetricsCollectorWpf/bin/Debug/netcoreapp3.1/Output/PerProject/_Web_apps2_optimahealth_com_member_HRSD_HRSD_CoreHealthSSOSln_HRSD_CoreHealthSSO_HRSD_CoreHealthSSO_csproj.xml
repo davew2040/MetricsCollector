@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="HRSD_CoreHealthSSO.csproj">
+      <Assembly Name="HRSD_CoreHealthSSO, Version=1.0.0.6, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="81" />
+          <Metric Name="CyclomaticComplexity" Value="11" />
+          <Metric Name="ClassCoupling" Value="20" />
+          <Metric Name="DepthOfInheritance" Value="4" />
+          <Metric Name="SourceLines" Value="165" />
+          <Metric Name="ExecutableLines" Value="41" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="HRSD_CoreHealthSSO">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="89" />
+              <Metric Name="CyclomaticComplexity" Value="3" />
+              <Metric Name="ClassCoupling" Value="4" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="39" />
+              <Metric Name="ExecutableLines" Value="6" />
+            </Metrics>
+            <Types>
+              <NamedType Name="Log">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="89" />
+                  <Metric Name="CyclomaticComplexity" Value="3" />
+                  <Metric Name="ClassCoupling" Value="4" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="36" />
+                  <Metric Name="ExecutableLines" Value="6" />
+                </Metrics>
+                <Members>
+                  <Field Name="ILog Log.logger" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\HRSD\HRSD_CoreHealthSSOSln\HRSD_CoreHealthSSO\Log.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="90" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Log.LogError(string strErrorMessage)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\HRSD\HRSD_CoreHealthSSOSln\HRSD_CoreHealthSSO\Log.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Log.LogInfo(string strInfoMessage)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\HRSD\HRSD_CoreHealthSSOSln\HRSD_CoreHealthSSO\Log.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Log.LogElapsedTimeInfo(Stopwatch sw, string callInfo)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\HRSD\HRSD_CoreHealthSSOSln\HRSD_CoreHealthSSO\Log.cs" Line="36">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="76" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="HRSD_CoreHealthSSO.HRSD.HRSDCoreHealthSSO">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="77" />
+              <Metric Name="CyclomaticComplexity" Value="8" />
+              <Metric Name="ClassCoupling" Value="16" />
+              <Metric Name="DepthOfInheritance" Value="4" />
+              <Metric Name="SourceLines" Value="126" />
+              <Metric Name="ExecutableLines" Value="35" />
+            </Metrics>
+            <Types>
+              <NamedType Name="Error">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="4" />
+                  <Metric Name="DepthOfInheritance" Value="4" />
+                  <Metric Name="SourceLines" Value="27" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+                <Members>
+                  <Method Name="void Error.Page_Load(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\HRSD\HRSD_CoreHealthSSOSln\HRSD_CoreHealthSSO\HRSD\HRSDCoreHealthSSO\Error.aspx.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="HtmlForm Error.form1" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\HRSD\HRSD_CoreHealthSSOSln\HRSD_CoreHealthSSO\HRSD\HRSDCoreHealthSSO\Error.aspx.designer.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label Error.lblError" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\HRSD\HRSD_CoreHealthSSOSln\HRSD_CoreHealthSSO\HRSD\HRSDCoreHealthSSO\Error.aspx.designer.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="HRSD_CoreHealth_SSOHandler">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="54" />
+                  <Metric Name="CyclomaticComplexity" Value="7" />
+                  <Metric Name="ClassCoupling" Value="12" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="80" />
+                  <Metric Name="ExecutableLines" Value="35" />
+                </Metrics>
+                <Members>
+                  <Field Name="string HRSD_CoreHealth_SSOHandler._Action" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\HRSD\HRSD_CoreHealthSSOSln\HRSD_CoreHealthSSO\HRSD\HRSDCoreHealthSSO\HRSD_CoreHealth_SSOHandler.ashx.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string HRSD_CoreHealth_SSOHandler._User" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\HRSD\HRSD_CoreHealthSSOSln\HRSD_CoreHealthSSO\HRSD\HRSDCoreHealthSSO\HRSD_CoreHealth_SSOHandler.ashx.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string HRSD_CoreHealth_SSOHandler._Password" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\HRSD\HRSD_CoreHealthSSOSln\HRSD_CoreHealthSSO\HRSD\HRSDCoreHealthSSO\HRSD_CoreHealth_SSOHandler.ashx.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string HRSD_CoreHealth_SSOHandler._UserAccountDomain" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\HRSD\HRSD_CoreHealthSSOSln\HRSD_CoreHealthSSO\HRSD\HRSDCoreHealthSSO\HRSD_CoreHealth_SSOHandler.ashx.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void HRSD_CoreHealth_SSOHandler.ProcessRequest(HttpContext context)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\HRSD\HRSD_CoreHealthSSOSln\HRSD_CoreHealthSSO\HRSD\HRSDCoreHealthSSO\HRSD_CoreHealth_SSOHandler.ashx.cs" Line="19">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="45" />
+                      <Metric Name="CyclomaticComplexity" Value="6" />
+                      <Metric Name="ClassCoupling" Value="10" />
+                      <Metric Name="SourceLines" Value="61" />
+                      <Metric Name="ExecutableLines" Value="34" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="bool HRSD_CoreHealth_SSOHandler.IsReusable" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\HRSD\HRSD_CoreHealthSSOSln\HRSD_CoreHealthSSO\HRSD\HRSDCoreHealthSSO\HRSD_CoreHealth_SSOHandler.ashx.cs" Line="81">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="bool HRSD_CoreHealth_SSOHandler.IsReusable.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\HRSD\HRSD_CoreHealthSSOSln\HRSD_CoreHealthSSO\HRSD\HRSDCoreHealthSSO\HRSD_CoreHealth_SSOHandler.ashx.cs" Line="83">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

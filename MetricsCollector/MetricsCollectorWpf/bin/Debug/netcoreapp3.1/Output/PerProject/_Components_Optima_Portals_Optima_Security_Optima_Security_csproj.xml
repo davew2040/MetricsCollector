@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="Optima.Security.csproj">
+      <Assembly Name="Optima.Security, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="69" />
+          <Metric Name="CyclomaticComplexity" Value="46" />
+          <Metric Name="ClassCoupling" Value="21" />
+          <Metric Name="DepthOfInheritance" Value="1" />
+          <Metric Name="SourceLines" Value="448" />
+          <Metric Name="ExecutableLines" Value="111" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="Optima.Security.Cryptography">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="69" />
+              <Metric Name="CyclomaticComplexity" Value="46" />
+              <Metric Name="ClassCoupling" Value="21" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="448" />
+              <Metric Name="ExecutableLines" Value="111" />
+            </Metrics>
+            <Types>
+              <NamedType Name="CryptoKey">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="81" />
+                  <Metric Name="CyclomaticComplexity" Value="13" />
+                  <Metric Name="ClassCoupling" Value="7" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="137" />
+                  <Metric Name="ExecutableLines" Value="26" />
+                </Metrics>
+                <Members>
+                  <Field Name="string CryptoKey.emailKey" File="C:\Dev\Repos\TFSRoot\SHP\Components\Optima.Portals\Optima.Security\Cryptography\CryptoKey.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string CryptoKey.commonKey" File="C:\Dev\Repos\TFSRoot\SHP\Components\Optima.Portals\Optima.Security\Cryptography\CryptoKey.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="string CryptoKey.CryptoRegistryPath" File="C:\Dev\Repos\TFSRoot\SHP\Components\Optima.Portals\Optima.Security\Cryptography\CryptoKey.cs" Line="28">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string CryptoKey.CryptoRegistryPath.get" File="C:\Dev\Repos\TFSRoot\SHP\Components\Optima.Portals\Optima.Security\Cryptography\CryptoKey.cs" Line="30">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="93" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string CryptoKey.EmailKey" File="C:\Dev\Repos\TFSRoot\SHP\Components\Optima.Portals\Optima.Security\Cryptography\CryptoKey.cs" Line="36">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="95" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string CryptoKey.EmailKey.get" File="C:\Dev\Repos\TFSRoot\SHP\Components\Optima.Portals\Optima.Security\Cryptography\CryptoKey.cs" Line="38">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="95" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Method Name="string CryptoKey.GetEmailKey(string cryptoRegistryPath)" File="C:\Dev\Repos\TFSRoot\SHP\Components\Optima.Portals\Optima.Security\Cryptography\CryptoKey.cs" Line="43">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="94" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="string CryptoKey.CommonKey" File="C:\Dev\Repos\TFSRoot\SHP\Components\Optima.Portals\Optima.Security\Cryptography\CryptoKey.cs" Line="47">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="95" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string CryptoKey.CommonKey.get" File="C:\Dev\Repos\TFSRoot\SHP\Components\Optima.Portals\Optima.Security\Cryptography\CryptoKey.cs" Line="49">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="95" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Method Name="string CryptoKey.GetCommonKey(string cryptoRegistryPath)" File="C:\Dev\Repos\TFSRoot\SHP\Components\Optima.Portals\Optima.Security\Cryptography\CryptoKey.cs" Line="54">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="94" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string CryptoKey.GetNamedKey(string cryptoRegistryPath, string keyName)" File="C:\Dev\Repos\TFSRoot\SHP\Components\Optima.Portals\Optima.Security\Cryptography\CryptoKey.cs" Line="58">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="71" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="13" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string CryptoKey.Get(string keyPathCommaValueName)" File="C:\Dev\Repos\TFSRoot\SHP\Components\Optima.Portals\Optima.Security\Cryptography\CryptoKey.cs" Line="84">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="64" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="32" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string CryptoKey.Get(string keyPath, string valueName)" File="C:\Dev\Repos\TFSRoot\SHP\Components\Optima.Portals\Optima.Security\Cryptography\CryptoKey.cs" Line="110">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="94" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="10" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string CryptoKey.GetFromConfig(string appSettingsKeyName)" File="C:\Dev\Repos\TFSRoot\SHP\Components\Optima.Portals\Optima.Security\Cryptography\CryptoKey.cs" Line="128">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="91" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="17" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="byte[] CryptoKey.CreateKey(string password, int keyBytes = 32)" File="C:\Dev\Repos\TFSRoot\SHP\Components\Optima.Portals\Optima.Security\Cryptography\CryptoKey.cs" Line="133">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="72" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="byte[] CryptoKey.Salt" File="C:\Dev\Repos\TFSRoot\SHP\Components\Optima.Portals\Optima.Security\Cryptography\CryptoKey.cs" Line="140">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="83" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="Decryptor">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="60" />
+                  <Metric Name="CyclomaticComplexity" Value="12" />
+                  <Metric Name="ClassCoupling" Value="12" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="109" />
+                  <Metric Name="ExecutableLines" Value="30" />
+                </Metrics>
+                <Members>
+                  <Method Name="byte[] Decryptor.Decrypt(byte[] data, byte[] key)" File="C:\Dev\Repos\TFSRoot\SHP\Components\Optima.Portals\Optima.Security\Cryptography\Decryptor.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="56" />
+                      <Metric Name="CyclomaticComplexity" Value="5" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="43" />
+                      <Metric Name="ExecutableLines" Value="15" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Decryptor.Decrypt(string data, string key)" File="C:\Dev\Repos\TFSRoot\SHP\Components\Optima.Portals\Optima.Security\Cryptography\Decryptor.cs" Line="68">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="71" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="19" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="ICryptoTransform Decryptor.GetCryptoServiceProvider(byte[] key, byte[] IV)" File="C:\Dev\Repos\TFSRoot\SHP\Components\Optima.Portals\Optima.Security\Cryptography\Decryptor.cs" Line="87">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="62" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="35" />
+                      <Metric Name="ExecutableLines" Value="10" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="Encryptor">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="62" />
+                  <Metric Name="CyclomaticComplexity" Value="9" />
+                  <Metric Name="ClassCoupling" Value="12" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="106" />
+                  <Metric Name="ExecutableLines" Value="29" />
+                </Metrics>
+                <Members>
+                  <Method Name="byte[] Encryptor.Encrypt(byte[] bytesData, byte[] bytesKey)" File="C:\Dev\Repos\TFSRoot\SHP\Components\Optima.Portals\Optima.Security\Cryptography\Encryptor.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="57" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="41" />
+                      <Metric Name="ExecutableLines" Value="14" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Encryptor.Encrypt(string data, string key)" File="C:\Dev\Repos\TFSRoot\SHP\Components\Optima.Portals\Optima.Security\Cryptography\Encryptor.cs" Line="65">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="70" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="18" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="ICryptoTransform Encryptor.GetCryptoServiceProvider(byte[] bytesKey, out byte[] IV)" File="C:\Dev\Repos\TFSRoot\SHP\Components\Optima.Portals\Optima.Security\Cryptography\Encryptor.cs" Line="84">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="62" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="35" />
+                      <Metric Name="ExecutableLines" Value="10" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="Registry">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="75" />
+                  <Metric Name="CyclomaticComplexity" Value="12" />
+                  <Metric Name="ClassCoupling" Value="5" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="84" />
+                  <Metric Name="ExecutableLines" Value="26" />
+                </Metrics>
+                <Members>
+                  <Method Name="string Registry.ReadString(string keyName, string valueName)" File="C:\Dev\Repos\TFSRoot\SHP\Components\Optima.Portals\Optima.Security\Cryptography\Registry.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="70" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="15" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="long Registry.ReadLong(string keyName, string valueName)" File="C:\Dev\Repos\TFSRoot\SHP\Components\Optima.Portals\Optima.Security\Cryptography\Registry.cs" Line="27">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="70" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="12" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="byte[] Registry.ReadBinary(string keyName, string valueName)" File="C:\Dev\Repos\TFSRoot\SHP\Components\Optima.Portals\Optima.Security\Cryptography\Registry.cs" Line="40">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="65" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="17" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Registry.Write(string keyName, string valueName, object data)" File="C:\Dev\Repos\TFSRoot\SHP\Components\Optima.Portals\Optima.Security\Cryptography\Registry.cs" Line="62">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="71" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="15" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Registry.WriteString(string keyName, string valueName, string data)" File="C:\Dev\Repos\TFSRoot\SHP\Components\Optima.Portals\Optima.Security\Cryptography\Registry.cs" Line="75">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="94" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Registry.WriteLong(string keyName, string valueName, long data)" File="C:\Dev\Repos\TFSRoot\SHP\Components\Optima.Portals\Optima.Security\Cryptography\Registry.cs" Line="80">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="94" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Registry.WriteBinary(string keyName, string valueName, byte[] data)" File="C:\Dev\Repos\TFSRoot\SHP\Components\Optima.Portals\Optima.Security\Cryptography\Registry.cs" Line="85">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="94" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

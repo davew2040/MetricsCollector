@@ -1,0 +1,724 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="PRDBTieredAutoUpdate.csproj">
+      <Assembly Name="PRDBTieredAutoUpdate, Version=1.0.0.25, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="67" />
+          <Metric Name="CyclomaticComplexity" Value="59" />
+          <Metric Name="ClassCoupling" Value="39" />
+          <Metric Name="DepthOfInheritance" Value="2" />
+          <Metric Name="SourceLines" Value="1111" />
+          <Metric Name="ExecutableLines" Value="389" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="PRDBTieredAutoUpdate">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="68" />
+              <Metric Name="CyclomaticComplexity" Value="38" />
+              <Metric Name="ClassCoupling" Value="29" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="760" />
+              <Metric Name="ExecutableLines" Value="233" />
+            </Metrics>
+            <Types>
+              <NamedType Name="Common">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="67" />
+                  <Metric Name="CyclomaticComplexity" Value="2" />
+                  <Metric Name="ClassCoupling" Value="5" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="47" />
+                  <Metric Name="ExecutableLines" Value="16" />
+                </Metrics>
+                <Members>
+                  <Field Name="DateTime Common.AlternateDate" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Common.cs" Line="9">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Common.Products" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Common.cs" Line="10">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Common.DirectGAncillaryTaxIds" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Common.cs" Line="11">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Common.DirectGProviderTaxIds" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Common.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Common.AncillaryTierSql" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Common.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Common.DirectTier1TaxId" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Common.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Common.DirectTier2TaxId" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Common.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Common.ProviderTierSql" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Common.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Common.SelectProducts" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Common.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Common.ProviderSelectSql" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Common.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Common.SelectTaxId" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Common.cs" Line="19">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Common.CINs" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Common.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="ArrayList Common.Tier1List" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Common.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="ArrayList Common.Tier2List" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Common.cs" Line="23">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="ArrayList Common.DirectGTier1List" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Common.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="ArrayList Common.DirectGTier2List" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Common.cs" Line="25">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="ArrayList Common.SelectList" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Common.cs" Line="26">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="ArrayList Common.Tier1ErrorList" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Common.cs" Line="27">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="ArrayList Common.Tier2ErrorList" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Common.cs" Line="28">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="ArrayList Common.DirectGTier1ErrorList" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Common.cs" Line="29">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="ArrayList Common.DirectGTier2ErrorList" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Common.cs" Line="30">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="ArrayList Common.SelectErrorList" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Common.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="Common.Common()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Common.cs" Line="33">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="56" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="14" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="Helper">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="47" />
+                  <Metric Name="CyclomaticComplexity" Value="34" />
+                  <Metric Name="ClassCoupling" Value="27" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="671" />
+                  <Metric Name="ExecutableLines" Value="202" />
+                </Metrics>
+                <Members>
+                  <Field Name="string Helper.Subject" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Helper.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Helper.SendEmail(string subject, string body, bool html)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Helper.cs" Line="28">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="59" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="11" />
+                      <Metric Name="SourceLines" Value="41" />
+                      <Metric Name="ExecutableLines" Value="11" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Helper.CreateLogFile(string error)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Helper.cs" Line="69">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="61" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="31" />
+                      <Metric Name="ExecutableLines" Value="10" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Helper.EffectiveDateValue(string effDateString)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Helper.cs" Line="91">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="9" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Helper.BuildEmailReport(Provider providerData, Ancillary ancillaryData)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Helper.cs" Line="110">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="29" />
+                      <Metric Name="CyclomaticComplexity" Value="21" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="377" />
+                      <Metric Name="ExecutableLines" Value="88" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Helper.MakeProviderTable(string title, ArrayList providerReports)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Helper.cs" Line="479">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="43" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="73" />
+                      <Metric Name="ExecutableLines" Value="44" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Helper.MakeAncillaryTable(string title, ArrayList ancillaryReports)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Helper.cs" Line="553">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="45" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="64" />
+                      <Metric Name="ExecutableLines" Value="38" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Helper.DoLogCleanUp()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Helper.cs" Line="638">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="61" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="13" />
+                      <Metric Name="SourceLines" Value="44" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="PRDBTieredAutoUpdateApp">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="61" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="3" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="23" />
+                  <Metric Name="ExecutableLines" Value="14" />
+                </Metrics>
+                <Members>
+                  <Method Name="void PRDBTieredAutoUpdateApp.RunApp()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\PRDBTieredAutoUpdateApp.cs" Line="7">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="61" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="14" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="PRDBTieredAutoUpdateMain">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="1" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="7" />
+                  <Metric Name="ExecutableLines" Value="1" />
+                </Metrics>
+                <Members>
+                  <Method Name="void PRDBTieredAutoUpdateMain.Main()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\PRDBTieredAutoUpdateMain.cs" Line="5">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="PRDBTieredAutoUpdate.Types">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="66" />
+              <Metric Name="CyclomaticComplexity" Value="21" />
+              <Metric Name="ClassCoupling" Value="18" />
+              <Metric Name="DepthOfInheritance" Value="2" />
+              <Metric Name="SourceLines" Value="351" />
+              <Metric Name="ExecutableLines" Value="156" />
+            </Metrics>
+            <Types>
+              <NamedType Name="Ancillary">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="62" />
+                  <Metric Name="CyclomaticComplexity" Value="10" />
+                  <Metric Name="ClassCoupling" Value="17" />
+                  <Metric Name="DepthOfInheritance" Value="2" />
+                  <Metric Name="SourceLines" Value="148" />
+                  <Metric Name="ExecutableLines" Value="67" />
+                </Metrics>
+                <Members>
+                  <Field Name="string Ancillary.ancillarySelectSql" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Types\Ancillary.cs" Line="11">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Ancillary.selectAncillarySpecialties" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Types\Ancillary.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Ancillary.selectAncillaryTaxIds" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Types\Ancillary.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Ancillary.select2AncillarySpecialties" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Types\Ancillary.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Ancillary.select2AncillaryTaxIds" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Types\Ancillary.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="Ancillary.Ancillary()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Types\Ancillary.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="70" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Ancillary.ProcessDirectTier1()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Types\Ancillary.cs" Line="26">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="76" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Ancillary.ProcessDirectTier2()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Types\Ancillary.cs" Line="33">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="76" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Ancillary.ProcessDirectGTier1()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Types\Ancillary.cs" Line="40">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="76" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Ancillary.ProcessDirectGTier2()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Types\Ancillary.cs" Line="47">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="76" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Ancillary.ProcessSelect()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Types\Ancillary.cs" Line="54">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="75" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Ancillary.ProcessSelect2()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Types\Ancillary.cs" Line="61">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="75" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Ancillary.ProcessTier(ArrayList apsList, ArrayList apsErrorList, string sQuery, string sComment, int tierProd)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Types\Ancillary.cs" Line="68">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="40" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="15" />
+                      <Metric Name="SourceLines" Value="88" />
+                      <Metric Name="ExecutableLines" Value="44" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="AncillaryReport">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="75" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="0" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="15" />
+                  <Metric Name="ExecutableLines" Value="4" />
+                </Metrics>
+                <Members>
+                  <Field Name="string AncillaryReport.AncillaryID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Types\Ancillary.cs" Line="160">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AncillaryReport.Spec" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Types\Ancillary.cs" Line="161">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AncillaryReport.SystemID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Types\Ancillary.cs" Line="162">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AncillaryReport.Result" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Types\Ancillary.cs" Line="163">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="AncillaryReport.AncillaryReport(string ancillaryID, string spec, string systemID, string result)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Types\Ancillary.cs" Line="165">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="75" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="Provider">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="57" />
+                  <Metric Name="CyclomaticComplexity" Value="9" />
+                  <Metric Name="ClassCoupling" Value="17" />
+                  <Metric Name="DepthOfInheritance" Value="2" />
+                  <Metric Name="SourceLines" Value="163" />
+                  <Metric Name="ExecutableLines" Value="80" />
+                </Metrics>
+                <Members>
+                  <Field Name="string Provider.oralSurgeryProductId" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Types\Provider.cs" Line="11">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="Provider.Provider()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Types\Provider.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="91" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Provider.ProcessDirectTier1()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Types\Provider.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="76" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Provider.ProcessDirectTier2()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Types\Provider.cs" Line="25">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="76" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Provider.ProcessDirectGTier1()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Types\Provider.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="76" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Provider.ProcessDirectGTier2()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Types\Provider.cs" Line="38">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="76" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Provider.ProcessSelect()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Types\Provider.cs" Line="45">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="76" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="14" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Provider.ProcessTier(ArrayList psppList, ArrayList psppErrorList, string sQuery, string sComment, int tierProd)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Types\Provider.cs" Line="60">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="35" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="15" />
+                      <Metric Name="SourceLines" Value="111" />
+                      <Metric Name="ExecutableLines" Value="64" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="ProviderReport">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="72" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="0" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="17" />
+                  <Metric Name="ExecutableLines" Value="5" />
+                </Metrics>
+                <Members>
+                  <Field Name="string ProviderReport.Provider" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Types\Provider.cs" Line="175">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ProviderReport.Spec" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Types\Provider.cs" Line="176">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ProviderReport.Practice" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Types\Provider.cs" Line="177">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ProviderReport.SystemID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Types\Provider.cs" Line="178">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ProviderReport.Result" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Types\Provider.cs" Line="179">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="ProviderReport.ProviderReport(string provider, string spec, string practice, string systemID, string result)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBTieredAutoUpdate\PRDBTieredAutoUpdate\Types\Provider.cs" Line="181">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="72" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

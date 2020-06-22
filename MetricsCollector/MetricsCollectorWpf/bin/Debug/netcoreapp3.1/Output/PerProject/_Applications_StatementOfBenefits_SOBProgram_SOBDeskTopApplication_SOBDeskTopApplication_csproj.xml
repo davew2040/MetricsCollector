@@ -1,0 +1,1780 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="SOBDeskTopApplication.csproj">
+      <Assembly Name="Statement Of Benefits, Version=1.0.7478.22659, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="64" />
+          <Metric Name="CyclomaticComplexity" Value="167" />
+          <Metric Name="ClassCoupling" Value="63" />
+          <Metric Name="DepthOfInheritance" Value="7" />
+          <Metric Name="SourceLines" Value="2047" />
+          <Metric Name="ExecutableLines" Value="680" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="SOB_Processor">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="71" />
+              <Metric Name="CyclomaticComplexity" Value="9" />
+              <Metric Name="ClassCoupling" Value="8" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="127" />
+              <Metric Name="ExecutableLines" Value="47" />
+            </Metrics>
+            <Types>
+              <NamedType Name="modDataBase">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="62" />
+                  <Metric Name="CyclomaticComplexity" Value="2" />
+                  <Metric Name="ClassCoupling" Value="4" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="40" />
+                  <Metric Name="ExecutableLines" Value="20" />
+                </Metrics>
+                <Members>
+                  <Method Name="DataSet modDataBase.Fetch_From_DB(string constr, string sqlstatement)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\modDataBase.cs" Line="9">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="66" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="12" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool modDataBase.Update_SOB(string constr, string file_name, string update_date, string sobid)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\modDataBase.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="60" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="21" />
+                      <Metric Name="ExecutableLines" Value="12" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="modPDF">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="91" />
+                  <Metric Name="CyclomaticComplexity" Value="5" />
+                  <Metric Name="ClassCoupling" Value="2" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="35" />
+                  <Metric Name="ExecutableLines" Value="7" />
+                </Metrics>
+                <Members>
+                  <Field Name="Doc modPDF.mDoc" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\modPDF.cs" Line="7">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void modPDF.Open(string inPath)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\modPDF.cs" Line="9">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="9" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void modPDF.Save(string path)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\modPDF.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="92" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void modPDF.Concatenate_PDF(string[] inPath)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\modPDF.cs" Line="23">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void modPDF.Footers_PDF(string inPath)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\modPDF.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="modUTIL">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="62" />
+                  <Metric Name="CyclomaticComplexity" Value="2" />
+                  <Metric Name="ClassCoupling" Value="2" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="42" />
+                  <Metric Name="ExecutableLines" Value="20" />
+                </Metrics>
+                <Members>
+                  <Method Name="bool modUTIL.Write_Log_Entry(string Log_entry, string Log_Name)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\modUTIL.cs" Line="8">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="72" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="15" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string modUTIL.Extended_Replace(string Prospective_Filename)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\modUTIL.cs" Line="25">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="57" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="22" />
+                      <Metric Name="ExecutableLines" Value="14" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="SOBProcessor">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="57" />
+              <Metric Name="CyclomaticComplexity" Value="158" />
+              <Metric Name="ClassCoupling" Value="62" />
+              <Metric Name="DepthOfInheritance" Value="7" />
+              <Metric Name="SourceLines" Value="1920" />
+              <Metric Name="ExecutableLines" Value="633" />
+            </Metrics>
+            <Types>
+              <NamedType Name="frm_Main">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="56" />
+                  <Metric Name="CyclomaticComplexity" Value="23" />
+                  <Metric Name="ClassCoupling" Value="47" />
+                  <Metric Name="DepthOfInheritance" Value="7" />
+                  <Metric Name="SourceLines" Value="429" />
+                  <Metric Name="ExecutableLines" Value="173" />
+                </Metrics>
+                <Members>
+                  <Field Name="TextBox frm_Main.edLogFile" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\frm_Main.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="LinkLabel frm_Main.lblLogFile" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\frm_Main.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="OpenFileDialog frm_Main.OpenFileDialog" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\frm_Main.cs" Line="19">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="OpenFileDialog frm_Main.openFileDialogActivityLogs" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\frm_Main.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="DataGrid frm_Main.dataGrid1" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\frm_Main.cs" Line="21">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Button frm_Main.btnDataSet" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\frm_Main.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Button frm_Main.btn_CONCATPDF1" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\frm_Main.cs" Line="23">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Button frm_Main.btn_ViewOUTPUT" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\frm_Main.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Button frm_Main.btn_ViewBatch" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\frm_Main.cs" Line="25">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Container frm_Main.components" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\frm_Main.cs" Line="26">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="ProgressBar frm_Main.progressBar1" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\frm_Main.cs" Line="27">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="int frm_Main.iNumRows" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\frm_Main.cs" Line="29">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="int frm_Main.iRowsToProcess" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\frm_Main.cs" Line="30">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Doc frm_Main.mDoc" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\frm_Main.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="frm_Main.frm_Main()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\frm_Main.cs" Line="33">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void frm_Main.Dispose(bool disposing)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\frm_Main.cs" Line="44">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="77" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="14" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void frm_Main.InitializeComponent()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\frm_Main.cs" Line="61">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="31" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="23" />
+                      <Metric Name="SourceLines" Value="142" />
+                      <Metric Name="ExecutableLines" Value="97" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void frm_Main.Main()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\frm_Main.cs" Line="206">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="12" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void frm_Main.frm_Main_Load(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\frm_Main.cs" Line="210">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="3" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void frm_Main.lblLogFile_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\frm_Main.cs" Line="222">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="64" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="29" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void frm_Main.btnDataSet_Click(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\frm_Main.cs" Line="251">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="54" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="13" />
+                      <Metric Name="SourceLines" Value="49" />
+                      <Metric Name="ExecutableLines" Value="18" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void frm_Main.btnCONCATPDF1_Click(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\frm_Main.cs" Line="306">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="51" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="14" />
+                      <Metric Name="SourceLines" Value="64" />
+                      <Metric Name="ExecutableLines" Value="21" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="DataRow frm_Main.ctype(object Datarow, object p)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\frm_Main.cs" Line="355">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void frm_Main.btn_ViewOUTPUT_Click(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\frm_Main.cs" Line="368">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="67" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="19" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void frm_Main.btn_ViewBatch_Click(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\frm_Main.cs" Line="387">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="60" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="8" />
+                      <Metric Name="SourceLines" Value="37" />
+                      <Metric Name="ExecutableLines" Value="11" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="int frm_Main.iSelected_Records()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\frm_Main.cs" Line="427">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="74" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="24" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="objProcessor">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="63" />
+                  <Metric Name="CyclomaticComplexity" Value="123" />
+                  <Metric Name="ClassCoupling" Value="19" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="1297" />
+                  <Metric Name="ExecutableLines" Value="404" />
+                </Metrics>
+                <Members>
+                  <Field Name="Doc objProcessor.mDoc" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Doc objProcessor.rxDoc" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Doc objProcessor.prexDoc" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Doc objProcessor.oodDoc" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Doc objProcessor.morDoc" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="26">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Doc objProcessor.rawDoc" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="28">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string objProcessor.mGroupName" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="30">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="string objProcessor.sGroupName" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string objProcessor.sGroupName.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="33">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void objProcessor.sGroupName.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="34">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="string objProcessor.mGroupNumber" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="37">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="string objProcessor.sGroupNumber" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="38">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string objProcessor.sGroupNumber.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="40">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void objProcessor.sGroupNumber.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="41">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="string objProcessor.mDSU" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="44">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="string objProcessor.sDSU" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="45">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string objProcessor.sDSU.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="47">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void objProcessor.sDSU.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="48">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="string objProcessor.mMODCORE" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="51">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="string objProcessor.sMODCORE" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="52">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string objProcessor.sMODCORE.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="54">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void objProcessor.sMODCORE.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="55">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="string objProcessor.mSOBid" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="58">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="string objProcessor.sSOBid" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="59">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string objProcessor.sSOBid.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="61">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void objProcessor.sSOBid.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="62">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="string objProcessor.mEffDate" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="65">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="string objProcessor.sEffDate" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="66">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string objProcessor.sEffDate.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="68">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void objProcessor.sEffDate.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="69">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="string objProcessor.mEndCovDate" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="72">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="string objProcessor.sEndCovDate" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="73">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string objProcessor.sEndCovDate.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="75">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void objProcessor.sEndCovDate.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="76">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="string objProcessor.mBPLCode" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="79">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="string objProcessor.sBPLCode" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="80">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string objProcessor.sBPLCode.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="82">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void objProcessor.sBPLCode.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="83">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="string objProcessor.mPreEx" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="86">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="string objProcessor.sPreEx" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="87">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string objProcessor.sPreEx.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="89">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void objProcessor.sPreEx.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="90">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="string objProcessor.mBeneList" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="93">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="string objProcessor.sBeneList" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="94">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string objProcessor.sBeneList.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="96">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void objProcessor.sBeneList.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="97">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="string objProcessor.mBeneBase" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="100">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="string objProcessor.sBeneBase" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="101">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string objProcessor.sBeneBase.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="103">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void objProcessor.sBeneBase.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="104">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="string objProcessor.mBaseFilename" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="107">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="string objProcessor.sBaseFilename" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="108">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string objProcessor.sBaseFilename.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="110">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void objProcessor.sBaseFilename.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="111">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="string objProcessor.mLogPath" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="114">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="string objProcessor.sLogPath" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="115">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string objProcessor.sLogPath.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="117">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void objProcessor.sLogPath.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="118">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="string objProcessor.mPDFInPath" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="121">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="string objProcessor.sPDFInPath" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="122">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string objProcessor.sPDFInPath.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="124">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void objProcessor.sPDFInPath.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="125">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="string objProcessor.mPDFOutPath" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="128">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="string objProcessor.sPDFOutPath" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="129">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string objProcessor.sPDFOutPath.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="131">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void objProcessor.sPDFOutPath.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="132">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="string objProcessor.mTempPath" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="135">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="string objProcessor.sTempPath" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="136">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string objProcessor.sTempPath.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="138">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void objProcessor.sTempPath.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="139">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="string objProcessor.mLogFilename" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="142">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="string objProcessor.sLogFilename" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="143">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string objProcessor.sLogFilename.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="145">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void objProcessor.sLogFilename.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="146">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="string objProcessor.mPDFfilename" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="149">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="string objProcessor.sPDFfilename" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="150">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string objProcessor.sPDFfilename.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="152">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void objProcessor.sPDFfilename.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="153">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="string objProcessor.mPHARMfilename" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="156">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="string objProcessor.sPHARMfilename" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="157">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string objProcessor.sPHARMfilename.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="159">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void objProcessor.sPHARMfilename.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="160">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="string objProcessor.mPREEXfilename" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="163">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="string objProcessor.sPREEXfilename" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="164">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string objProcessor.sPREEXfilename.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="166">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void objProcessor.sPREEXfilename.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="167">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="string objProcessor.mOODfilename" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="170">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="string objProcessor.sOODfilename" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="171">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string objProcessor.sOODfilename.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="173">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void objProcessor.sOODfilename.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="174">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="string objProcessor.mMORfilename" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="177">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="string objProcessor.sMORfilename" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="178">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string objProcessor.sMORfilename.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="180">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void objProcessor.sMORfilename.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="181">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="string objProcessor.mBenefitRevision" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="183">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="string objProcessor.sBenefitRevision" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="184">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string objProcessor.sBenefitRevision.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="186">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void objProcessor.sBenefitRevision.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="187">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="string objProcessor.mCovereageType" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="190">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="string objProcessor.sCovereageType" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="191">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string objProcessor.sCovereageType.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="193">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void objProcessor.sCovereageType.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="194">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="string objProcessor.mProcessingFlag" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="196">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="string objProcessor.sProcessingFlag" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="197">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string objProcessor.sProcessingFlag.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="199">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void objProcessor.sProcessingFlag.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="200">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="bool objProcessor.mMultSOBIDs" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="203">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="bool objProcessor.sMultSOBIDs" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="204">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="bool objProcessor.sMultSOBIDs.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="206">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void objProcessor.sMultSOBIDs.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="207">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="bool objProcessor.mContractYear" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="211">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="bool objProcessor.sContractYear" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="212">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="bool objProcessor.sContractYear.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="214">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void objProcessor.sContractYear.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="215">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Method Name="bool objProcessor.Populate_Properties(DataRow dr)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="240">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="41" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="8" />
+                      <Metric Name="SourceLines" Value="115" />
+                      <Metric Name="ExecutableLines" Value="41" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void objProcessor.Main_Processing()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="346">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="39" />
+                      <Metric Name="CyclomaticComplexity" Value="13" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="154" />
+                      <Metric Name="ExecutableLines" Value="46" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool objProcessor.bProcessNewGroup(string filename)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="498">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="65" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="31" />
+                      <Metric Name="ExecutableLines" Value="7" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool objProcessor.bProcessMultSOBIDGroup(string filename)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="530">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="66" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="30" />
+                      <Metric Name="ExecutableLines" Value="7" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool objProcessor.bProcessNormalGroup(string filename)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="560">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="74" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="21" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool objProcessor.Init_Log_File(string Log_Name)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="586">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="68" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="28" />
+                      <Metric Name="ExecutableLines" Value="7" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool objProcessor.Write_Log_Entry(string Log_entry, string Log_Name)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="612">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="72" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="25" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string objProcessor.Name_LogFile()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="637">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="51" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="45" />
+                      <Metric Name="ExecutableLines" Value="22" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool objProcessor.bRX_Extractor(string bpl, string bulkstring)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="686">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="71" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="36" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool objProcessor.bHASPreex(string preexstring)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="719">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="82" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="22" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool objProcessor.bHASMOR_RIDER(string bulkstring)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="741">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="81" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="22" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool objProcessor.bHASODR_RIDER(string bulkstring)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="763">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="81" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="22" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool objProcessor.addFootersPDF(string sPdfIn, string sPdfOut)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="790">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="44" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="69" />
+                      <Metric Name="ExecutableLines" Value="38" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="DataSet objProcessor.dsFetch_From_DB(string constr, string sqlstatement)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="859">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="62" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="34" />
+                      <Metric Name="ExecutableLines" Value="11" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string objProcessor.sFetch_Ordinal_From_DB(string constr, string sqlstatement)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="889">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="59" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="34" />
+                      <Metric Name="ExecutableLines" Value="13" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool objProcessor.bUpdate_SOB(string constr, string filename, string updatedate, int sobid)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="926">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="54" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="46" />
+                      <Metric Name="ExecutableLines" Value="17" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool objProcessor.bInsert_SOB(string constr, string filename, string updatedate)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="971">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="57" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="38" />
+                      <Metric Name="ExecutableLines" Value="15" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool objProcessor.bInsert_GroupSOB(string constr, string groupid, string groupname, string modcore, string endcovdate, int sobid)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="1011">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="56" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="39" />
+                      <Metric Name="ExecutableLines" Value="15" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool objProcessor.bUpdate_GroupSOB(string constr, string groupid, int sobid)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="1050">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="55" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="46" />
+                      <Metric Name="ExecutableLines" Value="17" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void objProcessor.RemoveFiles(string strPath)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="1101">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="79" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="29" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string objProcessor.Extended_Replace(string Prospective_Filename)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="1126">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="47" />
+                      <Metric Name="CyclomaticComplexity" Value="5" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="60" />
+                      <Metric Name="ExecutableLines" Value="27" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string objProcessor.BaseBenefit_Replace(string BaseBene_Filename)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="1185">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="51" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="45" />
+                      <Metric Name="ExecutableLines" Value="21" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string objProcessor.BenefitEffective_Replace(string Prospective_Filename)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="1231">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="60" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="29" />
+                      <Metric Name="ExecutableLines" Value="11" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string objProcessor.BenefitEffective_ForFooter(string Footer_Text)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="1259">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="66" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="24" />
+                      <Metric Name="ExecutableLines" Value="7" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string objProcessor.Coverage_ForFooter(string Raw_Value)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\objProcessor.cs" Line="1284">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="73" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="33" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="SOBMain">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="52" />
+                  <Metric Name="CyclomaticComplexity" Value="12" />
+                  <Metric Name="ClassCoupling" Value="15" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="185" />
+                  <Metric Name="ExecutableLines" Value="56" />
+                </Metrics>
+                <Members>
+                  <Field Name="StreamReader SOBMain.stream" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\modMain.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string SOBMain.val" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\modMain.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="DataSet SOBMain.ConvertGetList(string sGetList)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\modMain.cs" Line="26">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="41" />
+                      <Metric Name="CyclomaticComplexity" Value="6" />
+                      <Metric Name="ClassCoupling" Value="15" />
+                      <Metric Name="SourceLines" Value="119" />
+                      <Metric Name="ExecutableLines" Value="44" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string SOBMain.NextLine(StreamReader stream)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\modMain.cs" Line="144">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="69" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="29" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool SOBMain.bValidGetList(DataSet dsGetListIn)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\StatementOfBenefits\SOBProgram\SOBDeskTopApplication\modMain.cs" Line="176">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="66" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="27" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

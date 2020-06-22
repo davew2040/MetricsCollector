@@ -1,0 +1,834 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="Broker_ContactUs.csproj">
+      <Assembly Name="Broker_ContactUs, Version=1.0.0.18, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="72" />
+          <Metric Name="CyclomaticComplexity" Value="67" />
+          <Metric Name="ClassCoupling" Value="66" />
+          <Metric Name="DepthOfInheritance" Value="4" />
+          <Metric Name="SourceLines" Value="1141" />
+          <Metric Name="ExecutableLines" Value="225" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="Broker_ContactUs">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="70" />
+              <Metric Name="CyclomaticComplexity" Value="47" />
+              <Metric Name="ClassCoupling" Value="47" />
+              <Metric Name="DepthOfInheritance" Value="4" />
+              <Metric Name="SourceLines" Value="912" />
+              <Metric Name="ExecutableLines" Value="153" />
+            </Metrics>
+            <Types>
+              <NamedType Name="BrokerContactUsControl">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="56" />
+                  <Metric Name="CyclomaticComplexity" Value="45" />
+                  <Metric Name="ClassCoupling" Value="44" />
+                  <Metric Name="DepthOfInheritance" Value="4" />
+                  <Metric Name="SourceLines" Value="850" />
+                  <Metric Name="ExecutableLines" Value="151" />
+                </Metrics>
+                <Members>
+                  <Field Name="string BrokerContactUsControl.strUserName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void BrokerContactUsControl.Page_Load(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="79" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="11" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void BrokerContactUsControl.InitForm(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.cs" Line="30">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="62" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="11" />
+                      <Metric Name="SourceLines" Value="26" />
+                      <Metric Name="ExecutableLines" Value="10" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void BrokerContactUsControl.InitSecureForm()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.cs" Line="57">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="68" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="13" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void BrokerContactUsControl.InitUnsecureForm()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.cs" Line="71">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="64" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="18" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void BrokerContactUsControl.BindData()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.cs" Line="90">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="45" />
+                      <Metric Name="CyclomaticComplexity" Value="8" />
+                      <Metric Name="ClassCoupling" Value="20" />
+                      <Metric Name="SourceLines" Value="76" />
+                      <Metric Name="ExecutableLines" Value="27" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void BrokerContactUsControl.btnSubmit_Click(object sender, ImageClickEventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.cs" Line="167">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="42" />
+                      <Metric Name="CyclomaticComplexity" Value="12" />
+                      <Metric Name="ClassCoupling" Value="18" />
+                      <Metric Name="SourceLines" Value="97" />
+                      <Metric Name="ExecutableLines" Value="38" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void BrokerContactUsControl.isFileValid(object source, ServerValidateEventArgs args)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.cs" Line="265">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="91" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void BrokerContactUsControl.btnClear_Click(object sender, ImageClickEventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.cs" Line="270">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void BrokerContactUsControl.chkPhone_CheckedChanged(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.cs" Line="275">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="71" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="13" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void BrokerContactUsControl.chkMail_CheckedChanged(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.cs" Line="289">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="58" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="21" />
+                      <Metric Name="ExecutableLines" Value="13" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool BrokerContactUsControl.ValidateRequest()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.cs" Line="311">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="70" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="12" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string BrokerContactUsControl.BuildEmailBody()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.cs" Line="324">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="44" />
+                      <Metric Name="CyclomaticComplexity" Value="9" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="78" />
+                      <Metric Name="ExecutableLines" Value="34" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="Panel BrokerContactUsControl.pnlHeaderInfo" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.designer.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel BrokerContactUsControl.pnlUnsecureInfo" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.designer.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel BrokerContactUsControl.pnlRequest" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.designer.cs" Line="40">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label BrokerContactUsControl.lblFirstNameRequired" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.designer.cs" Line="49">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="TextBox BrokerContactUsControl.txtFirstName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.designer.cs" Line="58">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RequiredFieldValidator BrokerContactUsControl.rfvFirstName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.designer.cs" Line="67">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label BrokerContactUsControl.lblLastNameRequired" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.designer.cs" Line="76">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="TextBox BrokerContactUsControl.txtLastName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.designer.cs" Line="85">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RequiredFieldValidator BrokerContactUsControl.rfvLastName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.designer.cs" Line="94">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="TextBox BrokerContactUsControl.txtOrganization" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.designer.cs" Line="103">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RadioButtonList BrokerContactUsControl.rblGroupSize" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.designer.cs" Line="112">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label BrokerContactUsControl.lblEmailRequired" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.designer.cs" Line="121">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="TextBox BrokerContactUsControl.txtEmail" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.designer.cs" Line="130">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RequiredFieldValidator BrokerContactUsControl.rfvEmail" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.designer.cs" Line="139">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RegularExpressionValidator BrokerContactUsControl.revEmail" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.designer.cs" Line="148">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label BrokerContactUsControl.lblAddress1Required" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.designer.cs" Line="157">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="TextBox BrokerContactUsControl.txtAddress1" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.designer.cs" Line="166">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RequiredFieldValidator BrokerContactUsControl.rfvAddress1" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.designer.cs" Line="175">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="TextBox BrokerContactUsControl.txtAddress2" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.designer.cs" Line="184">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label BrokerContactUsControl.lblCityStateRequired" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.designer.cs" Line="193">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="TextBox BrokerContactUsControl.txtCityState" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.designer.cs" Line="202">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RequiredFieldValidator BrokerContactUsControl.rfvCityState" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.designer.cs" Line="211">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label BrokerContactUsControl.lblZipCodeRequired" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.designer.cs" Line="220">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="TextBox BrokerContactUsControl.txtZipCode" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.designer.cs" Line="229">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RequiredFieldValidator BrokerContactUsControl.rfvZipCode" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.designer.cs" Line="238">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label BrokerContactUsControl.lblPhoneRequired" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.designer.cs" Line="247">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="TextBox BrokerContactUsControl.txtPhone" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.designer.cs" Line="256">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RequiredFieldValidator BrokerContactUsControl.rfvPhone" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.designer.cs" Line="265">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RegularExpressionValidator BrokerContactUsControl.revPhone" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.designer.cs" Line="274">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="TextBox BrokerContactUsControl.txtLicensed" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.designer.cs" Line="283">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="CheckBox BrokerContactUsControl.chkHealthProducts" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.designer.cs" Line="292">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="CheckBox BrokerContactUsControl.chkBehavioralHealthProducts" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.designer.cs" Line="301">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="CheckBox BrokerContactUsControl.chkAppointmentInformation" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.designer.cs" Line="310">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="CheckBox BrokerContactUsControl.chkOther" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.designer.cs" Line="319">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="TextBox BrokerContactUsControl.txtQuestion" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.designer.cs" Line="328">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="CheckBox BrokerContactUsControl.chkPhone" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.designer.cs" Line="337">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="CheckBox BrokerContactUsControl.chkMail" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.designer.cs" Line="346">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="CheckBox BrokerContactUsControl.chkEmail" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.designer.cs" Line="355">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label BrokerContactUsControl.lblContactMethodError" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.designer.cs" Line="364">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label BrokerContactUsControl.lblEMailAttachment" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.designer.cs" Line="373">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel BrokerContactUsControl.pnlAttachment" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.designer.cs" Line="382">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="FileUpload BrokerContactUsControl.filenameinput" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.designer.cs" Line="391">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="CustomValidator BrokerContactUsControl.cfvFileAttach" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.designer.cs" Line="400">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label BrokerContactUsControl.lblFileLostMsg" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.designer.cs" Line="409">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label BrokerContactUsControl.lblSecureFooterInfo" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.designer.cs" Line="418">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label BrokerContactUsControl.lblUnsecureFooterInfo" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.designer.cs" Line="427">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="ImageButton BrokerContactUsControl.btnClear" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.designer.cs" Line="436">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="ImageButton BrokerContactUsControl.btnSubmit" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.designer.cs" Line="445">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label BrokerContactUsControl.lblUsername" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.designer.cs" Line="454">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label BrokerContactUsControl.lblSecureForm" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.designer.cs" Line="463">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel BrokerContactUsControl.pnlResults" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.ascx.designer.cs" Line="472">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="BrokerContactUsControl1">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="85" />
+                  <Metric Name="CyclomaticComplexity" Value="2" />
+                  <Metric Name="ClassCoupling" Value="5" />
+                  <Metric Name="DepthOfInheritance" Value="4" />
+                  <Metric Name="SourceLines" Value="30" />
+                  <Metric Name="ExecutableLines" Value="2" />
+                </Metrics>
+                <Members>
+                  <Method Name="void BrokerContactUsControl1.Page_Load(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.aspx.cs" Line="8">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="85" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="HtmlForm BrokerContactUsControl1.form1" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.aspx.designer.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="BrokerContactUsControl BrokerContactUsControl1.BrokerContactUs1" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\ContactUs\BrokerContactUsControl.aspx.designer.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="Broker_ContactUs.Utilities">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="74" />
+              <Metric Name="CyclomaticComplexity" Value="20" />
+              <Metric Name="ClassCoupling" Value="27" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="229" />
+              <Metric Name="ExecutableLines" Value="72" />
+            </Metrics>
+            <Types>
+              <NamedType Name="GenerateMail">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="59" />
+                  <Metric Name="CyclomaticComplexity" Value="11" />
+                  <Metric Name="ClassCoupling" Value="13" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="120" />
+                  <Metric Name="ExecutableLines" Value="49" />
+                </Metrics>
+                <Members>
+                  <Method Name="void GenerateMail.SendMail(string strTo, string strSubject, string strBody, bool HTMLFormat)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\Utilities\GenerateMail.cs" Line="10">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="92" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void GenerateMail.SendMail(string strTo, string strFrom, string strSubject, string strBody, bool HTMLFormat)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\Utilities\GenerateMail.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="54" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="41" />
+                      <Metric Name="ExecutableLines" Value="18" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void GenerateMail.SendMailWithAttachment(string strTo, string strFrom, string strSubject, string strBody, bool HTMLFormat, string strAttach)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\Utilities\GenerateMail.cs" Line="57">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="49" />
+                      <Metric Name="CyclomaticComplexity" Value="5" />
+                      <Metric Name="ClassCoupling" Value="12" />
+                      <Metric Name="SourceLines" Value="55" />
+                      <Metric Name="ExecutableLines" Value="25" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool GenerateMail.CheckEmailDisabled()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\Utilities\GenerateMail.cs" Line="113">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="72" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="14" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="Log">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="89" />
+                  <Metric Name="CyclomaticComplexity" Value="3" />
+                  <Metric Name="ClassCoupling" Value="4" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="37" />
+                  <Metric Name="ExecutableLines" Value="6" />
+                </Metrics>
+                <Members>
+                  <Field Name="ILog Log.logger" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\Utilities\Log.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="90" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Log.LogError(string strErrorMessage)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\Utilities\Log.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Log.LogInfo(string strInfoMessage)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\Utilities\Log.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Log.LogElapsedTimeInfo(Stopwatch sw, string callInfo)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\Utilities\Log.cs" Line="36">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="76" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="Utility">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="75" />
+                  <Metric Name="CyclomaticComplexity" Value="6" />
+                  <Metric Name="ClassCoupling" Value="14" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="63" />
+                  <Metric Name="ExecutableLines" Value="17" />
+                </Metrics>
+                <Members>
+                  <Method Name="string Utility.EncryptString(string strValue)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\Utilities\Utility.cs" Line="10">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="74" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="string Utility.AuthType" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\Utilities\Utility.cs" Line="19">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string Utility.AuthType.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\Utilities\Utility.cs" Line="21">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="93" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="3" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Method Name="string Utility.GetUserLoginID()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\Utilities\Utility.cs" Line="23">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="63" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="8" />
+                      <Metric Name="SourceLines" Value="21" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool Utility.IsVerboseLoggingEnabled()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\Utilities\Utility.cs" Line="49">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="84" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="12" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool Utility.IsAuditLoggingEnabled()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\brokers\Broker_ContactUs\Broker_ContactUs\Utilities\Utility.cs" Line="62">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="84" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="12" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

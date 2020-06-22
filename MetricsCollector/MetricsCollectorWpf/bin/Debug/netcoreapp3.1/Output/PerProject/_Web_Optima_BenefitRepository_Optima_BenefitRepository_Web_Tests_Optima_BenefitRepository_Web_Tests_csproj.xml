@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="Optima.BenefitRepository.Web.Tests.csproj">
+      <Assembly Name="Optima.BenefitRepository.Sbc.Web.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="86" />
+          <Metric Name="CyclomaticComplexity" Value="6" />
+          <Metric Name="ClassCoupling" Value="14" />
+          <Metric Name="DepthOfInheritance" Value="1" />
+          <Metric Name="SourceLines" Value="67" />
+          <Metric Name="ExecutableLines" Value="9" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="Optima.BenefitRepository.Sbc.Web.Tests.Serialization">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="75" />
+              <Metric Name="CyclomaticComplexity" Value="1" />
+              <Metric Name="ClassCoupling" Value="6" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="21" />
+              <Metric Name="ExecutableLines" Value="4" />
+            </Metrics>
+            <Types>
+              <NamedType Name="CorePlanTest">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="75" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="6" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="18" />
+                  <Metric Name="ExecutableLines" Value="4" />
+                </Metrics>
+                <Members>
+                  <Method Name="void CorePlanTest.DeserializeCorePlanJSONTest()" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Web.Tests\Serialization\CorePlanTest.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="75" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="13" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="Optima.BenefitRepository.Web.Tests.Ioc.Windsor.Installer">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="97" />
+              <Metric Name="CyclomaticComplexity" Value="5" />
+              <Metric Name="ClassCoupling" Value="10" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="46" />
+              <Metric Name="ExecutableLines" Value="5" />
+            </Metrics>
+            <Types>
+              <NamedType Name="ControllersInstallerTest">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="97" />
+                  <Metric Name="CyclomaticComplexity" Value="5" />
+                  <Metric Name="ClassCoupling" Value="10" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="41" />
+                  <Metric Name="ExecutableLines" Value="5" />
+                </Metrics>
+                <Members>
+                  <Field Name="IWindsorContainer ControllersInstallerTest.container" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Web.Tests\Ioc\Windsor\Installer\ControllersInstallerTest.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="WindsorControllerFactory ControllersInstallerTest.controllerFactory" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Web.Tests\Ioc\Windsor\Installer\ControllersInstallerTest.cs" Line="21">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="ControllersInstallerTest.ControllersInstallerTest()" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Web.Tests\Ioc\Windsor\Installer\ControllersInstallerTest.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="10" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ControllersInstallerTest.Initialize()" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Web.Tests\Ioc\Windsor\Installer\ControllersInstallerTest.cs" Line="34">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ControllersInstallerTest.TestResolveHomeCOntroller()" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Web.Tests\Ioc\Windsor\Installer\ControllersInstallerTest.cs" Line="40">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ControllersInstallerTest.TestResolveSbcFormController()" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Web.Tests\Ioc\Windsor\Installer\ControllersInstallerTest.cs" Line="46">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ControllersInstallerTest.TestResolveSbcFormPdfController()" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Web.Tests\Ioc\Windsor\Installer\ControllersInstallerTest.cs" Line="52">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

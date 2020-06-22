@@ -1,0 +1,487 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="OHW_Member_DeleteMember.csproj">
+      <Assembly Name="OHW_Member_DeleteMember, Version=1.0.0.3, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="71" />
+          <Metric Name="CyclomaticComplexity" Value="30" />
+          <Metric Name="ClassCoupling" Value="68" />
+          <Metric Name="DepthOfInheritance" Value="7" />
+          <Metric Name="SourceLines" Value="658" />
+          <Metric Name="ExecutableLines" Value="274" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="OHW_Member_DeleteMember">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="66" />
+              <Metric Name="CyclomaticComplexity" Value="24" />
+              <Metric Name="ClassCoupling" Value="57" />
+              <Metric Name="DepthOfInheritance" Value="7" />
+              <Metric Name="SourceLines" Value="557" />
+              <Metric Name="ExecutableLines" Value="257" />
+            </Metrics>
+            <Types>
+              <NamedType Name="Helper">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="61" />
+                  <Metric Name="CyclomaticComplexity" Value="9" />
+                  <Metric Name="ClassCoupling" Value="11" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="125" />
+                  <Metric Name="ExecutableLines" Value="49" />
+                </Metrics>
+                <Members>
+                  <Field Name="string Helper.mModName" File="C:\Dev\Repos\TFSRoot\SHP\Applications\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member_DeleteMember\Helper.cs" Line="10">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="bool Helper.CheckFile(string strFullPath)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member_DeleteMember\Helper.cs" Line="11">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="68" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="23" />
+                      <Metric Name="ExecutableLines" Value="7" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Helper.LogException(string strModName, string strErrDesc, string strDescription)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member_DeleteMember\Helper.cs" Line="35">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="51" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="42" />
+                      <Metric Name="ExecutableLines" Value="23" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Helper.GetDateForFile(string strResult)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member_DeleteMember\Helper.cs" Line="78">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="68" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Helper.DoLogCleanup()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member_DeleteMember\Helper.cs" Line="104">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="58" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="31" />
+                      <Metric Name="ExecutableLines" Value="12" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="OHW_Member">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="53" />
+                  <Metric Name="CyclomaticComplexity" Value="14" />
+                  <Metric Name="ClassCoupling" Value="46" />
+                  <Metric Name="DepthOfInheritance" Value="7" />
+                  <Metric Name="SourceLines" Value="400" />
+                  <Metric Name="ExecutableLines" Value="205" />
+                </Metrics>
+                <Members>
+                  <Field Name="string OHW_Member.sLoginID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string OHW_Member.sPassword" File="C:\Dev\Repos\TFSRoot\SHP\Applications\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string OHW_Member.sServer" File="C:\Dev\Repos\TFSRoot\SHP\Applications\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string OHW_Member.sDatabase" File="C:\Dev\Repos\TFSRoot\SHP\Applications\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member.cs" Line="19">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="OHW_Member.OHW_Member()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member.cs" Line="21">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void OHW_Member.cmdExit_Click(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member.cs" Line="26">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void OHW_Member.cmdSearchMbrID_Click(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member.cs" Line="38">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="42" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="24" />
+                      <Metric Name="SourceLines" Value="85" />
+                      <Metric Name="ExecutableLines" Value="41" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void OHW_Member.cmdClearSearch_Click(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member.cs" Line="123">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="68" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="15" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void OHW_Member.cmdDelMbrID_Click(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member.cs" Line="140">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="46" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="19" />
+                      <Metric Name="SourceLines" Value="70" />
+                      <Metric Name="ExecutableLines" Value="30" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void OHW_Member.dgvMember_CellContentClick(object sender, DataGridViewCellEventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member.cs" Line="204">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="IContainer OHW_Member.components" File="C:\Dev\Repos\TFSRoot\SHP\Applications\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member.Designer.cs" Line="8">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void OHW_Member.Dispose(bool disposing)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member.Designer.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="79" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="12" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void OHW_Member.InitializeComponent()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member.Designer.cs" Line="29">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="28" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="21" />
+                      <Metric Name="SourceLines" Value="168" />
+                      <Metric Name="ExecutableLines" Value="119" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="Label OHW_Member.lblEnterID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member.Designer.cs" Line="194">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="TextBox OHW_Member.txtMbrID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member.Designer.cs" Line="195">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Button OHW_Member.cmdSearchMbrID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member.Designer.cs" Line="196">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Button OHW_Member.cmdExit" File="C:\Dev\Repos\TFSRoot\SHP\Applications\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member.Designer.cs" Line="197">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="DataGridView OHW_Member.dgvMember" File="C:\Dev\Repos\TFSRoot\SHP\Applications\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member.Designer.cs" Line="198">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Button OHW_Member.cmdClearSearch" File="C:\Dev\Repos\TFSRoot\SHP\Applications\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member.Designer.cs" Line="199">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="TextBox OHW_Member.txtDelMbrID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member.Designer.cs" Line="200">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label OHW_Member.lblDelMbrID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member.Designer.cs" Line="201">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Button OHW_Member.cmdDelMbrID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member.Designer.cs" Line="202">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="PictureBox OHW_Member.pictureBox1" File="C:\Dev\Repos\TFSRoot\SHP\Applications\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member.Designer.cs" Line="203">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label OHW_Member.lblAppTitle" File="C:\Dev\Repos\TFSRoot\SHP\Applications\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member.Designer.cs" Line="204">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label OHW_Member.lblForExample" File="C:\Dev\Repos\TFSRoot\SHP\Applications\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member.Designer.cs" Line="205">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="Program">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="84" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="4" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="13" />
+                  <Metric Name="ExecutableLines" Value="3" />
+                </Metrics>
+                <Members>
+                  <Method Name="void Program.Main()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member_DeleteMember\Program.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="84" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="10" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="OHW_Member_DeleteMember.Properties">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="80" />
+              <Metric Name="CyclomaticComplexity" Value="6" />
+              <Metric Name="ClassCoupling" Value="12" />
+              <Metric Name="DepthOfInheritance" Value="3" />
+              <Metric Name="SourceLines" Value="101" />
+              <Metric Name="ExecutableLines" Value="17" />
+            </Metrics>
+            <Types>
+              <NamedType Name="Resources">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="75" />
+                  <Metric Name="CyclomaticComplexity" Value="5" />
+                  <Metric Name="ClassCoupling" Value="10" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="56" />
+                  <Metric Name="ExecutableLines" Value="13" />
+                </Metrics>
+                <Members>
+                  <Field Name="ResourceManager Resources.resourceMan" File="C:\Dev\Repos\TFSRoot\SHP\Applications\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member_DeleteMember\Properties\Resources.Designer.cs" Line="28">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="CultureInfo Resources.resourceCulture" File="C:\Dev\Repos\TFSRoot\SHP\Applications\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member_DeleteMember\Properties\Resources.Designer.cs" Line="30">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="Resources.Resources()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member_DeleteMember\Properties\Resources.Designer.cs" Line="33">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="ResourceManager Resources.ResourceManager" File="C:\Dev\Repos\TFSRoot\SHP\Applications\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member_DeleteMember\Properties\Resources.Designer.cs" Line="41">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="75" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="16" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="ResourceManager Resources.ResourceManager.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member_DeleteMember\Properties\Resources.Designer.cs" Line="43">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="75" />
+                          <Metric Name="CyclomaticComplexity" Value="2" />
+                          <Metric Name="ClassCoupling" Value="3" />
+                          <Metric Name="SourceLines" Value="9" />
+                          <Metric Name="ExecutableLines" Value="4" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="CultureInfo Resources.Culture" File="C:\Dev\Repos\TFSRoot\SHP\Applications\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member_DeleteMember\Properties\Resources.Designer.cs" Line="59">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="16" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="CultureInfo Resources.Culture.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member_DeleteMember\Properties\Resources.Designer.cs" Line="61">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Resources.Culture.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member_DeleteMember\Properties\Resources.Designer.cs" Line="65">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+              <NamedType Name="Settings">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="85" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="4" />
+                  <Metric Name="DepthOfInheritance" Value="3" />
+                  <Metric Name="SourceLines" Value="15" />
+                  <Metric Name="ExecutableLines" Value="4" />
+                </Metrics>
+                <Members>
+                  <Field Name="Settings Settings.defaultInstance" File="C:\Dev\Repos\TFSRoot\SHP\Applications\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member_DeleteMember\Properties\Settings.Designer.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="89" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="Settings Settings.Default" File="C:\Dev\Repos\TFSRoot\SHP\Applications\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member_DeleteMember\Properties\Settings.Designer.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="Settings Settings.Default.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\OHW_Member_DeleteMember\OHW_Member_DeleteMember\OHW_Member_DeleteMember\Properties\Settings.Designer.cs" Line="24">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

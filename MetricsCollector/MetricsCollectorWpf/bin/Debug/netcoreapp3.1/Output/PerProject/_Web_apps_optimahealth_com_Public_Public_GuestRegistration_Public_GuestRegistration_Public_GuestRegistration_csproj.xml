@@ -1,0 +1,900 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="Public_GuestRegistration.csproj">
+      <Assembly Name="Public_GuestRegistration, Version=1.0.0.9, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="84" />
+          <Metric Name="CyclomaticComplexity" Value="68" />
+          <Metric Name="ClassCoupling" Value="55" />
+          <Metric Name="DepthOfInheritance" Value="4" />
+          <Metric Name="SourceLines" Value="920" />
+          <Metric Name="ExecutableLines" Value="135" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="Public_GuestRegistration">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="90" />
+              <Metric Name="CyclomaticComplexity" Value="15" />
+              <Metric Name="ClassCoupling" Value="11" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="217" />
+              <Metric Name="ExecutableLines" Value="35" />
+            </Metrics>
+            <Types>
+              <NamedType Name="SecureUser">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="81" />
+                  <Metric Name="CyclomaticComplexity" Value="14" />
+                  <Metric Name="ClassCoupling" Value="11" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="214" />
+                  <Metric Name="ExecutableLines" Value="35" />
+                </Metrics>
+                <Members>
+                  <Field Name="string SecureUser.encKey" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\SecureUser.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="UserMode SecureUser.m_Mode" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\SecureUser.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string SecureUser.m_sLoginId" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\SecureUser.cs" Line="25">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string SecureUser.m_sPassword" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\SecureUser.cs" Line="26">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string SecureUser.m_sNewPassword" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\SecureUser.cs" Line="27">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="int SecureUser.m_iSecretQuestionId" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\SecureUser.cs" Line="28">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string SecureUser.m_sSecretAnswer" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\SecureUser.cs" Line="29">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string SecureUser.m_sUserDN" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\SecureUser.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="bool SecureUser.m_bOnGraceLogins" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\SecureUser.cs" Line="34">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="string SecureUser.LoginId" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\SecureUser.cs" Line="39">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string SecureUser.LoginId.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\SecureUser.cs" Line="41">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string SecureUser.Password" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\SecureUser.cs" Line="44">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="95" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string SecureUser.Password.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\SecureUser.cs" Line="46">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="95" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string SecureUser.DN" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\SecureUser.cs" Line="49">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string SecureUser.DN.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\SecureUser.cs" Line="51">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="bool SecureUser.OnGraceLogins" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\SecureUser.cs" Line="54">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="bool SecureUser.OnGraceLogins.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\SecureUser.cs" Line="56">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Method Name="SecureUser.SecureUser()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\SecureUser.cs" Line="62">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="SecureUser.SecureUser(string LoginId, string Password)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\SecureUser.cs" Line="78">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="78" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="18" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="SecureUser.SecureUser(string LoginId, string OldPassword, string NewPassword)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\SecureUser.cs" Line="99">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="75" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="21" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="SecureUser.SecureUser(string LoginId, int SecretQuestionId, string SecretAnswer, string NewPassword)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\SecureUser.cs" Line="123">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="72" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="24" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void SecureUser.Authenticate(TargetDirectory dir)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\SecureUser.cs" Line="143">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="79" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="24" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool SecureUser.ChangePassword()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\SecureUser.cs" Line="156">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="65" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="29" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string SecureUser.EncryptPassword(string pwd)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\SecureUser.cs" Line="199">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="79" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string SecureUser.DecryptPassword(string encryptedPassword)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\SecureUser.cs" Line="216">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="79" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="17" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="SecureUser.UserMode">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="0" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="9" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+                <Members>
+                  <Field Name="UserMode.Authentication" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\SecureUser.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="UserMode.ChangePassword" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\SecureUser.cs" Line="21">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="Public_GuestRegistration.GuestReg">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="78" />
+              <Metric Name="CyclomaticComplexity" Value="28" />
+              <Metric Name="ClassCoupling" Value="41" />
+              <Metric Name="DepthOfInheritance" Value="4" />
+              <Metric Name="SourceLines" Value="536" />
+              <Metric Name="ExecutableLines" Value="68" />
+            </Metrics>
+            <Types>
+              <NamedType Name="GuestRegistration">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="57" />
+                  <Metric Name="CyclomaticComplexity" Value="27" />
+                  <Metric Name="ClassCoupling" Value="41" />
+                  <Metric Name="DepthOfInheritance" Value="4" />
+                  <Metric Name="SourceLines" Value="520" />
+                  <Metric Name="ExecutableLines" Value="68" />
+                </Metrics>
+                <Members>
+                  <Field Name="string GuestRegistration.mMessage" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\GuestReg\GuestRegistration.aspx.cs" Line="27">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void GuestRegistration.Page_Load(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\GuestReg\GuestRegistration.aspx.cs" Line="28">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="58" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="10" />
+                      <Metric Name="SourceLines" Value="39" />
+                      <Metric Name="ExecutableLines" Value="14" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void GuestRegistration.CreateApplicationContext()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\GuestReg\GuestRegistration.aspx.cs" Line="68">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="75" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="15" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void GuestRegistration.Load_DateOfBirth_Selections()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\GuestReg\GuestRegistration.aspx.cs" Line="84">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="54" />
+                      <Metric Name="CyclomaticComplexity" Value="6" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="31" />
+                      <Metric Name="ExecutableLines" Value="15" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void GuestRegistration.PopulateSecretQuestions()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\GuestReg\GuestRegistration.aspx.cs" Line="116">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="67" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="13" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void GuestRegistration.btnRegistration_OnServerClick(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\GuestReg\GuestRegistration.aspx.cs" Line="130">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="44" />
+                      <Metric Name="CyclomaticComplexity" Value="14" />
+                      <Metric Name="ClassCoupling" Value="28" />
+                      <Metric Name="SourceLines" Value="132" />
+                      <Metric Name="ExecutableLines" Value="28" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="HtmlForm GuestRegistration.form" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\GuestReg\GuestRegistration.aspx.designer.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel GuestRegistration.pnlFirstTime" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\GuestReg\GuestRegistration.aspx.designer.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlInputText GuestRegistration.tbFirstName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\GuestReg\GuestRegistration.aspx.designer.cs" Line="40">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RequiredFieldValidator GuestRegistration.rfvtbFirstName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\GuestReg\GuestRegistration.aspx.designer.cs" Line="49">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlInputText GuestRegistration.tbLastName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\GuestReg\GuestRegistration.aspx.designer.cs" Line="58">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RequiredFieldValidator GuestRegistration.rfvtbLastName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\GuestReg\GuestRegistration.aspx.designer.cs" Line="67">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="DropDownList GuestRegistration.ddlMonth" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\GuestReg\GuestRegistration.aspx.designer.cs" Line="76">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RequiredFieldValidator GuestRegistration.rfvddlMonth" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\GuestReg\GuestRegistration.aspx.designer.cs" Line="85">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="DropDownList GuestRegistration.ddlDay" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\GuestReg\GuestRegistration.aspx.designer.cs" Line="94">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RequiredFieldValidator GuestRegistration.rfvddlDay" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\GuestReg\GuestRegistration.aspx.designer.cs" Line="103">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="DropDownList GuestRegistration.ddlYear" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\GuestReg\GuestRegistration.aspx.designer.cs" Line="112">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RequiredFieldValidator GuestRegistration.rfvddlYear" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\GuestReg\GuestRegistration.aspx.designer.cs" Line="121">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlInputText GuestRegistration.tbSSN" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\GuestReg\GuestRegistration.aspx.designer.cs" Line="130">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RequiredFieldValidator GuestRegistration.rfvtbSSN" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\GuestReg\GuestRegistration.aspx.designer.cs" Line="139">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlInputText GuestRegistration.txtUserName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\GuestReg\GuestRegistration.aspx.designer.cs" Line="148">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RequiredFieldValidator GuestRegistration.rfvtxtUserName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\GuestReg\GuestRegistration.aspx.designer.cs" Line="157">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RegularExpressionValidator GuestRegistration.revtxtUserName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\GuestReg\GuestRegistration.aspx.designer.cs" Line="166">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlInputPassword GuestRegistration.txtPassword" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\GuestReg\GuestRegistration.aspx.designer.cs" Line="175">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RequiredFieldValidator GuestRegistration.rfvtxtPassword" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\GuestReg\GuestRegistration.aspx.designer.cs" Line="184">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlInputPassword GuestRegistration.txtPasswordConfirm" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\GuestReg\GuestRegistration.aspx.designer.cs" Line="193">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RequiredFieldValidator GuestRegistration.rfvtxtPasswordConfirm" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\GuestReg\GuestRegistration.aspx.designer.cs" Line="202">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="CompareValidator GuestRegistration.passwordComparisonValidator" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\GuestReg\GuestRegistration.aspx.designer.cs" Line="211">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="DropDownList GuestRegistration.lstSecretQuestion" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\GuestReg\GuestRegistration.aspx.designer.cs" Line="220">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RequiredFieldValidator GuestRegistration.rfvlstSecretQuestion" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\GuestReg\GuestRegistration.aspx.designer.cs" Line="229">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlInputText GuestRegistration.txtSecretAnswer" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\GuestReg\GuestRegistration.aspx.designer.cs" Line="238">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RequiredFieldValidator GuestRegistration.rfvtxtSecretAnswer" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\GuestReg\GuestRegistration.aspx.designer.cs" Line="247">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlInputSubmit GuestRegistration.btnRegistration" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\GuestReg\GuestRegistration.aspx.designer.cs" Line="256">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel GuestRegistration.pnlRegSuccess" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\GuestReg\GuestRegistration.aspx.designer.cs" Line="265">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HyperLink GuestRegistration.hlSignIn" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\GuestReg\GuestRegistration.aspx.designer.cs" Line="274">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HyperLink GuestRegistration.hlSignInContinue" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\GuestReg\GuestRegistration.aspx.designer.cs" Line="283">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="GuestRegistration.RegisterGuestCodes">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="0" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="9" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+                <Members>
+                  <Field Name="RegisterGuestCodes.RegisterGuestSuccess" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\GuestReg\GuestRegistration.aspx.cs" Line="19">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RegisterGuestCodes.RegisterGuestSuccessExistingCredentials" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\GuestReg\GuestRegistration.aspx.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RegisterGuestCodes.FailedActiveMember" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\GuestReg\GuestRegistration.aspx.cs" Line="21">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RegisterGuestCodes.FailedActiveGuest" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\GuestReg\GuestRegistration.aspx.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RegisterGuestCodes.FailedDuplicateLoginId" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\GuestReg\GuestRegistration.aspx.cs" Line="23">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RegisterGuestCodes.FailedNotFoundInEmpowered" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\GuestReg\GuestRegistration.aspx.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="Public_GuestRegistration.Utility">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="85" />
+              <Metric Name="CyclomaticComplexity" Value="25" />
+              <Metric Name="ClassCoupling" Value="9" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="167" />
+              <Metric Name="ExecutableLines" Value="32" />
+            </Metrics>
+            <Types>
+              <NamedType Name="Log">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="89" />
+                  <Metric Name="CyclomaticComplexity" Value="3" />
+                  <Metric Name="ClassCoupling" Value="4" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="32" />
+                  <Metric Name="ExecutableLines" Value="6" />
+                </Metrics>
+                <Members>
+                  <Field Name="ILog Log.logger" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\Utility\Log.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="90" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Log.LogError(string strErrorMessage)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\Utility\Log.cs" Line="21">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Log.LogInfo(string strInfoMessage)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\Utility\Log.cs" Line="30">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Log.LogElapsedTimeInfo(Stopwatch sw, string callInfo)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\Utility\Log.cs" Line="35">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="76" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="Utilities">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="81" />
+                  <Metric Name="CyclomaticComplexity" Value="22" />
+                  <Metric Name="ClassCoupling" Value="5" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="129" />
+                  <Metric Name="ExecutableLines" Value="26" />
+                </Metrics>
+                <Members>
+                  <Method Name="string Utilities.CheckStringForNull(object value)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\Utility\Utilities.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="77" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="13" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool Utilities.IsVerboseLoggingEnabled()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\Utility\Utilities.cs" Line="30">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="84" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="12" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool Utilities.IsAuditLoggingEnabled()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\Utility\Utilities.cs" Line="43">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="84" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="12" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Utilities.GetWebConfigValue(string configKey)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\Utility\Utilities.cs" Line="57">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="78" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="14" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool Utilities.IsElapsedTimeLoggingEnabled()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\Utility\Utilities.cs" Line="71">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="84" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="11" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Utilities.GetApplicationGUID()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\Utility\Utilities.cs" Line="83">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="91" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Utilities.GetAuditLogType()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\Utility\Utilities.cs" Line="92">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="91" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="int Utilities.GetConnectionTimeout()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\Utility\Utilities.cs" Line="100">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="91" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Utilities.ReplaceSingleQuote(string strIn)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\Utility\Utilities.cs" Line="105">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="92" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="double Utilities.CheckDoubleForNull(object Value)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\Utility\Utilities.cs" Line="110">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="77" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="SmartDate Utilities.StringToSmartDate(object value)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\Utility\Utilities.cs" Line="119">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="75" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="10" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="int Utilities.CheckIntForNull(object value)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_GuestRegistration\Public_GuestRegistration\Utility\Utilities.cs" Line="130">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="77" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

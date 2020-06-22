@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="WellnessTrackingBusinessServices.csproj">
+      <Assembly Name="WellnessTrackingBusinessServices, Version=1.0.0.58, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="75" />
+          <Metric Name="CyclomaticComplexity" Value="8" />
+          <Metric Name="ClassCoupling" Value="3" />
+          <Metric Name="DepthOfInheritance" Value="1" />
+          <Metric Name="SourceLines" Value="62" />
+          <Metric Name="ExecutableLines" Value="15" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="WellnessTrackingBusinessServices">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="75" />
+              <Metric Name="CyclomaticComplexity" Value="8" />
+              <Metric Name="ClassCoupling" Value="3" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="62" />
+              <Metric Name="ExecutableLines" Value="15" />
+            </Metrics>
+            <Types>
+              <NamedType Name="Utilities">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="75" />
+                  <Metric Name="CyclomaticComplexity" Value="8" />
+                  <Metric Name="ClassCoupling" Value="3" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="59" />
+                  <Metric Name="ExecutableLines" Value="15" />
+                </Metrics>
+                <Members>
+                  <Method Name="bool Utilities.IsDate(string date)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingBusinessServices\Utilities.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="94" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="10" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool Utilities.IsNumeric(object entity)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingBusinessServices\Utilities.cs" Line="27">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="82" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="12" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool Utilities.IsDouble(object entity)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingBusinessServices\Utilities.cs" Line="40">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="61" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="26" />
+                      <Metric Name="ExecutableLines" Value="10" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="List&lt;string&gt; Utilities.Message(string message)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingBusinessServices\Utilities.cs" Line="62">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="86" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

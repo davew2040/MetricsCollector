@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="Temp195Applicaton.csproj">
+      <Assembly Name="Temp195Applicaton, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="58" />
+          <Metric Name="CyclomaticComplexity" Value="17" />
+          <Metric Name="ClassCoupling" Value="25" />
+          <Metric Name="DepthOfInheritance" Value="1" />
+          <Metric Name="SourceLines" Value="277" />
+          <Metric Name="ExecutableLines" Value="97" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="Temp195Applicaton">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="58" />
+              <Metric Name="CyclomaticComplexity" Value="17" />
+              <Metric Name="ClassCoupling" Value="25" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="277" />
+              <Metric Name="ExecutableLines" Value="97" />
+            </Metrics>
+            <Types>
+              <NamedType Name="Helper">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="65" />
+                  <Metric Name="CyclomaticComplexity" Value="4" />
+                  <Metric Name="ClassCoupling" Value="16" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="107" />
+                  <Metric Name="ExecutableLines" Value="27" />
+                </Metrics>
+                <Members>
+                  <Field Name="string Helper.ModName" File="C:\Dev\Repos\TFSRoot\SHP\Applications\Temp195Solution\Temp195Applicaton\Helper.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Helper.SendEmail()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\Temp195Solution\Temp195Applicaton\Helper.cs" Line="33">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="58" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="11" />
+                      <Metric Name="SourceLines" Value="38" />
+                      <Metric Name="ExecutableLines" Value="11" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Helper.CreateLogFile(string error)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\Temp195Solution\Temp195Applicaton\Helper.cs" Line="73">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="61" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="31" />
+                      <Metric Name="ExecutableLines" Value="10" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Helper.DecryptCredentials(string sEncPassword)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\Temp195Solution\Temp195Applicaton\Helper.cs" Line="103">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="73" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="21" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="Temp195Main">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="51" />
+                  <Metric Name="CyclomaticComplexity" Value="13" />
+                  <Metric Name="ClassCoupling" Value="12" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="164" />
+                  <Metric Name="ExecutableLines" Value="70" />
+                </Metrics>
+                <Members>
+                  <Field Name="string Temp195Main.ModName" File="C:\Dev\Repos\TFSRoot\SHP\Applications\Temp195Solution\Temp195Applicaton\Temp195Main.cs" Line="10">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Temp195Main.Main(string[] args)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\Temp195Solution\Temp195Applicaton\Temp195Main.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="63" />
+                      <Metric Name="CyclomaticComplexity" Value="10" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="38" />
+                      <Metric Name="ExecutableLines" Value="7" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Temp195Main.ProdAdd()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\Temp195Solution\Temp195Applicaton\Temp195Main.cs" Line="51">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="37" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="11" />
+                      <Metric Name="SourceLines" Value="94" />
+                      <Metric Name="ExecutableLines" Value="54" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Temp195Main.ProdRemove()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\Temp195Solution\Temp195Applicaton\Temp195Main.cs" Line="146">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="63" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="25" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

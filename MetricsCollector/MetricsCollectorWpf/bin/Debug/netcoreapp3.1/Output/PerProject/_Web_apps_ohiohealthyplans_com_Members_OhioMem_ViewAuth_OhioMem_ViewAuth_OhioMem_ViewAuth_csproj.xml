@@ -1,0 +1,1012 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="OhioMem_ViewAuth.csproj">
+      <Assembly Name="OhioMem_ViewAuth, Version=1.0.0.3, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="73" />
+          <Metric Name="CyclomaticComplexity" Value="159" />
+          <Metric Name="ClassCoupling" Value="93" />
+          <Metric Name="DepthOfInheritance" Value="4" />
+          <Metric Name="SourceLines" Value="1561" />
+          <Metric Name="ExecutableLines" Value="380" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="OhioMem_ViewAuth.Shared">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="73" />
+              <Metric Name="CyclomaticComplexity" Value="80" />
+              <Metric Name="ClassCoupling" Value="41" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="489" />
+              <Metric Name="ExecutableLines" Value="134" />
+            </Metrics>
+            <Types>
+              <NamedType Name="ClaimContext">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="64" />
+                  <Metric Name="CyclomaticComplexity" Value="42" />
+                  <Metric Name="ClassCoupling" Value="28" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="250" />
+                  <Metric Name="ExecutableLines" Value="79" />
+                </Metrics>
+                <Members>
+                  <Field Name="string ClaimContext._claimMbrTkn" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\Shared\ClaimContext.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ClaimContext._claimIdTkn" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\Shared\ClaimContext.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ClaimContext._claimCtxTkn" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\Shared\ClaimContext.cs" Line="19">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="Member ClaimContext.ClaimMember" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\Shared\ClaimContext.cs" Line="21">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="76" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="22" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="Member ClaimContext.ClaimMember.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\Shared\ClaimContext.cs" Line="23">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="77" />
+                          <Metric Name="CyclomaticComplexity" Value="2" />
+                          <Metric Name="ClassCoupling" Value="3" />
+                          <Metric Name="SourceLines" Value="8" />
+                          <Metric Name="ExecutableLines" Value="3" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ClaimContext.ClaimMember.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\Shared\ClaimContext.cs" Line="31">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="76" />
+                          <Metric Name="CyclomaticComplexity" Value="2" />
+                          <Metric Name="ClassCoupling" Value="3" />
+                          <Metric Name="SourceLines" Value="11" />
+                          <Metric Name="ExecutableLines" Value="3" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ClaimContext.ClaimId" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\Shared\ClaimContext.cs" Line="44">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="76" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="22" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ClaimContext.ClaimId.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\Shared\ClaimContext.cs" Line="46">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="77" />
+                          <Metric Name="CyclomaticComplexity" Value="2" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="8" />
+                          <Metric Name="ExecutableLines" Value="3" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ClaimContext.ClaimId.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\Shared\ClaimContext.cs" Line="54">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="76" />
+                          <Metric Name="CyclomaticComplexity" Value="2" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="11" />
+                          <Metric Name="ExecutableLines" Value="3" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="ClaimContext ClaimContext.Current" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\Shared\ClaimContext.cs" Line="67">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="77" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="14" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="ClaimContext ClaimContext.Current.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\Shared\ClaimContext.cs" Line="69">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="77" />
+                          <Metric Name="CyclomaticComplexity" Value="2" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="11" />
+                          <Metric Name="ExecutableLines" Value="3" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Method Name="void ClaimContext.Initialize(Member claimMember, string claimId)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\Shared\ClaimContext.cs" Line="82">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="73" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="12" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ClaimContext.Clear()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\Shared\ClaimContext.cs" Line="95">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="75" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="12" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="List&lt;Member&gt; ClaimContext.FilterForClaimsLocal(Member mbr)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\Shared\ClaimContext.cs" Line="108">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="43" />
+                      <Metric Name="CyclomaticComplexity" Value="21" />
+                      <Metric Name="ClassCoupling" Value="10" />
+                      <Metric Name="SourceLines" Value="103" />
+                      <Metric Name="ExecutableLines" Value="33" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="List&lt;Member&gt; ClaimContext.GetFamily(string familyID)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\Shared\ClaimContext.cs" Line="212">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="64" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="18" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="List&lt;string&gt; ClaimContext.GetFamilyMemberIDs(string familyID)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\Shared\ClaimContext.cs" Line="231">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="61" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="15" />
+                      <Metric Name="SourceLines" Value="24" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="int ClaimContext.GetCurrentAge(DateTime dob)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\Shared\ClaimContext.cs" Line="256">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="76" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="Log">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="89" />
+                  <Metric Name="CyclomaticComplexity" Value="3" />
+                  <Metric Name="ClassCoupling" Value="4" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="37" />
+                  <Metric Name="ExecutableLines" Value="6" />
+                </Metrics>
+                <Members>
+                  <Field Name="ILog Log.logger" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\Shared\Log.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="90" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Log.LogError(string strErrorMessage)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\Shared\Log.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Log.LogInfo(string strInfoMessage)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\Shared\Log.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Log.LogElapsedTimeInfo(Stopwatch sw, string callInfo)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\Shared\Log.cs" Line="36">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="76" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="MemberInfo">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="63" />
+                  <Metric Name="CyclomaticComplexity" Value="10" />
+                  <Metric Name="ClassCoupling" Value="10" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="43" />
+                  <Metric Name="ExecutableLines" Value="17" />
+                </Metrics>
+                <Members>
+                  <Method Name="Member MemberInfo.GetDefaultMemberByPersonId(int personId)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\Shared\MemberInfo.cs" Line="10">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="65" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="18" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="IEnumerable&lt;Member&gt; MemberInfo.GetFilteredMemberList(IEnumerable&lt;Member&gt; mbrList)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\Shared\MemberInfo.cs" Line="29">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="61" />
+                      <Metric Name="CyclomaticComplexity" Value="7" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="21" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="Utility">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="79" />
+                  <Metric Name="CyclomaticComplexity" Value="25" />
+                  <Metric Name="ClassCoupling" Value="7" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="147" />
+                  <Metric Name="ExecutableLines" Value="32" />
+                </Metrics>
+                <Members>
+                  <Method Name="string Utility.CheckStringForNull(object value)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\Shared\Utility.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="77" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="13" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool Utility.IsVerboseLoggingEnabled()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\Shared\Utility.cs" Line="27">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="84" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="12" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Utility.GetWebConfigValue(string configKey)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\Shared\Utility.cs" Line="41">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="78" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="14" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Utility.GetApplicationGUID()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\Shared\Utility.cs" Line="55">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="91" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Utility.GetAuditLogType()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\Shared\Utility.cs" Line="64">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="91" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="int Utility.GetConnectionTimeout()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\Shared\Utility.cs" Line="72">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="91" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Utility.ReplaceSingleQuote(string strIn)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\Shared\Utility.cs" Line="77">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="92" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="double Utility.CheckDoubleForNull(object Value)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\Shared\Utility.cs" Line="82">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="77" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="int Utility.CheckIntForNull(object value)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\Shared\Utility.cs" Line="91">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="77" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="string Utility.AuthType" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\Shared\Utility.cs" Line="100">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string Utility.AuthType.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\Shared\Utility.cs" Line="102">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="93" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="3" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Method Name="string Utility.FormatPhone(string strPhone)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\Shared\Utility.cs" Line="105">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="66" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="21" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Utility.FormatSSN(string strSSN)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\Shared\Utility.cs" Line="127">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="65" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="25" />
+                      <Metric Name="ExecutableLines" Value="7" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="OhioMem_ViewAuth.ViewAuth">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="74" />
+              <Metric Name="CyclomaticComplexity" Value="79" />
+              <Metric Name="ClassCoupling" Value="76" />
+              <Metric Name="DepthOfInheritance" Value="4" />
+              <Metric Name="SourceLines" Value="1072" />
+              <Metric Name="ExecutableLines" Value="246" />
+            </Metrics>
+            <Types>
+              <NamedType Name="AuthDetails">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="64" />
+                  <Metric Name="CyclomaticComplexity" Value="5" />
+                  <Metric Name="ClassCoupling" Value="18" />
+                  <Metric Name="DepthOfInheritance" Value="4" />
+                  <Metric Name="SourceLines" Value="181" />
+                  <Metric Name="ExecutableLines" Value="28" />
+                </Metrics>
+                <Members>
+                  <Field Name="Member AuthDetails.m" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\AuthDetails.aspx.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AuthDetails.m_strRelPhone" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\AuthDetails.aspx.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void AuthDetails.Page_Load(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\AuthDetails.aspx.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="61" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="8" />
+                      <Metric Name="SourceLines" Value="29" />
+                      <Metric Name="ExecutableLines" Value="10" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void AuthDetails.BindPage()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\AuthDetails.aspx.cs" Line="46">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="54" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="11" />
+                      <Metric Name="SourceLines" Value="24" />
+                      <Metric Name="ExecutableLines" Value="16" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="HtmlForm AuthDetails.form" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\AuthDetails.aspx.designer.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="BulletedList AuthDetails.blValidationErrors" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\AuthDetails.aspx.designer.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label AuthDetails.lblMemberName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\AuthDetails.aspx.designer.cs" Line="40">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label AuthDetails.lblMemberId" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\AuthDetails.aspx.designer.cs" Line="49">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label AuthDetails.lblReferralId" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\AuthDetails.aspx.designer.cs" Line="58">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label AuthDetails.lblStatus" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\AuthDetails.aspx.designer.cs" Line="67">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label AuthDetails.lblEffectiveDate" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\AuthDetails.aspx.designer.cs" Line="76">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label AuthDetails.lblExpirationDate" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\AuthDetails.aspx.designer.cs" Line="85">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label AuthDetails.lblProviderReferredTo" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\AuthDetails.aspx.designer.cs" Line="94">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label AuthDetails.lblReferredToPractice" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\AuthDetails.aspx.designer.cs" Line="103">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label AuthDetails.lblProviderReferredBy" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\AuthDetails.aspx.designer.cs" Line="112">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label AuthDetails.lblAuthorizedVisits" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\AuthDetails.aspx.designer.cs" Line="121">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label AuthDetails.lblClaimedVisits" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\AuthDetails.aspx.designer.cs" Line="130">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="ViewAuth">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="60" />
+                  <Metric Name="CyclomaticComplexity" Value="70" />
+                  <Metric Name="ClassCoupling" Value="68" />
+                  <Metric Name="DepthOfInheritance" Value="4" />
+                  <Metric Name="SourceLines" Value="859" />
+                  <Metric Name="ExecutableLines" Value="218" />
+                </Metrics>
+                <Members>
+                  <Field Name="Member ViewAuth.m" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\ViewAuth.aspx.cs" Line="19">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void ViewAuth.Page_Load(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\ViewAuth.aspx.cs" Line="28">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="54" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="12" />
+                      <Metric Name="SourceLines" Value="38" />
+                      <Metric Name="ExecutableLines" Value="18" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ViewAuth.BuildMemberList()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\ViewAuth.aspx.cs" Line="67">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="54" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="11" />
+                      <Metric Name="SourceLines" Value="36" />
+                      <Metric Name="ExecutableLines" Value="15" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ViewAuth.chkSpouseCanView_CheckedChanged(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\ViewAuth.aspx.cs" Line="115">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="66" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="35" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ViewAuth.chkParentCanView_CheckedChanged(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\ViewAuth.aspx.cs" Line="151">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="56" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="10" />
+                      <Metric Name="SourceLines" Value="49" />
+                      <Metric Name="ExecutableLines" Value="13" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ViewAuth.btnViewAuth_OnServerClick(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\ViewAuth.aspx.cs" Line="190">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="60" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="12" />
+                      <Metric Name="SourceLines" Value="19" />
+                      <Metric Name="ExecutableLines" Value="10" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ViewAuth.DisplayAuths(Member m)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\ViewAuth.aspx.cs" Line="210">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="56" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="11" />
+                      <Metric Name="SourceLines" Value="27" />
+                      <Metric Name="ExecutableLines" Value="14" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ViewAuth.ConfigureSpouseViewCheckbox()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\ViewAuth.aspx.cs" Line="249">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="71" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="25" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ViewAuth.ConfigureParentViewCheckbox()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\ViewAuth.aspx.cs" Line="276">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="64" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="29" />
+                      <Metric Name="ExecutableLines" Value="7" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool ViewAuth.HasSpouse(Member m)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\ViewAuth.aspx.cs" Line="294">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="59" />
+                      <Metric Name="CyclomaticComplexity" Value="7" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="29" />
+                      <Metric Name="ExecutableLines" Value="12" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="DataTable ViewAuth.GetDataTable(GridView dtg)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\ViewAuth.aspx.cs" Line="334">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="58" />
+                      <Metric Name="CyclomaticComplexity" Value="6" />
+                      <Metric Name="ClassCoupling" Value="14" />
+                      <Metric Name="SourceLines" Value="37" />
+                      <Metric Name="ExecutableLines" Value="11" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ViewAuth.GetGridNoPaging()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\ViewAuth.aspx.cs" Line="371">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="52" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="13" />
+                      <Metric Name="SourceLines" Value="52" />
+                      <Metric Name="ExecutableLines" Value="20" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string ViewAuth.GetMemberID()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\ViewAuth.aspx.cs" Line="424">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="62" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="10" />
+                      <Metric Name="SourceLines" Value="24" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ViewAuth.membersGrid_OnDataBound(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\ViewAuth.aspx.cs" Line="449">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="81" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="15" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ViewAuth.referralsGrid_OnPageIndexChanging(object sender, GridViewPageEventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\ViewAuth.aspx.cs" Line="465">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="65" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="24" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ViewAuth.HandleReferralDetailPostback(string referralId)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\ViewAuth.aspx.cs" Line="493">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="74" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="26" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ViewAuth.RaisePostBackEvent(string eventArgument)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\ViewAuth.aspx.cs" Line="521">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="70" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="31" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ViewAuth.referralsGrid_OnRowDataBound(object sender, GridViewRowEventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\ViewAuth.aspx.cs" Line="549">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="53" />
+                      <Metric Name="CyclomaticComplexity" Value="5" />
+                      <Metric Name="ClassCoupling" Value="12" />
+                      <Metric Name="SourceLines" Value="45" />
+                      <Metric Name="ExecutableLines" Value="16" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ViewAuth.referralsGrid_OnSorting(object sender, GridViewSortEventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\ViewAuth.aspx.cs" Line="595">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="59" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="30" />
+                      <Metric Name="ExecutableLines" Value="11" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ViewAuth.WriteReferralIdLinkToCell(string referralID, TableCell cell)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\ViewAuth.aspx.cs" Line="626">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="55" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="10" />
+                      <Metric Name="SourceLines" Value="39" />
+                      <Metric Name="ExecutableLines" Value="16" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool ViewAuth.RestrictedReferral(Referral referral, Member m)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\ViewAuth.aspx.cs" Line="668">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="68" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="32" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ViewAuth.FormatReferalDate(string p, TableCell tableCell)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\ViewAuth.aspx.cs" Line="699">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="77" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="15" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string ViewAuth.GetSortDirection(string column)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\ViewAuth.aspx.cs" Line="715">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="62" />
+                      <Metric Name="CyclomaticComplexity" Value="5" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="31" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="HtmlForm ViewAuth.form" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\ViewAuth.aspx.designer.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="ScriptManager ViewAuth.ScriptManager1" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\ViewAuth.aspx.designer.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel ViewAuth.pnlFirstTime" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\ViewAuth.aspx.designer.cs" Line="40">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel ViewAuth.pnlError" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\ViewAuth.aspx.designer.cs" Line="49">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label ViewAuth.errorLabel" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\ViewAuth.aspx.designer.cs" Line="58">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel ViewAuth.pnlDisplayMembers" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\ViewAuth.aspx.designer.cs" Line="67">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="GridView ViewAuth.membersGrid" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\ViewAuth.aspx.designer.cs" Line="76">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlInputSubmit ViewAuth.btnViewAuth" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\ViewAuth.aspx.designer.cs" Line="85">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel ViewAuth.pnlReferralsList" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\ViewAuth.aspx.designer.cs" Line="94">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="GridView ViewAuth.referralsGrid" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\ViewAuth.aspx.designer.cs" Line="103">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel ViewAuth.pnlSpousePermission" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\ViewAuth.aspx.designer.cs" Line="112">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="CheckBox ViewAuth.chkSpouseCanView" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\ViewAuth.aspx.designer.cs" Line="121">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel ViewAuth.pnlParentPermission" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\ViewAuth.aspx.designer.cs" Line="130">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="CheckBox ViewAuth.chkParentCanView" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\ViewAuth.aspx.designer.cs" Line="139">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label ViewAuth.lblshow100" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\ViewAuth.aspx.designer.cs" Line="148">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="ViewAuth.MemberItem">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="4" />
+                  <Metric Name="ClassCoupling" Value="1" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="6" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+                <Members>
+                  <Property Name="string MemberItem.memberId" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\ViewAuth.aspx.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string MemberItem.memberId.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\ViewAuth.aspx.cs" Line="24">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void MemberItem.memberId.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\ViewAuth.aspx.cs" Line="24">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string MemberItem.memberName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\ViewAuth.aspx.cs" Line="25">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string MemberItem.memberName.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\ViewAuth.aspx.cs" Line="25">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void MemberItem.memberName.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Members\OhioMem_ViewAuth\OhioMem_ViewAuth\ViewAuth\ViewAuth.aspx.cs" Line="25">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

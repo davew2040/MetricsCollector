@@ -1,0 +1,424 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="Member_ViewCarePlan.csproj">
+      <Assembly Name="Member_ViewCarePlan, Version=1.0.0.9, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="90" />
+          <Metric Name="CyclomaticComplexity" Value="25" />
+          <Metric Name="ClassCoupling" Value="46" />
+          <Metric Name="DepthOfInheritance" Value="4" />
+          <Metric Name="SourceLines" Value="332" />
+          <Metric Name="ExecutableLines" Value="96" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="Member_ViewCarePlan.Shared">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="96" />
+              <Metric Name="CyclomaticComplexity" Value="8" />
+              <Metric Name="ClassCoupling" Value="2" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="40" />
+              <Metric Name="ExecutableLines" Value="3" />
+            </Metrics>
+            <Types>
+              <NamedType Name="Log">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="93" />
+                  <Metric Name="CyclomaticComplexity" Value="2" />
+                  <Metric Name="ClassCoupling" Value="2" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="29" />
+                  <Metric Name="ExecutableLines" Value="3" />
+                </Metrics>
+                <Members>
+                  <Field Name="ILog Log.logger" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewCarePlanSln\Member_ViewCarePlan\Shared\Log.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="90" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Log.LogError(string strErrorMessage)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewCarePlanSln\Member_ViewCarePlan\Shared\Log.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Log.LogInfo(string strInfoMessage)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewCarePlanSln\Member_ViewCarePlan\Shared\Log.cs" Line="29">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="SecurityContext">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="6" />
+                  <Metric Name="ClassCoupling" Value="0" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="6" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+                <Members>
+                  <Property Name="string SecurityContext.care_site" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewCarePlanSln\Member_ViewCarePlan\Shared\SecurityContext.cs" Line="5">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string SecurityContext.care_site.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewCarePlanSln\Member_ViewCarePlan\Shared\SecurityContext.cs" Line="5">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void SecurityContext.care_site.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewCarePlanSln\Member_ViewCarePlan\Shared\SecurityContext.cs" Line="5">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="long SecurityContext.created_ts" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewCarePlanSln\Member_ViewCarePlan\Shared\SecurityContext.cs" Line="6">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="long SecurityContext.created_ts.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewCarePlanSln\Member_ViewCarePlan\Shared\SecurityContext.cs" Line="6">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void SecurityContext.created_ts.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewCarePlanSln\Member_ViewCarePlan\Shared\SecurityContext.cs" Line="6">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string SecurityContext.auth_token" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewCarePlanSln\Member_ViewCarePlan\Shared\SecurityContext.cs" Line="7">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string SecurityContext.auth_token.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewCarePlanSln\Member_ViewCarePlan\Shared\SecurityContext.cs" Line="7">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void SecurityContext.auth_token.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewCarePlanSln\Member_ViewCarePlan\Shared\SecurityContext.cs" Line="7">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="Member_ViewCarePlan.ViewCarePlan">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="86" />
+              <Metric Name="CyclomaticComplexity" Value="17" />
+              <Metric Name="ClassCoupling" Value="44" />
+              <Metric Name="DepthOfInheritance" Value="4" />
+              <Metric Name="SourceLines" Value="292" />
+              <Metric Name="ExecutableLines" Value="93" />
+            </Metrics>
+            <Types>
+              <NamedType Name="Error">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="3" />
+                  <Metric Name="DepthOfInheritance" Value="4" />
+                  <Metric Name="SourceLines" Value="19" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+                <Members>
+                  <Method Name="void Error.Page_Load(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewCarePlanSln\Member_ViewCarePlan\ViewCarePlan\Error.aspx.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="HtmlForm Error.form1" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewCarePlanSln\Member_ViewCarePlan\ViewCarePlan\Error.aspx.designer.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="ViewCarePlan">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="60" />
+                  <Metric Name="CyclomaticComplexity" Value="15" />
+                  <Metric Name="ClassCoupling" Value="44" />
+                  <Metric Name="DepthOfInheritance" Value="4" />
+                  <Metric Name="SourceLines" Value="203" />
+                  <Metric Name="ExecutableLines" Value="93" />
+                </Metrics>
+                <Members>
+                  <Field Name="HttpClient ViewCarePlan.client" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewCarePlanSln\Member_ViewCarePlan\ViewCarePlan\ViewCarePlan.aspx.cs" Line="27">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ViewCarePlan._publicKey" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewCarePlanSln\Member_ViewCarePlan\ViewCarePlan\ViewCarePlan.aspx.cs" Line="28">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ViewCarePlan._privateKey" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewCarePlanSln\Member_ViewCarePlan\ViewCarePlan\ViewCarePlan.aspx.cs" Line="29">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ViewCarePlan._careSite" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewCarePlanSln\Member_ViewCarePlan\ViewCarePlan\ViewCarePlan.aspx.cs" Line="30">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ViewCarePlan._apiURL" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewCarePlanSln\Member_ViewCarePlan\ViewCarePlan\ViewCarePlan.aspx.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="long ViewCarePlan._createdTs" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewCarePlanSln\Member_ViewCarePlan\ViewCarePlan\ViewCarePlan.aspx.cs" Line="32">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ViewCarePlan._securityToken" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewCarePlanSln\Member_ViewCarePlan\ViewCarePlan\ViewCarePlan.aspx.cs" Line="33">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ViewCarePlan._securityContext" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewCarePlanSln\Member_ViewCarePlan\ViewCarePlan\ViewCarePlan.aspx.cs" Line="34">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ViewCarePlan.AppName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewCarePlanSln\Member_ViewCarePlan\ViewCarePlan\ViewCarePlan.aspx.cs" Line="36">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ViewCarePlan.AppGuid" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewCarePlanSln\Member_ViewCarePlan\ViewCarePlan\ViewCarePlan.aspx.cs" Line="37">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void ViewCarePlan.Page_Load(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewCarePlanSln\Member_ViewCarePlan\ViewCarePlan\ViewCarePlan.aspx.cs" Line="39">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="50" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="10" />
+                      <Metric Name="SourceLines" Value="40" />
+                      <Metric Name="ExecutableLines" Value="23" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string ViewCarePlan.GetMemberID()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewCarePlanSln\Member_ViewCarePlan\ViewCarePlan\ViewCarePlan.aspx.cs" Line="80">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="66" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="16" />
+                      <Metric Name="ExecutableLines" Value="7" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ViewCarePlan.StartToken()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewCarePlanSln\Member_ViewCarePlan\ViewCarePlan\ViewCarePlan.aspx.cs" Line="97">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="57" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="25" />
+                      <Metric Name="ExecutableLines" Value="13" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string ViewCarePlan.GetToken(string word, string privateKey)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewCarePlanSln\Member_ViewCarePlan\ViewCarePlan\ViewCarePlan.aspx.cs" Line="123">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="63" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="10" />
+                      <Metric Name="SourceLines" Value="14" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool ViewCarePlan.CheckToken(string word, string token, string publicKey)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewCarePlanSln\Member_ViewCarePlan\ViewCarePlan\ViewCarePlan.aspx.cs" Line="138">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="63" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="10" />
+                      <Metric Name="SourceLines" Value="16" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ViewCarePlan.GetPDF(string memberID)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewCarePlanSln\Member_ViewCarePlan\ViewCarePlan\ViewCarePlan.aspx.cs" Line="155">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="51" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="11" />
+                      <Metric Name="SourceLines" Value="36" />
+                      <Metric Name="ExecutableLines" Value="22" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ViewCarePlan.SetSecurityContext()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewCarePlanSln\Member_ViewCarePlan\ViewCarePlan\ViewCarePlan.aspx.cs" Line="192">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="68" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="10" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ViewCarePlan.CreateApplicationContext()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewCarePlanSln\Member_ViewCarePlan\ViewCarePlan\ViewCarePlan.aspx.cs" Line="203">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="77" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="11" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="HtmlForm ViewCarePlan.form1" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewCarePlanSln\Member_ViewCarePlan\ViewCarePlan\ViewCarePlan.aspx.designer.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="ViewPlan">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="3" />
+                  <Metric Name="DepthOfInheritance" Value="4" />
+                  <Metric Name="SourceLines" Value="19" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+                <Members>
+                  <Method Name="void ViewPlan.Page_Load(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewCarePlanSln\Member_ViewCarePlan\ViewCarePlan\ViewPlan.aspx.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="HtmlForm ViewPlan.form1" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewCarePlanSln\Member_ViewCarePlan\ViewCarePlan\ViewPlan.aspx.designer.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

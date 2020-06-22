@@ -1,0 +1,2552 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="OhioProv_OBHViewClaims.csproj">
+      <Assembly Name="OhioProv_OBHViewClaims, Version=1.0.0.4, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="72" />
+          <Metric Name="CyclomaticComplexity" Value="275" />
+          <Metric Name="ClassCoupling" Value="106" />
+          <Metric Name="DepthOfInheritance" Value="4" />
+          <Metric Name="SourceLines" Value="3051" />
+          <Metric Name="ExecutableLines" Value="770" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="OhioProv_OBHViewClaims.Shared">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="81" />
+              <Metric Name="CyclomaticComplexity" Value="91" />
+              <Metric Name="ClassCoupling" Value="27" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="624" />
+              <Metric Name="ExecutableLines" Value="148" />
+            </Metrics>
+            <Types>
+              <NamedType Name="EnrollmentStatus">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="71" />
+                  <Metric Name="CyclomaticComplexity" Value="5" />
+                  <Metric Name="ClassCoupling" Value="1" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="17" />
+                  <Metric Name="ExecutableLines" Value="4" />
+                </Metrics>
+                <Members>
+                  <Method Name="int EnrollmentStatus.GetEnrollStatus(string strEnrollCode, DateTime dtEnrollDate)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\EnrollmentStatus.cs" Line="7">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="71" />
+                      <Metric Name="CyclomaticComplexity" Value="5" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="14" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="FormatProviderList">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="58" />
+                  <Metric Name="CyclomaticComplexity" Value="13" />
+                  <Metric Name="ClassCoupling" Value="8" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="103" />
+                  <Metric Name="ExecutableLines" Value="38" />
+                </Metrics>
+                <Members>
+                  <Method Name="bool FormatProviderList.BuildProviderList(string strVendorID, DropDownList cboProviderList, bool blnAllPhysMsg)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\FormatProviderList.cs" Line="10">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="56" />
+                      <Metric Name="CyclomaticComplexity" Value="5" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="25" />
+                      <Metric Name="ExecutableLines" Value="14" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string FormatProviderList.InvalidProviderErrMsg(string strVendorId)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\FormatProviderList.cs" Line="48">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="72" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="21" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool FormatProviderList.BuildDefaultProviderList(string strVendorId, string strDefaultId, DropDownList cboProviderList)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\FormatProviderList.cs" Line="76">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="52" />
+                      <Metric Name="CyclomaticComplexity" Value="7" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="52" />
+                      <Metric Name="ExecutableLines" Value="19" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="FormatVendorList">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="65" />
+                  <Metric Name="CyclomaticComplexity" Value="15" />
+                  <Metric Name="ClassCoupling" Value="9" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="92" />
+                  <Metric Name="ExecutableLines" Value="37" />
+                </Metrics>
+                <Members>
+                  <Field Name="string FormatVendorList._specialtiesInitialized" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\FormatVendorList.cs" Line="11">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="bool FormatVendorList._hasOb" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\FormatVendorList.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="bool FormatVendorList._hasSpecialist" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\FormatVendorList.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="bool FormatVendorList._hasPcp" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\FormatVendorList.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void FormatVendorList.BindVendorList(List&lt;AssignedPractice&gt; oAPL, DropDownList cboVendorList, bool blnListAll)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\FormatVendorList.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="59" />
+                      <Metric Name="CyclomaticComplexity" Value="5" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="28" />
+                      <Metric Name="ExecutableLines" Value="12" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void FormatVendorList.BindVendorLabel(List&lt;AssignedPractice&gt; oAPL, Label lblVendorName, TextBox txtVendorID)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\FormatVendorList.cs" Line="45">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="65" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="16" />
+                      <Metric Name="ExecutableLines" Value="7" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string FormatVendorList.InvalidVendorErrMsg()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\FormatVendorList.cs" Line="62">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="64" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="14" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string FormatVendorList.BuildVendorAllList(List&lt;AssignedPractice&gt; oAPL)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\FormatVendorList.cs" Line="77">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="65" />
+                      <Metric Name="CyclomaticComplexity" Value="5" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="23" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="GroupInfo">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="81" />
+                  <Metric Name="CyclomaticComplexity" Value="21" />
+                  <Metric Name="ClassCoupling" Value="5" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="220" />
+                  <Metric Name="ExecutableLines" Value="43" />
+                </Metrics>
+                <Members>
+                  <Field Name="string GroupInfo.mWEB_GROUP" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="11">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string GroupInfo.mWEB_NAME" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string GroupInfo.mWEB_ORIG" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string GroupInfo.mWEB_EFF_DATE" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string GroupInfo.mWEB_RENEW_DATE" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string GroupInfo.mWEB_CARRIER" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string GroupInfo.mWEB_PLAN" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string GroupInfo.mWEB_INV_SENT" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string GroupInfo.mWEB_INV_AMT" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="19">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string GroupInfo.mWEB_INV_PAID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string GroupInfo.mWEB_ACCT_BAL" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="21">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string GroupInfo.mWEB_AMT_PAID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string GroupInfo.mWEB_EB_GRPID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="23">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string GroupInfo.mWEB_FLAG" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string GroupInfo.mWEB_BPL_PLNTYP" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="25">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string GroupInfo.mWEB_CYCLE_CODE" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="26">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string GroupInfo.mWEB_GRACE_IND" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="27">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string GroupInfo.mWEB_CLAIM_PEND_START" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="28">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string GroupInfo.mWEB_CLAIM_PEND_END" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="29">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="string GroupInfo.WEB_GROUP" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="34">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="11" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string GroupInfo.WEB_GROUP.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="36">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string GroupInfo.WEB_NAME" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="42">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string GroupInfo.WEB_NAME.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="44">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string GroupInfo.WEB_ORIG" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="50">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string GroupInfo.WEB_ORIG.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="52">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string GroupInfo.WEB_EFF_DATE" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="58">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string GroupInfo.WEB_EFF_DATE.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="60">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string GroupInfo.WEB_RENEW_DATE" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="66">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string GroupInfo.WEB_RENEW_DATE.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="68">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string GroupInfo.WEB_CARRIER" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="74">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string GroupInfo.WEB_CARRIER.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="76">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string GroupInfo.WEB_PLAN" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="82">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string GroupInfo.WEB_PLAN.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="84">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string GroupInfo.WEB_INV_SENT" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="90">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string GroupInfo.WEB_INV_SENT.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="92">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string GroupInfo.WEB_INV_AMT" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="98">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string GroupInfo.WEB_INV_AMT.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="100">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string GroupInfo.WEB_INV_PAID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="106">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string GroupInfo.WEB_INV_PAID.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="108">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string GroupInfo.WEB_ACCT_BAL" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="114">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string GroupInfo.WEB_ACCT_BAL.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="116">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string GroupInfo.WEB_AMT_PAID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="122">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string GroupInfo.WEB_AMT_PAID.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="124">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string GroupInfo.WEB_EB_GRPID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="130">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string GroupInfo.WEB_EB_GRPID.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="132">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string GroupInfo.WEB_FLAG" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="138">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string GroupInfo.WEB_FLAG.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="140">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string GroupInfo.WEB_BPL_PLNTYP" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="146">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string GroupInfo.WEB_BPL_PLNTYP.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="148">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string GroupInfo.WEB_CYCLE_CODE" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="154">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string GroupInfo.WEB_CYCLE_CODE.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="156">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string GroupInfo.WEB_GRACE_IND" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="162">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string GroupInfo.WEB_GRACE_IND.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="164">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string GroupInfo.WEB_CLAIM_PEND_START" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="170">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string GroupInfo.WEB_CLAIM_PEND_START.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="172">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string GroupInfo.WEB_CLAIM_PEND_END" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="175">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string GroupInfo.WEB_CLAIM_PEND_END.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="177">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Method Name="GroupInfo.GroupInfo(DataRow dr)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="182">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="82" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="15" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void GroupInfo.Fetch(DataRow dr)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\GroupInfo.cs" Line="196">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="50" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="30" />
+                      <Metric Name="ExecutableLines" Value="21" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="Log">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="93" />
+                  <Metric Name="CyclomaticComplexity" Value="2" />
+                  <Metric Name="ClassCoupling" Value="2" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="30" />
+                  <Metric Name="ExecutableLines" Value="3" />
+                </Metrics>
+                <Members>
+                  <Field Name="ILog Log.logger" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\Log.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="90" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Log.LogError(string strErrorMessage)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\Log.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Log.LogInfo(string strInfoMessage)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\Log.cs" Line="29">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="OBHClaimHelper">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="93" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="0" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="15" />
+                  <Metric Name="ExecutableLines" Value="2" />
+                </Metrics>
+                <Members>
+                  <Field Name="string OBHClaimHelper.m_searchResults" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\OBHClaimHelper.cs" Line="7">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string OBHClaimHelper.m_searchCriteria" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\OBHClaimHelper.cs" Line="8">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string OBHClaimHelper.m_ReconClaim" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\OBHClaimHelper.cs" Line="10">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string OBHClaimHelper.m_ReconMember" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\OBHClaimHelper.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string OBHClaimHelper.m_searchMbrResults" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\OBHClaimHelper.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string OBHClaimHelper.m_searchMbrCriteria" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\OBHClaimHelper.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string OBHClaimHelper.m_ClaimVendorID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\OBHClaimHelper.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string OBHClaimHelper.m_ClaimVendorName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\OBHClaimHelper.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string OBHClaimHelper.l_searchResults" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\OBHClaimHelper.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string OBHClaimHelper.m_SearchType" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\OBHClaimHelper.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="ResultItem">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="14" />
+                  <Metric Name="ClassCoupling" Value="2" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="11" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+                <Members>
+                  <Property Name="string ResultItem.MemberID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\OBHClaimHelper.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ResultItem.MemberID.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\OBHClaimHelper.cs" Line="24">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ResultItem.MemberID.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\OBHClaimHelper.cs" Line="24">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ResultItem.MemberStatus" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\OBHClaimHelper.cs" Line="25">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ResultItem.MemberStatus.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\OBHClaimHelper.cs" Line="25">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ResultItem.MemberStatus.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\OBHClaimHelper.cs" Line="25">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ResultItem.MemberName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\OBHClaimHelper.cs" Line="26">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ResultItem.MemberName.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\OBHClaimHelper.cs" Line="26">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ResultItem.MemberName.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\OBHClaimHelper.cs" Line="26">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DateTime ResultItem.MemberDOB" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\OBHClaimHelper.cs" Line="27">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DateTime ResultItem.MemberDOB.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\OBHClaimHelper.cs" Line="27">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ResultItem.MemberDOB.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\OBHClaimHelper.cs" Line="27">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ResultItem.MemberPCP" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\OBHClaimHelper.cs" Line="28">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ResultItem.MemberPCP.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\OBHClaimHelper.cs" Line="28">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ResultItem.MemberPCP.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\OBHClaimHelper.cs" Line="28">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ResultItem.MemberLastFirst" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\OBHClaimHelper.cs" Line="29">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ResultItem.MemberLastFirst.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\OBHClaimHelper.cs" Line="29">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ResultItem.MemberLastFirst.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\OBHClaimHelper.cs" Line="29">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ResultItem.PCPLastFirst" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\OBHClaimHelper.cs" Line="30">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ResultItem.PCPLastFirst.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\OBHClaimHelper.cs" Line="30">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ResultItem.PCPLastFirst.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\OBHClaimHelper.cs" Line="30">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+              <NamedType Name="Utility">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="87" />
+                  <Metric Name="CyclomaticComplexity" Value="20" />
+                  <Metric Name="ClassCoupling" Value="7" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="114" />
+                  <Metric Name="ExecutableLines" Value="21" />
+                </Metrics>
+                <Members>
+                  <Method Name="string Utility.CheckStringForNull(object value)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\Utility.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="77" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="13" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool Utility.IsVerboseLoggingEnabled()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\Utility.cs" Line="30">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="84" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="12" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="string Utility.AuthType" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\Utility.cs" Line="39">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string Utility.AuthType.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\Utility.cs" Line="41">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="93" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="3" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Method Name="string Utility.GetWebConfigValue(string configKey)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\Utility.cs" Line="49">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="78" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="14" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool Utility.IsElapsedTimeLoggingEnabled()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\Utility.cs" Line="63">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="84" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="11" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Utility.GetApplicationGUID()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\Utility.cs" Line="75">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="91" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Utility.GetAuditLogType()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\Utility.cs" Line="84">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="91" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="int Utility.GetConnectionTimeout()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\Utility.cs" Line="92">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="91" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Utility.ReplaceSingleQuote(string strIn)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\Utility.cs" Line="97">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="92" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="double Utility.CheckDoubleForNull(object Value)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\Utility.cs" Line="102">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="77" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="int Utility.CheckIntForNull(object value)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\Shared\Utility.cs" Line="111">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="77" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="OhioProv_OBHViewClaims.ViewOBHClaims">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="60" />
+              <Metric Name="CyclomaticComplexity" Value="184" />
+              <Metric Name="ClassCoupling" Value="100" />
+              <Metric Name="DepthOfInheritance" Value="4" />
+              <Metric Name="SourceLines" Value="2427" />
+              <Metric Name="ExecutableLines" Value="622" />
+            </Metrics>
+            <Types>
+              <NamedType Name="ClaimDetails">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="46" />
+                  <Metric Name="CyclomaticComplexity" Value="28" />
+                  <Metric Name="ClassCoupling" Value="33" />
+                  <Metric Name="DepthOfInheritance" Value="4" />
+                  <Metric Name="SourceLines" Value="519" />
+                  <Metric Name="ExecutableLines" Value="108" />
+                </Metrics>
+                <Members>
+                  <Field Name="string ClaimDetails.pstrDSUNumber" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimDetails.aspx.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ClaimDetails.pstrComplianceEmail" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimDetails.aspx.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ClaimDetails.mClaimID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimDetails.aspx.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ClaimDetails.m_strProvRelPhone" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimDetails.aspx.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void ClaimDetails.Page_Load(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimDetails.aspx.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="50" />
+                      <Metric Name="CyclomaticComplexity" Value="8" />
+                      <Metric Name="ClassCoupling" Value="13" />
+                      <Metric Name="SourceLines" Value="55" />
+                      <Metric Name="ExecutableLines" Value="23" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ClaimDetails.DisplayPage(Claim oclaim, string strMbrID)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimDetails.aspx.cs" Line="76">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="30" />
+                      <Metric Name="CyclomaticComplexity" Value="20" />
+                      <Metric Name="ClassCoupling" Value="22" />
+                      <Metric Name="SourceLines" Value="164" />
+                      <Metric Name="ExecutableLines" Value="83" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="HtmlForm ClaimDetails.form" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimDetails.aspx.designer.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel ClaimDetails.pnlError" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimDetails.aspx.designer.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label ClaimDetails.errorLabel" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimDetails.aspx.designer.cs" Line="40">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel ClaimDetails.pnlTransaction" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimDetails.aspx.designer.cs" Line="49">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label ClaimDetails.lblMemberName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimDetails.aspx.designer.cs" Line="58">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label ClaimDetails.lblMemberNumber" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimDetails.aspx.designer.cs" Line="67">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label ClaimDetails.lblMedicaidID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimDetails.aspx.designer.cs" Line="76">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label ClaimDetails.lblClaimId" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimDetails.aspx.designer.cs" Line="85">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label ClaimDetails.lblServiceDates" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimDetails.aspx.designer.cs" Line="94">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label ClaimDetails.lblPracticeName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimDetails.aspx.designer.cs" Line="103">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label ClaimDetails.lblProviderName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimDetails.aspx.designer.cs" Line="112">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label ClaimDetails.lblClaimStatus" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimDetails.aspx.designer.cs" Line="121">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label ClaimDetails.lblPaymentSentTo" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimDetails.aspx.designer.cs" Line="130">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlTableRow ClaimDetails.trTotalHRA" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimDetails.aspx.designer.cs" Line="139">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label ClaimDetails.lblTotalHRA" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimDetails.aspx.designer.cs" Line="148">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label ClaimDetails.lblPaymentSentOn" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimDetails.aspx.designer.cs" Line="157">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlTableRow ClaimDetails.trCheck" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimDetails.aspx.designer.cs" Line="166">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label ClaimDetails.lblCheck" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimDetails.aspx.designer.cs" Line="175">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label ClaimDetails.lblTotalCharges" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimDetails.aspx.designer.cs" Line="184">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label ClaimDetails.lblNotCoveredCharges" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimDetails.aspx.designer.cs" Line="193">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label ClaimDetails.lblCoveredCharges" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimDetails.aspx.designer.cs" Line="202">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label ClaimDetails.lblDeductible" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimDetails.aspx.designer.cs" Line="211">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label ClaimDetails.lblCopay" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimDetails.aspx.designer.cs" Line="220">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label ClaimDetails.lblTotalPaidByPlan" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimDetails.aspx.designer.cs" Line="229">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label ClaimDetails.lblPatientResponsibility" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimDetails.aspx.designer.cs" Line="238">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlTableRow ClaimDetails.trAttendingPhysician" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimDetails.aspx.designer.cs" Line="247">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label ClaimDetails.lblAttendingPhysician" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimDetails.aspx.designer.cs" Line="256">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlTableRow ClaimDetails.trComments" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimDetails.aspx.designer.cs" Line="265">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label ClaimDetails.lblComments" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimDetails.aspx.designer.cs" Line="274">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Repeater ClaimDetails.claimServiceRepeater" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimDetails.aspx.designer.cs" Line="283">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel ClaimDetails.pnlClaimLinks" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimDetails.aspx.designer.cs" Line="292">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel ClaimDetails.pnlBilling" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimDetails.aspx.designer.cs" Line="301">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="ClaimsSummary">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="60" />
+                  <Metric Name="CyclomaticComplexity" Value="29" />
+                  <Metric Name="ClassCoupling" Value="54" />
+                  <Metric Name="DepthOfInheritance" Value="4" />
+                  <Metric Name="SourceLines" Value="367" />
+                  <Metric Name="ExecutableLines" Value="92" />
+                </Metrics>
+                <Members>
+                  <Field Name="List&lt;string&gt; ClaimsSummary.m_SearchCriteria" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimsSummary.aspx.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ClaimsSummary.m_strSearchURL" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimsSummary.aspx.cs" Line="19">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="List&lt;Claim&gt; ClaimsSummary.mClaimSearch" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimsSummary.aspx.cs" Line="21">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void ClaimsSummary.Page_Load(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimsSummary.aspx.cs" Line="53">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="47" />
+                      <Metric Name="CyclomaticComplexity" Value="9" />
+                      <Metric Name="ClassCoupling" Value="23" />
+                      <Metric Name="SourceLines" Value="61" />
+                      <Metric Name="ExecutableLines" Value="26" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ClaimsSummary.BindGrid()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimsSummary.aspx.cs" Line="125">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="47" />
+                      <Metric Name="CyclomaticComplexity" Value="5" />
+                      <Metric Name="ClassCoupling" Value="16" />
+                      <Metric Name="SourceLines" Value="70" />
+                      <Metric Name="ExecutableLines" Value="26" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string ClaimsSummary.WriteClaimIdLinkToCell(string strClaimID)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimsSummary.aspx.cs" Line="196">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="58" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="40" />
+                      <Metric Name="ExecutableLines" Value="14" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ClaimsSummary.GridViewResults_Sorting(object sender, GridViewSortEventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimsSummary.aspx.cs" Line="232">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="68" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="22" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="List&lt;T&gt; ClaimsSummary.GetSortedData&lt;T&gt;(List&lt;T&gt; data, string sortExpression)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimsSummary.aspx.cs" Line="256">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="74" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="15" />
+                      <Metric Name="SourceLines" Value="19" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ClaimsSummary.GridViewResults_PageIndexChanging(object sender, GridViewPageEventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimsSummary.aspx.cs" Line="275">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="69" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="17" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ClaimsSummary.GridViewResults_RowDataBound(object sender, GridViewRowEventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimsSummary.aspx.cs" Line="288">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="68" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="8" />
+                      <Metric Name="SourceLines" Value="15" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ClaimsSummary.SetSortDirection(string sortExpression)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimsSummary.aspx.cs" Line="309">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="69" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="22" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="HtmlForm ClaimsSummary.form" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimsSummary.aspx.designer.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="BulletedList ClaimsSummary.blValidationErrors" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimsSummary.aspx.designer.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="BulletedList ClaimsSummary.blSearchCriteria" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimsSummary.aspx.designer.cs" Line="40">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel ClaimsSummary.pnlMoreThan100Results" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimsSummary.aspx.designer.cs" Line="49">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="GridView ClaimsSummary.GridViewResults" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimsSummary.aspx.designer.cs" Line="58">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlAnchor ClaimsSummary.aNewSearch" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimsSummary.aspx.designer.cs" Line="67">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="ClaimsSummary.ResultItem">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="94" />
+                  <Metric Name="CyclomaticComplexity" Value="5" />
+                  <Metric Name="ClassCoupling" Value="1" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="29" />
+                  <Metric Name="ExecutableLines" Value="5" />
+                </Metrics>
+                <Members>
+                  <Field Name="string ResultItem.mClaimID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimsSummary.aspx.cs" Line="26">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ResultItem.mStatus" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimsSummary.aspx.cs" Line="27">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ResultItem.mDateOfService" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimsSummary.aspx.cs" Line="28">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ResultItem.mMemberName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimsSummary.aspx.cs" Line="29">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ResultItem.mCSCName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimsSummary.aspx.cs" Line="30">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="string ResultItem.ClaimID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimsSummary.aspx.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ResultItem.ClaimID.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimsSummary.aspx.cs" Line="33">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ResultItem.Status" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimsSummary.aspx.cs" Line="35">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ResultItem.Status.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimsSummary.aspx.cs" Line="37">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ResultItem.MemberName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimsSummary.aspx.cs" Line="39">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ResultItem.MemberName.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimsSummary.aspx.cs" Line="41">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ResultItem.DateOfService" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimsSummary.aspx.cs" Line="43">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ResultItem.DateOfService.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimsSummary.aspx.cs" Line="45">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ResultItem.CSCName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimsSummary.aspx.cs" Line="47">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ResultItem.CSCName.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ClaimsSummary.aspx.cs" Line="49">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+              <NamedType Name="MemberSearch">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="47" />
+                  <Metric Name="CyclomaticComplexity" Value="50" />
+                  <Metric Name="ClassCoupling" Value="44" />
+                  <Metric Name="DepthOfInheritance" Value="4" />
+                  <Metric Name="SourceLines" Value="578" />
+                  <Metric Name="ExecutableLines" Value="162" />
+                </Metrics>
+                <Members>
+                  <Method Name="void MemberSearch.Page_Load(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\MemberSearch.aspx.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="60" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="11" />
+                      <Metric Name="SourceLines" Value="30" />
+                      <Metric Name="ExecutableLines" Value="12" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void MemberSearch.AddClientEventHandlers()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\MemberSearch.aspx.cs" Line="49">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="56" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="44" />
+                      <Metric Name="ExecutableLines" Value="10" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void MemberSearch.BuildVendorDisplay(string user)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\MemberSearch.aspx.cs" Line="94">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="47" />
+                      <Metric Name="CyclomaticComplexity" Value="6" />
+                      <Metric Name="ClassCoupling" Value="20" />
+                      <Metric Name="SourceLines" Value="61" />
+                      <Metric Name="ExecutableLines" Value="27" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="List&lt;string&gt; MemberSearch.ValidateCriteria()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\MemberSearch.aspx.cs" Line="156">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="51" />
+                      <Metric Name="CyclomaticComplexity" Value="10" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="59" />
+                      <Metric Name="ExecutableLines" Value="18" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void MemberSearch.PerformSearch()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\MemberSearch.aspx.cs" Line="216">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="35" />
+                      <Metric Name="CyclomaticComplexity" Value="17" />
+                      <Metric Name="ClassCoupling" Value="27" />
+                      <Metric Name="SourceLines" Value="132" />
+                      <Metric Name="ExecutableLines" Value="60" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void MemberSearch.RedirectToResultsPage(List&lt;MemberEligibilitySearchResults&gt; oMember, string strVendorID)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\MemberSearch.aspx.cs" Line="349">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="48" />
+                      <Metric Name="CyclomaticComplexity" Value="8" />
+                      <Metric Name="ClassCoupling" Value="17" />
+                      <Metric Name="SourceLines" Value="60" />
+                      <Metric Name="ExecutableLines" Value="25" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="List&lt;string&gt; MemberSearch.BuildCriteriaSearchMessage(int intCount, string strMbrID, string strSSN, string strLName, string strFName, string strCSCName)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\MemberSearch.aspx.cs" Line="410">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="61" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="28" />
+                      <Metric Name="ExecutableLines" Value="10" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="HtmlForm MemberSearch.form" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\MemberSearch.aspx.designer.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel MemberSearch.pnlError" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\MemberSearch.aspx.designer.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="BulletedList MemberSearch.blValidationErrors" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\MemberSearch.aspx.designer.cs" Line="40">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel MemberSearch.pnlMultiVendor" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\MemberSearch.aspx.designer.cs" Line="49">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="DropDownList MemberSearch.cboVendorList" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\MemberSearch.aspx.designer.cs" Line="58">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel MemberSearch.pnlSingleVendor" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\MemberSearch.aspx.designer.cs" Line="67">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label MemberSearch.lblVendorName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\MemberSearch.aspx.designer.cs" Line="76">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="TextBox MemberSearch.txtVendorID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\MemberSearch.aspx.designer.cs" Line="85">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="TextBox MemberSearch.txtSubscriberID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\MemberSearch.aspx.designer.cs" Line="94">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="TextBox MemberSearch.txtMbrNbr" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\MemberSearch.aspx.designer.cs" Line="103">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="TextBox MemberSearch.txtMedicaidID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\MemberSearch.aspx.designer.cs" Line="112">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="TextBox MemberSearch.txtSSN1" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\MemberSearch.aspx.designer.cs" Line="121">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="TextBox MemberSearch.txtSSN2" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\MemberSearch.aspx.designer.cs" Line="130">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="TextBox MemberSearch.txtSSN3" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\MemberSearch.aspx.designer.cs" Line="139">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="TextBox MemberSearch.txtLName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\MemberSearch.aspx.designer.cs" Line="148">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="TextBox MemberSearch.txtFName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\MemberSearch.aspx.designer.cs" Line="157">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlInputSubmit MemberSearch.btnSearchCriteria" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\MemberSearch.aspx.designer.cs" Line="166">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="MemberSummary">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="61" />
+                  <Metric Name="CyclomaticComplexity" Value="39" />
+                  <Metric Name="ClassCoupling" Value="58" />
+                  <Metric Name="DepthOfInheritance" Value="4" />
+                  <Metric Name="SourceLines" Value="414" />
+                  <Metric Name="ExecutableLines" Value="123" />
+                </Metrics>
+                <Members>
+                  <Field Name="string MemberSummary.m_VendorID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\MemberSummary.aspx.cs" Line="19">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberSummary.m_VendorName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\MemberSummary.aspx.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="List&lt;string&gt; MemberSummary.m_SearchCriteria" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\MemberSummary.aspx.cs" Line="21">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="List&lt;MemberEligibilitySearchResults&gt; MemberSummary.mMemberSearch" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\MemberSummary.aspx.cs" Line="23">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void MemberSummary.Page_Load(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\MemberSummary.aspx.cs" Line="25">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="54" />
+                      <Metric Name="CyclomaticComplexity" Value="5" />
+                      <Metric Name="ClassCoupling" Value="15" />
+                      <Metric Name="SourceLines" Value="41" />
+                      <Metric Name="ExecutableLines" Value="16" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void MemberSummary.BindGrid()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\MemberSummary.aspx.cs" Line="67">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="47" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="16" />
+                      <Metric Name="SourceLines" Value="48" />
+                      <Metric Name="ExecutableLines" Value="25" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void MemberSummary.SetSortDirection(string sortExpression)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\MemberSummary.aspx.cs" Line="121">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="69" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="22" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void MemberSummary.GridViewResults_Sorting(object sender, GridViewSortEventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\MemberSummary.aspx.cs" Line="144">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="68" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="23" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="List&lt;T&gt; MemberSummary.GetSortedData&lt;T&gt;(List&lt;T&gt; data, string sortExpression)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\MemberSummary.aspx.cs" Line="169">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="74" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="15" />
+                      <Metric Name="SourceLines" Value="19" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void MemberSummary.GridViewResults_PageIndexChanging(object sender, GridViewPageEventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\MemberSummary.aspx.cs" Line="188">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="69" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="18" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void MemberSummary.GridViewResults_RowDataBound(object sender, GridViewRowEventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\MemberSummary.aspx.cs" Line="208">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="66" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="8" />
+                      <Metric Name="SourceLines" Value="19" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string MemberSummary.WriteEnrollmentStatus(string strEnrollCode, DateTime dtEnrollDate)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\MemberSummary.aspx.cs" Line="228">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="69" />
+                      <Metric Name="CyclomaticComplexity" Value="5" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="34" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string MemberSummary.WriteMbrIdLinkToCell(string strMbrID)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\MemberSummary.aspx.cs" Line="265">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="55" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="43" />
+                      <Metric Name="ExecutableLines" Value="17" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void MemberSummary.RaisePostBackEvent(string eventArgument)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\MemberSummary.aspx.cs" Line="301">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="62" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="24" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void MemberSummary.HandleClaimProvPostback(string strMbrID, string strVendorID, string strVendorName)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\MemberSummary.aspx.cs" Line="337">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="51" />
+                      <Metric Name="CyclomaticComplexity" Value="6" />
+                      <Metric Name="ClassCoupling" Value="11" />
+                      <Metric Name="SourceLines" Value="55" />
+                      <Metric Name="ExecutableLines" Value="20" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="List&lt;string&gt; MemberSummary.BuildCriteriaSearchMessage(string strMbrID, string strCSCName)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\MemberSummary.aspx.cs" Line="382">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="75" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="10" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="HtmlForm MemberSummary.form" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\MemberSummary.aspx.designer.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="BulletedList MemberSummary.blValidationErrors" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\MemberSummary.aspx.designer.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="BulletedList MemberSummary.blSearchCriteria" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\MemberSummary.aspx.designer.cs" Line="40">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="GridView MemberSummary.GridViewResults" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\MemberSummary.aspx.designer.cs" Line="49">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="ProviderSearch">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="53" />
+                  <Metric Name="CyclomaticComplexity" Value="33" />
+                  <Metric Name="ClassCoupling" Value="44" />
+                  <Metric Name="DepthOfInheritance" Value="4" />
+                  <Metric Name="SourceLines" Value="469" />
+                  <Metric Name="ExecutableLines" Value="132" />
+                </Metrics>
+                <Members>
+                  <Method Name="void ProviderSearch.Page_Load(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ProviderSearch.aspx.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="60" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="12" />
+                      <Metric Name="SourceLines" Value="27" />
+                      <Metric Name="ExecutableLines" Value="11" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ProviderSearch.LoadListboxes()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ProviderSearch.aspx.cs" Line="46">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="45" />
+                      <Metric Name="CyclomaticComplexity" Value="6" />
+                      <Metric Name="ClassCoupling" Value="24" />
+                      <Metric Name="SourceLines" Value="70" />
+                      <Metric Name="ExecutableLines" Value="31" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ProviderSearch.BindStatusBox()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ProviderSearch.aspx.cs" Line="117">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="61" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="19" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string ProviderSearch.ValidateCriteria()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ProviderSearch.aspx.cs" Line="137">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="55" />
+                      <Metric Name="CyclomaticComplexity" Value="6" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="47" />
+                      <Metric Name="ExecutableLines" Value="15" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="List&lt;string&gt; ProviderSearch.BuildCriteriaSearchMessage(long lngCount, string strCSCID, string strCLaimID, string strStatus, string strBeginDate, string strEndDate)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ProviderSearch.aspx.cs" Line="185">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="66" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="18" />
+                      <Metric Name="ExecutableLines" Value="7" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ProviderSearch.RedirectToDetailPage(List&lt;Claim&gt; oPR)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ProviderSearch.aspx.cs" Line="204">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="72" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="16" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ProviderSearch.cboVendorList_SelectedIndexChanged1(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ProviderSearch.aspx.cs" Line="221">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="65" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="17" />
+                      <Metric Name="ExecutableLines" Value="7" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ProviderSearch.btnSearchCriteria_Click(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ProviderSearch.aspx.cs" Line="239">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="39" />
+                      <Metric Name="CyclomaticComplexity" Value="12" />
+                      <Metric Name="ClassCoupling" Value="20" />
+                      <Metric Name="SourceLines" Value="117" />
+                      <Metric Name="ExecutableLines" Value="48" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="HtmlForm ProviderSearch.form" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ProviderSearch.aspx.designer.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel ProviderSearch.pnlError" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ProviderSearch.aspx.designer.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="BulletedList ProviderSearch.blValidationErrors" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ProviderSearch.aspx.designer.cs" Line="40">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel ProviderSearch.pnlMultiVendor" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ProviderSearch.aspx.designer.cs" Line="49">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="DropDownList ProviderSearch.cboVendorList" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ProviderSearch.aspx.designer.cs" Line="58">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel ProviderSearch.pnlSingleVendor" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ProviderSearch.aspx.designer.cs" Line="67">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label ProviderSearch.lblVendorName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ProviderSearch.aspx.designer.cs" Line="76">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="TextBox ProviderSearch.txtVendorID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ProviderSearch.aspx.designer.cs" Line="85">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="DropDownList ProviderSearch.cboProviderList" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ProviderSearch.aspx.designer.cs" Line="94">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="TextBox ProviderSearch.txtClaimNbr" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ProviderSearch.aspx.designer.cs" Line="103">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="DropDownList ProviderSearch.lstStatus" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ProviderSearch.aspx.designer.cs" Line="112">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="TextBox ProviderSearch.txtBeginClaimDate" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ProviderSearch.aspx.designer.cs" Line="121">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="TextBox ProviderSearch.txtEndClaimDate" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ProviderSearch.aspx.designer.cs" Line="130">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Button ProviderSearch.btnSearchCriteria" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.ohiohealthyplans.com\Providers\OhioProv_OBHViewClaims\OhioProv_OBHViewClaims\ViewOBHClaims\ProviderSearch.aspx.designer.cs" Line="139">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

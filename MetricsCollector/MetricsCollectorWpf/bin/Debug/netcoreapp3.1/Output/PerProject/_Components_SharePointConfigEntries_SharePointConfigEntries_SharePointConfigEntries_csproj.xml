@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="SharePointConfigEntries.csproj">
+      <Assembly Name="Sentara.OptimaHealth.SharePointConfigEntries, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ad1cb31a5c7174a8">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="64" />
+          <Metric Name="CyclomaticComplexity" Value="6" />
+          <Metric Name="ClassCoupling" Value="8" />
+          <Metric Name="DepthOfInheritance" Value="1" />
+          <Metric Name="SourceLines" Value="73" />
+          <Metric Name="ExecutableLines" Value="18" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="Sentara.OptimaHealth.SharePointConfigEntries">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="64" />
+              <Metric Name="CyclomaticComplexity" Value="6" />
+              <Metric Name="ClassCoupling" Value="8" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="73" />
+              <Metric Name="ExecutableLines" Value="18" />
+            </Metrics>
+            <Types>
+              <NamedType Name="SharePointConfigEntries">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="64" />
+                  <Metric Name="CyclomaticComplexity" Value="6" />
+                  <Metric Name="ClassCoupling" Value="8" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="69" />
+                  <Metric Name="ExecutableLines" Value="18" />
+                </Metrics>
+                <Members>
+                  <Method Name="string SharePointConfigEntries.getConfigVal(string title, SPSite currentSite)" File="C:\Dev\Repos\TFSRoot\SHP\Components\SharePointConfigEntries\SharePointConfigEntries\SharePointConfigEntries.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="66" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="26" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string SharePointConfigEntries.getConfigurationValue(string title, SPSite currentSite)" File="C:\Dev\Repos\TFSRoot\SHP\Components\SharePointConfigEntries\SharePointConfigEntries\SharePointConfigEntries.cs" Line="40">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="63" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="36" />
+                      <Metric Name="ExecutableLines" Value="10" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

@@ -1,0 +1,1534 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="HRSDWebMDImport.csproj">
+      <Assembly Name="HRSDWebMDImport, Version=1.0.0.36, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="76" />
+          <Metric Name="CyclomaticComplexity" Value="92" />
+          <Metric Name="ClassCoupling" Value="63" />
+          <Metric Name="DepthOfInheritance" Value="3" />
+          <Metric Name="SourceLines" Value="1306" />
+          <Metric Name="ExecutableLines" Value="357" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="HRSDWebMDImport">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="76" />
+              <Metric Name="CyclomaticComplexity" Value="22" />
+              <Metric Name="ClassCoupling" Value="39" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="405" />
+              <Metric Name="ExecutableLines" Value="89" />
+            </Metrics>
+            <Types>
+              <NamedType Name="DataImporter">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="40" />
+                  <Metric Name="CyclomaticComplexity" Value="13" />
+                  <Metric Name="ClassCoupling" Value="27" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="170" />
+                  <Metric Name="ExecutableLines" Value="47" />
+                </Metrics>
+                <Members>
+                  <Method Name="void DataImporter.Start()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\DataImporter.cs" Line="32">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="40" />
+                      <Metric Name="CyclomaticComplexity" Value="13" />
+                      <Metric Name="ClassCoupling" Value="27" />
+                      <Metric Name="SourceLines" Value="151" />
+                      <Metric Name="ExecutableLines" Value="47" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="FileType">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="0" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="9" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+                <Members>
+                  <Field Name="FileType.Coaching" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Enums.cs" Line="9">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="FileType.RewardsActivity" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Enums.cs" Line="10">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="Program">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="1" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="13" />
+                  <Metric Name="ExecutableLines" Value="1" />
+                </Metrics>
+                <Members>
+                  <Method Name="void Program.Main()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Program.cs" Line="11">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="Repository">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="67" />
+                  <Metric Name="CyclomaticComplexity" Value="7" />
+                  <Metric Name="ClassCoupling" Value="16" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="201" />
+                  <Metric Name="ExecutableLines" Value="41" />
+                </Metrics>
+                <Members>
+                  <Method Name="Repository.Repository()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\repository.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="3" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="string Repository._connectionString" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\repository.cs" Line="25">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="string Repository.ConnectionString" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\repository.cs" Line="27">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="69" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string Repository.ConnectionString.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\repository.cs" Line="29">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="69" />
+                          <Metric Name="CyclomaticComplexity" Value="2" />
+                          <Metric Name="ClassCoupling" Value="5" />
+                          <Metric Name="SourceLines" Value="17" />
+                          <Metric Name="ExecutableLines" Value="6" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Method Name="int Repository.GetDataUpdateLocationID()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\repository.cs" Line="49">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="62" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="25" />
+                      <Metric Name="ExecutableLines" Value="10" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="int? Repository.GetHealthImprovementProgramID(string programName)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\repository.cs" Line="75">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="62" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="8" />
+                      <Metric Name="SourceLines" Value="27" />
+                      <Metric Name="ExecutableLines" Value="10" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="int Repository.GetHrsdID(int personID)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\repository.cs" Line="103">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="61" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="30" />
+                      <Metric Name="ExecutableLines" Value="11" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="DateTime Repository.StringToDateTime(string value)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\repository.cs" Line="202">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="78" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="77" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="HRSDWebMDImport.Configuration">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="81" />
+              <Metric Name="CyclomaticComplexity" Value="30" />
+              <Metric Name="ClassCoupling" Value="9" />
+              <Metric Name="DepthOfInheritance" Value="3" />
+              <Metric Name="SourceLines" Value="202" />
+              <Metric Name="ExecutableLines" Value="57" />
+            </Metrics>
+            <Types>
+              <NamedType Name="ConfigurationValidation">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="74" />
+                  <Metric Name="CyclomaticComplexity" Value="7" />
+                  <Metric Name="ClassCoupling" Value="3" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="56" />
+                  <Metric Name="ExecutableLines" Value="13" />
+                </Metrics>
+                <Members>
+                  <Method Name="bool ConfigurationValidation.Validate(FileTableMappingConfig mapping, string fullFilePath)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Configuration\ConfigurationValidation.cs" Line="25">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="72" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="21" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool ConfigurationValidation.FileExists(string fullFilePath)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Configuration\ConfigurationValidation.cs" Line="39">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="76" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="10" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool ConfigurationValidation.IsActive(FileTableMappingConfig mapping)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Configuration\ConfigurationValidation.cs" Line="50">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="75" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="12" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="FileTableMappingCollection">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="92" />
+                  <Metric Name="CyclomaticComplexity" Value="5" />
+                  <Metric Name="ClassCoupling" Value="3" />
+                  <Metric Name="DepthOfInheritance" Value="3" />
+                  <Metric Name="SourceLines" Value="36" />
+                  <Metric Name="ExecutableLines" Value="5" />
+                </Metrics>
+                <Members>
+                  <Method Name="FileTableMappingCollection.FileTableMappingCollection()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Configuration\FileTableMappingConfig.cs" Line="95">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="object FileTableMappingCollection.GetElementKey(ConfigurationElement ceElement)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Configuration\FileTableMappingConfig.cs" Line="100">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="95" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="ConfigurationElement FileTableMappingCollection.CreateNewElement()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Configuration\FileTableMappingConfig.cs" Line="105">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="FileTableMappingConfig FileTableMappingCollection.this[string key]" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Configuration\FileTableMappingConfig.cs" Line="110">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="95" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="FileTableMappingConfig FileTableMappingCollection.this[string key].get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Configuration\FileTableMappingConfig.cs" Line="112">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="95" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="3" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="FileTableMappingConfig FileTableMappingCollection.this[int index]" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Configuration\FileTableMappingConfig.cs" Line="115">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="95" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="FileTableMappingConfig FileTableMappingCollection.this[int index].get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Configuration\FileTableMappingConfig.cs" Line="117">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="95" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="3" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+              <NamedType Name="FileTableMappingConfig">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="75" />
+                  <Metric Name="CyclomaticComplexity" Value="16" />
+                  <Metric Name="ClassCoupling" Value="2" />
+                  <Metric Name="DepthOfInheritance" Value="2" />
+                  <Metric Name="SourceLines" Value="78" />
+                  <Metric Name="ExecutableLines" Value="34" />
+                </Metrics>
+                <Members>
+                  <Field Name="string FileTableMappingConfig.ACTIVE_IMPORT" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Configuration\FileTableMappingConfig.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string FileTableMappingConfig.DATE_OFFSET" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Configuration\FileTableMappingConfig.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string FileTableMappingConfig.FILE_DATESTAMP_FORMAT" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Configuration\FileTableMappingConfig.cs" Line="19">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string FileTableMappingConfig.FILE_NAME" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Configuration\FileTableMappingConfig.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string FileTableMappingConfig.HAS_HEADER_ROW" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Configuration\FileTableMappingConfig.cs" Line="21">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string FileTableMappingConfig.IMPORT_ORDER" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Configuration\FileTableMappingConfig.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string FileTableMappingConfig.STORED_PROCEDURE" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Configuration\FileTableMappingConfig.cs" Line="23">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string FileTableMappingConfig.FILETYPE" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Configuration\FileTableMappingConfig.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="bool FileTableMappingConfig.IsActive" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Configuration\FileTableMappingConfig.cs" Line="27">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="94" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="bool FileTableMappingConfig.IsActive.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Configuration\FileTableMappingConfig.cs" Line="29">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="95" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void FileTableMappingConfig.IsActive.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Configuration\FileTableMappingConfig.cs" Line="30">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="94" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="int FileTableMappingConfig.DateOffset" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Configuration\FileTableMappingConfig.cs" Line="34">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="94" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int FileTableMappingConfig.DateOffset.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Configuration\FileTableMappingConfig.cs" Line="36">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="95" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void FileTableMappingConfig.DateOffset.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Configuration\FileTableMappingConfig.cs" Line="37">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="94" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string FileTableMappingConfig.FileDatestampFormat" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Configuration\FileTableMappingConfig.cs" Line="41">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="94" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string FileTableMappingConfig.FileDatestampFormat.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Configuration\FileTableMappingConfig.cs" Line="43">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="95" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void FileTableMappingConfig.FileDatestampFormat.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Configuration\FileTableMappingConfig.cs" Line="44">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="94" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string FileTableMappingConfig.FileName" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Configuration\FileTableMappingConfig.cs" Line="48">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="94" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string FileTableMappingConfig.FileName.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Configuration\FileTableMappingConfig.cs" Line="50">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="95" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void FileTableMappingConfig.FileName.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Configuration\FileTableMappingConfig.cs" Line="51">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="94" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="bool FileTableMappingConfig.HasHeaderRow" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Configuration\FileTableMappingConfig.cs" Line="55">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="94" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="bool FileTableMappingConfig.HasHeaderRow.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Configuration\FileTableMappingConfig.cs" Line="57">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="95" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void FileTableMappingConfig.HasHeaderRow.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Configuration\FileTableMappingConfig.cs" Line="58">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="94" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="int FileTableMappingConfig.ImportOrder" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Configuration\FileTableMappingConfig.cs" Line="62">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="94" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int FileTableMappingConfig.ImportOrder.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Configuration\FileTableMappingConfig.cs" Line="64">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="95" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void FileTableMappingConfig.ImportOrder.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Configuration\FileTableMappingConfig.cs" Line="65">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="94" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string FileTableMappingConfig.StoredProcedure" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Configuration\FileTableMappingConfig.cs" Line="69">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="94" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string FileTableMappingConfig.StoredProcedure.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Configuration\FileTableMappingConfig.cs" Line="71">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="95" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void FileTableMappingConfig.StoredProcedure.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Configuration\FileTableMappingConfig.cs" Line="72">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="94" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string FileTableMappingConfig.FileType" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Configuration\FileTableMappingConfig.cs" Line="77">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="94" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string FileTableMappingConfig.FileType.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Configuration\FileTableMappingConfig.cs" Line="79">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="95" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void FileTableMappingConfig.FileType.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Configuration\FileTableMappingConfig.cs" Line="80">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="94" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+              <NamedType Name="FileTableMappingConfigurationSection">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="85" />
+                  <Metric Name="CyclomaticComplexity" Value="2" />
+                  <Metric Name="ClassCoupling" Value="4" />
+                  <Metric Name="DepthOfInheritance" Value="3" />
+                  <Metric Name="SourceLines" Value="24" />
+                  <Metric Name="ExecutableLines" Value="5" />
+                </Metrics>
+                <Members>
+                  <Field Name="string FileTableMappingConfigurationSection.sectionName" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Configuration\FileTableMappingConfig.cs" Line="132">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="FileTableMappingCollection FileTableMappingConfigurationSection.FileTableMappings" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Configuration\FileTableMappingConfig.cs" Line="135">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="95" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="FileTableMappingCollection FileTableMappingConfigurationSection.FileTableMappings.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Configuration\FileTableMappingConfig.cs" Line="137">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="95" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Method Name="FileTableMappingConfigurationSection FileTableMappingConfigurationSection.GetSection()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Configuration\FileTableMappingConfig.cs" Line="140">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="95" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="HRSDWebMDImport.FileDefinitions">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="76" />
+              <Metric Name="CyclomaticComplexity" Value="20" />
+              <Metric Name="ClassCoupling" Value="33" />
+              <Metric Name="DepthOfInheritance" Value="2" />
+              <Metric Name="SourceLines" Value="335" />
+              <Metric Name="ExecutableLines" Value="75" />
+            </Metrics>
+            <Types>
+              <NamedType Name="BaseBDE">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="43" />
+                  <Metric Name="CyclomaticComplexity" Value="18" />
+                  <Metric Name="ClassCoupling" Value="26" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="220" />
+                  <Metric Name="ExecutableLines" Value="70" />
+                </Metrics>
+                <Members>
+                  <Method Name="ReportCollection BaseBDE.Save(FileType fileType, string storedProc, Coaching[] coachRecords, RewardsActivity[] rewardsRecords)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\BaseBDE.cs" Line="38">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="44" />
+                      <Metric Name="CyclomaticComplexity" Value="11" />
+                      <Metric Name="ClassCoupling" Value="18" />
+                      <Metric Name="SourceLines" Value="107" />
+                      <Metric Name="ExecutableLines" Value="32" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool BaseBDE.setCommandParameters(FileType fileType, SqlCommand command, object record, int intDataUpdateLocationID)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\BaseBDE.cs" Line="134">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="42" />
+                      <Metric Name="CyclomaticComplexity" Value="7" />
+                      <Metric Name="ClassCoupling" Value="15" />
+                      <Metric Name="SourceLines" Value="99" />
+                      <Metric Name="ExecutableLines" Value="38" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="Coaching">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="5" />
+                  <Metric Name="DepthOfInheritance" Value="2" />
+                  <Metric Name="SourceLines" Value="48" />
+                  <Metric Name="ExecutableLines" Value="2" />
+                </Metrics>
+                <Members>
+                  <Field Name="string Coaching.PersonID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\Coaching.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Coaching.MemberID_1" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\Coaching.cs" Line="21">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Coaching.MemberID_2" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\Coaching.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Coaching.Suffix" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\Coaching.cs" Line="23">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Coaching.EXID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\Coaching.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Coaching.GroupNumber" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\Coaching.cs" Line="25">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Coaching.SubGroup" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\Coaching.cs" Line="26">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Coaching.BenType" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\Coaching.cs" Line="27">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Coaching.LastName" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\Coaching.cs" Line="28">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Coaching.FirstName" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\Coaching.cs" Line="29">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Coaching.Address" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\Coaching.cs" Line="30">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Coaching.Address2" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\Coaching.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Coaching.City" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\Coaching.cs" Line="32">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Coaching.State" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\Coaching.cs" Line="33">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Coaching.ZipCode" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\Coaching.cs" Line="34">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Coaching.Email" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\Coaching.cs" Line="35">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Coaching.Appointment_Scheduled_Date" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\Coaching.cs" Line="36">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Coaching.Appointment_Date" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\Coaching.cs" Line="37">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Coaching.Call_Completed_Date" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\Coaching.cs" Line="38">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Coaching.CallType" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\Coaching.cs" Line="45">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Coaching.Call_Reach_Sequence" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\Coaching.cs" Line="46">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Coaching.Appointment_Outcome" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\Coaching.cs" Line="47">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Coaching.OutcomeReason" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\Coaching.cs" Line="48">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Coaching.Coaching_Program" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\Coaching.cs" Line="49">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Coaching.PackageStartDate" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\Coaching.cs" Line="50">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Coaching.PackageEndDate" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\Coaching.cs" Line="51">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="RewardsActivity">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="85" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="8" />
+                  <Metric Name="DepthOfInheritance" Value="2" />
+                  <Metric Name="SourceLines" Value="58" />
+                  <Metric Name="ExecutableLines" Value="3" />
+                </Metrics>
+                <Members>
+                  <Field Name="string RewardsActivity.Auth_Sponsor_Exid" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\RewardsActivity.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string RewardsActivity.Auth_Sponsor_Name" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\RewardsActivity.cs" Line="21">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string RewardsActivity.Sponsor_Exid" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\RewardsActivity.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string RewardsActivity.Sponsor_Name" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\RewardsActivity.cs" Line="23">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string RewardsActivity.PersonID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\RewardsActivity.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string RewardsActivity.Login_Name" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\RewardsActivity.cs" Line="25">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string RewardsActivity.FirstName" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\RewardsActivity.cs" Line="26">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string RewardsActivity.LastName" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\RewardsActivity.cs" Line="27">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string RewardsActivity.DOB" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\RewardsActivity.cs" Line="28">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string RewardsActivity.Gender" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\RewardsActivity.cs" Line="29">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string RewardsActivity.Email" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\RewardsActivity.cs" Line="30">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string RewardsActivity.ProgramEXID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\RewardsActivity.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string RewardsActivity.ProgramName" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\RewardsActivity.cs" Line="32">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string RewardsActivity.ActionEXID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\RewardsActivity.cs" Line="34">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string RewardsActivity.ActionName" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\RewardsActivity.cs" Line="35">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string RewardsActivity.ActionDescription" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\RewardsActivity.cs" Line="37">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string RewardsActivity.ActionCompletionDate" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\RewardsActivity.cs" Line="38">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="int RewardsActivity.PointsEarned" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\RewardsActivity.cs" Line="39">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string RewardsActivity.ActionType" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\RewardsActivity.cs" Line="40">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string RewardsActivity.Group_Number" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\RewardsActivity.cs" Line="41">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="RewardsActivity.explicit operator RewardsActivity(string v)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\RewardsActivity.cs" Line="43">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="string RewardsActivity.Sub_Group" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\RewardsActivity.cs" Line="48">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string RewardsActivity.BEN_Type" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\RewardsActivity.cs" Line="49">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string RewardsActivity.HIPFlag" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\RewardsActivity.cs" Line="50">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string RewardsActivity.GroupSize" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\RewardsActivity.cs" Line="51">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string RewardsActivity.ActionCreationDate" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\RewardsActivity.cs" Line="52">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string RewardsActivity.Address" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\RewardsActivity.cs" Line="53">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string RewardsActivity.Address2" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\RewardsActivity.cs" Line="54">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string RewardsActivity.City" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\RewardsActivity.cs" Line="55">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string RewardsActivity.State" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\RewardsActivity.cs" Line="56">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string RewardsActivity.ZipCode" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\RewardsActivity.cs" Line="57">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string RewardsActivity.Country" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\RewardsActivity.cs" Line="58">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string RewardsActivity.MemberID_1" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\RewardsActivity.cs" Line="59">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string RewardsActivity.MemberID_2" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\RewardsActivity.cs" Line="60">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string RewardsActivity.Member_Suffix" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\RewardsActivity.cs" Line="61">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="DateTime RewardsActivity.Record_Date" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\FileDefinitions\RewardsActivity.cs" Line="62">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="HRSDWebMDImport.Utilities">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="73" />
+              <Metric Name="CyclomaticComplexity" Value="20" />
+              <Metric Name="ClassCoupling" Value="25" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="364" />
+              <Metric Name="ExecutableLines" Value="136" />
+            </Metrics>
+            <Types>
+              <NamedType Name="Housekeeping">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="64" />
+                  <Metric Name="CyclomaticComplexity" Value="5" />
+                  <Metric Name="ClassCoupling" Value="12" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="66" />
+                  <Metric Name="ExecutableLines" Value="17" />
+                </Metrics>
+                <Members>
+                  <Method Name="void Housekeeping.CleanHouse()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Utilities\Housekeeping.cs" Line="21">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Housekeeping.ManageLogFiles()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Utilities\Housekeeping.cs" Line="27">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="55" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="12" />
+                      <Metric Name="SourceLines" Value="47" />
+                      <Metric Name="ExecutableLines" Value="16" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="Log">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="83" />
+                  <Metric Name="CyclomaticComplexity" Value="5" />
+                  <Metric Name="ClassCoupling" Value="2" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="50" />
+                  <Metric Name="ExecutableLines" Value="7" />
+                </Metrics>
+                <Members>
+                  <Field Name="ILog Log.Logger" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Utilities\Log.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Log.LogError(string strErrorMessage, string exceptionMessage = null, string stackTrace = null)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Utilities\Log.cs" Line="28">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="69" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="14" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Log.LogInfo(string strInfoMessage)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Utilities\Log.cs" Line="41">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="97" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Log.LogWarning(string strWarningMessage)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Utilities\Log.cs" Line="50">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="97" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="ReportCollection">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="93" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="1" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="8" />
+                  <Metric Name="ExecutableLines" Value="1" />
+                </Metrics>
+                <Members>
+                  <Field Name="int ReportCollection.RecordsRead" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Utilities\Reporting.cs" Line="29">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="int ReportCollection.RecordsAdded" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Utilities\Reporting.cs" Line="30">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="int ReportCollection.RecordsErrored" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Utilities\Reporting.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ReportCollection.Filename" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Utilities\Reporting.cs" Line="32">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="ArrayList ReportCollection.ErrorList" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Utilities\Reporting.cs" Line="33">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="ReportEmail">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="44" />
+                  <Metric Name="CyclomaticComplexity" Value="8" />
+                  <Metric Name="ClassCoupling" Value="14" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="216" />
+                  <Metric Name="ExecutableLines" Value="109" />
+                </Metrics>
+                <Members>
+                  <Field Name="string ReportEmail.Subject" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Utilities\Reporting.cs" Line="38">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="string ReportEmail.BuildEmailReport(ReportCollection coachingCollection, ReportCollection rewardsCollection)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Utilities\Reporting.cs" Line="49">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="31" />
+                      <Metric Name="CyclomaticComplexity" Value="7" />
+                      <Metric Name="ClassCoupling" Value="8" />
+                      <Metric Name="SourceLines" Value="171" />
+                      <Metric Name="ExecutableLines" Value="99" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ReportEmail.SendEmail(string body)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Utilities\Reporting.cs" Line="221">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="62" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="38" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="ReportingItem">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="85" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="1" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="13" />
+                  <Metric Name="ExecutableLines" Value="2" />
+                </Metrics>
+                <Members>
+                  <Field Name="BaseBDE ReportingItem.ErrorRecord" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Utilities\Reporting.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ReportingItem.ErrorString" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Utilities\Reporting.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="ReportingItem.ReportingItem(object errorRecord, string errorString)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDWebMDImport\HRSDWebMDImport\Utilities\Reporting.cs" Line="19">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="85" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

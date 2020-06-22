@@ -1,0 +1,600 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="Shared_SiebelSSOHandler.csproj">
+      <Assembly Name="Shared_SiebelSSOHandler, Version=1.0.0.16, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="69" />
+          <Metric Name="CyclomaticComplexity" Value="90" />
+          <Metric Name="ClassCoupling" Value="57" />
+          <Metric Name="DepthOfInheritance" Value="4" />
+          <Metric Name="SourceLines" Value="713" />
+          <Metric Name="ExecutableLines" Value="230" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="Shared_SiebelSSOHandler">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="79" />
+              <Metric Name="CyclomaticComplexity" Value="37" />
+              <Metric Name="ClassCoupling" Value="24" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="212" />
+              <Metric Name="ExecutableLines" Value="59" />
+            </Metrics>
+            <Types>
+              <NamedType Name="AuditLog">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="68" />
+                  <Metric Name="CyclomaticComplexity" Value="8" />
+                  <Metric Name="ClassCoupling" Value="8" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="50" />
+                  <Metric Name="ExecutableLines" Value="23" />
+                </Metrics>
+                <Members>
+                  <Property Name="int AuditLog.MessageTypeId" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_SiebelSSOHandlerSln\Shared_SiebelSSOHandler\AuditLog.cs" Line="11">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int AuditLog.MessageTypeId.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_SiebelSSOHandlerSln\Shared_SiebelSSOHandler\AuditLog.cs" Line="11">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void AuditLog.MessageTypeId.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_SiebelSSOHandlerSln\Shared_SiebelSSOHandler\AuditLog.cs" Line="11">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="int AuditLog.SiteTransactionId" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_SiebelSSOHandlerSln\Shared_SiebelSSOHandler\AuditLog.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int AuditLog.SiteTransactionId.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_SiebelSSOHandlerSln\Shared_SiebelSSOHandler\AuditLog.cs" Line="12">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void AuditLog.SiteTransactionId.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_SiebelSSOHandlerSln\Shared_SiebelSSOHandler\AuditLog.cs" Line="12">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Method Name="AuditLog.AuditLog(string SiteTransactionKey, string MessageTypeKey)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_SiebelSSOHandlerSln\Shared_SiebelSSOHandler\AuditLog.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="55" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="8" />
+                      <Metric Name="SourceLines" Value="28" />
+                      <Metric Name="ExecutableLines" Value="14" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool AuditLog.CreateAuditEntry(string user, string message)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_SiebelSSOHandlerSln\Shared_SiebelSSOHandler\AuditLog.cs" Line="43">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="61" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="14" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="AuthTicket">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="14" />
+                  <Metric Name="ClassCoupling" Value="1" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="11" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+                <Members>
+                  <Property Name="int AuthTicket.version" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_SiebelSSOHandlerSln\Shared_SiebelSSOHandler\AuthTicket.cs" Line="7">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int AuthTicket.version.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_SiebelSSOHandlerSln\Shared_SiebelSSOHandler\AuthTicket.cs" Line="7">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void AuthTicket.version.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_SiebelSSOHandlerSln\Shared_SiebelSSOHandler\AuthTicket.cs" Line="7">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string AuthTicket.name" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_SiebelSSOHandlerSln\Shared_SiebelSSOHandler\AuthTicket.cs" Line="8">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string AuthTicket.name.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_SiebelSSOHandlerSln\Shared_SiebelSSOHandler\AuthTicket.cs" Line="8">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void AuthTicket.name.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_SiebelSSOHandlerSln\Shared_SiebelSSOHandler\AuthTicket.cs" Line="8">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DateTime AuthTicket.issueDate" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_SiebelSSOHandlerSln\Shared_SiebelSSOHandler\AuthTicket.cs" Line="9">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DateTime AuthTicket.issueDate.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_SiebelSSOHandlerSln\Shared_SiebelSSOHandler\AuthTicket.cs" Line="9">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void AuthTicket.issueDate.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_SiebelSSOHandlerSln\Shared_SiebelSSOHandler\AuthTicket.cs" Line="9">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DateTime AuthTicket.expiration" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_SiebelSSOHandlerSln\Shared_SiebelSSOHandler\AuthTicket.cs" Line="10">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DateTime AuthTicket.expiration.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_SiebelSSOHandlerSln\Shared_SiebelSSOHandler\AuthTicket.cs" Line="10">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void AuthTicket.expiration.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_SiebelSSOHandlerSln\Shared_SiebelSSOHandler\AuthTicket.cs" Line="10">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="bool AuthTicket.isPersistent" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_SiebelSSOHandlerSln\Shared_SiebelSSOHandler\AuthTicket.cs" Line="11">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="bool AuthTicket.isPersistent.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_SiebelSSOHandlerSln\Shared_SiebelSSOHandler\AuthTicket.cs" Line="11">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void AuthTicket.isPersistent.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_SiebelSSOHandlerSln\Shared_SiebelSSOHandler\AuthTicket.cs" Line="11">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string AuthTicket.userData" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_SiebelSSOHandlerSln\Shared_SiebelSSOHandler\AuthTicket.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string AuthTicket.userData.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_SiebelSSOHandlerSln\Shared_SiebelSSOHandler\AuthTicket.cs" Line="12">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void AuthTicket.userData.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_SiebelSSOHandlerSln\Shared_SiebelSSOHandler\AuthTicket.cs" Line="12">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string AuthTicket.cookiePath" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_SiebelSSOHandlerSln\Shared_SiebelSSOHandler\AuthTicket.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string AuthTicket.cookiePath.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_SiebelSSOHandlerSln\Shared_SiebelSSOHandler\AuthTicket.cs" Line="13">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void AuthTicket.cookiePath.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_SiebelSSOHandlerSln\Shared_SiebelSSOHandler\AuthTicket.cs" Line="13">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+              <NamedType Name="Decryptor">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="60" />
+                  <Metric Name="CyclomaticComplexity" Value="12" />
+                  <Metric Name="ClassCoupling" Value="12" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="102" />
+                  <Metric Name="ExecutableLines" Value="30" />
+                </Metrics>
+                <Members>
+                  <Method Name="byte[] Decryptor.Decrypt(byte[] data, byte[] key)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_SiebelSSOHandlerSln\Shared_SiebelSSOHandler\Decryptor.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="56" />
+                      <Metric Name="CyclomaticComplexity" Value="5" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="43" />
+                      <Metric Name="ExecutableLines" Value="15" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Decryptor.Decrypt(string data, string key)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_SiebelSSOHandlerSln\Shared_SiebelSSOHandler\Decryptor.cs" Line="61">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="71" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="19" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="ICryptoTransform Decryptor.GetCryptoServiceProvider(byte[] key, byte[] IV)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_SiebelSSOHandlerSln\Shared_SiebelSSOHandler\Decryptor.cs" Line="80">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="62" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="35" />
+                      <Metric Name="ExecutableLines" Value="10" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="Log">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="89" />
+                  <Metric Name="CyclomaticComplexity" Value="3" />
+                  <Metric Name="ClassCoupling" Value="4" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="37" />
+                  <Metric Name="ExecutableLines" Value="6" />
+                </Metrics>
+                <Members>
+                  <Field Name="ILog Log.logger" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_SiebelSSOHandlerSln\Shared_SiebelSSOHandler\Log.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="90" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Log.LogError(string strErrorMessage)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_SiebelSSOHandlerSln\Shared_SiebelSSOHandler\Log.cs" Line="23">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Log.LogInfo(string strInfoMessage)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_SiebelSSOHandlerSln\Shared_SiebelSSOHandler\Log.cs" Line="32">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Log.LogElapsedTimeInfo(Stopwatch sw, string callInfo)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_SiebelSSOHandlerSln\Shared_SiebelSSOHandler\Log.cs" Line="37">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="76" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="Shared_SiebelSSOHandler.DataAccess">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="57" />
+              <Metric Name="CyclomaticComplexity" Value="6" />
+              <Metric Name="ClassCoupling" Value="11" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="111" />
+              <Metric Name="ExecutableLines" Value="42" />
+            </Metrics>
+            <Types>
+              <NamedType Name="SQLDataAccess">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="57" />
+                  <Metric Name="CyclomaticComplexity" Value="6" />
+                  <Metric Name="ClassCoupling" Value="11" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="108" />
+                  <Metric Name="ExecutableLines" Value="42" />
+                </Metrics>
+                <Members>
+                  <Method Name="int SQLDataAccess.Create(string cmdtext, List&lt;SqlParameter&gt; cmdparms, string connectionStringKey, CommandType cmdtype)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_SiebelSSOHandlerSln\Shared_SiebelSSOHandler\DataAccess\SQLDataAccess.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="60" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="26" />
+                      <Metric Name="ExecutableLines" Value="12" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="DataTable SQLDataAccess.Fetch(string sp_name, List&lt;SqlParameter&gt; sp_parms, string connectionStringKey)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_SiebelSSOHandlerSln\Shared_SiebelSSOHandler\DataAccess\SQLDataAccess.cs" Line="48">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="56" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="11" />
+                      <Metric Name="SourceLines" Value="44" />
+                      <Metric Name="ExecutableLines" Value="16" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="DataTable SQLDataAccess.Fetch(string cmdtext, List&lt;SqlParameter&gt; cmdparms, string connectionStringKey, CommandType cmdtype)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_SiebelSSOHandlerSln\Shared_SiebelSSOHandler\DataAccess\SQLDataAccess.cs" Line="86">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="58" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="29" />
+                      <Metric Name="ExecutableLines" Value="14" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="Shared_SiebelSSOHandler.SiebelSSO">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="58" />
+              <Metric Name="CyclomaticComplexity" Value="47" />
+              <Metric Name="ClassCoupling" Value="30" />
+              <Metric Name="DepthOfInheritance" Value="4" />
+              <Metric Name="SourceLines" Value="390" />
+              <Metric Name="ExecutableLines" Value="129" />
+            </Metrics>
+            <Types>
+              <NamedType Name="ErrorPage">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="69" />
+                  <Metric Name="CyclomaticComplexity" Value="7" />
+                  <Metric Name="ClassCoupling" Value="6" />
+                  <Metric Name="DepthOfInheritance" Value="4" />
+                  <Metric Name="SourceLines" Value="53" />
+                  <Metric Name="ExecutableLines" Value="4" />
+                </Metrics>
+                <Members>
+                  <Method Name="void ErrorPage.Page_Load(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_SiebelSSOHandlerSln\Shared_SiebelSSOHandler\SiebelSSO\ErrorPage.aspx.cs" Line="8">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="69" />
+                      <Metric Name="CyclomaticComplexity" Value="7" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="30" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="HtmlForm ErrorPage.form1" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_SiebelSSOHandlerSln\Shared_SiebelSSOHandler\SiebelSSO\ErrorPage.aspx.designer.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label ErrorPage.lblError" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_SiebelSSOHandlerSln\Shared_SiebelSSOHandler\SiebelSSO\ErrorPage.aspx.designer.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="SiebelSSOHandler">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="48" />
+                  <Metric Name="CyclomaticComplexity" Value="40" />
+                  <Metric Name="ClassCoupling" Value="26" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="318" />
+                  <Metric Name="ExecutableLines" Value="125" />
+                </Metrics>
+                <Members>
+                  <Field Name="MultiStringDictionary SiebelSSOHandler.dUserInfo" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_SiebelSSOHandlerSln\Shared_SiebelSSOHandler\SiebelSSO\SiebelSSOHandler.ashx.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void SiebelSSOHandler.ProcessRequest(HttpContext context)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_SiebelSSOHandlerSln\Shared_SiebelSSOHandler\SiebelSSO\SiebelSSOHandler.ashx.cs" Line="21">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="28" />
+                      <Metric Name="CyclomaticComplexity" Value="29" />
+                      <Metric Name="ClassCoupling" Value="17" />
+                      <Metric Name="SourceLines" Value="215" />
+                      <Metric Name="ExecutableLines" Value="98" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void SiebelSSOHandler.HandleIdPSSORequest(HttpContext context, HttpRequest request)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_SiebelSSOHandlerSln\Shared_SiebelSSOHandler\SiebelSSO\SiebelSSOHandler.ashx.cs" Line="235">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="53" />
+                      <Metric Name="CyclomaticComplexity" Value="8" />
+                      <Metric Name="ClassCoupling" Value="10" />
+                      <Metric Name="SourceLines" Value="49" />
+                      <Metric Name="ExecutableLines" Value="17" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string SiebelSSOHandler.setOpenToken(HttpContext context, string url, MultiStringDictionary userInfo)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_SiebelSSOHandlerSln\Shared_SiebelSSOHandler\SiebelSSO\SiebelSSOHandler.ashx.cs" Line="294">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="70" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="18" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string SiebelSSOHandler.DecryptString(string strValue)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_SiebelSSOHandlerSln\Shared_SiebelSSOHandler\SiebelSSO\SiebelSSOHandler.ashx.cs" Line="304">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="75" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="bool SiebelSSOHandler.IsReusable" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_SiebelSSOHandlerSln\Shared_SiebelSSOHandler\SiebelSSO\SiebelSSOHandler.ashx.cs" Line="323">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="17" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="bool SiebelSSOHandler.IsReusable.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_SiebelSSOHandlerSln\Shared_SiebelSSOHandler\SiebelSSO\SiebelSSOHandler.ashx.cs" Line="325">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

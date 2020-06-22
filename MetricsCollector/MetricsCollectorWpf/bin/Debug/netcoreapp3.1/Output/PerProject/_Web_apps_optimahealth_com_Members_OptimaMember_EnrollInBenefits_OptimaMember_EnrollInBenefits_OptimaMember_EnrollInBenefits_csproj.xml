@@ -1,0 +1,554 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="OptimaMember_EnrollInBenefits.csproj">
+      <Assembly Name="OptimaMember_EnrollInBenefits, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="68" />
+          <Metric Name="CyclomaticComplexity" Value="75" />
+          <Metric Name="ClassCoupling" Value="57" />
+          <Metric Name="DepthOfInheritance" Value="4" />
+          <Metric Name="SourceLines" Value="775" />
+          <Metric Name="ExecutableLines" Value="212" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="OptimaMember_EnrollInBenefits.HelperMethods">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="89" />
+              <Metric Name="CyclomaticComplexity" Value="4" />
+              <Metric Name="ClassCoupling" Value="6" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="48" />
+              <Metric Name="ExecutableLines" Value="8" />
+            </Metrics>
+            <Types>
+              <NamedType Name="Log">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="89" />
+                  <Metric Name="CyclomaticComplexity" Value="4" />
+                  <Metric Name="ClassCoupling" Value="6" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="45" />
+                  <Metric Name="ExecutableLines" Value="8" />
+                </Metrics>
+                <Members>
+                  <Field Name="ILog Log.logger" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_EnrollInBenefits\OptimaMember_EnrollInBenefits\HelperMethods\Log.cs" Line="19">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="90" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Log.LogError(string strErrorMessage)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_EnrollInBenefits\OptimaMember_EnrollInBenefits\HelperMethods\Log.cs" Line="25">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Log.LogInfo(string strInfoMessage)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_EnrollInBenefits\OptimaMember_EnrollInBenefits\HelperMethods\Log.cs" Line="34">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Log.LogElapsedTimeInfo(Stopwatch sw, string callInfo)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_EnrollInBenefits\OptimaMember_EnrollInBenefits\HelperMethods\Log.cs" Line="39">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="76" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool Log.IsVerboseLoggingEnabled()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_EnrollInBenefits\OptimaMember_EnrollInBenefits\HelperMethods\Log.cs" Line="46">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="84" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="OptimaMember_EnrollInBenefits.OnlineEnroll">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="61" />
+              <Metric Name="CyclomaticComplexity" Value="71" />
+              <Metric Name="ClassCoupling" Value="53" />
+              <Metric Name="DepthOfInheritance" Value="4" />
+              <Metric Name="SourceLines" Value="727" />
+              <Metric Name="ExecutableLines" Value="204" />
+            </Metrics>
+            <Types>
+              <NamedType Name="MemberOnlineEnroll">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="60" />
+                  <Metric Name="CyclomaticComplexity" Value="37" />
+                  <Metric Name="ClassCoupling" Value="43" />
+                  <Metric Name="DepthOfInheritance" Value="4" />
+                  <Metric Name="SourceLines" Value="351" />
+                  <Metric Name="ExecutableLines" Value="106" />
+                </Metrics>
+                <Members>
+                  <Property Name="string MemberOnlineEnroll.AuthType" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_EnrollInBenefits\OptimaMember_EnrollInBenefits\OnlineEnroll\MemberOnlineEnroll.aspx.cs" Line="19">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string MemberOnlineEnroll.AuthType.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_EnrollInBenefits\OptimaMember_EnrollInBenefits\OnlineEnroll\MemberOnlineEnroll.aspx.cs" Line="21">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="93" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="3" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="string MemberOnlineEnroll.AppName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_EnrollInBenefits\OptimaMember_EnrollInBenefits\OnlineEnroll\MemberOnlineEnroll.aspx.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberOnlineEnroll.AppGuid" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_EnrollInBenefits\OptimaMember_EnrollInBenefits\OnlineEnroll\MemberOnlineEnroll.aspx.cs" Line="25">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberOnlineEnroll.targURL" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_EnrollInBenefits\OptimaMember_EnrollInBenefits\OnlineEnroll\MemberOnlineEnroll.aspx.cs" Line="26">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberOnlineEnroll.targURLSiebel" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_EnrollInBenefits\OptimaMember_EnrollInBenefits\OnlineEnroll\MemberOnlineEnroll.aspx.cs" Line="27">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberOnlineEnroll.strSSN" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_EnrollInBenefits\OptimaMember_EnrollInBenefits\OnlineEnroll\MemberOnlineEnroll.aspx.cs" Line="28">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberOnlineEnroll.strMemberID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_EnrollInBenefits\OptimaMember_EnrollInBenefits\OnlineEnroll\MemberOnlineEnroll.aspx.cs" Line="29">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Member MemberOnlineEnroll.m" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_EnrollInBenefits\OptimaMember_EnrollInBenefits\OnlineEnroll\MemberOnlineEnroll.aspx.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void MemberOnlineEnroll.Page_Load(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_EnrollInBenefits\OptimaMember_EnrollInBenefits\OnlineEnroll\MemberOnlineEnroll.aspx.cs" Line="33">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="53" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="14" />
+                      <Metric Name="SourceLines" Value="38" />
+                      <Metric Name="ExecutableLines" Value="16" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string MemberOnlineEnroll.GetMemberID()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_EnrollInBenefits\OptimaMember_EnrollInBenefits\OnlineEnroll\MemberOnlineEnroll.aspx.cs" Line="81">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="64" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="24" />
+                      <Metric Name="ExecutableLines" Value="7" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="Member MemberOnlineEnroll.GetDefaultMemberByPersonId(int personId)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_EnrollInBenefits\OptimaMember_EnrollInBenefits\OnlineEnroll\MemberOnlineEnroll.aspx.cs" Line="106">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="65" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="27" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="IEnumerable&lt;Member&gt; MemberOnlineEnroll.GetFilteredMemberList(IEnumerable&lt;Member&gt; mbrList)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_EnrollInBenefits\OptimaMember_EnrollInBenefits\OnlineEnroll\MemberOnlineEnroll.aspx.cs" Line="134">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="61" />
+                      <Metric Name="CyclomaticComplexity" Value="7" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="30" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string MemberOnlineEnroll.GetUserLoginID()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_EnrollInBenefits\OptimaMember_EnrollInBenefits\OnlineEnroll\MemberOnlineEnroll.aspx.cs" Line="156">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="64" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="10" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="7" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void MemberOnlineEnroll.btnSubmit_OnServerClick(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_EnrollInBenefits\OptimaMember_EnrollInBenefits\OnlineEnroll\MemberOnlineEnroll.aspx.cs" Line="177">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="51" />
+                      <Metric Name="CyclomaticComplexity" Value="5" />
+                      <Metric Name="ClassCoupling" Value="17" />
+                      <Metric Name="SourceLines" Value="47" />
+                      <Metric Name="ExecutableLines" Value="18" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string MemberOnlineEnroll.BuildSiebelSSOURL(string siterole, string ssn, string memberid)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_EnrollInBenefits\OptimaMember_EnrollInBenefits\OnlineEnroll\MemberOnlineEnroll.aspx.cs" Line="225">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="57" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="26" />
+                      <Metric Name="ExecutableLines" Value="14" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool MemberOnlineEnroll.IsPotentialMember(Person p, string memberID)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_EnrollInBenefits\OptimaMember_EnrollInBenefits\OnlineEnroll\MemberOnlineEnroll.aspx.cs" Line="252">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="51" />
+                      <Metric Name="CyclomaticComplexity" Value="9" />
+                      <Metric Name="ClassCoupling" Value="10" />
+                      <Metric Name="SourceLines" Value="51" />
+                      <Metric Name="ExecutableLines" Value="21" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string MemberOnlineEnroll.EncryptString(string strValue)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_EnrollInBenefits\OptimaMember_EnrollInBenefits\OnlineEnroll\MemberOnlineEnroll.aspx.cs" Line="304">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="74" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="Panel MemberOnlineEnroll.pnlError" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_EnrollInBenefits\OptimaMember_EnrollInBenefits\OnlineEnroll\MemberOnlineEnroll.aspx.designer.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label MemberOnlineEnroll.lblFirstName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_EnrollInBenefits\OptimaMember_EnrollInBenefits\OnlineEnroll\MemberOnlineEnroll.aspx.designer.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label MemberOnlineEnroll.lblLastName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_EnrollInBenefits\OptimaMember_EnrollInBenefits\OnlineEnroll\MemberOnlineEnroll.aspx.designer.cs" Line="40">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label MemberOnlineEnroll.lblDOB" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_EnrollInBenefits\OptimaMember_EnrollInBenefits\OnlineEnroll\MemberOnlineEnroll.aspx.designer.cs" Line="49">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlInputText MemberOnlineEnroll.employeraccesscode" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_EnrollInBenefits\OptimaMember_EnrollInBenefits\OnlineEnroll\MemberOnlineEnroll.aspx.designer.cs" Line="58">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlInputSubmit MemberOnlineEnroll.Submit1" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_EnrollInBenefits\OptimaMember_EnrollInBenefits\OnlineEnroll\MemberOnlineEnroll.aspx.designer.cs" Line="67">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="MemberOnlineEnrollRedirect">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="64" />
+                  <Metric Name="CyclomaticComplexity" Value="14" />
+                  <Metric Name="ClassCoupling" Value="31" />
+                  <Metric Name="DepthOfInheritance" Value="4" />
+                  <Metric Name="SourceLines" Value="124" />
+                  <Metric Name="ExecutableLines" Value="46" />
+                </Metrics>
+                <Members>
+                  <Property Name="string MemberOnlineEnrollRedirect.AuthType" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_EnrollInBenefits\OptimaMember_EnrollInBenefits\OnlineEnroll\MemberOnlineEnrollRedirect.aspx.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string MemberOnlineEnrollRedirect.AuthType.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_EnrollInBenefits\OptimaMember_EnrollInBenefits\OnlineEnroll\MemberOnlineEnrollRedirect.aspx.cs" Line="20">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="93" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="3" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="string MemberOnlineEnrollRedirect.AppName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_EnrollInBenefits\OptimaMember_EnrollInBenefits\OnlineEnroll\MemberOnlineEnrollRedirect.aspx.cs" Line="23">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberOnlineEnrollRedirect.AppGuid" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_EnrollInBenefits\OptimaMember_EnrollInBenefits\OnlineEnroll\MemberOnlineEnrollRedirect.aspx.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberOnlineEnrollRedirect.redirectURL" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_EnrollInBenefits\OptimaMember_EnrollInBenefits\OnlineEnroll\MemberOnlineEnrollRedirect.aspx.cs" Line="26">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberOnlineEnrollRedirect.empoweredbenefitsURL" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_EnrollInBenefits\OptimaMember_EnrollInBenefits\OnlineEnroll\MemberOnlineEnrollRedirect.aspx.cs" Line="27">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberOnlineEnrollRedirect.siebelURL" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_EnrollInBenefits\OptimaMember_EnrollInBenefits\OnlineEnroll\MemberOnlineEnrollRedirect.aspx.cs" Line="28">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void MemberOnlineEnrollRedirect.Page_Load(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_EnrollInBenefits\OptimaMember_EnrollInBenefits\OnlineEnroll\MemberOnlineEnrollRedirect.aspx.cs" Line="29">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="49" />
+                      <Metric Name="CyclomaticComplexity" Value="9" />
+                      <Metric Name="ClassCoupling" Value="12" />
+                      <Metric Name="SourceLines" Value="50" />
+                      <Metric Name="ExecutableLines" Value="24" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string MemberOnlineEnrollRedirect.GetUserLoginID()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_EnrollInBenefits\OptimaMember_EnrollInBenefits\OnlineEnroll\MemberOnlineEnrollRedirect.aspx.cs" Line="80">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="64" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="10" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="7" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string MemberOnlineEnrollRedirect.BuildSiebelURL(string customernum)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_EnrollInBenefits\OptimaMember_EnrollInBenefits\OnlineEnroll\MemberOnlineEnrollRedirect.aspx.cs" Line="101">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="64" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="17" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string MemberOnlineEnrollRedirect.EncryptString(string strValue)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_EnrollInBenefits\OptimaMember_EnrollInBenefits\OnlineEnroll\MemberOnlineEnrollRedirect.aspx.cs" Line="119">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="74" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="HtmlForm MemberOnlineEnrollRedirect.form1" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_EnrollInBenefits\OptimaMember_EnrollInBenefits\OnlineEnroll\MemberOnlineEnrollRedirect.aspx.designer.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="MemberOnlineEnrollTarget">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="59" />
+                  <Metric Name="CyclomaticComplexity" Value="20" />
+                  <Metric Name="ClassCoupling" Value="29" />
+                  <Metric Name="DepthOfInheritance" Value="4" />
+                  <Metric Name="SourceLines" Value="203" />
+                  <Metric Name="ExecutableLines" Value="52" />
+                </Metrics>
+                <Members>
+                  <Field Name="Member MemberOnlineEnrollTarget.m" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_EnrollInBenefits\OptimaMember_EnrollInBenefits\OnlineEnroll\MemberOnlineEnrollTarget.aspx.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberOnlineEnrollTarget.m_strMsg" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_EnrollInBenefits\OptimaMember_EnrollInBenefits\OnlineEnroll\MemberOnlineEnrollTarget.aspx.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberOnlineEnrollTarget.pstrAnalyticsFile" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_EnrollInBenefits\OptimaMember_EnrollInBenefits\OnlineEnroll\MemberOnlineEnrollTarget.aspx.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void MemberOnlineEnrollTarget.Page_Load(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_EnrollInBenefits\OptimaMember_EnrollInBenefits\OnlineEnroll\MemberOnlineEnrollTarget.aspx.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="46" />
+                      <Metric Name="CyclomaticComplexity" Value="6" />
+                      <Metric Name="ClassCoupling" Value="14" />
+                      <Metric Name="SourceLines" Value="84" />
+                      <Metric Name="ExecutableLines" Value="27" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string MemberOnlineEnrollTarget.GetMemberID()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_EnrollInBenefits\OptimaMember_EnrollInBenefits\OnlineEnroll\MemberOnlineEnrollTarget.aspx.cs" Line="113">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="64" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="23" />
+                      <Metric Name="ExecutableLines" Value="7" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="Member MemberOnlineEnrollTarget.GetDefaultMemberByPersonId(int personId)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_EnrollInBenefits\OptimaMember_EnrollInBenefits\OnlineEnroll\MemberOnlineEnrollTarget.aspx.cs" Line="137">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="65" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="27" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="IEnumerable&lt;Member&gt; MemberOnlineEnrollTarget.GetFilteredMemberList(IEnumerable&lt;Member&gt; mbrList)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_EnrollInBenefits\OptimaMember_EnrollInBenefits\OnlineEnroll\MemberOnlineEnrollTarget.aspx.cs" Line="165">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="61" />
+                      <Metric Name="CyclomaticComplexity" Value="7" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="30" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="Panel MemberOnlineEnrollTarget.pnlResults" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_EnrollInBenefits\OptimaMember_EnrollInBenefits\OnlineEnroll\MemberOnlineEnrollTarget.aspx.designer.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel MemberOnlineEnrollTarget.pnlError" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_EnrollInBenefits\OptimaMember_EnrollInBenefits\OnlineEnroll\MemberOnlineEnrollTarget.aspx.designer.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label MemberOnlineEnrollTarget.lblError" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Members\OptimaMember_EnrollInBenefits\OptimaMember_EnrollInBenefits\OnlineEnroll\MemberOnlineEnrollTarget.aspx.designer.cs" Line="40">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

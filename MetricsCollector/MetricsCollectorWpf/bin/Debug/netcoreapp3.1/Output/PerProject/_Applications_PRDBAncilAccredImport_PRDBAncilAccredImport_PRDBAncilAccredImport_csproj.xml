@@ -1,0 +1,1879 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="PRDBAncilAccredImport.csproj">
+      <Assembly Name="PRDBAncilAccredImport, Version=1.0.0.24, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="75" />
+          <Metric Name="CyclomaticComplexity" Value="158" />
+          <Metric Name="ClassCoupling" Value="59" />
+          <Metric Name="DepthOfInheritance" Value="3" />
+          <Metric Name="SourceLines" Value="1380" />
+          <Metric Name="ExecutableLines" Value="413" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="PRDBAncilAccredImport">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="71" />
+              <Metric Name="CyclomaticComplexity" Value="33" />
+              <Metric Name="ClassCoupling" Value="41" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="481" />
+              <Metric Name="ExecutableLines" Value="152" />
+            </Metrics>
+            <Types>
+              <NamedType Name="Helper">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="61" />
+                  <Metric Name="CyclomaticComplexity" Value="12" />
+                  <Metric Name="ClassCoupling" Value="26" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="261" />
+                  <Metric Name="ExecutableLines" Value="83" />
+                </Metrics>
+                <Members>
+                  <Field Name="string Helper.PRDBAncilAccredImportErrorSubject" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\Helper.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Helper.PRDBAncilAccredImportSuccessSubject" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\Helper.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Helper.FileName" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\Helper.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="84" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="bool Helper.Error" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\Helper.cs" Line="21">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Helper.SendEmail(string subject, string body, bool html)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\Helper.cs" Line="32">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="55" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="11" />
+                      <Metric Name="SourceLines" Value="44" />
+                      <Metric Name="ExecutableLines" Value="14" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Helper.CreateLogFile(string error)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\Helper.cs" Line="78">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="61" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="31" />
+                      <Metric Name="ExecutableLines" Value="10" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Helper.DecryptCredentials(string sEncPassword)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\Helper.cs" Line="117">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="69" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="34" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Helper.BuildEmailReport(int totalReceivedCount, int totalEmployeeUpdated, int totalAdded, int totalPersonsUpdated, int totalPersonsAdded, int totalTermedSpouses, ArrayList errors)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\Helper.cs" Line="144">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="44" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="93" />
+                      <Metric Name="ExecutableLines" Value="38" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Helper.BuildEmailError()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\Helper.cs" Line="229">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="85" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="11" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Helper.BuildEmailMultiSpouse(IEnumerable enumerable)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\Helper.cs" Line="241">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="77" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Helper.DoLogCleanUp()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\Helper.cs" Line="249">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="61" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="13" />
+                      <Metric Name="SourceLines" Value="24" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="PRDBAncilAccredImportApp">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="53" />
+                  <Metric Name="CyclomaticComplexity" Value="20" />
+                  <Metric Name="ClassCoupling" Value="21" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="204" />
+                  <Metric Name="ExecutableLines" Value="68" />
+                </Metrics>
+                <Members>
+                  <Method Name="void PRDBAncilAccredImportApp.RunApp()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDBAncilAccredImportApp.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="57" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="37" />
+                      <Metric Name="ExecutableLines" Value="14" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void PRDBAncilAccredImportApp.ProcessLine(string sLine)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDBAncilAccredImportApp.cs" Line="50">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="51" />
+                      <Metric Name="CyclomaticComplexity" Value="6" />
+                      <Metric Name="ClassCoupling" Value="15" />
+                      <Metric Name="SourceLines" Value="51" />
+                      <Metric Name="ExecutableLines" Value="20" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void PRDBAncilAccredImportApp.InsertAncilAccred(int iAncilID, int iAccredID, string[] fields, string sSystemID, string sAccrdCode)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDBAncilAccredImportApp.cs" Line="102">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="55" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="10" />
+                      <Metric Name="SourceLines" Value="53" />
+                      <Metric Name="ExecutableLines" Value="14" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void PRDBAncilAccredImportApp.UpdateAncilAccred(ANCIL_ACCRED_TAB aa, int iAncilID, int iAccredID, string[] fields, string sSystemID, string sAccrdCode)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDBAncilAccredImportApp.cs" Line="156">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="51" />
+                      <Metric Name="CyclomaticComplexity" Value="6" />
+                      <Metric Name="ClassCoupling" Value="13" />
+                      <Metric Name="SourceLines" Value="57" />
+                      <Metric Name="ExecutableLines" Value="20" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="PRDBAncilAccredImportMain">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="1" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="7" />
+                  <Metric Name="ExecutableLines" Value="1" />
+                </Metrics>
+                <Members>
+                  <Method Name="void PRDBAncilAccredImportMain.Main()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDBAncilAccredImportMain.cs" Line="10">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="PRDBAncilAccredImport.PRDB">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="79" />
+              <Metric Name="CyclomaticComplexity" Value="125" />
+              <Metric Name="ClassCoupling" Value="24" />
+              <Metric Name="DepthOfInheritance" Value="3" />
+              <Metric Name="SourceLines" Value="899" />
+              <Metric Name="ExecutableLines" Value="261" />
+            </Metrics>
+            <Types>
+              <NamedType Name="ACCREDITATION_TAB">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="76" />
+                  <Metric Name="CyclomaticComplexity" Value="29" />
+                  <Metric Name="ClassCoupling" Value="14" />
+                  <Metric Name="DepthOfInheritance" Value="3" />
+                  <Metric Name="SourceLines" Value="211" />
+                  <Metric Name="ExecutableLines" Value="65" />
+                </Metrics>
+                <Members>
+                  <Method Name="ACCREDITATION_TAB ACCREDITATION_TAB.CreateACCREDITATION_TAB(int aCCRED_ID, string aCCRED_DESC, string aCCRED_CODE, string dELETED, string aCCRED_DEFINITION)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="174">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="67" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="7" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="int ACCREDITATION_TAB.ACCRED_ID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="193">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="86" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="26" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int ACCREDITATION_TAB.ACCRED_ID.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="195">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ACCREDITATION_TAB.ACCRED_ID.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="199">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="72" />
+                          <Metric Name="CyclomaticComplexity" Value="2" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="11" />
+                          <Metric Name="ExecutableLines" Value="6" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="int ACCREDITATION_TAB._ACCRED_ID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="211">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void ACCREDITATION_TAB.OnACCRED_IDChanging(int value)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="212">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ACCREDITATION_TAB.OnACCRED_IDChanged()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="213">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="string ACCREDITATION_TAB.ACCRED_DESC" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="220">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ACCREDITATION_TAB.ACCRED_DESC.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="222">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ACCREDITATION_TAB.ACCRED_DESC.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="226">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="74" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="8" />
+                          <Metric Name="ExecutableLines" Value="5" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="string ACCREDITATION_TAB._ACCRED_DESC" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="235">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void ACCREDITATION_TAB.OnACCRED_DESCChanging(string value)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="236">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ACCREDITATION_TAB.OnACCRED_DESCChanged()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="237">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="string ACCREDITATION_TAB.ACCRED_CODE" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="244">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ACCREDITATION_TAB.ACCRED_CODE.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="246">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ACCREDITATION_TAB.ACCRED_CODE.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="250">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="74" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="8" />
+                          <Metric Name="ExecutableLines" Value="5" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="string ACCREDITATION_TAB._ACCRED_CODE" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="259">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void ACCREDITATION_TAB.OnACCRED_CODEChanging(string value)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="260">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ACCREDITATION_TAB.OnACCRED_CODEChanged()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="261">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="string ACCREDITATION_TAB.DELETED" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="268">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ACCREDITATION_TAB.DELETED.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="270">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ACCREDITATION_TAB.DELETED.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="274">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="74" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="8" />
+                          <Metric Name="ExecutableLines" Value="5" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="string ACCREDITATION_TAB._DELETED" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="283">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void ACCREDITATION_TAB.OnDELETEDChanging(string value)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="284">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ACCREDITATION_TAB.OnDELETEDChanged()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="285">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="string ACCREDITATION_TAB.ACCRED_DEFINITION" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="292">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ACCREDITATION_TAB.ACCRED_DEFINITION.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="294">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ACCREDITATION_TAB.ACCRED_DEFINITION.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="298">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="74" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="8" />
+                          <Metric Name="ExecutableLines" Value="5" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="string ACCREDITATION_TAB._ACCRED_DEFINITION" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="307">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void ACCREDITATION_TAB.OnACCRED_DEFINITIONChanging(string value)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="308">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ACCREDITATION_TAB.OnACCRED_DEFINITIONChanged()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="309">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="string ACCREDITATION_TAB.ACCRED_URL" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="316">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ACCREDITATION_TAB.ACCRED_URL.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="318">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ACCREDITATION_TAB.ACCRED_URL.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="322">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="74" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="8" />
+                          <Metric Name="ExecutableLines" Value="5" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="string ACCREDITATION_TAB._ACCRED_URL" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="331">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void ACCREDITATION_TAB.OnACCRED_URLChanging(string value)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="332">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ACCREDITATION_TAB.OnACCRED_URLChanged()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="333">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="EntityCollection&lt;ANCIL_ACCRED_TAB&gt; ACCREDITATION_TAB.ANCIL_ACCRED_TAB" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="346">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="8" />
+                      <Metric Name="SourceLines" Value="25" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="EntityCollection&lt;ANCIL_ACCRED_TAB&gt; ACCREDITATION_TAB.ANCIL_ACCRED_TAB.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="348">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="91" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="4" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ACCREDITATION_TAB.ANCIL_ACCRED_TAB.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="352">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="83" />
+                          <Metric Name="CyclomaticComplexity" Value="2" />
+                          <Metric Name="ClassCoupling" Value="4" />
+                          <Metric Name="SourceLines" Value="7" />
+                          <Metric Name="ExecutableLines" Value="2" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+              <NamedType Name="ANCIL_ACCRED_TAB">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="76" />
+                  <Metric Name="CyclomaticComplexity" Value="35" />
+                  <Metric Name="ClassCoupling" Value="17" />
+                  <Metric Name="DepthOfInheritance" Value="3" />
+                  <Metric Name="SourceLines" Value="243" />
+                  <Metric Name="ExecutableLines" Value="75" />
+                </Metrics>
+                <Members>
+                  <Method Name="ANCIL_ACCRED_TAB ANCIL_ACCRED_TAB.CreateANCIL_ACCRED_TAB(int aNCIL_ACCRED_ID, int aNCIL__, int aCCRED_ID)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="380">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="72" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="16" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="int ANCIL_ACCRED_TAB.ANCIL_ACCRED_ID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="397">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="86" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="26" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int ANCIL_ACCRED_TAB.ANCIL_ACCRED_ID.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="399">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ANCIL_ACCRED_TAB.ANCIL_ACCRED_ID.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="403">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="72" />
+                          <Metric Name="CyclomaticComplexity" Value="2" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="11" />
+                          <Metric Name="ExecutableLines" Value="6" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="int ANCIL_ACCRED_TAB._ANCIL_ACCRED_ID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="415">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void ANCIL_ACCRED_TAB.OnANCIL_ACCRED_IDChanging(int value)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="416">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ANCIL_ACCRED_TAB.OnANCIL_ACCRED_IDChanged()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="417">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="int ANCIL_ACCRED_TAB.ANCIL__" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="424">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int ANCIL_ACCRED_TAB.ANCIL__.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="426">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ANCIL_ACCRED_TAB.ANCIL__.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="430">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="75" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="8" />
+                          <Metric Name="ExecutableLines" Value="5" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="int ANCIL_ACCRED_TAB._ANCIL__" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="439">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void ANCIL_ACCRED_TAB.OnANCIL__Changing(int value)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="440">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ANCIL_ACCRED_TAB.OnANCIL__Changed()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="441">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="int ANCIL_ACCRED_TAB.ACCRED_ID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="448">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int ANCIL_ACCRED_TAB.ACCRED_ID.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="450">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ANCIL_ACCRED_TAB.ACCRED_ID.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="454">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="75" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="8" />
+                          <Metric Name="ExecutableLines" Value="5" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="int ANCIL_ACCRED_TAB._ACCRED_ID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="463">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void ANCIL_ACCRED_TAB.OnACCRED_IDChanging(int value)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="464">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ANCIL_ACCRED_TAB.OnACCRED_IDChanged()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="465">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="DateTime? ANCIL_ACCRED_TAB.ACCRED_EFF_DATE" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="472">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DateTime? ANCIL_ACCRED_TAB.ACCRED_EFF_DATE.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="474">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ANCIL_ACCRED_TAB.ACCRED_EFF_DATE.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="478">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="75" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="3" />
+                          <Metric Name="SourceLines" Value="8" />
+                          <Metric Name="ExecutableLines" Value="5" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="DateTime? ANCIL_ACCRED_TAB._ACCRED_EFF_DATE" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="487">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void ANCIL_ACCRED_TAB.OnACCRED_EFF_DATEChanging(DateTime? value)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="488">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ANCIL_ACCRED_TAB.OnACCRED_EFF_DATEChanged()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="489">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="DateTime? ANCIL_ACCRED_TAB.ACCRED_END_DATE" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="496">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DateTime? ANCIL_ACCRED_TAB.ACCRED_END_DATE.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="498">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ANCIL_ACCRED_TAB.ACCRED_END_DATE.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="502">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="75" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="3" />
+                          <Metric Name="SourceLines" Value="8" />
+                          <Metric Name="ExecutableLines" Value="5" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="DateTime? ANCIL_ACCRED_TAB._ACCRED_END_DATE" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="511">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void ANCIL_ACCRED_TAB.OnACCRED_END_DATEChanging(DateTime? value)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="512">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ANCIL_ACCRED_TAB.OnACCRED_END_DATEChanged()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="513">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="string ANCIL_ACCRED_TAB.COMMENTS" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="520">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ANCIL_ACCRED_TAB.COMMENTS.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="522">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ANCIL_ACCRED_TAB.COMMENTS.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="526">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="74" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="8" />
+                          <Metric Name="ExecutableLines" Value="5" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="string ANCIL_ACCRED_TAB._COMMENTS" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="535">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void ANCIL_ACCRED_TAB.OnCOMMENTSChanging(string value)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="536">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ANCIL_ACCRED_TAB.OnCOMMENTSChanged()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="537">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="string ANCIL_ACCRED_TAB.ACCRED_STATUS" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="544">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ANCIL_ACCRED_TAB.ACCRED_STATUS.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="546">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ANCIL_ACCRED_TAB.ACCRED_STATUS.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="550">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="74" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="8" />
+                          <Metric Name="ExecutableLines" Value="5" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="string ANCIL_ACCRED_TAB._ACCRED_STATUS" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="559">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void ANCIL_ACCRED_TAB.OnACCRED_STATUSChanging(string value)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="560">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ANCIL_ACCRED_TAB.OnACCRED_STATUSChanged()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="561">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="ACCREDITATION_TAB ANCIL_ACCRED_TAB.ACCREDITATION_TAB" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="574">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="90" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="8" />
+                      <Metric Name="SourceLines" Value="22" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="ACCREDITATION_TAB ANCIL_ACCRED_TAB.ACCREDITATION_TAB.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="576">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="90" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="4" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ANCIL_ACCRED_TAB.ACCREDITATION_TAB.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="580">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="90" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="4" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="EntityReference&lt;ACCREDITATION_TAB&gt; ANCIL_ACCRED_TAB.ACCREDITATION_TABReference" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="590">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="19" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="EntityReference&lt;ACCREDITATION_TAB&gt; ANCIL_ACCRED_TAB.ACCREDITATION_TABReference.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="592">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="91" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="4" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ANCIL_ACCRED_TAB.ACCREDITATION_TABReference.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="596">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="83" />
+                          <Metric Name="CyclomaticComplexity" Value="2" />
+                          <Metric Name="ClassCoupling" Value="4" />
+                          <Metric Name="SourceLines" Value="7" />
+                          <Metric Name="ExecutableLines" Value="2" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+              <NamedType Name="ANCIL_PROD_SPEC_TAB">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="76" />
+                  <Metric Name="CyclomaticComplexity" Value="48" />
+                  <Metric Name="ClassCoupling" Value="9" />
+                  <Metric Name="DepthOfInheritance" Value="3" />
+                  <Metric Name="SourceLines" Value="310" />
+                  <Metric Name="ExecutableLines" Value="103" />
+                </Metrics>
+                <Members>
+                  <Method Name="ANCIL_PROD_SPEC_TAB ANCIL_PROD_SPEC_TAB.CreateANCIL_PROD_SPEC_TAB(int aNCIL__, short pROD_ID, string sPEC__, byte dIR_FLAG, DateTime lAST_UPDATE, int aPS_RECORD_ID)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="627">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="65" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="22" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="int ANCIL_PROD_SPEC_TAB.ANCIL__" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="647">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="86" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="26" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int ANCIL_PROD_SPEC_TAB.ANCIL__.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="649">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ANCIL_PROD_SPEC_TAB.ANCIL__.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="653">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="72" />
+                          <Metric Name="CyclomaticComplexity" Value="2" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="11" />
+                          <Metric Name="ExecutableLines" Value="6" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="int ANCIL_PROD_SPEC_TAB._ANCIL__" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="665">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void ANCIL_PROD_SPEC_TAB.OnANCIL__Changing(int value)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="666">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ANCIL_PROD_SPEC_TAB.OnANCIL__Changed()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="667">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="short ANCIL_PROD_SPEC_TAB.PROD_ID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="674">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="86" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="23" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="short ANCIL_PROD_SPEC_TAB.PROD_ID.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="676">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ANCIL_PROD_SPEC_TAB.PROD_ID.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="680">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="72" />
+                          <Metric Name="CyclomaticComplexity" Value="2" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="11" />
+                          <Metric Name="ExecutableLines" Value="6" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="short ANCIL_PROD_SPEC_TAB._PROD_ID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="692">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void ANCIL_PROD_SPEC_TAB.OnPROD_IDChanging(short value)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="693">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ANCIL_PROD_SPEC_TAB.OnPROD_IDChanged()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="694">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="string ANCIL_PROD_SPEC_TAB.SPEC__" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="701">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="85" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="23" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ANCIL_PROD_SPEC_TAB.SPEC__.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="703">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ANCIL_PROD_SPEC_TAB.SPEC__.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="707">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="71" />
+                          <Metric Name="CyclomaticComplexity" Value="2" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="11" />
+                          <Metric Name="ExecutableLines" Value="6" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="string ANCIL_PROD_SPEC_TAB._SPEC__" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="719">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void ANCIL_PROD_SPEC_TAB.OnSPEC__Changing(string value)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="720">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ANCIL_PROD_SPEC_TAB.OnSPEC__Changed()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="721">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="DateTime? ANCIL_PROD_SPEC_TAB.EFF_DATE" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="728">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DateTime? ANCIL_PROD_SPEC_TAB.EFF_DATE.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="730">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ANCIL_PROD_SPEC_TAB.EFF_DATE.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="734">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="75" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="3" />
+                          <Metric Name="SourceLines" Value="8" />
+                          <Metric Name="ExecutableLines" Value="5" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="DateTime? ANCIL_PROD_SPEC_TAB._EFF_DATE" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="743">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void ANCIL_PROD_SPEC_TAB.OnEFF_DATEChanging(DateTime? value)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="744">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ANCIL_PROD_SPEC_TAB.OnEFF_DATEChanged()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="745">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="DateTime? ANCIL_PROD_SPEC_TAB.END_DATE" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="752">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DateTime? ANCIL_PROD_SPEC_TAB.END_DATE.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="754">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ANCIL_PROD_SPEC_TAB.END_DATE.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="758">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="75" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="3" />
+                          <Metric Name="SourceLines" Value="8" />
+                          <Metric Name="ExecutableLines" Value="5" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="DateTime? ANCIL_PROD_SPEC_TAB._END_DATE" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="767">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void ANCIL_PROD_SPEC_TAB.OnEND_DATEChanging(DateTime? value)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="768">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ANCIL_PROD_SPEC_TAB.OnEND_DATEChanged()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="769">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="string ANCIL_PROD_SPEC_TAB.VENDOR" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="776">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ANCIL_PROD_SPEC_TAB.VENDOR.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="778">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ANCIL_PROD_SPEC_TAB.VENDOR.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="782">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="74" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="8" />
+                          <Metric Name="ExecutableLines" Value="5" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="string ANCIL_PROD_SPEC_TAB._VENDOR" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="791">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void ANCIL_PROD_SPEC_TAB.OnVENDORChanging(string value)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="792">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ANCIL_PROD_SPEC_TAB.OnVENDORChanged()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="793">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="string ANCIL_PROD_SPEC_TAB.SYSTEM_ID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="800">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ANCIL_PROD_SPEC_TAB.SYSTEM_ID.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="802">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ANCIL_PROD_SPEC_TAB.SYSTEM_ID.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="806">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="74" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="8" />
+                          <Metric Name="ExecutableLines" Value="5" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="string ANCIL_PROD_SPEC_TAB._SYSTEM_ID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="815">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void ANCIL_PROD_SPEC_TAB.OnSYSTEM_IDChanging(string value)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="816">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ANCIL_PROD_SPEC_TAB.OnSYSTEM_IDChanged()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="817">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="byte ANCIL_PROD_SPEC_TAB.DIR_FLAG" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="824">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="byte ANCIL_PROD_SPEC_TAB.DIR_FLAG.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="826">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ANCIL_PROD_SPEC_TAB.DIR_FLAG.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="830">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="75" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="8" />
+                          <Metric Name="ExecutableLines" Value="5" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="byte ANCIL_PROD_SPEC_TAB._DIR_FLAG" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="839">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void ANCIL_PROD_SPEC_TAB.OnDIR_FLAGChanging(byte value)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="840">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ANCIL_PROD_SPEC_TAB.OnDIR_FLAGChanged()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="841">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="DateTime ANCIL_PROD_SPEC_TAB.LAST_UPDATE" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="848">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DateTime ANCIL_PROD_SPEC_TAB.LAST_UPDATE.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="850">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ANCIL_PROD_SPEC_TAB.LAST_UPDATE.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="854">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="75" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="8" />
+                          <Metric Name="ExecutableLines" Value="5" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="DateTime ANCIL_PROD_SPEC_TAB._LAST_UPDATE" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="863">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void ANCIL_PROD_SPEC_TAB.OnLAST_UPDATEChanging(DateTime value)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="864">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ANCIL_PROD_SPEC_TAB.OnLAST_UPDATEChanged()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="865">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="int ANCIL_PROD_SPEC_TAB.APS_RECORD_ID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="872">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int ANCIL_PROD_SPEC_TAB.APS_RECORD_ID.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="874">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ANCIL_PROD_SPEC_TAB.APS_RECORD_ID.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="878">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="75" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="8" />
+                          <Metric Name="ExecutableLines" Value="5" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="int ANCIL_PROD_SPEC_TAB._APS_RECORD_ID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="887">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void ANCIL_PROD_SPEC_TAB.OnAPS_RECORD_IDChanging(int value)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="888">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ANCIL_PROD_SPEC_TAB.OnAPS_RECORD_IDChanged()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="889">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="string ANCIL_PROD_SPEC_TAB.COMMENTS" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="896">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ANCIL_PROD_SPEC_TAB.COMMENTS.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="898">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ANCIL_PROD_SPEC_TAB.COMMENTS.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="902">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="74" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="8" />
+                          <Metric Name="ExecutableLines" Value="5" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="string ANCIL_PROD_SPEC_TAB._COMMENTS" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="911">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void ANCIL_PROD_SPEC_TAB.OnCOMMENTSChanging(string value)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="912">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ANCIL_PROD_SPEC_TAB.OnCOMMENTSChanged()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="913">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="ProvRelationsEntities">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="89" />
+                  <Metric Name="CyclomaticComplexity" Value="13" />
+                  <Metric Name="ClassCoupling" Value="7" />
+                  <Metric Name="DepthOfInheritance" Value="2" />
+                  <Metric Name="SourceLines" Value="123" />
+                  <Metric Name="ExecutableLines" Value="18" />
+                </Metrics>
+                <Members>
+                  <Method Name="ProvRelationsEntities.ProvRelationsEntities()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="39">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="84" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="10" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="ProvRelationsEntities.ProvRelationsEntities(string connectionString)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="48">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="84" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="ProvRelationsEntities.ProvRelationsEntities(EntityConnection connection)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="57">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="84" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ProvRelationsEntities.OnContextCreated()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="67">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="ObjectSet&lt;ACCREDITATION_TAB&gt; ProvRelationsEntities.ACCREDITATION_TAB" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="76">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="79" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="18" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="ObjectSet&lt;ACCREDITATION_TAB&gt; ProvRelationsEntities.ACCREDITATION_TAB.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="78">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="79" />
+                          <Metric Name="CyclomaticComplexity" Value="2" />
+                          <Metric Name="ClassCoupling" Value="3" />
+                          <Metric Name="SourceLines" Value="8" />
+                          <Metric Name="ExecutableLines" Value="3" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="ObjectSet&lt;ACCREDITATION_TAB&gt; ProvRelationsEntities._ACCREDITATION_TAB" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="87">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="ObjectSet&lt;ANCIL_ACCRED_TAB&gt; ProvRelationsEntities.ANCIL_ACCRED_TAB" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="92">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="79" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="14" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="ObjectSet&lt;ANCIL_ACCRED_TAB&gt; ProvRelationsEntities.ANCIL_ACCRED_TAB.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="94">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="79" />
+                          <Metric Name="CyclomaticComplexity" Value="2" />
+                          <Metric Name="ClassCoupling" Value="3" />
+                          <Metric Name="SourceLines" Value="8" />
+                          <Metric Name="ExecutableLines" Value="3" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="ObjectSet&lt;ANCIL_ACCRED_TAB&gt; ProvRelationsEntities._ANCIL_ACCRED_TAB" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="103">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="ObjectSet&lt;ANCIL_PROD_SPEC_TAB&gt; ProvRelationsEntities.ANCIL_PROD_SPEC_TAB" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="108">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="79" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="14" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="ObjectSet&lt;ANCIL_PROD_SPEC_TAB&gt; ProvRelationsEntities.ANCIL_PROD_SPEC_TAB.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="110">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="79" />
+                          <Metric Name="CyclomaticComplexity" Value="2" />
+                          <Metric Name="ClassCoupling" Value="3" />
+                          <Metric Name="SourceLines" Value="8" />
+                          <Metric Name="ExecutableLines" Value="3" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="ObjectSet&lt;ANCIL_PROD_SPEC_TAB&gt; ProvRelationsEntities._ANCIL_PROD_SPEC_TAB" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="119">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void ProvRelationsEntities.AddToACCREDITATION_TAB(ACCREDITATION_TAB aCCREDITATION_TAB)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="127">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="97" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="10" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ProvRelationsEntities.AddToANCIL_ACCRED_TAB(ANCIL_ACCRED_TAB aNCIL_ACCRED_TAB)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="135">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="97" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ProvRelationsEntities.AddToANCIL_PROD_SPEC_TAB(ANCIL_PROD_SPEC_TAB aNCIL_PROD_SPEC_TAB)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAncilAccredImport\PRDBAncilAccredImport\PRDB\PRDB.cs" Line="143">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="97" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

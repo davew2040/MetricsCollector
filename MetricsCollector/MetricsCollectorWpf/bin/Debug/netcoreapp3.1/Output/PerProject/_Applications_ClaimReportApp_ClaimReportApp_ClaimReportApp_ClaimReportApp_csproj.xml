@@ -1,0 +1,1700 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="ClaimReportApp.csproj">
+      <Assembly Name="ClaimReportApp, Version=1.0.0.32, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="82" />
+          <Metric Name="CyclomaticComplexity" Value="227" />
+          <Metric Name="ClassCoupling" Value="127" />
+          <Metric Name="DepthOfInheritance" Value="7" />
+          <Metric Name="SourceLines" Value="3900" />
+          <Metric Name="ExecutableLines" Value="1342" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="ClaimReportApp">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="83" />
+              <Metric Name="CyclomaticComplexity" Value="221" />
+              <Metric Name="ClassCoupling" Value="116" />
+              <Metric Name="DepthOfInheritance" Value="7" />
+              <Metric Name="SourceLines" Value="3811" />
+              <Metric Name="ExecutableLines" Value="1325" />
+            </Metrics>
+            <Types>
+              <NamedType Name="DataSetHelper">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="64" />
+                  <Metric Name="CyclomaticComplexity" Value="74" />
+                  <Metric Name="ClassCoupling" Value="20" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="399" />
+                  <Metric Name="ExecutableLines" Value="88" />
+                </Metrics>
+                <Members>
+                  <Field Name="DataSet DataSetHelper.ds" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\DataSetHelper.cs" Line="11">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="DataSetHelper.DataSetHelper(ref DataSet DataSet)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\DataSetHelper.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="DataSetHelper.DataSetHelper()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\DataSetHelper.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="ArrayList DataSetHelper.m_FieldInfo" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\DataSetHelper.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string DataSetHelper.m_FieldList" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\DataSetHelper.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="ArrayList DataSetHelper.GroupByFieldInfo" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\DataSetHelper.cs" Line="21">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string DataSetHelper.GroupByFieldList" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\DataSetHelper.cs" Line="21">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="bool DataSetHelper.ColumnEqual(object A, object B)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\DataSetHelper.cs" Line="35">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="75" />
+                      <Metric Name="CyclomaticComplexity" Value="5" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="22" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="DataTable DataSetHelper.SelectDistinct(string TableName, DataTable SourceTable, string FieldName)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\DataSetHelper.cs" Line="58">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="61" />
+                      <Metric Name="CyclomaticComplexity" Value="5" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="31" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="DataTable DataSetHelper.SelectGroupByInto(string TableName, DataTable SourceTable, string FieldList, string RowFilter, string GroupBy)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\DataSetHelper.cs" Line="90">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="78" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="19" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void DataSetHelper.ParseFieldList(string FieldList, bool AllowRelation)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\DataSetHelper.cs" Line="122">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="55" />
+                      <Metric Name="CyclomaticComplexity" Value="11" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="59" />
+                      <Metric Name="ExecutableLines" Value="12" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void DataSetHelper.ParseGroupByFieldList(string FieldList)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\DataSetHelper.cs" Line="182">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="54" />
+                      <Metric Name="CyclomaticComplexity" Value="11" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="63" />
+                      <Metric Name="ExecutableLines" Value="13" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="DataTable DataSetHelper.CreateGroupByTable(string TableName, DataTable SourceTable, string FieldList)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\DataSetHelper.cs" Line="248">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="58" />
+                      <Metric Name="CyclomaticComplexity" Value="5" />
+                      <Metric Name="ClassCoupling" Value="14" />
+                      <Metric Name="SourceLines" Value="52" />
+                      <Metric Name="ExecutableLines" Value="12" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void DataSetHelper.InsertGroupByInto(DataTable DestTable, DataTable SourceTable, string FieldList, string RowFilter, string GroupBy)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\DataSetHelper.cs" Line="289">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="46" />
+                      <Metric Name="CyclomaticComplexity" Value="20" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="71" />
+                      <Metric Name="ExecutableLines" Value="23" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="FieldInfo DataSetHelper.LocateFieldInfoByName(ArrayList FieldList, string Name)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\DataSetHelper.cs" Line="362">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="79" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="10" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="object DataSetHelper.Min(object a, object b)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\DataSetHelper.cs" Line="374">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="80" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="10" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="object DataSetHelper.Max(object a, object b)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\DataSetHelper.cs" Line="385">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="78" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="12" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="object DataSetHelper.Add(object a, object b)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\DataSetHelper.cs" Line="398">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="80" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="9" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="DataSetHelper.FieldInfo">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="0" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="15" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+                <Members>
+                  <Field Name="string FieldInfo.RelationName" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\DataSetHelper.cs" Line="107">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string FieldInfo.FieldName" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\DataSetHelper.cs" Line="108">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string FieldInfo.FieldAlias" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\DataSetHelper.cs" Line="109">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string FieldInfo.Aggregate" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\DataSetHelper.cs" Line="110">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="frmMain">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="52" />
+                  <Metric Name="CyclomaticComplexity" Value="93" />
+                  <Metric Name="ClassCoupling" Value="63" />
+                  <Metric Name="DepthOfInheritance" Value="7" />
+                  <Metric Name="SourceLines" Value="1675" />
+                  <Metric Name="ExecutableLines" Value="635" />
+                </Metrics>
+                <Members>
+                  <Field Name="Splash frmMain.sp" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="frmMain.frmMain()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.cs" Line="25">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="65" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="25" />
+                      <Metric Name="ExecutableLines" Value="11" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void frmMain.LoadLOBList()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.cs" Line="50">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="59" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="14" />
+                      <Metric Name="SourceLines" Value="35" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void frmMain.RetrieveProviderIDs()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.cs" Line="85">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="67" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="25" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void frmMain.RetrieveVendorIDs()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.cs" Line="110">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="67" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="24" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void frmMain.RetrieveTaxIDs()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.cs" Line="134">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="67" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="25" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void frmMain.RetrieveLOBs()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.cs" Line="159">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="67" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="26" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void frmMain.DoSplash()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.cs" Line="185">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="12" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void frmMain.SetText(string sControl, string strLoadText)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.cs" Line="209">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="90" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="13" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void frmMain.Load_List()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.cs" Line="245">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="43" />
+                      <Metric Name="CyclomaticComplexity" Value="11" />
+                      <Metric Name="ClassCoupling" Value="17" />
+                      <Metric Name="SourceLines" Value="92" />
+                      <Metric Name="ExecutableLines" Value="33" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void frmMain.ClearSourceListBox()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.cs" Line="338">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="95" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="13" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void frmMain.ClearSelectedListBox()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.cs" Line="351">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="95" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="12" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void frmMain.AddSourceItem(string item)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.cs" Line="364">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="92" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="12" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void frmMain.AddLOBSourceItem(string item)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.cs" Line="377">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="92" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="12" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void frmMain.rbProvider_CheckedChanged(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.cs" Line="391">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="66" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="8" />
+                      <Metric Name="SourceLines" Value="22" />
+                      <Metric Name="ExecutableLines" Value="7" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void frmMain.rbVendor_CheckedChanged(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.cs" Line="413">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="66" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="8" />
+                      <Metric Name="SourceLines" Value="22" />
+                      <Metric Name="ExecutableLines" Value="7" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void frmMain.rbTaxID_CheckedChanged(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.cs" Line="435">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="66" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="8" />
+                      <Metric Name="SourceLines" Value="22" />
+                      <Metric Name="ExecutableLines" Value="7" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void frmMain.SetControlPropertyValue(Control oControl, string propName, object propValue)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.cs" Line="471">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="64" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="32" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void frmMain.SetControlMethodValue(Control oControl, object oMethodName)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.cs" Line="514">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="66" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="33" />
+                      <Metric Name="ExecutableLines" Value="7" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void frmMain.btnSelectItem_Click(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.cs" Line="547">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="64" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="30" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void frmMain.btnSelectAllItems_Click(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.cs" Line="577">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="71" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="22" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void frmMain.btnRemoveItem_Click(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.cs" Line="600">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="64" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="27" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void frmMain.btnRemoveAllItems_Click(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.cs" Line="628">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="71" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="22" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void frmMain.rbIndLOB_CheckedChanged(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.cs" Line="652">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="65" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="28" />
+                      <Metric Name="ExecutableLines" Value="7" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void frmMain.btnSubmit_Click(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.cs" Line="683">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="69" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="8" />
+                      <Metric Name="SourceLines" Value="27" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool frmMain.ParamValidated()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.cs" Line="711">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="59" />
+                      <Metric Name="CyclomaticComplexity" Value="7" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="41" />
+                      <Metric Name="ExecutableLines" Value="12" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void frmMain.RetrieveSelectedValues()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.cs" Line="755">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="43" />
+                      <Metric Name="CyclomaticComplexity" Value="12" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="92" />
+                      <Metric Name="ExecutableLines" Value="35" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void frmMain.btn_Search_Click(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.cs" Line="846">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="70" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="24" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void frmMain.btnSelectLOB_Click(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.cs" Line="870">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="64" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="29" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void frmMain.btnSelectALLLOB_Click(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.cs" Line="900">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="71" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="22" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void frmMain.btnRemoveLOB_Click(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.cs" Line="923">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="64" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="27" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void frmMain.btnRemoveALLLOB_Click(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.cs" Line="951">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="71" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="22" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void frmMain.bgSelectItems_DoWork(object sender, DoWorkEventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.cs" Line="971">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="135" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="IContainer frmMain.components" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.Designer.cs" Line="8">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void frmMain.Dispose(bool disposing)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.Designer.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="79" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="12" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void frmMain.InitializeComponent()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.Designer.cs" Line="29">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="13" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="29" />
+                      <Metric Name="SourceLines" Value="521" />
+                      <Metric Name="ExecutableLines" Value="394" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="RadioButton frmMain.rbTaxID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.Designer.cs" Line="547">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RadioButton frmMain.rbVendor" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.Designer.cs" Line="548">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RadioButton frmMain.rbProvider" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.Designer.cs" Line="549">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="GroupBox frmMain.gbReportCriteria" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.Designer.cs" Line="550">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="ListBox frmMain.lstSelected" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.Designer.cs" Line="551">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="ListBox frmMain.lstSource" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.Designer.cs" Line="552">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label frmMain.lblSourceCount" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.Designer.cs" Line="553">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Button frmMain.btn_Search" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.Designer.cs" Line="554">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="TextBox frmMain.textBox1" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.Designer.cs" Line="555">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Button frmMain.btnSelectAllItems" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.Designer.cs" Line="556">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Button frmMain.btnSelectItem" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.Designer.cs" Line="557">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="GroupBox frmMain.gBoxSearchBy" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.Designer.cs" Line="558">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel frmMain.pnReportType" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.Designer.cs" Line="559">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RadioButton frmMain.rbDefault" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.Designer.cs" Line="560">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Button frmMain.btnRemoveAllItems" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.Designer.cs" Line="561">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Button frmMain.btnRemoveItem" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.Designer.cs" Line="562">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="GroupBox frmMain.gbLOB" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.Designer.cs" Line="563">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="GroupBox frmMain.gbDateRange" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.Designer.cs" Line="564">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel frmMain.panel1" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.Designer.cs" Line="565">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="DateTimePicker frmMain.dtBeginDt" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.Designer.cs" Line="566">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label frmMain.label1" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.Designer.cs" Line="567">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Button frmMain.btnSubmit" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.Designer.cs" Line="568">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label frmMain.label2" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.Designer.cs" Line="569">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="DateTimePicker frmMain.dtEndDate" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.Designer.cs" Line="570">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="GroupBox frmMain.groupBox1" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.Designer.cs" Line="571">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RadioButton frmMain.rbIndLOB" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.Designer.cs" Line="572">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RadioButton frmMain.rbAllLOB" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.Designer.cs" Line="573">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RadioButton frmMain.rbOther" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.Designer.cs" Line="574">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RadioButton frmMain.rbOFC" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.Designer.cs" Line="575">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RadioButton frmMain.rbMedicare" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.Designer.cs" Line="576">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="GroupBox frmMain.gbSelLOB" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.Designer.cs" Line="577">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="ListBox frmMain.lstLOBSource" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.Designer.cs" Line="578">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Button frmMain.btnRemoveALLLOB" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.Designer.cs" Line="579">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="ListBox frmMain.lstLOBSelected" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.Designer.cs" Line="580">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Button frmMain.btnRemoveLOB" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.Designer.cs" Line="581">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Button frmMain.btnSelectLOB" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.Designer.cs" Line="582">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Button frmMain.btnSelectALLLOB" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.Designer.cs" Line="583">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="BackgroundWorker frmMain.bgLoadList" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.Designer.cs" Line="584">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="BackgroundWorker frmMain.bgSelectItems" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\frmMain.Designer.cs" Line="585">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="frmMain.AddToSelectedListBoxDelegate">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="0" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="1" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+              </NamedType>
+              <NamedType Name="frmMain.AddToSourceListBoxDelegate">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="0" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="10" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+              </NamedType>
+              <NamedType Name="frmMain.ClearSelectedListBoxDelegate">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="0" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="1" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+              </NamedType>
+              <NamedType Name="frmMain.ClearSourceListBoxDelegate">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="0" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="10" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+              </NamedType>
+              <NamedType Name="frmMain.SetControlMethodCallback">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="1" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="11" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+              </NamedType>
+              <NamedType Name="frmMain.SetControlValueCallback">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="1" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="12" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+              </NamedType>
+              <NamedType Name="frmMain.SetTextCallback">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="0" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="10" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+              </NamedType>
+              <NamedType Name="Program">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="69" />
+                  <Metric Name="CyclomaticComplexity" Value="5" />
+                  <Metric Name="ClassCoupling" Value="21" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="132" />
+                  <Metric Name="ExecutableLines" Value="33" />
+                </Metrics>
+                <Members>
+                  <Field Name="string Program.strSQLCnxn" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\Program.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Program.sProdModServer" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\Program.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Program.sServerConnTimeOut" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\Program.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Program.sProdModDatabase" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\Program.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Program.dbSvcAcctLogin" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\Program.cs" Line="19">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Program.dbSvcAcctPW" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\Program.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="SqlDataAdapter Program.dsCmd" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\Program.cs" Line="21">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="SqlCommand Program.cmdSQL" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\Program.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="DataSet Program.dsDataSet" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\Program.cs" Line="23">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="SqlConnection Program.sqlConn" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\Program.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Program.sLOB" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\Program.cs" Line="25">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Program.sClaimSearch" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\Program.cs" Line="26">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Program.sdtStart" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\Program.cs" Line="27">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Program.sdtEnd" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\Program.cs" Line="28">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Program.sProvider" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\Program.cs" Line="29">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Program.sVendor" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\Program.cs" Line="30">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Program.sTaxID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\Program.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="int Program.iMaxFieldLength" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\Program.cs" Line="32">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Program.Main()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\Program.cs" Line="53">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="81" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="26" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Program.Data_Access(string sTable, string sProcedure, bool bViewRpt)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\Program.cs" Line="75">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="50" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="13" />
+                      <Metric Name="SourceLines" Value="61" />
+                      <Metric Name="ExecutableLines" Value="22" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Program.DecryptCredentials()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\Program.cs" Line="133">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="79" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="18" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="Splash">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="57" />
+                  <Metric Name="CyclomaticComplexity" Value="5" />
+                  <Metric Name="ClassCoupling" Value="23" />
+                  <Metric Name="DepthOfInheritance" Value="7" />
+                  <Metric Name="SourceLines" Value="106" />
+                  <Metric Name="ExecutableLines" Value="54" />
+                </Metrics>
+                <Members>
+                  <Method Name="Splash.Splash()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\Splash.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="86" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="IContainer Splash.components" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\Splash.Designer.cs" Line="8">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Splash.Dispose(bool disposing)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\Splash.Designer.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="79" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="12" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Splash.InitializeComponent()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\Splash.Designer.cs" Line="29">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="40" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="21" />
+                      <Metric Name="SourceLines" Value="70" />
+                      <Metric Name="ExecutableLines" Value="48" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="PictureBox Splash.pictureBox1" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\Splash.Designer.cs" Line="96">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label Splash.lblLoading" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\Splash.Designer.cs" Line="97">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="PictureBox Splash.pictureBox2" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\Splash.Designer.cs" Line="98">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="ViewReport">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="38" />
+                  <Metric Name="CyclomaticComplexity" Value="36" />
+                  <Metric Name="ClassCoupling" Value="67" />
+                  <Metric Name="DepthOfInheritance" Value="7" />
+                  <Metric Name="SourceLines" Value="1473" />
+                  <Metric Name="ExecutableLines" Value="515" />
+                </Metrics>
+                <Members>
+                  <Field Name="string ViewReport.psLOB" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\ViewReport.cs" Line="36">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ViewReport.psdtStart" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\ViewReport.cs" Line="37">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ViewReport.psdtEnd" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\ViewReport.cs" Line="38">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ViewReport.psProvider" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\ViewReport.cs" Line="39">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ViewReport.psVendor" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\ViewReport.cs" Line="40">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ViewReport.psTaxID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\ViewReport.cs" Line="41">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ViewReport.sReport" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\ViewReport.cs" Line="42">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="85" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="ViewReport.ViewReport()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\ViewReport.cs" Line="45">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="59" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="27" />
+                      <Metric Name="ExecutableLines" Value="10" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="DateTime ViewReport.ReportDate" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\ViewReport.cs" Line="72">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void ViewReport.bgReport_DoWork(object sender, DoWorkEventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\ViewReport.cs" Line="86">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="70" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="10" />
+                      <Metric Name="SourceLines" Value="25" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ViewReport.bgReport_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\ViewReport.cs" Line="111">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="67" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="26" />
+                      <Metric Name="ExecutableLines" Value="7" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ViewReport.timer1_Tick(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\ViewReport.cs" Line="138">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="62" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="10" />
+                      <Metric Name="SourceLines" Value="40" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ViewReport.ExportToExcel()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\ViewReport.cs" Line="183">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="10" />
+                      <Metric Name="CyclomaticComplexity" Value="19" />
+                      <Metric Name="ClassCoupling" Value="29" />
+                      <Metric Name="SourceLines" Value="1079" />
+                      <Metric Name="ExecutableLines" Value="376" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="int ViewReport.GetClaimProcessedCount()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\ViewReport.cs" Line="1263">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="58" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="13" />
+                      <Metric Name="SourceLines" Value="40" />
+                      <Metric Name="ExecutableLines" Value="12" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ViewReport.GetDenialCodeCount()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\ViewReport.cs" Line="1305">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="64" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="10" />
+                      <Metric Name="SourceLines" Value="29" />
+                      <Metric Name="ExecutableLines" Value="7" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="IContainer ViewReport.components" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\ViewReport.Designer.cs" Line="8">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void ViewReport.Dispose(bool disposing)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\ViewReport.Designer.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="79" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="12" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ViewReport.InitializeComponent()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\ViewReport.Designer.cs" Line="29">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="33" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="32" />
+                      <Metric Name="SourceLines" Value="135" />
+                      <Metric Name="ExecutableLines" Value="85" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="BackgroundWorker ViewReport.bgReport" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\ViewReport.Designer.cs" Line="161">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Timer ViewReport.timer1" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\ViewReport.Designer.cs" Line="162">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="StatusStrip ViewReport.sStatusStrip" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\ViewReport.Designer.cs" Line="163">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="ToolStripStatusLabel ViewReport.sStatusStripLabel" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\ViewReport.Designer.cs" Line="164">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="ToolStripProgressBar ViewReport.sStatusStripProgress" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\ViewReport.Designer.cs" Line="165">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="ToolStripStatusLabel ViewReport.sStatusStripTime" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\ViewReport.Designer.cs" Line="166">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="GroupBox ViewReport.gpReportLoading" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\ViewReport.Designer.cs" Line="167">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="PictureBox ViewReport.pictureBox1" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\ViewReport.Designer.cs" Line="168">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="PictureBox ViewReport.pictureBox2" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\ViewReport.Designer.cs" Line="169">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label ViewReport.label1" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\ViewReport.Designer.cs" Line="170">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="ToolStripStatusLabel ViewReport.sExportToExcel" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\ViewReport.Designer.cs" Line="171">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="ClaimReportApp.Properties">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="80" />
+              <Metric Name="CyclomaticComplexity" Value="6" />
+              <Metric Name="ClassCoupling" Value="12" />
+              <Metric Name="DepthOfInheritance" Value="3" />
+              <Metric Name="SourceLines" Value="89" />
+              <Metric Name="ExecutableLines" Value="17" />
+            </Metrics>
+            <Types>
+              <NamedType Name="Resources">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="75" />
+                  <Metric Name="CyclomaticComplexity" Value="5" />
+                  <Metric Name="ClassCoupling" Value="10" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="48" />
+                  <Metric Name="ExecutableLines" Value="13" />
+                </Metrics>
+                <Members>
+                  <Field Name="ResourceManager Resources.resourceMan" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\Properties\Resources.Designer.cs" Line="27">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="CultureInfo Resources.resourceCulture" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\Properties\Resources.Designer.cs" Line="29">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="Resources.Resources()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\Properties\Resources.Designer.cs" Line="32">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="3" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="ResourceManager Resources.ResourceManager" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\Properties\Resources.Designer.cs" Line="39">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="74" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="13" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="ResourceManager Resources.ResourceManager.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\Properties\Resources.Designer.cs" Line="40">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="74" />
+                          <Metric Name="CyclomaticComplexity" Value="2" />
+                          <Metric Name="ClassCoupling" Value="3" />
+                          <Metric Name="SourceLines" Value="7" />
+                          <Metric Name="ExecutableLines" Value="4" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="CultureInfo Resources.Culture" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\Properties\Resources.Designer.cs" Line="54">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="13" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="CultureInfo Resources.Culture.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\Properties\Resources.Designer.cs" Line="55">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="3" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Resources.Culture.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\Properties\Resources.Designer.cs" Line="58">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="3" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+              <NamedType Name="Settings">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="85" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="4" />
+                  <Metric Name="DepthOfInheritance" Value="3" />
+                  <Metric Name="SourceLines" Value="12" />
+                  <Metric Name="ExecutableLines" Value="4" />
+                </Metrics>
+                <Members>
+                  <Field Name="Settings Settings.defaultInstance" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\Properties\Settings.Designer.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="89" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="Settings Settings.Default" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\Properties\Settings.Designer.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="Settings Settings.Default.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\ClaimReportApp\ClaimReportApp\ClaimReportApp\Properties\Settings.Designer.cs" Line="21">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="3" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

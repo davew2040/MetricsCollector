@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="CustomFormats.csproj">
+      <Assembly Name="Sentara.OptimaHealth.CustomFormats, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="67" />
+          <Metric Name="CyclomaticComplexity" Value="7" />
+          <Metric Name="ClassCoupling" Value="3" />
+          <Metric Name="DepthOfInheritance" Value="1" />
+          <Metric Name="SourceLines" Value="98" />
+          <Metric Name="ExecutableLines" Value="18" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="Sentara.OptimaHealth.CustomFormats">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="67" />
+              <Metric Name="CyclomaticComplexity" Value="7" />
+              <Metric Name="ClassCoupling" Value="3" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="98" />
+              <Metric Name="ExecutableLines" Value="18" />
+            </Metrics>
+            <Types>
+              <NamedType Name="FormatStrings">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="67" />
+                  <Metric Name="CyclomaticComplexity" Value="7" />
+                  <Metric Name="ClassCoupling" Value="3" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="95" />
+                  <Metric Name="ExecutableLines" Value="18" />
+                </Metrics>
+                <Members>
+                  <Method Name="string FormatStrings.FormatPhone(string strPhone)" File="C:\Dev\Repos\TFSRoot\SHP\Components\CustomFormats\CustomFormats\FormatStrings.cs" Line="19">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="65" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="33" />
+                      <Metric Name="ExecutableLines" Value="7" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string FormatStrings.Format_Bracketed_Phone(string strphone)" File="C:\Dev\Repos\TFSRoot\SHP\Components\CustomFormats\CustomFormats\FormatStrings.cs" Line="54">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="78" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="16" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string FormatStrings.FormatSSN(string strSSN)" File="C:\Dev\Repos\TFSRoot\SHP\Components\CustomFormats\CustomFormats\FormatStrings.cs" Line="74">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="64" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="41" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

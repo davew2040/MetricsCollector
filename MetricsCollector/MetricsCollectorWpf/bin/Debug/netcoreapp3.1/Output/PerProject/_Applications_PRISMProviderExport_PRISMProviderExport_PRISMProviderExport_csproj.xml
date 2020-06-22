@@ -1,0 +1,546 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="PRISMProviderExport.csproj">
+      <Assembly Name="PRISMProviderExport, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="74" />
+          <Metric Name="CyclomaticComplexity" Value="42" />
+          <Metric Name="ClassCoupling" Value="23" />
+          <Metric Name="DepthOfInheritance" Value="1" />
+          <Metric Name="SourceLines" Value="434" />
+          <Metric Name="ExecutableLines" Value="131" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="PRISMProviderExport">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="58" />
+              <Metric Name="CyclomaticComplexity" Value="21" />
+              <Metric Name="ClassCoupling" Value="18" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="303" />
+              <Metric Name="ExecutableLines" Value="91" />
+            </Metrics>
+            <Types>
+              <NamedType Name="Helper">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="64" />
+                  <Metric Name="CyclomaticComplexity" Value="9" />
+                  <Metric Name="ClassCoupling" Value="9" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="154" />
+                  <Metric Name="ExecutableLines" Value="44" />
+                </Metrics>
+                <Members>
+                  <Field Name="string Helper.ModName" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRISMProviderExport\PRISMProviderExport\Helper.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="bool Helper.BErrorFlag" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRISMProviderExport\PRISMProviderExport\Helper.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Helper.SendEmail()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRISMProviderExport\PRISMProviderExport\Helper.cs" Line="25">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="62" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="43" />
+                      <Metric Name="ExecutableLines" Value="10" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Helper.CreateLogFile(string error)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRISMProviderExport\PRISMProviderExport\Helper.cs" Line="72">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="62" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="38" />
+                      <Metric Name="ExecutableLines" Value="12" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Helper.DecryptCredentials(string sEncPassword)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRISMProviderExport\PRISMProviderExport\Helper.cs" Line="116">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="69" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="33" />
+                      <Metric Name="ExecutableLines" Value="7" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Helper.DoLogCleanUp()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRISMProviderExport\PRISMProviderExport\Helper.cs" Line="133">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="59" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="31" />
+                      <Metric Name="ExecutableLines" Value="14" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="PRISMProviderExportMain">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="52" />
+                  <Metric Name="CyclomaticComplexity" Value="12" />
+                  <Metric Name="ClassCoupling" Value="13" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="143" />
+                  <Metric Name="ExecutableLines" Value="47" />
+                </Metrics>
+                <Members>
+                  <Method Name="void PRISMProviderExportMain.Main()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRISMProviderExport\PRISMProviderExport\PRISMProviderExportMain.cs" Line="25">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="72" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="34" />
+                      <Metric Name="ExecutableLines" Value="7" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void PRISMProviderExportMain.Export()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRISMProviderExport\PRISMProviderExport\PRISMProviderExportMain.cs" Line="59">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="44" />
+                      <Metric Name="CyclomaticComplexity" Value="10" />
+                      <Metric Name="ClassCoupling" Value="13" />
+                      <Metric Name="SourceLines" Value="105" />
+                      <Metric Name="ExecutableLines" Value="40" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="PRISMProviderExport.Configuration">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="86" />
+              <Metric Name="CyclomaticComplexity" Value="21" />
+              <Metric Name="ClassCoupling" Value="7" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="131" />
+              <Metric Name="ExecutableLines" Value="40" />
+            </Metrics>
+            <Types>
+              <NamedType Name="ExportMappingCollection">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="94" />
+                  <Metric Name="CyclomaticComplexity" Value="5" />
+                  <Metric Name="ClassCoupling" Value="4" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="33" />
+                  <Metric Name="ExecutableLines" Value="5" />
+                </Metrics>
+                <Members>
+                  <Method Name="ExportMappingCollection.ExportMappingCollection()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRISMProviderExport\PRISMProviderExport\Configuration\ExportMappingConfig.cs" Line="91">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="ConfigurationElement ExportMappingCollection.CreateNewElement()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRISMProviderExport\PRISMProviderExport\Configuration\ExportMappingConfig.cs" Line="96">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="object ExportMappingCollection.GetElementKey(ConfigurationElement element)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRISMProviderExport\PRISMProviderExport\Configuration\ExportMappingConfig.cs" Line="101">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="95" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="ExportMappingConfig ExportMappingCollection.this[string key]" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRISMProviderExport\PRISMProviderExport\Configuration\ExportMappingConfig.cs" Line="106">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="ExportMappingConfig ExportMappingCollection.this[string key].get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRISMProviderExport\PRISMProviderExport\Configuration\ExportMappingConfig.cs" Line="108">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="ExportMappingConfig ExportMappingCollection.this[int index]" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRISMProviderExport\PRISMProviderExport\Configuration\ExportMappingConfig.cs" Line="111">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="ExportMappingConfig ExportMappingCollection.this[int index].get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRISMProviderExport\PRISMProviderExport\Configuration\ExportMappingConfig.cs" Line="113">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+              <NamedType Name="ExportMappingConfig">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="77" />
+                  <Metric Name="CyclomaticComplexity" Value="14" />
+                  <Metric Name="ClassCoupling" Value="3" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="77" />
+                  <Metric Name="ExecutableLines" Value="30" />
+                </Metrics>
+                <Members>
+                  <Field Name="string ExportMappingConfig.EXPORT_ORDER" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRISMProviderExport\PRISMProviderExport\Configuration\ExportMappingConfig.cs" Line="19">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ExportMappingConfig.TABLE_PREFIX" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRISMProviderExport\PRISMProviderExport\Configuration\ExportMappingConfig.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ExportMappingConfig.CONNECTION_NAME" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRISMProviderExport\PRISMProviderExport\Configuration\ExportMappingConfig.cs" Line="21">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ExportMappingConfig.TABLE_LIST_NAME" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRISMProviderExport\PRISMProviderExport\Configuration\ExportMappingConfig.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ExportMappingConfig.EXPORT_FILE_LOCATION" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRISMProviderExport\PRISMProviderExport\Configuration\ExportMappingConfig.cs" Line="23">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ExportMappingConfig.EXPORT_FILE_EXTENSION" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRISMProviderExport\PRISMProviderExport\Configuration\ExportMappingConfig.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ExportMappingConfig.DELIMITER" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRISMProviderExport\PRISMProviderExport\Configuration\ExportMappingConfig.cs" Line="25">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="int ExportMappingConfig.ExportOrder" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRISMProviderExport\PRISMProviderExport\Configuration\ExportMappingConfig.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="9" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int ExportMappingConfig.ExportOrder.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRISMProviderExport\PRISMProviderExport\Configuration\ExportMappingConfig.cs" Line="33">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ExportMappingConfig.ExportOrder.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRISMProviderExport\PRISMProviderExport\Configuration\ExportMappingConfig.cs" Line="34">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ExportMappingConfig.TablePrefix" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRISMProviderExport\PRISMProviderExport\Configuration\ExportMappingConfig.cs" Line="41">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="9" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ExportMappingConfig.TablePrefix.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRISMProviderExport\PRISMProviderExport\Configuration\ExportMappingConfig.cs" Line="43">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ExportMappingConfig.TablePrefix.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRISMProviderExport\PRISMProviderExport\Configuration\ExportMappingConfig.cs" Line="44">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ExportMappingConfig.ConnectionName" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRISMProviderExport\PRISMProviderExport\Configuration\ExportMappingConfig.cs" Line="48">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ExportMappingConfig.ConnectionName.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRISMProviderExport\PRISMProviderExport\Configuration\ExportMappingConfig.cs" Line="50">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ExportMappingConfig.ConnectionName.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRISMProviderExport\PRISMProviderExport\Configuration\ExportMappingConfig.cs" Line="51">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ExportMappingConfig.TableListName" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRISMProviderExport\PRISMProviderExport\Configuration\ExportMappingConfig.cs" Line="55">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ExportMappingConfig.TableListName.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRISMProviderExport\PRISMProviderExport\Configuration\ExportMappingConfig.cs" Line="57">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ExportMappingConfig.TableListName.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRISMProviderExport\PRISMProviderExport\Configuration\ExportMappingConfig.cs" Line="58">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ExportMappingConfig.ExportFileLocation" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRISMProviderExport\PRISMProviderExport\Configuration\ExportMappingConfig.cs" Line="62">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ExportMappingConfig.ExportFileLocation.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRISMProviderExport\PRISMProviderExport\Configuration\ExportMappingConfig.cs" Line="64">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ExportMappingConfig.ExportFileLocation.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRISMProviderExport\PRISMProviderExport\Configuration\ExportMappingConfig.cs" Line="65">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ExportMappingConfig.ExportFileExtension" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRISMProviderExport\PRISMProviderExport\Configuration\ExportMappingConfig.cs" Line="69">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ExportMappingConfig.ExportFileExtension.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRISMProviderExport\PRISMProviderExport\Configuration\ExportMappingConfig.cs" Line="71">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ExportMappingConfig.ExportFileExtension.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRISMProviderExport\PRISMProviderExport\Configuration\ExportMappingConfig.cs" Line="72">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ExportMappingConfig.Delimiter" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRISMProviderExport\PRISMProviderExport\Configuration\ExportMappingConfig.cs" Line="76">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ExportMappingConfig.Delimiter.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRISMProviderExport\PRISMProviderExport\Configuration\ExportMappingConfig.cs" Line="78">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ExportMappingConfig.Delimiter.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRISMProviderExport\PRISMProviderExport\Configuration\ExportMappingConfig.cs" Line="79">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+              <NamedType Name="ExportMappingSection">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="87" />
+                  <Metric Name="CyclomaticComplexity" Value="2" />
+                  <Metric Name="ClassCoupling" Value="4" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="16" />
+                  <Metric Name="ExecutableLines" Value="5" />
+                </Metrics>
+                <Members>
+                  <Field Name="string ExportMappingSection.SectionName" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRISMProviderExport\PRISMProviderExport\Configuration\ExportMappingConfig.cs" Line="119">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="ExportMappingCollection ExportMappingSection.ExportMappings" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRISMProviderExport\PRISMProviderExport\Configuration\ExportMappingConfig.cs" Line="122">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="ExportMappingCollection ExportMappingSection.ExportMappings.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRISMProviderExport\PRISMProviderExport\Configuration\ExportMappingConfig.cs" Line="124">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Method Name="ExportMappingSection ExportMappingSection.GetSection()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRISMProviderExport\PRISMProviderExport\Configuration\ExportMappingConfig.cs" Line="127">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

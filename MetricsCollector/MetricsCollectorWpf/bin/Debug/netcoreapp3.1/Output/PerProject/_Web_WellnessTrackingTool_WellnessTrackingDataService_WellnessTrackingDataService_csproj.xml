@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="WellnessTrackingDataService.csproj">
+      <Assembly Name="WellnessTrackingDataService, Version=1.0.0.58, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="81" />
+          <Metric Name="CyclomaticComplexity" Value="11" />
+          <Metric Name="ClassCoupling" Value="9" />
+          <Metric Name="DepthOfInheritance" Value="1" />
+          <Metric Name="SourceLines" Value="97" />
+          <Metric Name="ExecutableLines" Value="19" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="WellnessTrackingDataService">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="81" />
+              <Metric Name="CyclomaticComplexity" Value="11" />
+              <Metric Name="ClassCoupling" Value="9" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="97" />
+              <Metric Name="ExecutableLines" Value="19" />
+            </Metrics>
+            <Types>
+              <NamedType Name="DataAccess">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="81" />
+                  <Metric Name="CyclomaticComplexity" Value="11" />
+                  <Metric Name="ClassCoupling" Value="9" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="94" />
+                  <Metric Name="ExecutableLines" Value="19" />
+                </Metrics>
+                <Members>
+                  <Field Name="SqlConnection DataAccess._connection" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingDataService\DataAccess.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="SqlTransaction DataAccess._transaction" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingDataService\DataAccess.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="DataAccess.DataAccess()" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingDataService\DataAccess.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="77" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="10" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void DataAccess.Dispose()" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingDataService\DataAccess.cs" Line="30">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void DataAccess.CloseConnection()" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingDataService\DataAccess.cs" Line="38">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="79" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="11" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="SqlDataReader DataAccess.ExecuteReader(SqlCommand sqlCommand)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingDataService\DataAccess.cs" Line="52">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="79" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="11" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void DataAccess.ExecuteNonQuery(SqlCommand sqlCommand)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingDataService\DataAccess.cs" Line="63">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="77" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="13" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="int DataAccess.ExecuteScalar(SqlCommand sqlCommand)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingDataService\DataAccess.cs" Line="77">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="73" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="15" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void DataAccess.BeginTransaction()" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingDataService\DataAccess.cs" Line="92">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void DataAccess.CommitTransaction()" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingDataService\DataAccess.cs" Line="100">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

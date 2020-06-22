@@ -1,0 +1,1031 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="BeakerHEdgeImport.csproj">
+      <Assembly Name="BeakerHEdgeImport, Version=1.0.0.36, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="78" />
+          <Metric Name="CyclomaticComplexity" Value="78" />
+          <Metric Name="ClassCoupling" Value="53" />
+          <Metric Name="DepthOfInheritance" Value="3" />
+          <Metric Name="SourceLines" Value="816" />
+          <Metric Name="ExecutableLines" Value="239" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="BeakerHEdgeImport">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="85" />
+              <Metric Name="CyclomaticComplexity" Value="26" />
+              <Metric Name="ClassCoupling" Value="39" />
+              <Metric Name="DepthOfInheritance" Value="2" />
+              <Metric Name="SourceLines" Value="343" />
+              <Metric Name="ExecutableLines" Value="104" />
+            </Metrics>
+            <Types>
+              <NamedType Name="BeakerImport">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="46" />
+                  <Metric Name="CyclomaticComplexity" Value="17" />
+                  <Metric Name="ClassCoupling" Value="35" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="194" />
+                  <Metric Name="ExecutableLines" Value="86" />
+                </Metrics>
+                <Members>
+                  <Method Name="void BeakerImport.Main()" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\BeakerHEdgeImport.cs" Line="38">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="30" />
+                      <Metric Name="CyclomaticComplexity" Value="15" />
+                      <Metric Name="ClassCoupling" Value="35" />
+                      <Metric Name="SourceLines" Value="179" />
+                      <Metric Name="ExecutableLines" Value="84" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="HeightWeightBP[] BeakerImport.readHWBFile(DelimitedFileEngine engine, string fullFilePath)" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\BeakerHEdgeImport.cs" Line="197">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="FileBase[] BeakerImport.readBaseFile(DelimitedFileEngine engine, string fullFilePath)" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\BeakerHEdgeImport.cs" Line="202">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="FileBase">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="4" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="56" />
+                  <Metric Name="ExecutableLines" Value="4" />
+                </Metrics>
+                <Members>
+                  <Field Name="string FileBase.Date_Ordered" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\FileBase.cs" Line="21">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string FileBase.Employee_Last" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\FileBase.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string FileBase.Employee_First" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\FileBase.cs" Line="27">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string FileBase.Dummy4" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\FileBase.cs" Line="30">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string FileBase.Dummy5" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\FileBase.cs" Line="33">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string FileBase.Client_Code" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\FileBase.cs" Line="36">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string FileBase.SSN" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\FileBase.cs" Line="39">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string FileBase.Member_Num" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\FileBase.cs" Line="42">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string FileBase.DOB" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\FileBase.cs" Line="45">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string FileBase.Phys_Name" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\FileBase.cs" Line="48">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string FileBase.UPIN" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\FileBase.cs" Line="51">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string FileBase.Group_Test" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\FileBase.cs" Line="54">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string FileBase.Group_TestNum" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\FileBase.cs" Line="57">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string FileBase.CPT" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\FileBase.cs" Line="60">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string FileBase.Test_Mneumonic" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\FileBase.cs" Line="63">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string FileBase.Test_Number" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\FileBase.cs" Line="66">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string FileBase.Test_Result" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\FileBase.cs" Line="69">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="Globals">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="83" />
+                  <Metric Name="CyclomaticComplexity" Value="6" />
+                  <Metric Name="ClassCoupling" Value="3" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="44" />
+                  <Metric Name="ExecutableLines" Value="10" />
+                </Metrics>
+                <Members>
+                  <Field Name="int Globals.HEReadErrorCount" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Globals.cs" Line="8">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="int Globals.HEFileRowsCount" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Globals.cs" Line="9">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="List&lt;string&gt; Globals.HEErrors" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Globals.cs" Line="10">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="int Globals.NorfolkReadErrorCount" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Globals.cs" Line="11">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="int Globals.NorfolkFileRowsCount" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Globals.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="List&lt;string&gt; Globals.NorfolkErrors" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Globals.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="CounterBucket Globals.Bucket" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Globals.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="CounterBucket Globals.Bucket.get" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Globals.cs" Line="14">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Globals.Bucket.set" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Globals.cs" Line="14">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Method Name="void Globals.UpdateErrorCounters(int ErrorCount, List&lt;string&gt; ErrorList)" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Globals.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="72" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="14" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Globals.UpdateTotalRowsCounter(int RowCount)" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Globals.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="78" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="12" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="Globals.CounterBucket">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="0" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="5" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+                <Members>
+                  <Field Name="CounterBucket.Beaker" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Globals.cs" Line="46">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="CounterBucket.NorfolkConsortium" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Globals.cs" Line="47">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="HeightWeightBP">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="5" />
+                  <Metric Name="DepthOfInheritance" Value="2" />
+                  <Metric Name="SourceLines" Value="19" />
+                  <Metric Name="ExecutableLines" Value="4" />
+                </Metrics>
+                <Members>
+                  <Field Name="string HeightWeightBP.HeightInFeet" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\HeightWeightBP.cs" Line="19">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string HeightWeightBP.HeightInInches" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\HeightWeightBP.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string HeightWeightBP.WeightInPounds" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\HeightWeightBP.cs" Line="25">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string HeightWeightBP.BPTop" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\HeightWeightBP.cs" Line="28">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string HeightWeightBP.BPBottom" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\HeightWeightBP.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="BeakerHEdgeImport.Configuration">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="80" />
+              <Metric Name="CyclomaticComplexity" Value="31" />
+              <Metric Name="ClassCoupling" Value="10" />
+              <Metric Name="DepthOfInheritance" Value="3" />
+              <Metric Name="SourceLines" Value="217" />
+              <Metric Name="ExecutableLines" Value="60" />
+            </Metrics>
+            <Types>
+              <NamedType Name="ConfigurationValidation">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="70" />
+                  <Metric Name="CyclomaticComplexity" Value="10" />
+                  <Metric Name="ClassCoupling" Value="4" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="61" />
+                  <Metric Name="ExecutableLines" Value="20" />
+                </Metrics>
+                <Members>
+                  <Method Name="bool ConfigurationValidation.Validate(FileTableMappingConfig mapping, string fullFilePath)" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Configuration\ConfigurationValidation.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="67" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="24" />
+                      <Metric Name="ExecutableLines" Value="7" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool ConfigurationValidation.ClassExists(string className)" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Configuration\ConfigurationValidation.cs" Line="47">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="72" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="11" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool ConfigurationValidation.FileExists(string fullFilePath)" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Configuration\ConfigurationValidation.cs" Line="59">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="76" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="10" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool ConfigurationValidation.IsActive(FileTableMappingConfig mapping)" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Configuration\ConfigurationValidation.cs" Line="70">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="75" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="10" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="FileTableMappingCollection">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="92" />
+                  <Metric Name="CyclomaticComplexity" Value="5" />
+                  <Metric Name="ClassCoupling" Value="3" />
+                  <Metric Name="DepthOfInheritance" Value="3" />
+                  <Metric Name="SourceLines" Value="36" />
+                  <Metric Name="ExecutableLines" Value="5" />
+                </Metrics>
+                <Members>
+                  <Method Name="FileTableMappingCollection.FileTableMappingCollection()" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Configuration\FileTableMappingConfig.cs" Line="96">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="object FileTableMappingCollection.GetElementKey(ConfigurationElement ceElement)" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Configuration\FileTableMappingConfig.cs" Line="101">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="95" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="ConfigurationElement FileTableMappingCollection.CreateNewElement()" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Configuration\FileTableMappingConfig.cs" Line="106">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="FileTableMappingConfig FileTableMappingCollection.this[string key]" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Configuration\FileTableMappingConfig.cs" Line="111">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="95" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="FileTableMappingConfig FileTableMappingCollection.this[string key].get" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Configuration\FileTableMappingConfig.cs" Line="113">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="95" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="3" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="FileTableMappingConfig FileTableMappingCollection.this[int index]" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Configuration\FileTableMappingConfig.cs" Line="116">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="95" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="FileTableMappingConfig FileTableMappingCollection.this[int index].get" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Configuration\FileTableMappingConfig.cs" Line="118">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="95" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="3" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+              <NamedType Name="FileTableMappingConfig">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="76" />
+                  <Metric Name="CyclomaticComplexity" Value="14" />
+                  <Metric Name="ClassCoupling" Value="2" />
+                  <Metric Name="DepthOfInheritance" Value="2" />
+                  <Metric Name="SourceLines" Value="69" />
+                  <Metric Name="ExecutableLines" Value="30" />
+                </Metrics>
+                <Members>
+                  <Field Name="string FileTableMappingConfig.ACTIVE_IMPORT" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Configuration\FileTableMappingConfig.cs" Line="27">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string FileTableMappingConfig.CLASS" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Configuration\FileTableMappingConfig.cs" Line="28">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string FileTableMappingConfig.FILE_NAME" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Configuration\FileTableMappingConfig.cs" Line="29">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string FileTableMappingConfig.HAS_HEADER_ROW" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Configuration\FileTableMappingConfig.cs" Line="30">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string FileTableMappingConfig.IMPORT_ORDER" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Configuration\FileTableMappingConfig.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string FileTableMappingConfig.STORED_PROCEDURE" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Configuration\FileTableMappingConfig.cs" Line="32">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string FileTableMappingConfig.DELIMITER" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Configuration\FileTableMappingConfig.cs" Line="33">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="bool FileTableMappingConfig.IsActive" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Configuration\FileTableMappingConfig.cs" Line="36">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="94" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="bool FileTableMappingConfig.IsActive.get" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Configuration\FileTableMappingConfig.cs" Line="38">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="95" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void FileTableMappingConfig.IsActive.set" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Configuration\FileTableMappingConfig.cs" Line="39">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="94" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string FileTableMappingConfig.Class" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Configuration\FileTableMappingConfig.cs" Line="43">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="94" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string FileTableMappingConfig.Class.get" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Configuration\FileTableMappingConfig.cs" Line="45">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="95" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void FileTableMappingConfig.Class.set" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Configuration\FileTableMappingConfig.cs" Line="46">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="94" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string FileTableMappingConfig.Delimiter" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Configuration\FileTableMappingConfig.cs" Line="50">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="94" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string FileTableMappingConfig.Delimiter.get" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Configuration\FileTableMappingConfig.cs" Line="52">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="95" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void FileTableMappingConfig.Delimiter.set" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Configuration\FileTableMappingConfig.cs" Line="53">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="94" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string FileTableMappingConfig.FileName" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Configuration\FileTableMappingConfig.cs" Line="57">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="94" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string FileTableMappingConfig.FileName.get" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Configuration\FileTableMappingConfig.cs" Line="59">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="95" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void FileTableMappingConfig.FileName.set" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Configuration\FileTableMappingConfig.cs" Line="60">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="94" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="bool FileTableMappingConfig.HasHeaderRow" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Configuration\FileTableMappingConfig.cs" Line="64">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="94" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="bool FileTableMappingConfig.HasHeaderRow.get" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Configuration\FileTableMappingConfig.cs" Line="66">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="95" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void FileTableMappingConfig.HasHeaderRow.set" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Configuration\FileTableMappingConfig.cs" Line="67">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="94" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="int FileTableMappingConfig.ImportOrder" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Configuration\FileTableMappingConfig.cs" Line="71">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="94" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int FileTableMappingConfig.ImportOrder.get" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Configuration\FileTableMappingConfig.cs" Line="73">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="95" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void FileTableMappingConfig.ImportOrder.set" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Configuration\FileTableMappingConfig.cs" Line="74">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="94" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string FileTableMappingConfig.StoredProcedure" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Configuration\FileTableMappingConfig.cs" Line="78">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="94" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string FileTableMappingConfig.StoredProcedure.get" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Configuration\FileTableMappingConfig.cs" Line="80">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="95" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void FileTableMappingConfig.StoredProcedure.set" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Configuration\FileTableMappingConfig.cs" Line="81">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="94" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+              <NamedType Name="FileTableMappingConfigurationSection">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="85" />
+                  <Metric Name="CyclomaticComplexity" Value="2" />
+                  <Metric Name="ClassCoupling" Value="4" />
+                  <Metric Name="DepthOfInheritance" Value="3" />
+                  <Metric Name="SourceLines" Value="24" />
+                  <Metric Name="ExecutableLines" Value="5" />
+                </Metrics>
+                <Members>
+                  <Field Name="string FileTableMappingConfigurationSection.sectionName" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Configuration\FileTableMappingConfig.cs" Line="133">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="FileTableMappingCollection FileTableMappingConfigurationSection.FileTableMappings" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Configuration\FileTableMappingConfig.cs" Line="136">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="95" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="FileTableMappingCollection FileTableMappingConfigurationSection.FileTableMappings.get" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Configuration\FileTableMappingConfig.cs" Line="138">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="95" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Method Name="FileTableMappingConfigurationSection FileTableMappingConfigurationSection.GetSection()" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Configuration\FileTableMappingConfig.cs" Line="141">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="95" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="BeakerHEdgeImport.Utilities">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="66" />
+              <Metric Name="CyclomaticComplexity" Value="21" />
+              <Metric Name="ClassCoupling" Value="22" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="256" />
+              <Metric Name="ExecutableLines" Value="75" />
+            </Metrics>
+            <Types>
+              <NamedType Name="EMail">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="53" />
+                  <Metric Name="CyclomaticComplexity" Value="11" />
+                  <Metric Name="ClassCoupling" Value="14" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="135" />
+                  <Metric Name="ExecutableLines" Value="51" />
+                </Metrics>
+                <Members>
+                  <Method Name="void EMail.SendEmail(string from, string to, string bcc, string cc, string subject, string body, string SMTPHost)" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Utilities\Email.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="63" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="8" />
+                      <Metric Name="SourceLines" Value="42" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void EMail.SendReportLogEmail(int totalRecordsFromFiles, List&lt;string&gt; errors)" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Utilities\Email.cs" Line="57">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="63" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="17" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string EMail.getBody(int totalRecordsFromFiles, List&lt;string&gt; errors)" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Utilities\Email.cs" Line="72">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="44" />
+                      <Metric Name="CyclomaticComplexity" Value="7" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="71" />
+                      <Metric Name="ExecutableLines" Value="35" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="Housekeeping">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="64" />
+                  <Metric Name="CyclomaticComplexity" Value="5" />
+                  <Metric Name="ClassCoupling" Value="12" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="52" />
+                  <Metric Name="ExecutableLines" Value="17" />
+                </Metrics>
+                <Members>
+                  <Method Name="void Housekeeping.CleanHouse()" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Utilities\Housekeeping.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Housekeeping.ManageLogFiles()" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Utilities\Housekeeping.cs" Line="28">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="55" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="12" />
+                      <Metric Name="SourceLines" Value="41" />
+                      <Metric Name="ExecutableLines" Value="16" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="Log">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="82" />
+                  <Metric Name="CyclomaticComplexity" Value="5" />
+                  <Metric Name="ClassCoupling" Value="2" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="41" />
+                  <Metric Name="ExecutableLines" Value="7" />
+                </Metrics>
+                <Members>
+                  <Field Name="ILog Log.logger" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Utilities\Log.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="90" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Log.LogError(string strErrorMessage, string exceptionMessage = null, string stackTrace = null)" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Utilities\Log.cs" Line="30">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="69" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="14" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Log.LogInfo(string strInfoMessage)" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Utilities\Log.cs" Line="43">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Log.LogWarning(string strWarningMessage)" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\BeakerHEdgeImport\BeakerHEdgeImport\Utilities\Log.cs" Line="52">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

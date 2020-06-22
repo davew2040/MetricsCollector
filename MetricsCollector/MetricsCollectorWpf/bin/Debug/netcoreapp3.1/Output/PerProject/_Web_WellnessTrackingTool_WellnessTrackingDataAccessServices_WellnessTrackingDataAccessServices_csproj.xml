@@ -1,0 +1,481 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="WellnessTrackingDataAccessServices.csproj">
+      <Assembly Name="WellnessTrackingDataAccessServices, Version=1.0.0.58, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="63" />
+          <Metric Name="CyclomaticComplexity" Value="102" />
+          <Metric Name="ClassCoupling" Value="38" />
+          <Metric Name="DepthOfInheritance" Value="1" />
+          <Metric Name="SourceLines" Value="1409" />
+          <Metric Name="ExecutableLines" Value="727" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="WellnessTrackingDataAccessServices">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="63" />
+              <Metric Name="CyclomaticComplexity" Value="102" />
+              <Metric Name="ClassCoupling" Value="38" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="1409" />
+              <Metric Name="ExecutableLines" Value="727" />
+            </Metrics>
+            <Types>
+              <NamedType Name="DataReader">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="78" />
+                  <Metric Name="CyclomaticComplexity" Value="29" />
+                  <Metric Name="ClassCoupling" Value="8" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="121" />
+                  <Metric Name="ExecutableLines" Value="33" />
+                </Metrics>
+                <Members>
+                  <Field Name="DateTime DataReader.defaultDate" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingDataAccessServices\DataReader.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="DataReader.DataReader(SqlDataReader reader)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingDataAccessServices\DataReader.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="85" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="int DataReader.GetInt32(string column)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingDataAccessServices\DataReader.cs" Line="21">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="76" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="10" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="int? DataReader.GetInt32Null(string column)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingDataAccessServices\DataReader.cs" Line="32">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="76" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="10" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="short DataReader.GetInt16(string column)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingDataAccessServices\DataReader.cs" Line="43">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="75" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="9" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="decimal? DataReader.GetDecimal(string column)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingDataAccessServices\DataReader.cs" Line="53">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="75" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="10" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="float DataReader.GetFloat(string column)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingDataAccessServices\DataReader.cs" Line="63">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="75" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="10" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool? DataReader.GetBoolean(string column)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingDataAccessServices\DataReader.cs" Line="74">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="81" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool DataReader.GetBooleanNotNull(string column)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingDataAccessServices\DataReader.cs" Line="80">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="84" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string DataReader.GetString(string column)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingDataAccessServices\DataReader.cs" Line="86">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="77" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="11" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="DateTime DataReader.GetDateTime(string column)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingDataAccessServices\DataReader.cs" Line="98">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="76" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="9" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="DateTime? DataReader.GetDateTimeNull(string column)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingDataAccessServices\DataReader.cs" Line="108">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="76" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="9" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool DataReader.Read()" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingDataAccessServices\DataReader.cs" Line="118">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="95" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool DataReader.DoesFieldExists(IDataReader reader, string fieldName)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingDataAccessServices\DataReader.cs" Line="123">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="80" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="SqlDataReader DataReader.reader" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingDataAccessServices\DataReader.cs" Line="129">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="MemberWellnessDataAccessService">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="49" />
+                  <Metric Name="CyclomaticComplexity" Value="67" />
+                  <Metric Name="ClassCoupling" Value="35" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="1255" />
+                  <Metric Name="ExecutableLines" Value="685" />
+                </Metrics>
+                <Members>
+                  <Method Name="RewardsActivity MemberWellnessDataAccessService.LoadRewardActivities(SqlDataReader sqlDataReader)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingDataAccessServices\MemberWellnessDataAccessService.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="68" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="9" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="CoachingActivity MemberWellnessDataAccessService.LoadCoachingActivities(SqlDataReader sqlDataReader)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingDataAccessServices\MemberWellnessDataAccessService.cs" Line="27">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="66" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="10" />
+                      <Metric Name="ExecutableLines" Value="7" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="HealthScreening MemberWellnessDataAccessService.LoadHealthScreenings(SqlDataReader sqlDataReader)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingDataAccessServices\MemberWellnessDataAccessService.cs" Line="37">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="48" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="29" />
+                      <Metric Name="ExecutableLines" Value="26" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="WellnessMaterial MemberWellnessDataAccessService.LoadWellnessMaterials(SqlDataReader sqlDataReader)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingDataAccessServices\MemberWellnessDataAccessService.cs" Line="74">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="71" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="14" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="SiteVisitWellnessMaterial MemberWellnessDataAccessService.LoadSelectedWellnessMaterials(SqlDataReader sqlDataReader)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingDataAccessServices\MemberWellnessDataAccessService.cs" Line="82">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="68" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="9" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="SiteVisitNote MemberWellnessDataAccessService.LoadSiteVisitNote(SqlDataReader sqlDataReader)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingDataAccessServices\MemberWellnessDataAccessService.cs" Line="91">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="59" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="17" />
+                      <Metric Name="ExecutableLines" Value="11" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="HealthScreening MemberWellnessDataAccessService.LoadSiteHealthScreen(SqlDataReader sqlDataReader)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingDataAccessServices\MemberWellnessDataAccessService.cs" Line="109">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="47" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="34" />
+                      <Metric Name="ExecutableLines" Value="28" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="CrudResultsViewModel MemberWellnessDataAccessService.DeleteHealthScreen(HealthScreeningViewModel healthScreen)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingDataAccessServices\MemberWellnessDataAccessService.cs" Line="144">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="47" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="10" />
+                      <Metric Name="SourceLines" Value="46" />
+                      <Metric Name="ExecutableLines" Value="29" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="CrudResultsViewModel MemberWellnessDataAccessService.DeleteSiteVisitNote(SiteVisitNoteViewModel siteNote)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingDataAccessServices\MemberWellnessDataAccessService.cs" Line="190">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="47" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="10" />
+                      <Metric Name="SourceLines" Value="46" />
+                      <Metric Name="ExecutableLines" Value="29" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="HealthScreening MemberWellnessDataAccessService.SaveHealthScreen(HealthScreeningViewModel healthScreeningViewModel)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingDataAccessServices\MemberWellnessDataAccessService.cs" Line="237">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="35" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="14" />
+                      <Metric Name="SourceLines" Value="114" />
+                      <Metric Name="ExecutableLines" Value="70" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="SiteVisitNote MemberWellnessDataAccessService.SaveSiteVisitNote(SiteVisitNoteViewModel siteNoteViewModel)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingDataAccessServices\MemberWellnessDataAccessService.cs" Line="351">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="35" />
+                      <Metric Name="CyclomaticComplexity" Value="11" />
+                      <Metric Name="ClassCoupling" Value="19" />
+                      <Metric Name="SourceLines" Value="133" />
+                      <Metric Name="ExecutableLines" Value="66" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="WellnessMemberInfo MemberWellnessDataAccessService.GetMemberSiteNoteDetail(string memberId)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingDataAccessServices\MemberWellnessDataAccessService.cs" Line="485">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="38" />
+                      <Metric Name="CyclomaticComplexity" Value="9" />
+                      <Metric Name="ClassCoupling" Value="21" />
+                      <Metric Name="SourceLines" Value="92" />
+                      <Metric Name="ExecutableLines" Value="55" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="WellnessMemberInfo MemberWellnessDataAccessService.LoadMember(SqlDataReader sqlDataReader)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingDataAccessServices\MemberWellnessDataAccessService.cs" Line="580">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="51" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="31" />
+                      <Metric Name="ExecutableLines" Value="21" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="RewardsActivityLookup MemberWellnessDataAccessService.LoadRewardActivitiesMaintenance(SqlDataReader sqlDataReader)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingDataAccessServices\MemberWellnessDataAccessService.cs" Line="612">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="66" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="10" />
+                      <Metric Name="ExecutableLines" Value="7" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="WellnessMaterial MemberWellnessDataAccessService.LoadWellnessMaterial(SqlDataReader sqlDataReader)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingDataAccessServices\MemberWellnessDataAccessService.cs" Line="622">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="66" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="12" />
+                      <Metric Name="ExecutableLines" Value="7" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="CrudResultsViewModel MemberWellnessDataAccessService.DeleteWellnessMaterial(WellnessMaterialViewModel wm)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingDataAccessServices\MemberWellnessDataAccessService.cs" Line="635">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="48" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="10" />
+                      <Metric Name="SourceLines" Value="49" />
+                      <Metric Name="ExecutableLines" Value="27" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="WellnessGroup MemberWellnessDataAccessService.LoadWellnessGroup(SqlDataReader sqlDataReader)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingDataAccessServices\MemberWellnessDataAccessService.cs" Line="684">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="71" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="10" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="CrudResultsViewModel MemberWellnessDataAccessService.EditWellnessMaterial(WellnessMaterialViewModel wm)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingDataAccessServices\MemberWellnessDataAccessService.cs" Line="695">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="46" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="10" />
+                      <Metric Name="SourceLines" Value="52" />
+                      <Metric Name="ExecutableLines" Value="31" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="CrudResultsViewModel MemberWellnessDataAccessService.DeleteWellnessGroup(int? id)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingDataAccessServices\MemberWellnessDataAccessService.cs" Line="747">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="49" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="10" />
+                      <Metric Name="SourceLines" Value="47" />
+                      <Metric Name="ExecutableLines" Value="25" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string MemberWellnessDataAccessService.AddWellnessGroup(WellnessGroupViewModel wg)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingDataAccessServices\MemberWellnessDataAccessService.cs" Line="794">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="50" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="43" />
+                      <Metric Name="ExecutableLines" Value="22" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string MemberWellnessDataAccessService.AddWellnessMaterial(WellnessMaterialViewModel wm)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingDataAccessServices\MemberWellnessDataAccessService.cs" Line="837">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="49" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="45" />
+                      <Metric Name="ExecutableLines" Value="24" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="List&lt;RewardsActivityLookup&gt; MemberWellnessDataAccessService.GetRewardActivities(out int totalActivities)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingDataAccessServices\MemberWellnessDataAccessService.cs" Line="882">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="58" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="33" />
+                      <Metric Name="ExecutableLines" Value="14" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="List&lt;WellnessMaterial&gt; MemberWellnessDataAccessService.GetWellnessMaterials(out int totalRecords)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingDataAccessServices\MemberWellnessDataAccessService.cs" Line="915">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="59" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="29" />
+                      <Metric Name="ExecutableLines" Value="13" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="WellnessMaterial MemberWellnessDataAccessService.GetWellnessMaterial(int? id)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingDataAccessServices\MemberWellnessDataAccessService.cs" Line="945">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="60" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="26" />
+                      <Metric Name="ExecutableLines" Value="11" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="List&lt;WellnessGroup&gt; MemberWellnessDataAccessService.GetWellnessGroups(out int totalRecords)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingDataAccessServices\MemberWellnessDataAccessService.cs" Line="972">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="59" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="31" />
+                      <Metric Name="ExecutableLines" Value="13" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="WellnessGroup MemberWellnessDataAccessService.GetWellnessGroup(int? id)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingDataAccessServices\MemberWellnessDataAccessService.cs" Line="1004">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="60" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="26" />
+                      <Metric Name="ExecutableLines" Value="11" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="WellnessMembersView MemberWellnessDataAccessService.MemberSearch(List&lt;string&gt; groupIDs, string memberId, string memberFirstName, string memberLastName, DateTime? memberDob, bool includeTerm, int currentPageIndex, int pageSize, string sortExpression, out int totalRecords)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingDataAccessServices\MemberWellnessDataAccessService.cs" Line="1044">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="38" />
+                      <Metric Name="CyclomaticComplexity" Value="7" />
+                      <Metric Name="ClassCoupling" Value="16" />
+                      <Metric Name="SourceLines" Value="122" />
+                      <Metric Name="ExecutableLines" Value="56" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="RewardsActivityLookup MemberWellnessDataAccessService.GetRewardActivity(int? id)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingDataAccessServices\MemberWellnessDataAccessService.cs" Line="1153">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="60" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="10" />
+                      <Metric Name="SourceLines" Value="23" />
+                      <Metric Name="ExecutableLines" Value="11" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="CrudResultsViewModel MemberWellnessDataAccessService.DeleteRewardActivity(int raId)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingDataAccessServices\MemberWellnessDataAccessService.cs" Line="1177">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="49" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="46" />
+                      <Metric Name="ExecutableLines" Value="25" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string MemberWellnessDataAccessService.AddRewardActivity(RewardActivityLookupViewModel ra)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingDataAccessServices\MemberWellnessDataAccessService.cs" Line="1224">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="49" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="45" />
+                      <Metric Name="ExecutableLines" Value="24" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="Utils">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="62" />
+                  <Metric Name="CyclomaticComplexity" Value="6" />
+                  <Metric Name="ClassCoupling" Value="4" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="23" />
+                  <Metric Name="ExecutableLines" Value="9" />
+                </Metrics>
+                <Members>
+                  <Method Name="bool Utils.ProcessReturnParameters(SqlCommand cmd, ref int returnCode, ref string returnMessage)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingDataAccessServices\Utils.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="62" />
+                      <Metric Name="CyclomaticComplexity" Value="6" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

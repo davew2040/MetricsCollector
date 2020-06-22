@@ -1,0 +1,792 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="HIPHEQExtract.csproj">
+      <Assembly Name="HIPHEQExtract, Version=1.0.0.35, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="71" />
+          <Metric Name="CyclomaticComplexity" Value="88" />
+          <Metric Name="ClassCoupling" Value="79" />
+          <Metric Name="DepthOfInheritance" Value="7" />
+          <Metric Name="SourceLines" Value="929" />
+          <Metric Name="ExecutableLines" Value="278" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="HIPHEQExtract">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="65" />
+              <Metric Name="CyclomaticComplexity" Value="67" />
+              <Metric Name="ClassCoupling" Value="75" />
+              <Metric Name="DepthOfInheritance" Value="7" />
+              <Metric Name="SourceLines" Value="795" />
+              <Metric Name="ExecutableLines" Value="240" />
+            </Metrics>
+            <Types>
+              <NamedType Name="Helper">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="63" />
+                  <Metric Name="CyclomaticComplexity" Value="13" />
+                  <Metric Name="ClassCoupling" Value="28" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="255" />
+                  <Metric Name="ExecutableLines" Value="58" />
+                </Metrics>
+                <Members>
+                  <Field Name="string Helper.Filename" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\Helper.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Helper.DirectoryPath" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\Helper.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Helper.InitialDelimiterValue" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\Helper.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Helper.Date" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\Helper.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Helper.SendEmail()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\Helper.cs" Line="29">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="58" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="12" />
+                      <Metric Name="SourceLines" Value="44" />
+                      <Metric Name="ExecutableLines" Value="10" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Helper.CreateLogFile(string error)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\Helper.cs" Line="75">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="61" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="30" />
+                      <Metric Name="ExecutableLines" Value="10" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Helper.GetFileName()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\Helper.cs" Line="106">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="61" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="12" />
+                      <Metric Name="SourceLines" Value="37" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Helper.DecryptCredentials(string sEncPassword)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\Helper.cs" Line="151">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="69" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="34" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Helper.GetDelimiterProperty()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\Helper.cs" Line="183">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="65" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="38" />
+                      <Metric Name="ExecutableLines" Value="7" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Helper.SetDelimiterProperty(string value)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\Helper.cs" Line="226">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="66" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="36" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool Helper.ValidateColumns(ColumnsCollection columns)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\Helper.cs" Line="245">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="63" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="22" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="HIPHEQExtractApp">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="44" />
+                  <Metric Name="CyclomaticComplexity" Value="21" />
+                  <Metric Name="ClassCoupling" Value="25" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="180" />
+                  <Metric Name="ExecutableLines" Value="59" />
+                </Metrics>
+                <Members>
+                  <Method Name="void HIPHEQExtractApp.RunApp()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\HIPHEQExtractApp.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="47" />
+                      <Metric Name="CyclomaticComplexity" Value="5" />
+                      <Metric Name="ClassCoupling" Value="17" />
+                      <Metric Name="SourceLines" Value="68" />
+                      <Metric Name="ExecutableLines" Value="26" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void HIPHEQExtractApp.WriteData(DataTable dt, StreamWriter sw, DataRow row, string sUniqueID)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\HIPHEQExtractApp.cs" Line="83">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="41" />
+                      <Metric Name="CyclomaticComplexity" Value="16" />
+                      <Metric Name="ClassCoupling" Value="18" />
+                      <Metric Name="SourceLines" Value="108" />
+                      <Metric Name="ExecutableLines" Value="33" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="HIPHEQExtractMain">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="61" />
+                  <Metric Name="CyclomaticComplexity" Value="8" />
+                  <Metric Name="ClassCoupling" Value="9" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="63" />
+                  <Metric Name="ExecutableLines" Value="8" />
+                </Metrics>
+                <Members>
+                  <Method Name="void HIPHEQExtractMain.Main(string[] args)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\HIPHEQExtractMain.cs" Line="23">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="61" />
+                      <Metric Name="CyclomaticComplexity" Value="8" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="60" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="HIPHEQExtractManualForm">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="58" />
+                  <Metric Name="CyclomaticComplexity" Value="12" />
+                  <Metric Name="ClassCoupling" Value="30" />
+                  <Metric Name="DepthOfInheritance" Value="7" />
+                  <Metric Name="SourceLines" Value="176" />
+                  <Metric Name="ExecutableLines" Value="82" />
+                </Metrics>
+                <Members>
+                  <Method Name="HIPHEQExtractManualForm.HIPHEQExtractManualForm()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\HIPHEQExtractManualForm.cs" Line="9">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="83" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void HIPHEQExtractManualForm.btnBrowse_Click(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\HIPHEQExtractManualForm.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="72" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="10" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void HIPHEQExtractManualForm.btnProcess_Click(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\HIPHEQExtractManualForm.cs" Line="26">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="64" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="22" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void HIPHEQExtractManualForm.btnCancel_Click(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\HIPHEQExtractManualForm.cs" Line="49">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="88" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="IContainer HIPHEQExtractManualForm.components" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\HIPHEQExtractManualForm.designer.cs" Line="8">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void HIPHEQExtractManualForm.Dispose(bool disposing)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\HIPHEQExtractManualForm.designer.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="79" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="12" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void HIPHEQExtractManualForm.InitializeComponent()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\HIPHEQExtractManualForm.designer.cs" Line="29">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="37" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="17" />
+                      <Metric Name="SourceLines" Value="97" />
+                      <Metric Name="ExecutableLines" Value="62" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="OpenFileDialog HIPHEQExtractManualForm.openFileDialog" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\HIPHEQExtractManualForm.designer.cs" Line="123">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="TextBox HIPHEQExtractManualForm.txtFilename" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\HIPHEQExtractManualForm.designer.cs" Line="124">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Button HIPHEQExtractManualForm.btnBrowse" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\HIPHEQExtractManualForm.designer.cs" Line="125">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Button HIPHEQExtractManualForm.btnProcess" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\HIPHEQExtractManualForm.designer.cs" Line="126">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Button HIPHEQExtractManualForm.btnCancel" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\HIPHEQExtractManualForm.designer.cs" Line="127">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label HIPHEQExtractManualForm.lblFileName" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\HIPHEQExtractManualForm.designer.cs" Line="128">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label HIPHEQExtractManualForm.lblTitle" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\HIPHEQExtractManualForm.designer.cs" Line="129">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="QueryHelper">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="66" />
+                  <Metric Name="CyclomaticComplexity" Value="12" />
+                  <Metric Name="ClassCoupling" Value="12" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="104" />
+                  <Metric Name="ExecutableLines" Value="33" />
+                </Metrics>
+                <Members>
+                  <Field Name="ColumnsConfigurationSection QueryHelper._columns" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\QueryHelper.cs" Line="11">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="string QueryHelper.BuildSelect()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\QueryHelper.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="67" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="16" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="IOrderedEnumerable&lt;ColumnMappingConfigElement&gt; QueryHelper.GetColumns(ColumnTypes type)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\QueryHelper.cs" Line="37">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="63" />
+                      <Metric Name="CyclomaticComplexity" Value="5" />
+                      <Metric Name="ClassCoupling" Value="10" />
+                      <Metric Name="SourceLines" Value="29" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string QueryHelper.BuildQuery(ColumnsConfigurationSection columns)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\QueryHelper.cs" Line="67">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="67" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="11" />
+                      <Metric Name="ExecutableLines" Value="7" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string QueryHelper.BuildWhere()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\QueryHelper.cs" Line="79">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="67" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="16" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string QueryHelper.BuildOrder()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\QueryHelper.cs" Line="96">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="67" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="16" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="QueryHelper.ColumnTypes">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="0" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="6" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+                <Members>
+                  <Field Name="ColumnTypes.Select" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\QueryHelper.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="ColumnTypes.Filter" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\QueryHelper.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="ColumnTypes.Order" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\QueryHelper.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="HIPHEQExtract.ColumnMappingSettings">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="83" />
+              <Metric Name="CyclomaticComplexity" Value="21" />
+              <Metric Name="ClassCoupling" Value="7" />
+              <Metric Name="DepthOfInheritance" Value="3" />
+              <Metric Name="SourceLines" Value="134" />
+              <Metric Name="ExecutableLines" Value="38" />
+            </Metrics>
+            <Types>
+              <NamedType Name="ColumnMappingConfigElement">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="72" />
+                  <Metric Name="CyclomaticComplexity" Value="14" />
+                  <Metric Name="ClassCoupling" Value="2" />
+                  <Metric Name="DepthOfInheritance" Value="2" />
+                  <Metric Name="SourceLines" Value="60" />
+                  <Metric Name="ExecutableLines" Value="28" />
+                </Metrics>
+                <Members>
+                  <Property Name="int ColumnMappingConfigElement.Index" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\ColumnMappingSettings\ColumnMappingConfigSettings.cs" Line="27">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="94" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int ColumnMappingConfigElement.Index.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\ColumnMappingSettings\ColumnMappingConfigSettings.cs" Line="29">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="95" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ColumnMappingConfigElement.Index.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\ColumnMappingSettings\ColumnMappingConfigSettings.cs" Line="30">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="94" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ColumnMappingConfigElement.Header" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\ColumnMappingSettings\ColumnMappingConfigSettings.cs" Line="34">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="94" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ColumnMappingConfigElement.Header.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\ColumnMappingSettings\ColumnMappingConfigSettings.cs" Line="36">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="95" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ColumnMappingConfigElement.Header.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\ColumnMappingSettings\ColumnMappingConfigSettings.cs" Line="37">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="94" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ColumnMappingConfigElement.Alias" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\ColumnMappingSettings\ColumnMappingConfigSettings.cs" Line="41">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="94" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ColumnMappingConfigElement.Alias.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\ColumnMappingSettings\ColumnMappingConfigSettings.cs" Line="43">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="95" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ColumnMappingConfigElement.Alias.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\ColumnMappingSettings\ColumnMappingConfigSettings.cs" Line="44">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="94" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ColumnMappingConfigElement.Key" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\ColumnMappingSettings\ColumnMappingConfigSettings.cs" Line="48">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="94" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ColumnMappingConfigElement.Key.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\ColumnMappingSettings\ColumnMappingConfigSettings.cs" Line="50">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="95" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ColumnMappingConfigElement.Key.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\ColumnMappingSettings\ColumnMappingConfigSettings.cs" Line="51">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="94" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="int ColumnMappingConfigElement.SelectIndex" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\ColumnMappingSettings\ColumnMappingConfigSettings.cs" Line="55">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="94" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int ColumnMappingConfigElement.SelectIndex.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\ColumnMappingSettings\ColumnMappingConfigSettings.cs" Line="57">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="95" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ColumnMappingConfigElement.SelectIndex.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\ColumnMappingSettings\ColumnMappingConfigSettings.cs" Line="58">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="94" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ColumnMappingConfigElement.FilterValue" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\ColumnMappingSettings\ColumnMappingConfigSettings.cs" Line="62">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="94" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ColumnMappingConfigElement.FilterValue.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\ColumnMappingSettings\ColumnMappingConfigSettings.cs" Line="64">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="95" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ColumnMappingConfigElement.FilterValue.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\ColumnMappingSettings\ColumnMappingConfigSettings.cs" Line="65">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="94" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="int ColumnMappingConfigElement.Order" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\ColumnMappingSettings\ColumnMappingConfigSettings.cs" Line="69">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="94" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int ColumnMappingConfigElement.Order.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\ColumnMappingSettings\ColumnMappingConfigSettings.cs" Line="71">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="95" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ColumnMappingConfigElement.Order.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\ColumnMappingSettings\ColumnMappingConfigSettings.cs" Line="72">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="94" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+              <NamedType Name="ColumnsCollection">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="92" />
+                  <Metric Name="CyclomaticComplexity" Value="5" />
+                  <Metric Name="ClassCoupling" Value="3" />
+                  <Metric Name="DepthOfInheritance" Value="3" />
+                  <Metric Name="SourceLines" Value="36" />
+                  <Metric Name="ExecutableLines" Value="5" />
+                </Metrics>
+                <Members>
+                  <Method Name="ColumnsCollection.ColumnsCollection()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\ColumnMappingSettings\ColumnMappingConfigSettings.cs" Line="87">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="object ColumnsCollection.GetElementKey(ConfigurationElement ceElement)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\ColumnMappingSettings\ColumnMappingConfigSettings.cs" Line="92">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="95" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="ConfigurationElement ColumnsCollection.CreateNewElement()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\ColumnMappingSettings\ColumnMappingConfigSettings.cs" Line="97">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="ColumnMappingConfigElement ColumnsCollection.this[string key]" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\ColumnMappingSettings\ColumnMappingConfigSettings.cs" Line="102">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="95" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="ColumnMappingConfigElement ColumnsCollection.this[string key].get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\ColumnMappingSettings\ColumnMappingConfigSettings.cs" Line="104">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="95" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="3" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="ColumnMappingConfigElement ColumnsCollection.this[int index]" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\ColumnMappingSettings\ColumnMappingConfigSettings.cs" Line="107">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="95" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="ColumnMappingConfigElement ColumnsCollection.this[int index].get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\ColumnMappingSettings\ColumnMappingConfigSettings.cs" Line="109">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="95" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="3" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+              <NamedType Name="ColumnsConfigurationSection">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="85" />
+                  <Metric Name="CyclomaticComplexity" Value="2" />
+                  <Metric Name="ClassCoupling" Value="4" />
+                  <Metric Name="DepthOfInheritance" Value="3" />
+                  <Metric Name="SourceLines" Value="24" />
+                  <Metric Name="ExecutableLines" Value="5" />
+                </Metrics>
+                <Members>
+                  <Field Name="string ColumnsConfigurationSection.sectionName" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\ColumnMappingSettings\ColumnMappingConfigSettings.cs" Line="124">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="ColumnsCollection ColumnsConfigurationSection.Columns" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\ColumnMappingSettings\ColumnMappingConfigSettings.cs" Line="127">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="95" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="ColumnsCollection ColumnsConfigurationSection.Columns.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\ColumnMappingSettings\ColumnMappingConfigSettings.cs" Line="129">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="95" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Method Name="ColumnsConfigurationSection ColumnsConfigurationSection.GetSection()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HIPHEQExtract\HIPHEQExtract\ColumnMappingSettings\ColumnMappingConfigSettings.cs" Line="132">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="95" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

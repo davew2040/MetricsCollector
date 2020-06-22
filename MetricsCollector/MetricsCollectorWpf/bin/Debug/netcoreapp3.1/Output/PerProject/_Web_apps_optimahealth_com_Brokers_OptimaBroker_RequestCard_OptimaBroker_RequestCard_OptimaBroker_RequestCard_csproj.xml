@@ -1,0 +1,1597 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="OptimaBroker_RequestCard.csproj">
+      <Assembly Name="OptimaBroker_RequestCard, Version=1.0.0.13, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="77" />
+          <Metric Name="CyclomaticComplexity" Value="217" />
+          <Metric Name="ClassCoupling" Value="85" />
+          <Metric Name="DepthOfInheritance" Value="4" />
+          <Metric Name="SourceLines" Value="2039" />
+          <Metric Name="ExecutableLines" Value="582" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="OptimaBroker_RequestCard">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="60" />
+              <Metric Name="CyclomaticComplexity" Value="178" />
+              <Metric Name="ClassCoupling" Value="76" />
+              <Metric Name="DepthOfInheritance" Value="4" />
+              <Metric Name="SourceLines" Value="1798" />
+              <Metric Name="ExecutableLines" Value="538" />
+            </Metrics>
+            <Types>
+              <NamedType Name="BrokerHealthLogix">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="73" />
+                  <Metric Name="CyclomaticComplexity" Value="4" />
+                  <Metric Name="ClassCoupling" Value="9" />
+                  <Metric Name="DepthOfInheritance" Value="4" />
+                  <Metric Name="SourceLines" Value="33" />
+                  <Metric Name="ExecutableLines" Value="8" />
+                </Metrics>
+                <Members>
+                  <Field Name="string BrokerHealthLogix.strMemberIDs" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\BrokerHealthLogix.aspx.cs" Line="9">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void BrokerHealthLogix.Page_Load(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\BrokerHealthLogix.aspx.cs" Line="10">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="65" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="17" />
+                      <Metric Name="ExecutableLines" Value="7" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="HtmlForm BrokerHealthLogix.form1" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\BrokerHealthLogix.aspx.designer.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="RequestCard">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="56" />
+                  <Metric Name="CyclomaticComplexity" Value="45" />
+                  <Metric Name="ClassCoupling" Value="39" />
+                  <Metric Name="DepthOfInheritance" Value="4" />
+                  <Metric Name="SourceLines" Value="529" />
+                  <Metric Name="ExecutableLines" Value="151" />
+                </Metrics>
+                <Members>
+                  <Method Name="void RequestCard.Page_Load(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCard.aspx.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="70" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="15" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void RequestCard.AddAttributes()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCard.aspx.cs" Line="36">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="54" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="26" />
+                      <Metric Name="ExecutableLines" Value="13" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void RequestCard.DisplayPage(string user)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCard.aspx.cs" Line="63">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="List&lt;AssignedGroup&gt; RequestCard.GetAssignedGroups(string user)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCard.aspx.cs" Line="68">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="61" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="27" />
+                      <Metric Name="ExecutableLines" Value="11" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void RequestCard.BuildGroupList(string sBrokerID)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCard.aspx.cs" Line="96">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="50" />
+                      <Metric Name="CyclomaticComplexity" Value="6" />
+                      <Metric Name="ClassCoupling" Value="12" />
+                      <Metric Name="SourceLines" Value="48" />
+                      <Metric Name="ExecutableLines" Value="23" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string RequestCard.ValidateCriteria()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCard.aspx.cs" Line="145">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="51" />
+                      <Metric Name="CyclomaticComplexity" Value="8" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="52" />
+                      <Metric Name="ExecutableLines" Value="20" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void RequestCard.SetControlFocus(string txtCtrlID)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCard.aspx.cs" Line="198">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="76" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string RequestCard.BuildCriteriaSearchMessage(string strMbrID, string strSSN, string strLName, string strFName, string strGroupIDs)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCard.aspx.cs" Line="205">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="56" />
+                      <Metric Name="CyclomaticComplexity" Value="5" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="41" />
+                      <Metric Name="ExecutableLines" Value="15" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void RequestCard.ProcessSearchRequest()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCard.aspx.cs" Line="247">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="39" />
+                      <Metric Name="CyclomaticComplexity" Value="13" />
+                      <Metric Name="ClassCoupling" Value="25" />
+                      <Metric Name="SourceLines" Value="108" />
+                      <Metric Name="ExecutableLines" Value="47" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void RequestCard.btnSearchCriteria_OnServerClick(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCard.aspx.cs" Line="356">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void RequestCard.SetCurrentPageType(LoadPages type)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCard.aspx.cs" Line="364">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="94" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void RequestCard.btnClear_OnServerClick(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCard.aspx.cs" Line="369">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="62" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="12" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="Panel RequestCard.pnlError" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCard.aspx.designer.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label RequestCard.errorLabel" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCard.aspx.designer.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlForm RequestCard.form" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCard.aspx.designer.cs" Line="40">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel RequestCard.pnlMultiGroup" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCard.aspx.designer.cs" Line="49">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="DropDownList RequestCard.cboGroupList" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCard.aspx.designer.cs" Line="58">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel RequestCard.pnlSingleGroup" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCard.aspx.designer.cs" Line="67">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label RequestCard.lblGroupName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCard.aspx.designer.cs" Line="76">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlInputText RequestCard.txtGroupID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCard.aspx.designer.cs" Line="85">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlInputText RequestCard.txtSubscriberID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCard.aspx.designer.cs" Line="94">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlInputText RequestCard.SubscriberIDLast" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCard.aspx.designer.cs" Line="103">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlInputGenericControl RequestCard.txtSSN1" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCard.aspx.designer.cs" Line="112">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlInputGenericControl RequestCard.txtSSN2" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCard.aspx.designer.cs" Line="121">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlInputGenericControl RequestCard.txtSSN3" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCard.aspx.designer.cs" Line="130">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlInputText RequestCard.txtLName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCard.aspx.designer.cs" Line="139">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlInputText RequestCard.txtFName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCard.aspx.designer.cs" Line="148">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlInputCheckBox RequestCard.chkListAll" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCard.aspx.designer.cs" Line="157">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlInputSubmit RequestCard.btnSearchCriteria" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCard.aspx.designer.cs" Line="166">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlInputSubmit RequestCard.btnClear" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCard.aspx.designer.cs" Line="175">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="RequestCardConfirmation">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="60" />
+                  <Metric Name="CyclomaticComplexity" Value="15" />
+                  <Metric Name="ClassCoupling" Value="28" />
+                  <Metric Name="DepthOfInheritance" Value="4" />
+                  <Metric Name="SourceLines" Value="209" />
+                  <Metric Name="ExecutableLines" Value="62" />
+                </Metrics>
+                <Members>
+                  <Field Name="string RequestCardConfirmation.m_SearchCriteriaString" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCardConfirmation.aspx.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string RequestCardConfirmation.memServicesNum" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCardConfirmation.aspx.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string RequestCardConfirmation.confNum" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCardConfirmation.aspx.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Dictionary&lt;string, ResultItem&gt; RequestCardConfirmation.oResults" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCardConfirmation.aspx.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Dictionary&lt;string, ResultItem&gt; RequestCardConfirmation.oErrors" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCardConfirmation.aspx.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="MemberRepository RequestCardConfirmation.memberRepository" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCardConfirmation.aspx.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="90" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void RequestCardConfirmation.Page_Load(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCardConfirmation.aspx.cs" Line="19">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="62" />
+                      <Metric Name="CyclomaticComplexity" Value="5" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="23" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void RequestCardConfirmation.BindGrid()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCardConfirmation.aspx.cs" Line="43">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="43" />
+                      <Metric Name="CyclomaticComplexity" Value="7" />
+                      <Metric Name="ClassCoupling" Value="20" />
+                      <Metric Name="SourceLines" Value="68" />
+                      <Metric Name="ExecutableLines" Value="36" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string RequestCardConfirmation.BuildCriteriaSearchMessage(int intCount, string strMbrID, string strGroupName)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCardConfirmation.aspx.cs" Line="112">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="58" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="28" />
+                      <Metric Name="ExecutableLines" Value="14" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void RequestCardConfirmation.chkShowErrors_OnCheckedChanged(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCardConfirmation.aspx.cs" Line="141">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="91" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="Panel RequestCardConfirmation.pnlError" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCardConfirmation.aspx.designer.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label RequestCardConfirmation.errorLabel" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCardConfirmation.aspx.designer.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="CheckBox RequestCardConfirmation.chkShowErrors" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCardConfirmation.aspx.designer.cs" Line="40">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel RequestCardConfirmation.pnlErrors" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCardConfirmation.aspx.designer.cs" Line="49">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="DataGrid RequestCardConfirmation.dgErrors" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCardConfirmation.aspx.designer.cs" Line="58">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel RequestCardConfirmation.pnlResults" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCardConfirmation.aspx.designer.cs" Line="67">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label RequestCardConfirmation.lblConfirm" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCardConfirmation.aspx.designer.cs" Line="76">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="DataGrid RequestCardConfirmation.dgResults" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCardConfirmation.aspx.designer.cs" Line="85">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="RequestCardResults">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="54" />
+                  <Metric Name="CyclomaticComplexity" Value="114" />
+                  <Metric Name="ClassCoupling" Value="54" />
+                  <Metric Name="DepthOfInheritance" Value="4" />
+                  <Metric Name="SourceLines" Value="962" />
+                  <Metric Name="ExecutableLines" Value="317" />
+                </Metrics>
+                <Members>
+                  <Field Name="string RequestCardResults.m_SearchCriteriaString" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCardResults.aspx.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Dictionary&lt;string, ResultItem&gt; RequestCardResults.oCollection" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCardResults.aspx.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="ArrayList RequestCardResults.MemberCheckedItems" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCardResults.aspx.cs" Line="21">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="ArrayList RequestCardResults.FamilyCheckedItems" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCardResults.aspx.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="List&lt;MemberSearchResults&gt; RequestCardResults.m_BrokerSubscriberSearch" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCardResults.aspx.cs" Line="23">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void RequestCardResults.Page_Load(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCardResults.aspx.cs" Line="25">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="53" />
+                      <Metric Name="CyclomaticComplexity" Value="7" />
+                      <Metric Name="ClassCoupling" Value="15" />
+                      <Metric Name="SourceLines" Value="49" />
+                      <Metric Name="ExecutableLines" Value="18" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void RequestCardResults.ResetItems()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCardResults.aspx.cs" Line="82">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="65" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="7" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void RequestCardResults.CreateResults(List&lt;MemberSearchResults&gt; m_BrokerSubscriberSearch)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCardResults.aspx.cs" Line="96">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="57" />
+                      <Metric Name="CyclomaticComplexity" Value="6" />
+                      <Metric Name="ClassCoupling" Value="8" />
+                      <Metric Name="SourceLines" Value="36" />
+                      <Metric Name="ExecutableLines" Value="13" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void RequestCardResults.SaveCheckBoxValues()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCardResults.aspx.cs" Line="134">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="45" />
+                      <Metric Name="CyclomaticComplexity" Value="13" />
+                      <Metric Name="ClassCoupling" Value="14" />
+                      <Metric Name="SourceLines" Value="95" />
+                      <Metric Name="ExecutableLines" Value="30" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void RequestCardResults.RestoreCheckBoxValues()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCardResults.aspx.cs" Line="229">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="52" />
+                      <Metric Name="CyclomaticComplexity" Value="10" />
+                      <Metric Name="ClassCoupling" Value="11" />
+                      <Metric Name="SourceLines" Value="49" />
+                      <Metric Name="ExecutableLines" Value="18" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="ResultItem RequestCardResults.ProcessFamilyRow(MemberSearchResults lastMSR)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCardResults.aspx.cs" Line="279">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="80" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="14" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="ResultItem RequestCardResults.ProcessMember(MemberSearchResults msr)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCardResults.aspx.cs" Line="294">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="50" />
+                      <Metric Name="CyclomaticComplexity" Value="7" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="56" />
+                      <Metric Name="ExecutableLines" Value="21" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void RequestCardResults.BindGrid()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCardResults.aspx.cs" Line="351">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="56" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="14" />
+                      <Metric Name="SourceLines" Value="33" />
+                      <Metric Name="ExecutableLines" Value="15" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void RequestCardResults.chkFamily_CheckedChanged(object Sender, EventArgs E)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCardResults.aspx.cs" Line="384">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="54" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="10" />
+                      <Metric Name="SourceLines" Value="47" />
+                      <Metric Name="ExecutableLines" Value="17" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void RequestCardResults.dgResults_OnPageIndexChanged(object Source, DataGridPageChangedEventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCardResults.aspx.cs" Line="432">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="68" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="14" />
+                      <Metric Name="ExecutableLines" Value="7" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void RequestCardResults.dgResults_ItemCreated(object sender, DataGridItemEventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCardResults.aspx.cs" Line="447">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="60" />
+                      <Metric Name="CyclomaticComplexity" Value="5" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="26" />
+                      <Metric Name="ExecutableLines" Value="10" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void RequestCardResults.dgResults_ItemDataBound(object sender, DataGridItemEventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCardResults.aspx.cs" Line="474">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="57" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="27" />
+                      <Metric Name="ExecutableLines" Value="12" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void RequestCardResults.ProcessRequest()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCardResults.aspx.cs" Line="502">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="38" />
+                      <Metric Name="CyclomaticComplexity" Value="15" />
+                      <Metric Name="ClassCoupling" Value="16" />
+                      <Metric Name="SourceLines" Value="113" />
+                      <Metric Name="ExecutableLines" Value="51" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string RequestCardResults.CanRequestCard(Member m)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCardResults.aspx.cs" Line="616">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="55" />
+                      <Metric Name="CyclomaticComplexity" Value="8" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="47" />
+                      <Metric Name="ExecutableLines" Value="14" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void RequestCardResults.btnRequestCards_OnServerClick(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCardResults.aspx.cs" Line="664">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="89" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void RequestCardResults.btnViewPrint_OnServerClick(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCardResults.aspx.cs" Line="676">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="33" />
+                      <Metric Name="CyclomaticComplexity" Value="22" />
+                      <Metric Name="ClassCoupling" Value="22" />
+                      <Metric Name="SourceLines" Value="174" />
+                      <Metric Name="ExecutableLines" Value="72" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="LoadPages RequestCardResults.GetCurrentPageType()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCardResults.aspx.cs" Line="846">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="78" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void RequestCardResults.SetCurrentPageType(LoadPages type)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCardResults.aspx.cs" Line="855">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="94" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void RequestCardResults.btnNewSearch_OnServerClick(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCardResults.aspx.cs" Line="860">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="HtmlForm RequestCardResults.form" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCardResults.aspx.designer.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel RequestCardResults.pnlConfirmMessage" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCardResults.aspx.designer.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label RequestCardResults.lblConfirmMessage" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCardResults.aspx.designer.cs" Line="40">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlInputSubmit RequestCardResults.btnNewSearch" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCardResults.aspx.designer.cs" Line="49">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel RequestCardResults.pnlError" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCardResults.aspx.designer.cs" Line="58">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label RequestCardResults.errorLabel" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCardResults.aspx.designer.cs" Line="67">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel RequestCardResults.pnlResults" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCardResults.aspx.designer.cs" Line="76">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="DataGrid RequestCardResults.dgResults" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCardResults.aspx.designer.cs" Line="85">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlInputSubmit RequestCardResults.btnViewPrint" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCardResults.aspx.designer.cs" Line="94">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlInputSubmit RequestCardResults.btnRequestCards" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCardResults.aspx.designer.cs" Line="103">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel RequestCardResults.pnlHealthLogix" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCardResults.aspx.designer.cs" Line="112">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HyperLink RequestCardResults.hlHealthLogix" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\RequestCard\RequestCardResults.aspx.designer.cs" Line="121">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="OptimaBroker_RequestCard.Utilities">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="86" />
+              <Metric Name="CyclomaticComplexity" Value="39" />
+              <Metric Name="ClassCoupling" Value="16" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="241" />
+              <Metric Name="ExecutableLines" Value="44" />
+            </Metrics>
+            <Types>
+              <NamedType Name="AddressHelper">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="54" />
+                  <Metric Name="CyclomaticComplexity" Value="16" />
+                  <Metric Name="ClassCoupling" Value="9" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="40" />
+                  <Metric Name="ExecutableLines" Value="12" />
+                </Metrics>
+                <Members>
+                  <Method Name="enumBadAddress AddressHelper.HasBadAddress(Member m)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\AddressHelper.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="54" />
+                      <Metric Name="CyclomaticComplexity" Value="16" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="27" />
+                      <Metric Name="ExecutableLines" Value="12" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="AddressHelper.enumBadAddress">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="93" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="0" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="8" />
+                  <Metric Name="ExecutableLines" Value="2" />
+                </Metrics>
+                <Members>
+                  <Field Name="enumBadAddress.BadAddressEmployerMustFix" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\AddressHelper.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="enumBadAddress.MemberMustFix" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\AddressHelper.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="enumBadAddress.DependentBadAddress" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\AddressHelper.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="enumBadAddress.DependentEmployerBadAddress" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\AddressHelper.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="enumBadAddress.ValidAddress" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\AddressHelper.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="Log">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="89" />
+                  <Metric Name="CyclomaticComplexity" Value="5" />
+                  <Metric Name="ClassCoupling" Value="6" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="62" />
+                  <Metric Name="ExecutableLines" Value="10" />
+                </Metrics>
+                <Members>
+                  <Field Name="ILog Log.logger" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\Log.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="90" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Log.LogError(string strErrorMessage)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\Log.cs" Line="23">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Log.LogInfo(string strInfoMessage)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\Log.cs" Line="32">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Log.LogElapsedTimeInfo(Stopwatch sw, string callInfo)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\Log.cs" Line="37">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="76" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool Log.IsVerboseLoggingEnabled()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\Log.cs" Line="48">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="84" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="12" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool Log.IsAuditLoggingEnabled()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\Log.cs" Line="61">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="84" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="12" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="MemberHelper">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="86" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="0" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="74" />
+                  <Metric Name="ExecutableLines" Value="4" />
+                </Metrics>
+                <Members>
+                  <Field Name="string MemberHelper.m_BrokerOrderCardResults" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\MemberHelper.cs" Line="53">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberHelper.m_BrokerOrderCardErrors" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\MemberHelper.cs" Line="54">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberHelper.m_searchMbrResults" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\MemberHelper.cs" Line="55">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberHelper.m_searchMbrCriteria" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\MemberHelper.cs" Line="56">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberHelper.m_CurrentPageType" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\MemberHelper.cs" Line="57">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberHelper.m_confirmMsg" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\MemberHelper.cs" Line="58">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberHelper.m_noMemberSelected" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\MemberHelper.cs" Line="59">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberHelper.m_chkMember" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\MemberHelper.cs" Line="60">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberHelper.m_chkFamily" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\MemberHelper.cs" Line="61">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberHelper.m_memberCheckedItems" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\MemberHelper.cs" Line="62">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberHelper.m_familyCheckedItems" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\MemberHelper.cs" Line="63">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberHelper.m_BrokerAssignedGroups" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\MemberHelper.cs" Line="64">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberHelper.memIDsKey" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\MemberHelper.cs" Line="65">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="string MemberHelper.Left(string param, int length)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\MemberHelper.cs" Line="67">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="84" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="MemberHelper.LoadPages">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="0" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="5" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+                <Members>
+                  <Field Name="LoadPages.SearchResults" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\MemberHelper.cs" Line="78">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="LoadPages.Confirmation" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\MemberHelper.cs" Line="79">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="MemberHelper.ResultItem">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="93" />
+                  <Metric Name="CyclomaticComplexity" Value="7" />
+                  <Metric Name="ClassCoupling" Value="1" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="41" />
+                  <Metric Name="ExecutableLines" Value="7" />
+                </Metrics>
+                <Members>
+                  <Field Name="string ResultItem.mMemberName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\MemberHelper.cs" Line="85">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ResultItem.mMemberID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\MemberHelper.cs" Line="86">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ResultItem.mRelationship" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\MemberHelper.cs" Line="87">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ResultItem.mAddress" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\MemberHelper.cs" Line="88">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ResultItem.mGroupID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\MemberHelper.cs" Line="89">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ResultItem.mResultMessage" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\MemberHelper.cs" Line="90">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="string ResultItem.MemberName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\MemberHelper.cs" Line="91">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ResultItem.MemberName.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\MemberHelper.cs" Line="93">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ResultItem.MemberID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\MemberHelper.cs" Line="96">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ResultItem.MemberID.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\MemberHelper.cs" Line="98">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ResultItem.GroupID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\MemberHelper.cs" Line="101">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ResultItem.GroupID.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\MemberHelper.cs" Line="103">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ResultItem.GroupID.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\MemberHelper.cs" Line="104">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ResultItem.Relationship" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\MemberHelper.cs" Line="107">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ResultItem.Relationship.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\MemberHelper.cs" Line="109">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ResultItem.Address" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\MemberHelper.cs" Line="112">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ResultItem.Address.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\MemberHelper.cs" Line="114">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ResultItem.ResultMessage" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\MemberHelper.cs" Line="117">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ResultItem.ResultMessage.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\MemberHelper.cs" Line="119">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+              <NamedType Name="ResultItem">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="93" />
+                  <Metric Name="CyclomaticComplexity" Value="7" />
+                  <Metric Name="ClassCoupling" Value="1" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="41" />
+                  <Metric Name="ExecutableLines" Value="7" />
+                </Metrics>
+                <Members>
+                  <Field Name="string ResultItem.mMemberName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\MemberHelper.cs" Line="11">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ResultItem.mMemberID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\MemberHelper.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ResultItem.mRelationship" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\MemberHelper.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ResultItem.mAddress" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\MemberHelper.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ResultItem.mGroupID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\MemberHelper.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ResultItem.mResultMessage" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\MemberHelper.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="string ResultItem.MemberName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\MemberHelper.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ResultItem.MemberName.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\MemberHelper.cs" Line="19">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ResultItem.MemberID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\MemberHelper.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ResultItem.MemberID.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\MemberHelper.cs" Line="24">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ResultItem.GroupID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\MemberHelper.cs" Line="27">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ResultItem.GroupID.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\MemberHelper.cs" Line="29">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ResultItem.GroupID.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\MemberHelper.cs" Line="30">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ResultItem.Relationship" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\MemberHelper.cs" Line="33">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ResultItem.Relationship.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\MemberHelper.cs" Line="35">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ResultItem.Address" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\MemberHelper.cs" Line="38">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ResultItem.Address.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\MemberHelper.cs" Line="40">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ResultItem.ResultMessage" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\MemberHelper.cs" Line="43">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ResultItem.ResultMessage.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\MemberHelper.cs" Line="45">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+              <NamedType Name="Utility">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="84" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="2" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="11" />
+                  <Metric Name="ExecutableLines" Value="2" />
+                </Metrics>
+                <Members>
+                  <Method Name="bool Utility.IsVerboseLoggingEnabled()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Brokers\OptimaBroker_RequestCard\OptimaBroker_RequestCard\Utilities\Utility.cs" Line="11">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="84" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

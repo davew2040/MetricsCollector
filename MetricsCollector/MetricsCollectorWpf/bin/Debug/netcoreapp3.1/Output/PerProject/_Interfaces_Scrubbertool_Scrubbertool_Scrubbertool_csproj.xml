@@ -1,0 +1,1126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="Scrubbertool.csproj">
+      <Assembly Name="Scrubbertool, Version=1.0.0.13, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="74" />
+          <Metric Name="CyclomaticComplexity" Value="172" />
+          <Metric Name="ClassCoupling" Value="50" />
+          <Metric Name="DepthOfInheritance" Value="2" />
+          <Metric Name="SourceLines" Value="780" />
+          <Metric Name="ExecutableLines" Value="236" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="Scrubbertool">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="74" />
+              <Metric Name="CyclomaticComplexity" Value="172" />
+              <Metric Name="ClassCoupling" Value="50" />
+              <Metric Name="DepthOfInheritance" Value="2" />
+              <Metric Name="SourceLines" Value="780" />
+              <Metric Name="ExecutableLines" Value="236" />
+            </Metrics>
+            <Types>
+              <NamedType Name="ScrubberEmail">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="72" />
+                  <Metric Name="CyclomaticComplexity" Value="4" />
+                  <Metric Name="ClassCoupling" Value="13" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="63" />
+                  <Metric Name="ExecutableLines" Value="25" />
+                </Metrics>
+                <Members>
+                  <Field Name="string ScrubberEmail.EmailFrom" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberEmail.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ScrubberEmail.ErrorEmailTo" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberEmail.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ScrubberEmail.EmailCc" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberEmail.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ScrubberEmail.MailServer" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberEmail.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ScrubberEmail.ServiceAcctLogin" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberEmail.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ScrubberEmail.ServiceAcctPw" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberEmail.cs" Line="19">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void ScrubberEmail.Send(string from, string to, string cc, string subject, string body, string server, string login, string pw, string AttachmentFile)" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberEmail.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="57" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="10" />
+                      <Metric Name="SourceLines" Value="26" />
+                      <Metric Name="ExecutableLines" Value="14" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ScrubberEmail.SendErrorReport(string attachmentFile)" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberEmail.cs" Line="49">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="76" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="12" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ScrubberEmail.SendSuccessMessage()" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberEmail.cs" Line="61">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="72" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="11" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="ScrubberExportToExcel">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="60" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="8" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="30" />
+                  <Metric Name="ExecutableLines" Value="12" />
+                </Metrics>
+                <Members>
+                  <Method Name="void ScrubberExportToExcel.ExportData(DataTable table)" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberExportToExcel.cs" Line="23">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="60" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="8" />
+                      <Metric Name="SourceLines" Value="23" />
+                      <Metric Name="ExecutableLines" Value="12" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="ScrubberPCS">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="1" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="7" />
+                  <Metric Name="ExecutableLines" Value="1" />
+                </Metrics>
+                <Members>
+                  <Method Name="void ScrubberPCS.Main(string[] args)" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCS.cs" Line="10">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="ScrubberPCSApp">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="64" />
+                  <Metric Name="CyclomaticComplexity" Value="32" />
+                  <Metric Name="ClassCoupling" Value="25" />
+                  <Metric Name="DepthOfInheritance" Value="2" />
+                  <Metric Name="SourceLines" Value="153" />
+                  <Metric Name="ExecutableLines" Value="39" />
+                </Metrics>
+                <Members>
+                  <Field Name="string ScrubberPCSApp.EmailFrom" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSApp.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ScrubberPCSApp.ErrorEmailTo" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSApp.cs" Line="23">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ScrubberPCSApp.EmailCc" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSApp.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ScrubberPCSApp.MailServer" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSApp.cs" Line="25">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ScrubberPCSApp.ServiceAcctLogin" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSApp.cs" Line="26">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ScrubberPCSApp.ServiceAcctPw" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSApp.cs" Line="27">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ScrubberPCSApp.excelConnection" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSApp.cs" Line="28">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void ScrubberPCSApp.RunApp()" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSApp.cs" Line="30">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="61" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="26" />
+                      <Metric Name="ExecutableLines" Value="10" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ScrubberPCSApp.LoadDataFromExcelSource()" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSApp.cs" Line="58">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="56" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="13" />
+                      <Metric Name="SourceLines" Value="38" />
+                      <Metric Name="ExecutableLines" Value="15" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="DataTable ScrubberPCSApp.RemoveEmptyRowsFromDataTable(DataTable dt)" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSApp.cs" Line="96">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="61" />
+                      <Metric Name="CyclomaticComplexity" Value="24" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="22" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ScrubberPCSApp.ValidateRecords(DataTable records)" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSApp.cs" Line="125">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="60" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="11" />
+                      <Metric Name="SourceLines" Value="46" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="ScrubberPCSDao">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="48" />
+                  <Metric Name="ClassCoupling" Value="0" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="28" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+                <Members>
+                  <Property Name="string ScrubberPCSDao.AssignedTo" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="10">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ScrubberPCSDao.AssignedTo.get" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="10">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ScrubberPCSDao.AssignedTo.set" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="10">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ScrubberPCSDao.PcsLogin" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="11">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ScrubberPCSDao.PcsLogin.get" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="11">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ScrubberPCSDao.PcsLogin.set" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="11">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ScrubberPCSDao.mem_id" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ScrubberPCSDao.mem_id.get" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="12">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ScrubberPCSDao.mem_id.set" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="12">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ScrubberPCSDao.mem_firstname" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ScrubberPCSDao.mem_firstname.get" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="13">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ScrubberPCSDao.mem_firstname.set" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="13">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ScrubberPCSDao.mem_lastname" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ScrubberPCSDao.mem_lastname.get" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="14">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ScrubberPCSDao.mem_lastname.set" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="14">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ScrubberPCSDao.DOB" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ScrubberPCSDao.DOB.get" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="16">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ScrubberPCSDao.DOB.set" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="16">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ScrubberPCSDao.Gender" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ScrubberPCSDao.Gender.get" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="17">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ScrubberPCSDao.Gender.set" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="17">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ScrubberPCSDao.address" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ScrubberPCSDao.address.get" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="18">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ScrubberPCSDao.address.set" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="18">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ScrubberPCSDao.address2" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="19">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ScrubberPCSDao.address2.get" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="19">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ScrubberPCSDao.address2.set" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="19">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ScrubberPCSDao.city" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ScrubberPCSDao.city.get" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="20">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ScrubberPCSDao.city.set" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="20">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ScrubberPCSDao.STATE" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="21">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ScrubberPCSDao.STATE.get" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="21">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ScrubberPCSDao.STATE.set" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="21">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ScrubberPCSDao.zip" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ScrubberPCSDao.zip.get" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="22">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ScrubberPCSDao.zip.set" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="22">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ScrubberPCSDao.home_phone" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="23">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ScrubberPCSDao.home_phone.get" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="23">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ScrubberPCSDao.home_phone.set" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="23">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ScrubberPCSDao.AltNumber" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ScrubberPCSDao.AltNumber.get" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="24">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ScrubberPCSDao.AltNumber.set" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="24">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ScrubberPCSDao.Guardian" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="25">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ScrubberPCSDao.Guardian.get" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="25">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ScrubberPCSDao.Guardian.set" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="25">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ScrubberPCSDao.PCP" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="26">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ScrubberPCSDao.PCP.get" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="26">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ScrubberPCSDao.PCP.set" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="26">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ScrubberPCSDao.PDCODE" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="27">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ScrubberPCSDao.PDCODE.get" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="27">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ScrubberPCSDao.PDCODE.set" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="27">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ScrubberPCSDao.MBRType" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="28">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ScrubberPCSDao.MBRType.get" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="28">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ScrubberPCSDao.MBRType.set" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="28">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ScrubberPCSDao.LeadType" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="29">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ScrubberPCSDao.LeadType.get" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="29">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ScrubberPCSDao.LeadType.set" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="29">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ScrubberPCSDao.LeadMonth" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="30">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ScrubberPCSDao.LeadMonth.get" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="30">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ScrubberPCSDao.LeadMonth.set" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="30">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ScrubberPCSDao.DateLeadDue" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ScrubberPCSDao.DateLeadDue.get" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="31">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ScrubberPCSDao.DateLeadDue.set" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="31">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ScrubberPCSDao.HANEEDED" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="32">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ScrubberPCSDao.HANEEDED.get" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="32">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ScrubberPCSDao.HANEEDED.set" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="32">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ScrubberPCSDao.medicaid_id" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="33">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ScrubberPCSDao.medicaid_id.get" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="33">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ScrubberPCSDao.medicaid_id.set" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="33">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ScrubberPCSDao.Rejectreason" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="34">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ScrubberPCSDao.Rejectreason.get" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="34">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ScrubberPCSDao.Rejectreason.set" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSDao.cs" Line="34">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+              <NamedType Name="ScrubberPCSvalidation">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="44" />
+                  <Metric Name="CyclomaticComplexity" Value="76" />
+                  <Metric Name="ClassCoupling" Value="27" />
+                  <Metric Name="DepthOfInheritance" Value="2" />
+                  <Metric Name="SourceLines" Value="401" />
+                  <Metric Name="ExecutableLines" Value="145" />
+                </Metrics>
+                <Members>
+                  <Field Name="ScrubberEmail ScrubberPCSvalidation.sendEmail" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSvalidation.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void ScrubberPCSvalidation.ScrubData(List&lt;ScrubberPCSDao&gt; scrubRecords)" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSvalidation.cs" Line="19">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="40" />
+                      <Metric Name="CyclomaticComplexity" Value="18" />
+                      <Metric Name="ClassCoupling" Value="14" />
+                      <Metric Name="SourceLines" Value="78" />
+                      <Metric Name="ExecutableLines" Value="40" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="List&lt;ScrubberPCSDao&gt; ScrubberPCSvalidation.CheckForValidrecods(List&lt;ScrubberPCSDao&gt; scrubRecords)" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSvalidation.cs" Line="97">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="26" />
+                      <Metric Name="CyclomaticComplexity" Value="50" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="283" />
+                      <Metric Name="ExecutableLines" Value="92" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ScrubberPCSvalidation.RemoveFiles(string FilePath)" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSvalidation.cs" Line="383">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="75" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="11" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="DataTable ScrubberPCSvalidation.ConvertToDataTable&lt;T&gt;(IList&lt;T&gt; data)" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberPCSvalidation.cs" Line="397">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="63" />
+                      <Metric Name="CyclomaticComplexity" Value="6" />
+                      <Metric Name="ClassCoupling" Value="12" />
+                      <Metric Name="SourceLines" Value="18" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="ScrubberUtil">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="80" />
+                  <Metric Name="CyclomaticComplexity" Value="10" />
+                  <Metric Name="ClassCoupling" Value="7" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="65" />
+                  <Metric Name="ExecutableLines" Value="14" />
+                </Metrics>
+                <Members>
+                  <Field Name="string ScrubberUtil.LogDir" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberUtil.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ScrubberUtil.FileExt" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberUtil.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void ScrubberUtil.Output(string msg, int lineCount)" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberUtil.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="81" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ScrubberUtil.CreateLogFile(string error)" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberUtil.cs" Line="29">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="69" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="13" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ScrubberUtil.Output(string msg)" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberUtil.cs" Line="43">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="97" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string ScrubberUtil.GetPath(string loc, string name, string append)" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberUtil.cs" Line="50">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="91" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string ScrubberUtil.GetPath(string loc, string name, string append, string ext)" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberUtil.cs" Line="57">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="91" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ScrubberUtil.FileCleanup(string root, int days)" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Scrubbertool\Scrubbertool\ScrubberUtil.cs" Line="63">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="76" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="9" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

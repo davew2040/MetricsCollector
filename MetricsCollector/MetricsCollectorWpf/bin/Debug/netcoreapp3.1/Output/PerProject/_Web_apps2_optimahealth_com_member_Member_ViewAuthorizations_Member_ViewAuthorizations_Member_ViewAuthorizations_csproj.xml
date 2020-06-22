@@ -1,0 +1,989 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="Member_ViewAuthorizations.csproj">
+      <Assembly Name="Member_ViewAuthorizations, Version=1.0.0.13, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="79" />
+          <Metric Name="CyclomaticComplexity" Value="132" />
+          <Metric Name="ClassCoupling" Value="102" />
+          <Metric Name="DepthOfInheritance" Value="4" />
+          <Metric Name="SourceLines" Value="1683" />
+          <Metric Name="ExecutableLines" Value="429" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="Member_ViewAuthorizations.HelperMethods">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="82" />
+              <Metric Name="CyclomaticComplexity" Value="16" />
+              <Metric Name="ClassCoupling" Value="8" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="180" />
+              <Metric Name="ExecutableLines" Value="30" />
+            </Metrics>
+            <Types>
+              <NamedType Name="Log">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="89" />
+                  <Metric Name="CyclomaticComplexity" Value="3" />
+                  <Metric Name="ClassCoupling" Value="4" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="37" />
+                  <Metric Name="ExecutableLines" Value="6" />
+                </Metrics>
+                <Members>
+                  <Field Name="ILog Log.logger" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\HelperMethods\Log.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="90" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Log.LogError(string strErrorMessage)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\HelperMethods\Log.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Log.LogInfo(string strInfoMessage)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\HelperMethods\Log.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Log.LogElapsedTimeInfo(Stopwatch sw, string callInfo)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\HelperMethods\Log.cs" Line="36">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="76" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="ReferralContext">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="76" />
+                  <Metric Name="CyclomaticComplexity" Value="13" />
+                  <Metric Name="ClassCoupling" Value="4" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="137" />
+                  <Metric Name="ExecutableLines" Value="24" />
+                </Metrics>
+                <Members>
+                  <Field Name="string ReferralContext._referralMbrTkn" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\HelperMethods\ReferralContext.cs" Line="9">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ReferralContext._referralIdTkn" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\HelperMethods\ReferralContext.cs" Line="10">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ReferralContext._referralCtxTkn" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\HelperMethods\ReferralContext.cs" Line="11">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="MemberIdentity ReferralContext.ReferralMember" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\HelperMethods\ReferralContext.cs" Line="23">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="76" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="32" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="MemberIdentity ReferralContext.ReferralMember.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\HelperMethods\ReferralContext.cs" Line="25">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="77" />
+                          <Metric Name="CyclomaticComplexity" Value="2" />
+                          <Metric Name="ClassCoupling" Value="3" />
+                          <Metric Name="SourceLines" Value="8" />
+                          <Metric Name="ExecutableLines" Value="3" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ReferralContext.ReferralMember.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\HelperMethods\ReferralContext.cs" Line="33">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="76" />
+                          <Metric Name="CyclomaticComplexity" Value="2" />
+                          <Metric Name="ClassCoupling" Value="3" />
+                          <Metric Name="SourceLines" Value="11" />
+                          <Metric Name="ExecutableLines" Value="3" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ReferralContext.ReferralId" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\HelperMethods\ReferralContext.cs" Line="56">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="76" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="32" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ReferralContext.ReferralId.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\HelperMethods\ReferralContext.cs" Line="58">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="77" />
+                          <Metric Name="CyclomaticComplexity" Value="2" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="8" />
+                          <Metric Name="ExecutableLines" Value="3" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ReferralContext.ReferralId.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\HelperMethods\ReferralContext.cs" Line="66">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="76" />
+                          <Metric Name="CyclomaticComplexity" Value="2" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="11" />
+                          <Metric Name="ExecutableLines" Value="3" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="ReferralContext ReferralContext.Current" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\HelperMethods\ReferralContext.cs" Line="89">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="77" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="21" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="ReferralContext ReferralContext.Current.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\HelperMethods\ReferralContext.cs" Line="91">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="77" />
+                          <Metric Name="CyclomaticComplexity" Value="2" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="8" />
+                          <Metric Name="ExecutableLines" Value="3" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Method Name="void ReferralContext.Initialize(MemberIdentity referralMember, string referralId)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\HelperMethods\ReferralContext.cs" Line="114">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="73" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="25" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ReferralContext.Clear()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\HelperMethods\ReferralContext.cs" Line="136">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="78" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="15" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="Member_ViewAuthorizations.ViewAuthorizations">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="78" />
+              <Metric Name="CyclomaticComplexity" Value="116" />
+              <Metric Name="ClassCoupling" Value="99" />
+              <Metric Name="DepthOfInheritance" Value="4" />
+              <Metric Name="SourceLines" Value="1503" />
+              <Metric Name="ExecutableLines" Value="399" />
+            </Metrics>
+            <Types>
+              <NamedType Name="MemberViewAuthorizations">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="56" />
+                  <Metric Name="CyclomaticComplexity" Value="109" />
+                  <Metric Name="ClassCoupling" Value="87" />
+                  <Metric Name="DepthOfInheritance" Value="4" />
+                  <Metric Name="SourceLines" Value="1161" />
+                  <Metric Name="ExecutableLines" Value="368" />
+                </Metrics>
+                <Members>
+                  <Field Name="string MemberViewAuthorizations._mbrIdTkn" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\MemberViewAuthorizations.ascx.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="string MemberViewAuthorizations.AuthType" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\MemberViewAuthorizations.ascx.cs" Line="26">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string MemberViewAuthorizations.AuthType.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\MemberViewAuthorizations.ascx.cs" Line="28">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="93" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="3" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="string MemberViewAuthorizations.AppName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\MemberViewAuthorizations.ascx.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberViewAuthorizations.AppGuid" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\MemberViewAuthorizations.ascx.cs" Line="32">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberViewAuthorizations.referralDetailPage" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\MemberViewAuthorizations.ascx.cs" Line="33">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberViewAuthorizations.referralStatusPage" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\MemberViewAuthorizations.ascx.cs" Line="34">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberViewAuthorizations.referralErrorPage" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\MemberViewAuthorizations.ascx.cs" Line="35">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberViewAuthorizations.contactUsURL" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\MemberViewAuthorizations.ascx.cs" Line="36">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberViewAuthorizations.contactUsTarget" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\MemberViewAuthorizations.ascx.cs" Line="37">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string MemberViewAuthorizations.mSelectedMemberID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\MemberViewAuthorizations.ascx.cs" Line="45">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="ArrayList MemberViewAuthorizations.mMemberArray" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\MemberViewAuthorizations.ascx.cs" Line="47">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="int MemberViewAuthorizations.mRowCount" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\MemberViewAuthorizations.ascx.cs" Line="48">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="int MemberViewAuthorizations.FamilyMemberCount" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\MemberViewAuthorizations.ascx.cs" Line="61">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="91" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="15" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int MemberViewAuthorizations.FamilyMemberCount.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\MemberViewAuthorizations.ascx.cs" Line="63">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="91" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="3" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Method Name="void MemberViewAuthorizations.Page_Load(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\MemberViewAuthorizations.ascx.cs" Line="66">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="48" />
+                      <Metric Name="CyclomaticComplexity" Value="5" />
+                      <Metric Name="ClassCoupling" Value="18" />
+                      <Metric Name="SourceLines" Value="59" />
+                      <Metric Name="ExecutableLines" Value="26" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool MemberViewAuthorizations.IsMember1417()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\MemberViewAuthorizations.ascx.cs" Line="126">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="59" />
+                      <Metric Name="CyclomaticComplexity" Value="5" />
+                      <Metric Name="ClassCoupling" Value="10" />
+                      <Metric Name="SourceLines" Value="31" />
+                      <Metric Name="ExecutableLines" Value="11" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void MemberViewAuthorizations.BuildMemberList()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\MemberViewAuthorizations.ascx.cs" Line="158">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="46" />
+                      <Metric Name="CyclomaticComplexity" Value="13" />
+                      <Metric Name="ClassCoupling" Value="11" />
+                      <Metric Name="SourceLines" Value="57" />
+                      <Metric Name="ExecutableLines" Value="27" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="Person[] MemberViewAuthorizations.FilterForClaimsLocal(MemberIdentity mi)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\MemberViewAuthorizations.ascx.cs" Line="216">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="42" />
+                      <Metric Name="CyclomaticComplexity" Value="21" />
+                      <Metric Name="ClassCoupling" Value="17" />
+                      <Metric Name="SourceLines" Value="105" />
+                      <Metric Name="ExecutableLines" Value="36" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="DataTable MemberViewAuthorizations.GetFamily(string p)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\MemberViewAuthorizations.ascx.cs" Line="322">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="66" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="11" />
+                      <Metric Name="ExecutableLines" Value="7" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="int MemberViewAuthorizations.GetCurrentAge(DateTime dob)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\MemberViewAuthorizations.ascx.cs" Line="334">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="76" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void MemberViewAuthorizations.ConfigureSpouseViewCheckbox()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\MemberViewAuthorizations.ascx.cs" Line="353">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="68" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="27" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void MemberViewAuthorizations.chkSpouseCanView_CheckedChanged(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\MemberViewAuthorizations.ascx.cs" Line="381">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="60" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="12" />
+                      <Metric Name="SourceLines" Value="35" />
+                      <Metric Name="ExecutableLines" Value="10" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void MemberViewAuthorizations.ConfigureParentViewCheckbox()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\MemberViewAuthorizations.ascx.cs" Line="418">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="61" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="8" />
+                      <Metric Name="SourceLines" Value="33" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void MemberViewAuthorizations.chkParentCanView_CheckedChanged(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\MemberViewAuthorizations.ascx.cs" Line="451">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="54" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="13" />
+                      <Metric Name="SourceLines" Value="51" />
+                      <Metric Name="ExecutableLines" Value="16" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void MemberViewAuthorizations.btnViewReferrals_Click(object sender, ImageClickEventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\MemberViewAuthorizations.ascx.cs" Line="508">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="51" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="14" />
+                      <Metric Name="SourceLines" Value="66" />
+                      <Metric Name="ExecutableLines" Value="21" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void MemberViewAuthorizations.referralsGrid_RowDataBound(object sender, GridViewRowEventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\MemberViewAuthorizations.ascx.cs" Line="559">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="52" />
+                      <Metric Name="CyclomaticComplexity" Value="5" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="47" />
+                      <Metric Name="ExecutableLines" Value="17" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void MemberViewAuthorizations.referralsGrid_PageIndexChanging(object sender, GridViewPageEventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\MemberViewAuthorizations.ascx.cs" Line="607">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="60" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="23" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void MemberViewAuthorizations.FormatReferalDate(string p, TableCell tableCell)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\MemberViewAuthorizations.ascx.cs" Line="631">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="77" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void MemberViewAuthorizations.BindGrid()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\MemberViewAuthorizations.ascx.cs" Line="638">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="57" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="12" />
+                      <Metric Name="SourceLines" Value="33" />
+                      <Metric Name="ExecutableLines" Value="14" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void MemberViewAuthorizations.GetGridNoPaging()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\MemberViewAuthorizations.ascx.cs" Line="672">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="54" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="11" />
+                      <Metric Name="SourceLines" Value="36" />
+                      <Metric Name="ExecutableLines" Value="17" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="DataTable MemberViewAuthorizations.GetDataTable(GridView dtg)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\MemberViewAuthorizations.ascx.cs" Line="709">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="56" />
+                      <Metric Name="CyclomaticComplexity" Value="6" />
+                      <Metric Name="ClassCoupling" Value="14" />
+                      <Metric Name="SourceLines" Value="31" />
+                      <Metric Name="ExecutableLines" Value="13" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void MemberViewAuthorizations.WriteReferralIdLinkToCell(string referralID, TableCell cell)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\MemberViewAuthorizations.ascx.cs" Line="741">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="55" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="10" />
+                      <Metric Name="SourceLines" Value="32" />
+                      <Metric Name="ExecutableLines" Value="17" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool MemberViewAuthorizations.RestrictedReferral(ReferralInfo referral)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\MemberViewAuthorizations.ascx.cs" Line="788">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="65" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="33" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void MemberViewAuthorizations.RaisePostBackEvent(string eventArgument)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\MemberViewAuthorizations.ascx.cs" Line="821">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="71" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="30" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void MemberViewAuthorizations.HandleReferralDetailPostback(string referralId)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\MemberViewAuthorizations.ascx.cs" Line="852">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="67" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="31" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="MemberIdentity MemberViewAuthorizations.GetSelectedReferralMember()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\MemberViewAuthorizations.ascx.cs" Line="891">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="51" />
+                      <Metric Name="CyclomaticComplexity" Value="9" />
+                      <Metric Name="ClassCoupling" Value="12" />
+                      <Metric Name="SourceLines" Value="66" />
+                      <Metric Name="ExecutableLines" Value="21" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void MemberViewAuthorizations.WriteSeeDetailsButtonToCell(string referralID, TableCell cell)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\MemberViewAuthorizations.ascx.cs" Line="952">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="53" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="13" />
+                      <Metric Name="SourceLines" Value="47" />
+                      <Metric Name="ExecutableLines" Value="19" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void MemberViewAuthorizations.WriteSeeDetailsButtonToCellDV(string referralID, TableCell cell)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\MemberViewAuthorizations.ascx.cs" Line="987">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="53" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="13" />
+                      <Metric Name="SourceLines" Value="34" />
+                      <Metric Name="ExecutableLines" Value="19" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void MemberViewAuthorizations.referralsGrid_Sorting(object sender, GridViewSortEventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\MemberViewAuthorizations.ascx.cs" Line="1022">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="55" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="28" />
+                      <Metric Name="ExecutableLines" Value="14" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string MemberViewAuthorizations.GetSortDirection(string column)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\MemberViewAuthorizations.ascx.cs" Line="1051">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="61" />
+                      <Metric Name="CyclomaticComplexity" Value="5" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="29" />
+                      <Metric Name="ExecutableLines" Value="10" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="Repeater MemberViewAuthorizations.memberRepeater" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\MemberViewAuthorizations.ascx.designer.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="ImageButton MemberViewAuthorizations.btnViewReferrals" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\MemberViewAuthorizations.ascx.designer.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel MemberViewAuthorizations.pnlFirstTimeInfo" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\MemberViewAuthorizations.ascx.designer.cs" Line="40">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel MemberViewAuthorizations.pnlSpousePermission" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\MemberViewAuthorizations.ascx.designer.cs" Line="49">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="CheckBox MemberViewAuthorizations.chkSpouseCanView" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\MemberViewAuthorizations.ascx.designer.cs" Line="58">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel MemberViewAuthorizations.pnlParentPermission" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\MemberViewAuthorizations.ascx.designer.cs" Line="67">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="CheckBox MemberViewAuthorizations.chkParentCanView" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\MemberViewAuthorizations.ascx.designer.cs" Line="76">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel MemberViewAuthorizations.pnl1417restirction" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\MemberViewAuthorizations.ascx.designer.cs" Line="85">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel MemberViewAuthorizations.pnlReferralsList" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\MemberViewAuthorizations.ascx.designer.cs" Line="94">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label MemberViewAuthorizations.lblResults" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\MemberViewAuthorizations.ascx.designer.cs" Line="103">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="GridView MemberViewAuthorizations.referralsGrid" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\MemberViewAuthorizations.ascx.designer.cs" Line="112">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="MemberViewAuthorizations1">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="5" />
+                  <Metric Name="DepthOfInheritance" Value="4" />
+                  <Metric Name="SourceLines" Value="36" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+                <Members>
+                  <Method Name="void MemberViewAuthorizations1.Page_Load(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\MemberViewAuthorizations.aspx.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="HtmlHead MemberViewAuthorizations1.Head1" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\MemberViewAuthorizations.aspx.designer.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlForm MemberViewAuthorizations1.form1" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\MemberViewAuthorizations.aspx.designer.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="MemberViewAuthorizations MemberViewAuthorizations1.ViewAuthorizations" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\MemberViewAuthorizations.aspx.designer.cs" Line="40">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="ReferralDetail">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="59" />
+                  <Metric Name="CyclomaticComplexity" Value="5" />
+                  <Metric Name="ClassCoupling" Value="25" />
+                  <Metric Name="DepthOfInheritance" Value="4" />
+                  <Metric Name="SourceLines" Value="206" />
+                  <Metric Name="ExecutableLines" Value="31" />
+                </Metrics>
+                <Members>
+                  <Field Name="Label ReferralDetail.lblDSUPhone" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\ReferralDetail.ascx.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ReferralDetail.m_strRelPhone" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\ReferralDetail.ascx.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void ReferralDetail.Page_Load(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\ReferralDetail.ascx.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="55" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="13" />
+                      <Metric Name="SourceLines" Value="41" />
+                      <Metric Name="ExecutableLines" Value="15" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ReferralDetail.BindPage()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\ReferralDetail.ascx.cs" Line="57">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="54" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="13" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="15" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="Panel ReferralDetail.pnlHeader" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\ReferralDetail.ascx.designer.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label ReferralDetail.lblAsOf" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\ReferralDetail.ascx.designer.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label ReferralDetail.lblMemberName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\ReferralDetail.ascx.designer.cs" Line="40">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label ReferralDetail.lblMemberId" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\ReferralDetail.ascx.designer.cs" Line="49">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label ReferralDetail.lblReferralId" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\ReferralDetail.ascx.designer.cs" Line="58">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label ReferralDetail.lblStatus" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\ReferralDetail.ascx.designer.cs" Line="67">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label ReferralDetail.lblEffectiveDate" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\ReferralDetail.ascx.designer.cs" Line="76">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label ReferralDetail.lblExpirationDate" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\ReferralDetail.ascx.designer.cs" Line="85">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label ReferralDetail.lblProviderReferredTo" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\ReferralDetail.ascx.designer.cs" Line="94">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label ReferralDetail.lblReferredToPractice" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\ReferralDetail.ascx.designer.cs" Line="103">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label ReferralDetail.lblProviderReferredBy" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\ReferralDetail.ascx.designer.cs" Line="112">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label ReferralDetail.lblLiability" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\ReferralDetail.ascx.designer.cs" Line="121">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label ReferralDetail.lblAuthorizedVisits" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\ReferralDetail.ascx.designer.cs" Line="130">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label ReferralDetail.lblClaimedVisits" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\ReferralDetail.ascx.designer.cs" Line="139">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel ReferralDetail.pnlBackLink" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\ReferralDetail.ascx.designer.cs" Line="148">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="ReferralDetail1">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="5" />
+                  <Metric Name="DepthOfInheritance" Value="4" />
+                  <Metric Name="SourceLines" Value="36" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+                <Members>
+                  <Method Name="void ReferralDetail1.Page_Load(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\ReferralDetail.aspx.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="HtmlHead ReferralDetail1.Head1" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\ReferralDetail.aspx.designer.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="HtmlForm ReferralDetail1.form1" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\ReferralDetail.aspx.designer.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="ReferralDetail ReferralDetail1.ReferralDetail" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\member\Member_ViewAuthorizations\Member_ViewAuthorizations\ViewAuthorizations\ReferralDetail.aspx.designer.cs" Line="40">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

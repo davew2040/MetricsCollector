@@ -1,0 +1,1164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="WebMDMemberFileMerge.csproj">
+      <Assembly Name="WebMDMemberFileMerge, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="83" />
+          <Metric Name="CyclomaticComplexity" Value="78" />
+          <Metric Name="ClassCoupling" Value="27" />
+          <Metric Name="DepthOfInheritance" Value="1" />
+          <Metric Name="SourceLines" Value="531" />
+          <Metric Name="ExecutableLines" Value="137" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="WebMDMemberFileMerge">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="75" />
+              <Metric Name="CyclomaticComplexity" Value="44" />
+              <Metric Name="ClassCoupling" Value="21" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="468" />
+              <Metric Name="ExecutableLines" Value="136" />
+            </Metrics>
+            <Types>
+              <NamedType Name="FileHelper">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="62" />
+                  <Metric Name="CyclomaticComplexity" Value="39" />
+                  <Metric Name="ClassCoupling" Value="16" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="363" />
+                  <Metric Name="ExecutableLines" Value="118" />
+                </Metrics>
+                <Members>
+                  <Field Name="string FileHelper.ErrorLogDir" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\FileHelper.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string FileHelper.ErrorLogFilename" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\FileHelper.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string FileHelper.ErrorLogFile" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\FileHelper.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="bool FileHelper.Errorred" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\FileHelper.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="FileHelper.FileHelper()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\FileHelper.cs" Line="27">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="77" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="13" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool FileHelper.FileMerge(string workingMergeFile, string initialFileLocation, string fileNames)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\FileHelper.cs" Line="45">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="66" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="33" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool FileHelper.FileSort(string workingFileLocation, string workingMergeFilename, string workingSortFilename)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\FileHelper.cs" Line="79">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="64" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="31" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void FileHelper.FileProcess(string workingFileLocation, string workingSortedFilename, string importFileLocation, string exportFileName, string exportFileType)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\FileHelper.cs" Line="112">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="44" />
+                      <Metric Name="CyclomaticComplexity" Value="10" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="96" />
+                      <Metric Name="ExecutableLines" Value="39" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void FileHelper.SetStructureLevels(WebMDFileRecord currentRecord)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\FileHelper.cs" Line="197">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="61" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="17" />
+                      <Metric Name="ExecutableLines" Value="10" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string FileHelper.TransformRelationshipCode(string relationshipCode)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\FileHelper.cs" Line="215">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="6" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="16" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void FileHelper.CorrectValues(WebMDFileRecord currentRecord)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\FileHelper.cs" Line="232">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="62" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="13" />
+                      <Metric Name="ExecutableLines" Value="10" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void FileHelper.InsertNA(ref string currentField)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\FileHelper.cs" Line="246">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="85" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void FileHelper.FileCleanup(string workingFileLocation, string workingMergedFileName, string workingSortedFilename)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\FileHelper.cs" Line="264">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="66" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="24" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void FileHelper.CreateLogFile(string error)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\FileHelper.cs" Line="287">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="66" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="30" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void FileHelper.SendEmail()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\FileHelper.cs" Line="317">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="61" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="40" />
+                      <Metric Name="ExecutableLines" Value="11" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string FileHelper.DecryptCredentials(string sEncPassword)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\FileHelper.cs" Line="360">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="72" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="24" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="WebMDFileRecord">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="82" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="4" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="54" />
+                  <Metric Name="ExecutableLines" Value="3" />
+                </Metrics>
+                <Members>
+                  <Field Name="int WebMDFileRecord.ValidationData" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\WebMDFileRecord.cs" Line="10">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string WebMDFileRecord.RelatedID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\WebMDFileRecord.cs" Line="11">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string WebMDFileRecord.Birthdate" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\WebMDFileRecord.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string WebMDFileRecord.FirstName" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\WebMDFileRecord.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string WebMDFileRecord.LastName" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\WebMDFileRecord.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string WebMDFileRecord.Gender" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\WebMDFileRecord.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string WebMDFileRecord.Address" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\WebMDFileRecord.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string WebMDFileRecord.Address2" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\WebMDFileRecord.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string WebMDFileRecord.City" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\WebMDFileRecord.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string WebMDFileRecord.State" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\WebMDFileRecord.cs" Line="19">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string WebMDFileRecord.ZipCode" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\WebMDFileRecord.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string WebMDFileRecord.Country" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\WebMDFileRecord.cs" Line="21">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string WebMDFileRecord.PhoneNumber" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\WebMDFileRecord.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string WebMDFileRecord.EmailAddress" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\WebMDFileRecord.cs" Line="23">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string WebMDFileRecord.SSN" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\WebMDFileRecord.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string WebMDFileRecord.StructureLevel1" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\WebMDFileRecord.cs" Line="25">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string WebMDFileRecord.StructureLevel2" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\WebMDFileRecord.cs" Line="26">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string WebMDFileRecord.StructureLevel3" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\WebMDFileRecord.cs" Line="27">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string WebMDFileRecord.StructureLevel4" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\WebMDFileRecord.cs" Line="28">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string WebMDFileRecord.StructureLevel5" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\WebMDFileRecord.cs" Line="29">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string WebMDFileRecord.StructureLevel6" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\WebMDFileRecord.cs" Line="30">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string WebMDFileRecord.StructureLevel7" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\WebMDFileRecord.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string WebMDFileRecord.StructureLevel8" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\WebMDFileRecord.cs" Line="32">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string WebMDFileRecord.StructureLevel9" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\WebMDFileRecord.cs" Line="33">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string WebMDFileRecord.StructureLevel10" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\WebMDFileRecord.cs" Line="34">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string WebMDFileRecord.EnrolledPlan" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\WebMDFileRecord.cs" Line="35">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string WebMDFileRecord.EligiblePlan" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\WebMDFileRecord.cs" Line="36">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string WebMDFileRecord.SalaryBandID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\WebMDFileRecord.cs" Line="37">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string WebMDFileRecord.EmployeeStatusID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\WebMDFileRecord.cs" Line="38">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string WebMDFileRecord.SubscriberID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\WebMDFileRecord.cs" Line="39">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string WebMDFileRecord.SubscriberRelationship" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\WebMDFileRecord.cs" Line="40">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string WebMDFileRecord.CoverageStartDate" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\WebMDFileRecord.cs" Line="41">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string WebMDFileRecord.CoachingEligibility" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\WebMDFileRecord.cs" Line="42">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string WebMDFileRecord.Coaching_PaperHA_ID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\WebMDFileRecord.cs" Line="43">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string WebMDFileRecord.MemberID_1" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\WebMDFileRecord.cs" Line="44">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string WebMDFileRecord.MemberID_2" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\WebMDFileRecord.cs" Line="45">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string WebMDFileRecord.CustomField5" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\WebMDFileRecord.cs" Line="46">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string WebMDFileRecord.CustomField6" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\WebMDFileRecord.cs" Line="47">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string WebMDFileRecord.CustomField7" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\WebMDFileRecord.cs" Line="48">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string WebMDFileRecord.CustomField8" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\WebMDFileRecord.cs" Line="49">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string WebMDFileRecord.CustomField9" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\WebMDFileRecord.cs" Line="50">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string WebMDFileRecord.CustomField10" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\WebMDFileRecord.cs" Line="51">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string WebMDFileRecord.RewardsProgram" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\WebMDFileRecord.cs" Line="52">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string WebMDFileRecord.ExternalIdentifier" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\WebMDFileRecord.cs" Line="53">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="int WebMDFileRecord.CompareTo(WebMDFileRecord other)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\WebMDFileRecord.cs" Line="55">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="94" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="WebMDMemberFileMergeApp">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="58" />
+                  <Metric Name="CyclomaticComplexity" Value="3" />
+                  <Metric Name="ClassCoupling" Value="2" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="32" />
+                  <Metric Name="ExecutableLines" Value="14" />
+                </Metrics>
+                <Members>
+                  <Method Name="void WebMDMemberFileMergeApp.Run()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\WebMDMemberFileMergeApp.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="58" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="29" />
+                      <Metric Name="ExecutableLines" Value="14" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="WebMDMemberFileMergeMain">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="1" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="7" />
+                  <Metric Name="ExecutableLines" Value="1" />
+                </Metrics>
+                <Members>
+                  <Method Name="void WebMDMemberFileMergeMain.Main(string[] args)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\WebMDMemberFileMergeMain.cs" Line="5">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="WebMDMemberFileMerge.OHWRepository">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="100" />
+              <Metric Name="CyclomaticComplexity" Value="34" />
+              <Metric Name="ClassCoupling" Value="9" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="63" />
+              <Metric Name="ExecutableLines" Value="1" />
+            </Metrics>
+            <Types>
+              <NamedType Name="Member">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="30" />
+                  <Metric Name="ClassCoupling" Value="3" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="18" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+                <Members>
+                  <Property Name="string Member.MbrID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\OHWRepository\Member.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string Member.MbrID.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\OHWRepository\Member.cs" Line="17">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Member.MbrID.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\OHWRepository\Member.cs" Line="17">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="int Member.PersonID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\OHWRepository\Member.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int Member.PersonID.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\OHWRepository\Member.cs" Line="18">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Member.PersonID.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\OHWRepository\Member.cs" Line="18">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="Nullable&lt;int&gt; Member.OrganizationID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\OHWRepository\Member.cs" Line="19">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="Nullable&lt;int&gt; Member.OrganizationID.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\OHWRepository\Member.cs" Line="19">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Member.OrganizationID.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\OHWRepository\Member.cs" Line="19">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string Member.FamilyID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\OHWRepository\Member.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string Member.FamilyID.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\OHWRepository\Member.cs" Line="20">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Member.FamilyID.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\OHWRepository\Member.cs" Line="20">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string Member.GroupID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\OHWRepository\Member.cs" Line="21">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string Member.GroupID.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\OHWRepository\Member.cs" Line="21">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Member.GroupID.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\OHWRepository\Member.cs" Line="21">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string Member.PCPID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\OHWRepository\Member.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string Member.PCPID.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\OHWRepository\Member.cs" Line="22">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Member.PCPID.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\OHWRepository\Member.cs" Line="22">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="Nullable&lt;DateTime&gt; Member.PCPEffDate" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\OHWRepository\Member.cs" Line="23">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="Nullable&lt;DateTime&gt; Member.PCPEffDate.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\OHWRepository\Member.cs" Line="23">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Member.PCPEffDate.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\OHWRepository\Member.cs" Line="23">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string Member.EnrollCode" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\OHWRepository\Member.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string Member.EnrollCode.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\OHWRepository\Member.cs" Line="24">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Member.EnrollCode.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\OHWRepository\Member.cs" Line="24">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="Nullable&lt;DateTime&gt; Member.EnrollDate" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\OHWRepository\Member.cs" Line="25">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="Nullable&lt;DateTime&gt; Member.EnrollDate.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\OHWRepository\Member.cs" Line="25">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Member.EnrollDate.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\OHWRepository\Member.cs" Line="25">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="Nullable&lt;DateTime&gt; Member.CardDate" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\OHWRepository\Member.cs" Line="26">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="Nullable&lt;DateTime&gt; Member.CardDate.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\OHWRepository\Member.cs" Line="26">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Member.CardDate.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\OHWRepository\Member.cs" Line="26">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string Member.DiffAddrFlag" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\OHWRepository\Member.cs" Line="27">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string Member.DiffAddrFlag.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\OHWRepository\Member.cs" Line="27">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Member.DiffAddrFlag.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\OHWRepository\Member.cs" Line="27">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="Nullable&lt;DateTime&gt; Member.PlanDate" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\OHWRepository\Member.cs" Line="28">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="Nullable&lt;DateTime&gt; Member.PlanDate.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\OHWRepository\Member.cs" Line="28">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Member.PlanDate.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\OHWRepository\Member.cs" Line="28">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="Nullable&lt;byte&gt; Member.RecordStatus" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\OHWRepository\Member.cs" Line="29">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="Nullable&lt;byte&gt; Member.RecordStatus.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\OHWRepository\Member.cs" Line="29">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Member.RecordStatus.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\OHWRepository\Member.cs" Line="29">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="Nullable&lt;DateTime&gt; Member.RecordStatusDate" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\OHWRepository\Member.cs" Line="30">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="Nullable&lt;DateTime&gt; Member.RecordStatusDate.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\OHWRepository\Member.cs" Line="30">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Member.RecordStatusDate.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\OHWRepository\Member.cs" Line="30">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string Member.RelationCode" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\OHWRepository\Member.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string Member.RelationCode.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\OHWRepository\Member.cs" Line="31">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Member.RelationCode.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\OHWRepository\Member.cs" Line="31">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+              <NamedType Name="OptimaHealthWebEntities">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="4" />
+                  <Metric Name="ClassCoupling" Value="6" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="14" />
+                  <Metric Name="ExecutableLines" Value="1" />
+                </Metrics>
+                <Members>
+                  <Method Name="OptimaHealthWebEntities.OptimaHealthWebEntities()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\OHWRepository\OHWMembers.Context.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void OptimaHealthWebEntities.OnModelCreating(DbModelBuilder modelBuilder)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\OHWRepository\OHWMembers.Context.cs" Line="23">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="DbSet&lt;Member&gt; OptimaHealthWebEntities.Members" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\OHWRepository\OHWMembers.Context.cs" Line="28">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DbSet&lt;Member&gt; OptimaHealthWebEntities.Members.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\OHWRepository\OHWMembers.Context.cs" Line="28">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void OptimaHealthWebEntities.Members.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\WebMDMemberFileMerge\WebMDMemberFileMerge\OHWRepository\OHWMembers.Context.cs" Line="28">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

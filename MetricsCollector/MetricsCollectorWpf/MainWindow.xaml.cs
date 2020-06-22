@@ -74,8 +74,6 @@ namespace MetricsCollectorWpf
 
         private async void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            this.ViewModel.ToolOutput = "test1\ntest2";
-
             await this.LoadConfig();
         }
 

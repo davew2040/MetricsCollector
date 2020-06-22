@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="WellnessTrackingApplicationServices.csproj">
+      <Assembly Name="WellnessTrackingApplicationServices, Version=1.0.0.58, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="50" />
+          <Metric Name="CyclomaticComplexity" Value="46" />
+          <Metric Name="ClassCoupling" Value="36" />
+          <Metric Name="DepthOfInheritance" Value="1" />
+          <Metric Name="SourceLines" Value="819" />
+          <Metric Name="ExecutableLines" Value="423" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="WellnessTrackingApplicationServices">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="50" />
+              <Metric Name="CyclomaticComplexity" Value="46" />
+              <Metric Name="ClassCoupling" Value="36" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="819" />
+              <Metric Name="ExecutableLines" Value="423" />
+            </Metrics>
+            <Types>
+              <NamedType Name="TrackingApplicationService">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="50" />
+                  <Metric Name="CyclomaticComplexity" Value="46" />
+                  <Metric Name="ClassCoupling" Value="36" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="816" />
+                  <Metric Name="ExecutableLines" Value="423" />
+                </Metrics>
+                <Members>
+                  <Field Name="ILog TrackingApplicationService.Log" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingApplicationServices\TrackingApplicationService.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="HealthScreeningViewModel TrackingApplicationService.SaveHealthScreen(HealthScreeningViewModel viewModel)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingApplicationServices\TrackingApplicationService.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="39" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="8" />
+                      <Metric Name="SourceLines" Value="81" />
+                      <Metric Name="ExecutableLines" Value="53" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="SiteVisitNoteViewModel TrackingApplicationService.SaveSiteVisitNote(SiteVisitNoteViewModel viewModel)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingApplicationServices\TrackingApplicationService.cs" Line="106">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="47" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="11" />
+                      <Metric Name="SourceLines" Value="54" />
+                      <Metric Name="ExecutableLines" Value="29" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="HealthScreeningViewModel TrackingApplicationService.DeleteHealthScreen(HealthScreeningViewModel healthScreen)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingApplicationServices\TrackingApplicationService.cs" Line="160">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="59" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="30" />
+                      <Metric Name="ExecutableLines" Value="13" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="SiteVisitNoteViewModel TrackingApplicationService.DeleteSiteVisitNote(SiteVisitNoteViewModel siteNote)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingApplicationServices\TrackingApplicationService.cs" Line="190">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="59" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="30" />
+                      <Metric Name="ExecutableLines" Value="13" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="WellnessTrackingInfoViewModel TrackingApplicationService.GetMemberTrackingInfo(WellnessTrackingInfoViewModel viewModel)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingApplicationServices\TrackingApplicationService.cs" Line="221">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="26" />
+                      <Metric Name="CyclomaticComplexity" Value="8" />
+                      <Metric Name="ClassCoupling" Value="22" />
+                      <Metric Name="SourceLines" Value="183" />
+                      <Metric Name="ExecutableLines" Value="131" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="WellnessMaterialViewModel TrackingApplicationService.EditWellnessMaterial(WellnessMaterialViewModel wm)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingApplicationServices\TrackingApplicationService.cs" Line="400">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="60" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="25" />
+                      <Metric Name="ExecutableLines" Value="12" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="WellnessMaterialViewModel TrackingApplicationService.DeleteWellnessMaterial(WellnessMaterialViewModel wm)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingApplicationServices\TrackingApplicationService.cs" Line="425">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="60" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="25" />
+                      <Metric Name="ExecutableLines" Value="12" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="WellnessGroupViewModel TrackingApplicationService.DeleteWellnessGroup(WellnessGroupViewModel wg)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingApplicationServices\TrackingApplicationService.cs" Line="450">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="60" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="25" />
+                      <Metric Name="ExecutableLines" Value="12" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="WellnessGroupViewModel TrackingApplicationService.AddWellnessGroup(WellnessGroupViewModel wg)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingApplicationServices\TrackingApplicationService.cs" Line="481">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="57" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="39" />
+                      <Metric Name="ExecutableLines" Value="15" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="WellnessMaterialViewModel TrackingApplicationService.AddWellnessMaterial(WellnessMaterialViewModel wm)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingApplicationServices\TrackingApplicationService.cs" Line="515">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="57" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="34" />
+                      <Metric Name="ExecutableLines" Value="15" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="WellnessMaterialViewModel TrackingApplicationService.GetWellnessMaterial(int? id)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingApplicationServices\TrackingApplicationService.cs" Line="549">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="65" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="11" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="WellnessGroupViewModel TrackingApplicationService.GetWellnessGroup(int? id)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingApplicationServices\TrackingApplicationService.cs" Line="566">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="69" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="14" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="WellnessGroupListViewModel TrackingApplicationService.GetWellnessGroups(WellnessGroupListViewModel viewModel)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingApplicationServices\TrackingApplicationService.cs" Line="581">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="61" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="29" />
+                      <Metric Name="ExecutableLines" Value="11" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="MemberSearchViewModel TrackingApplicationService.MemberSearch(MemberSearchViewModel viewModel)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingApplicationServices\TrackingApplicationService.cs" Line="611">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="44" />
+                      <Metric Name="CyclomaticComplexity" Value="13" />
+                      <Metric Name="ClassCoupling" Value="8" />
+                      <Metric Name="SourceLines" Value="80" />
+                      <Metric Name="ExecutableLines" Value="30" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="RewardsActivityListViewModel TrackingApplicationService.GetRewardActivities(RewardsActivityListViewModel viewModel)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingApplicationServices\TrackingApplicationService.cs" Line="687">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="61" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="25" />
+                      <Metric Name="ExecutableLines" Value="11" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="RewardActivityLookupViewModel TrackingApplicationService.GetRewardActivity(int? id)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingApplicationServices\TrackingApplicationService.cs" Line="713">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="58" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="25" />
+                      <Metric Name="ExecutableLines" Value="13" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="RewardActivityLookupViewModel TrackingApplicationService.DeleteRewardActivity(RewardActivityLookupViewModel ra)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingApplicationServices\TrackingApplicationService.cs" Line="739">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="60" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="25" />
+                      <Metric Name="ExecutableLines" Value="12" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="RewardActivityLookupViewModel TrackingApplicationService.AddRewardActivity(RewardActivityLookupViewModel ra)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingApplicationServices\TrackingApplicationService.cs" Line="765">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="57" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="34" />
+                      <Metric Name="ExecutableLines" Value="15" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="WellnessMaterialListViewModel TrackingApplicationService.GetWellnessMaterials(WellnessMaterialListViewModel viewModel)" File="C:\Dev\Repos\TFSRoot\SHP\Web\WellnessTrackingTool\WellnessTrackingApplicationServices\TrackingApplicationService.cs" Line="805">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="61" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="29" />
+                      <Metric Name="ExecutableLines" Value="11" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

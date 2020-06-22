@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="MedicarePreEnroll.Tests.csproj">
+      <Assembly Name="MedicarePreEnroll.Tests, Version=1.0.0.6, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="67" />
+          <Metric Name="CyclomaticComplexity" Value="8" />
+          <Metric Name="ClassCoupling" Value="25" />
+          <Metric Name="DepthOfInheritance" Value="1" />
+          <Metric Name="SourceLines" Value="177" />
+          <Metric Name="ExecutableLines" Value="71" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="MedicarePreEnroll.Tests.Services">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="67" />
+              <Metric Name="CyclomaticComplexity" Value="8" />
+              <Metric Name="ClassCoupling" Value="25" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="177" />
+              <Metric Name="ExecutableLines" Value="71" />
+            </Metrics>
+            <Types>
+              <NamedType Name="ComparisonGridServiceTests">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="57" />
+                  <Metric Name="CyclomaticComplexity" Value="5" />
+                  <Metric Name="ClassCoupling" Value="17" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="104" />
+                  <Metric Name="ExecutableLines" Value="62" />
+                </Metrics>
+                <Members>
+                  <Method Name="void ComparisonGridServiceTests.Coverage_Dates_Before_AEP(string aepBegin, string aepEnd, string currentDate, string appYear, string expectedFirstDate, string expectedSecondDate, string expectedThirdDate, string expectedFouthDate)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_MedPreEnroll\MedicarePreEnroll.Tests\Services\ComparisonGridServiceTests.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="55" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="14" />
+                      <Metric Name="SourceLines" Value="21" />
+                      <Metric Name="ExecutableLines" Value="14" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ComparisonGridServiceTests.Coverage_Dates_Before_AEP_Do_Not_Contain_Next_Year(string aepBegin, string aepEnd, string currentDate, string appYear, string expectedFirstDate, string expectedSecondDate, string expectedThirdDate)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_MedPreEnroll\MedicarePreEnroll.Tests\Services\ComparisonGridServiceTests.cs" Line="36">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="57" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="14" />
+                      <Metric Name="SourceLines" Value="19" />
+                      <Metric Name="ExecutableLines" Value="12" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ComparisonGridServiceTests.Coverage_Date_Starts_The_Following_Year_After_AEP_Ends(string aepBegin, string aepEnd, string currentDate, string appYear, string expectedFirstDate, string expectedSecondDate, string expectedThirdDate, string expectedFouthDate)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_MedPreEnroll\MedicarePreEnroll.Tests\Services\ComparisonGridServiceTests.cs" Line="61">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="53" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="14" />
+                      <Metric Name="SourceLines" Value="25" />
+                      <Metric Name="ExecutableLines" Value="17" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ComparisonGridServiceTests.Coverage_Date_Starts_The_Following_Month(string aepBegin, string aepEnd, string currentDate, string appYear, string expectedFirstDate, string expectedSecondDate)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_MedPreEnroll\MedicarePreEnroll.Tests\Services\ComparisonGridServiceTests.cs" Line="83">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="57" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="14" />
+                      <Metric Name="SourceLines" Value="19" />
+                      <Metric Name="ExecutableLines" Value="12" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ComparisonGridServiceTests.Format_Contract_Id_Correctly(string contractId, string expectedFormattedContractId)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_MedPreEnroll\MedicarePreEnroll.Tests\Services\ComparisonGridServiceTests.cs" Line="102">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="66" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="11" />
+                      <Metric Name="SourceLines" Value="12" />
+                      <Metric Name="ExecutableLines" Value="7" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="PlanEligibilityServiceTests">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="77" />
+                  <Metric Name="CyclomaticComplexity" Value="3" />
+                  <Metric Name="ClassCoupling" Value="14" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="67" />
+                  <Metric Name="ExecutableLines" Value="9" />
+                </Metrics>
+                <Members>
+                  <Field Name="PlanEligibilityService PlanEligibilityServiceTests.planEligibilityService" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_MedPreEnroll\MedicarePreEnroll.Tests\Services\PlanEligibilityServiceTests.cs" Line="10">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="DentalBenefits[] PlanEligibilityServiceTests._noPreventiveDentalCoverageArray" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_MedPreEnroll\MedicarePreEnroll.Tests\Services\PlanEligibilityServiceTests.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="78" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="DentalBenefits[] PlanEligibilityServiceTests._preventiveDentalCoverageArray" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_MedPreEnroll\MedicarePreEnroll.Tests\Services\PlanEligibilityServiceTests.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="73" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="31" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void PlanEligibilityServiceTests.TestFalseIfNoPreventiveDentalCoverage(DentalBenefits dentalBenefits)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_MedPreEnroll\MedicarePreEnroll.Tests\Services\PlanEligibilityServiceTests.cs" Line="56">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="84" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void PlanEligibilityServiceTests.TrueIfPreventiveDentalCoverage(DentalBenefits dentalBenefits)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_MedPreEnroll\MedicarePreEnroll.Tests\Services\PlanEligibilityServiceTests.cs" Line="62">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="84" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void PlanEligibilityServiceTests.FormatContractCodeForApi(string contractCode, string expectedOutput)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps.optimahealth.com\Public\Public_MedPreEnroll\MedicarePreEnroll.Tests\Services\PlanEligibilityServiceTests.cs" Line="69">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="78" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="Click4CareVisionExtract.csproj">
+      <Assembly Name="Click4CareVisionExtract, Version=1.0.0.22, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="79" />
+          <Metric Name="CyclomaticComplexity" Value="22" />
+          <Metric Name="ClassCoupling" Value="43" />
+          <Metric Name="DepthOfInheritance" Value="1" />
+          <Metric Name="SourceLines" Value="291" />
+          <Metric Name="ExecutableLines" Value="92" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="Click4CareVisionExtract">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="82" />
+              <Metric Name="CyclomaticComplexity" Value="15" />
+              <Metric Name="ClassCoupling" Value="38" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="235" />
+              <Metric Name="ExecutableLines" Value="78" />
+            </Metrics>
+            <Types>
+              <NamedType Name="ExtractGenerator">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="62" />
+                  <Metric Name="CyclomaticComplexity" Value="13" />
+                  <Metric Name="ClassCoupling" Value="29" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="165" />
+                  <Metric Name="ExecutableLines" Value="70" />
+                </Metrics>
+                <Members>
+                  <Method Name="ExtractGenerator.ExtractGenerator()" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Click4CareVisionExtract\Click4CareVisionExtract\ExtractGenerator.cs" Line="30">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ExtractGenerator.Start()" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Click4CareVisionExtract\Click4CareVisionExtract\ExtractGenerator.cs" Line="32">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="48" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="17" />
+                      <Metric Name="SourceLines" Value="65" />
+                      <Metric Name="ExecutableLines" Value="23" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ExtractGenerator.engine_BeforeWriteRecord(EngineBase engine, BeforeWriteEventArgs&lt;object&gt; e)" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Click4CareVisionExtract\Click4CareVisionExtract\ExtractGenerator.cs" Line="98">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="89" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string ExtractGenerator.VerifyPath(string path)" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Click4CareVisionExtract\Click4CareVisionExtract\ExtractGenerator.cs" Line="104">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="85" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string ExtractGenerator.commandText()" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Click4CareVisionExtract\Click4CareVisionExtract\ExtractGenerator.cs" Line="112">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="48" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="40" />
+                      <Metric Name="ExecutableLines" Value="30" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="bool? ExtractGenerator._logRecords" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Click4CareVisionExtract\Click4CareVisionExtract\ExtractGenerator.cs" Line="153">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="bool ExtractGenerator.LogRecords" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Click4CareVisionExtract\Click4CareVisionExtract\ExtractGenerator.cs" Line="154">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="73" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="14" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="bool ExtractGenerator.LogRecords.get" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Click4CareVisionExtract\Click4CareVisionExtract\ExtractGenerator.cs" Line="156">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="73" />
+                          <Metric Name="CyclomaticComplexity" Value="2" />
+                          <Metric Name="ClassCoupling" Value="3" />
+                          <Metric Name="SourceLines" Value="11" />
+                          <Metric Name="ExecutableLines" Value="4" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Method Name="void ExtractGenerator.HouseKeeping()" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Click4CareVisionExtract\Click4CareVisionExtract\ExtractGenerator.cs" Line="169">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="62" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="12" />
+                      <Metric Name="SourceLines" Value="23" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="OutputData">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="84" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="9" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="34" />
+                  <Metric Name="ExecutableLines" Value="7" />
+                </Metrics>
+                <Members>
+                  <Field Name="string OutputData.MemberLegacyID" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Click4CareVisionExtract\Click4CareVisionExtract\OutputData.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string OutputData.ProcedureCode" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Click4CareVisionExtract\Click4CareVisionExtract\OutputData.cs" Line="21">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string OutputData.ProcedureCodeDescription" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Click4CareVisionExtract\Click4CareVisionExtract\OutputData.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="DateTime OutputData.MeasureDate" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Click4CareVisionExtract\Click4CareVisionExtract\OutputData.cs" Line="27">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="85" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string OutputData.ProviderName" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Click4CareVisionExtract\Click4CareVisionExtract\OutputData.cs" Line="30">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string OutputData.ProviderPhone" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Click4CareVisionExtract\Click4CareVisionExtract\OutputData.cs" Line="33">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string OutputData.ProviderAddress" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Click4CareVisionExtract\Click4CareVisionExtract\OutputData.cs" Line="36">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string OutputData.ValidatedBy" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Click4CareVisionExtract\Click4CareVisionExtract\OutputData.cs" Line="39">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string OutputData.ValidationDate" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Click4CareVisionExtract\Click4CareVisionExtract\OutputData.cs" Line="42">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string OutputData.ReportedBy" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Click4CareVisionExtract\Click4CareVisionExtract\OutputData.cs" Line="45">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="Program">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="1" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="7" />
+                  <Metric Name="ExecutableLines" Value="1" />
+                </Metrics>
+                <Members>
+                  <Method Name="void Program.Main()" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Click4CareVisionExtract\Click4CareVisionExtract\Program.cs" Line="11">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="Click4CareVisionExtract.Utility">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="75" />
+              <Metric Name="CyclomaticComplexity" Value="7" />
+              <Metric Name="ClassCoupling" Value="7" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="56" />
+              <Metric Name="ExecutableLines" Value="14" />
+            </Metrics>
+            <Types>
+              <NamedType Name="Crypto">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="73" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="4" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="17" />
+                  <Metric Name="ExecutableLines" Value="5" />
+                </Metrics>
+                <Members>
+                  <Method Name="string Crypto.DecryptString(string encryptedValue)" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Click4CareVisionExtract\Click4CareVisionExtract\Utility\Crypto.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="73" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="14" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="Log">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="77" />
+                  <Metric Name="CyclomaticComplexity" Value="6" />
+                  <Metric Name="ClassCoupling" Value="3" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="33" />
+                  <Metric Name="ExecutableLines" Value="9" />
+                </Metrics>
+                <Members>
+                  <Field Name="ILog Log.logger" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Click4CareVisionExtract\Click4CareVisionExtract\Utility\Log.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="90" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Log.Write(string strErrorMessage, bool info = false)" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Click4CareVisionExtract\Click4CareVisionExtract\Utility\Log.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="82" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Log.Write(string strErrorMessage, string exceptionMessage, bool info = false)" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Click4CareVisionExtract\Click4CareVisionExtract\Utility\Log.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="81" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Log.Write(string strErrorMessage, string exceptionMessage, string stackTrace, bool info = false)" File="C:\Dev\Repos\TFSRoot\SHP\Interfaces\Click4CareVisionExtract\Click4CareVisionExtract\Utility\Log.cs" Line="25">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="69" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="14" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

@@ -1,0 +1,1582 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="HRSDBirthdayFileExport.csproj">
+      <Assembly Name="HRSDBirthdayFileExport, Version=1.0.0.28, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="76" />
+          <Metric Name="CyclomaticComplexity" Value="120" />
+          <Metric Name="ClassCoupling" Value="46" />
+          <Metric Name="DepthOfInheritance" Value="3" />
+          <Metric Name="SourceLines" Value="982" />
+          <Metric Name="ExecutableLines" Value="278" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="HRSDBirthdayFileExport">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="70" />
+              <Metric Name="CyclomaticComplexity" Value="18" />
+              <Metric Name="ClassCoupling" Value="36" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="300" />
+              <Metric Name="ExecutableLines" Value="70" />
+            </Metrics>
+            <Types>
+              <NamedType Name="Helper">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="67" />
+                  <Metric Name="CyclomaticComplexity" Value="10" />
+                  <Metric Name="ClassCoupling" Value="22" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="190" />
+                  <Metric Name="ExecutableLines" Value="42" />
+                </Metrics>
+                <Members>
+                  <Field Name="string Helper.HRSDBirthdayFileErrorSubject" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\Helper.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Helper.HRSDBirthdatFileSuccessSubject" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\Helper.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="DateTime Helper.MonthBeginning" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\Helper.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Helper.filename" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\Helper.cs" Line="23">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="80" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="3" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Helper.SendEmail(string subject, string body, bool success)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\Helper.cs" Line="38">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="56" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="11" />
+                      <Metric Name="SourceLines" Value="48" />
+                      <Metric Name="ExecutableLines" Value="13" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Helper.CreateLogFile(string error)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\Helper.cs" Line="87">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="61" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="31" />
+                      <Metric Name="ExecutableLines" Value="10" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Helper.DecryptCredentials(string sEncPassword)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\Helper.cs" Line="126">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="69" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="34" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Helper.BuildEmailReport(int totallines)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\Helper.cs" Line="154">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="89" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="19" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Helper.BuildEmailError()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\Helper.cs" Line="164">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="85" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="11" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Helper.DoLogCleanUp()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\Helper.cs" Line="176">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="61" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="13" />
+                      <Metric Name="SourceLines" Value="24" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="HRSDBirthdayFileExportApp">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="45" />
+                  <Metric Name="CyclomaticComplexity" Value="7" />
+                  <Metric Name="ClassCoupling" Value="23" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="94" />
+                  <Metric Name="ExecutableLines" Value="27" />
+                </Metrics>
+                <Members>
+                  <Method Name="void HRSDBirthdayFileExportApp.RunApp()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSDBirthdayFileExportApp.cs" Line="19">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="45" />
+                      <Metric Name="CyclomaticComplexity" Value="7" />
+                      <Metric Name="ClassCoupling" Value="23" />
+                      <Metric Name="SourceLines" Value="86" />
+                      <Metric Name="ExecutableLines" Value="27" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="HRSDBirthdayFileExportMain">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="1" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="7" />
+                  <Metric Name="ExecutableLines" Value="1" />
+                </Metrics>
+                <Members>
+                  <Method Name="void HRSDBirthdayFileExportMain.Main()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSDBirthdayFileExportMain.cs" Line="5">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="HRSDBirthdayFileExport.HRSD">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="85" />
+              <Metric Name="CyclomaticComplexity" Value="102" />
+              <Metric Name="ClassCoupling" Value="14" />
+              <Metric Name="DepthOfInheritance" Value="3" />
+              <Metric Name="SourceLines" Value="682" />
+              <Metric Name="ExecutableLines" Value="208" />
+            </Metrics>
+            <Types>
+              <NamedType Name="Employee_Person">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="80" />
+                  <Metric Name="CyclomaticComplexity" Value="95" />
+                  <Metric Name="ClassCoupling" Value="9" />
+                  <Metric Name="DepthOfInheritance" Value="3" />
+                  <Metric Name="SourceLines" Value="599" />
+                  <Metric Name="ExecutableLines" Value="198" />
+                </Metrics>
+                <Members>
+                  <Method Name="Employee_Person Employee_Person.CreateEmployee_Person(int hRSD_ID, string group_EIN, string group_Name, string lastName, string firstName, string suffix)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="122">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="65" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="22" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="int Employee_Person.HRSD_ID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="142">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="86" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="26" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int Employee_Person.HRSD_ID.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="144">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Employee_Person.HRSD_ID.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="148">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="72" />
+                          <Metric Name="CyclomaticComplexity" Value="2" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="11" />
+                          <Metric Name="ExecutableLines" Value="6" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="int Employee_Person._HRSD_ID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="160">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Employee_Person.OnHRSD_IDChanging(int value)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="161">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Employee_Person.OnHRSD_IDChanged()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="162">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="int? Employee_Person.Subscriber_ID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="169">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int? Employee_Person.Subscriber_ID.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="171">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Employee_Person.Subscriber_ID.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="175">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="75" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="8" />
+                          <Metric Name="ExecutableLines" Value="5" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="int? Employee_Person._Subscriber_ID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="184">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Employee_Person.OnSubscriber_IDChanging(int? value)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="185">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Employee_Person.OnSubscriber_IDChanged()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="186">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="DateTime? Employee_Person.Effective_Date" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="193">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DateTime? Employee_Person.Effective_Date.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="195">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Employee_Person.Effective_Date.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="199">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="75" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="3" />
+                          <Metric Name="SourceLines" Value="8" />
+                          <Metric Name="ExecutableLines" Value="5" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="DateTime? Employee_Person._Effective_Date" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="208">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Employee_Person.OnEffective_DateChanging(DateTime? value)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="209">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Employee_Person.OnEffective_DateChanged()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="210">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="DateTime? Employee_Person.Termination_Date" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="217">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DateTime? Employee_Person.Termination_Date.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="219">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Employee_Person.Termination_Date.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="223">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="75" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="3" />
+                          <Metric Name="SourceLines" Value="8" />
+                          <Metric Name="ExecutableLines" Value="5" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="DateTime? Employee_Person._Termination_Date" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="232">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Employee_Person.OnTermination_DateChanging(DateTime? value)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="233">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Employee_Person.OnTermination_DateChanged()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="234">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="string Employee_Person.Group_Number" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="241">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string Employee_Person.Group_Number.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="243">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Employee_Person.Group_Number.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="247">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="74" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="8" />
+                          <Metric Name="ExecutableLines" Value="5" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="string Employee_Person._Group_Number" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="256">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Employee_Person.OnGroup_NumberChanging(string value)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="257">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Employee_Person.OnGroup_NumberChanged()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="258">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="string Employee_Person.Group_EIN" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="265">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string Employee_Person.Group_EIN.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="267">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Employee_Person.Group_EIN.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="271">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="74" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="8" />
+                          <Metric Name="ExecutableLines" Value="5" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="string Employee_Person._Group_EIN" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="280">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Employee_Person.OnGroup_EINChanging(string value)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="281">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Employee_Person.OnGroup_EINChanged()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="282">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="string Employee_Person.Group_Name" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="289">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string Employee_Person.Group_Name.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="291">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Employee_Person.Group_Name.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="295">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="74" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="8" />
+                          <Metric Name="ExecutableLines" Value="5" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="string Employee_Person._Group_Name" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="304">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Employee_Person.OnGroup_NameChanging(string value)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="305">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Employee_Person.OnGroup_NameChanged()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="306">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="string Employee_Person.MemberID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="313">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string Employee_Person.MemberID.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="315">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Employee_Person.MemberID.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="319">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="74" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="8" />
+                          <Metric Name="ExecutableLines" Value="5" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="string Employee_Person._MemberID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="328">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Employee_Person.OnMemberIDChanging(string value)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="329">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Employee_Person.OnMemberIDChanged()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="330">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="int? Employee_Person.PersonID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="337">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int? Employee_Person.PersonID.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="339">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Employee_Person.PersonID.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="343">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="75" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="8" />
+                          <Metric Name="ExecutableLines" Value="5" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="int? Employee_Person._PersonID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="352">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Employee_Person.OnPersonIDChanging(int? value)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="353">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Employee_Person.OnPersonIDChanged()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="354">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="string Employee_Person.LastName" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="361">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string Employee_Person.LastName.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="363">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Employee_Person.LastName.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="367">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="74" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="8" />
+                          <Metric Name="ExecutableLines" Value="5" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="string Employee_Person._LastName" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="376">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Employee_Person.OnLastNameChanging(string value)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="377">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Employee_Person.OnLastNameChanged()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="378">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="string Employee_Person.FirstName" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="385">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string Employee_Person.FirstName.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="387">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Employee_Person.FirstName.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="391">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="74" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="8" />
+                          <Metric Name="ExecutableLines" Value="5" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="string Employee_Person._FirstName" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="400">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Employee_Person.OnFirstNameChanging(string value)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="401">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Employee_Person.OnFirstNameChanged()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="402">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="string Employee_Person.MidName" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="409">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string Employee_Person.MidName.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="411">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Employee_Person.MidName.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="415">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="74" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="8" />
+                          <Metric Name="ExecutableLines" Value="5" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="string Employee_Person._MidName" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="424">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Employee_Person.OnMidNameChanging(string value)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="425">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Employee_Person.OnMidNameChanged()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="426">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="DateTime? Employee_Person.DOB" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="433">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DateTime? Employee_Person.DOB.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="435">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Employee_Person.DOB.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="439">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="75" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="3" />
+                          <Metric Name="SourceLines" Value="8" />
+                          <Metric Name="ExecutableLines" Value="5" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="DateTime? Employee_Person._DOB" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="448">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Employee_Person.OnDOBChanging(DateTime? value)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="449">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Employee_Person.OnDOBChanged()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="450">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="string Employee_Person.SSN" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="457">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string Employee_Person.SSN.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="459">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Employee_Person.SSN.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="463">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="74" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="8" />
+                          <Metric Name="ExecutableLines" Value="5" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="string Employee_Person._SSN" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="472">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Employee_Person.OnSSNChanging(string value)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="473">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Employee_Person.OnSSNChanged()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="474">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="string Employee_Person.Suffix" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="481">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="85" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="23" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string Employee_Person.Suffix.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="483">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Employee_Person.Suffix.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="487">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="71" />
+                          <Metric Name="CyclomaticComplexity" Value="2" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="11" />
+                          <Metric Name="ExecutableLines" Value="6" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="string Employee_Person._Suffix" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="499">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Employee_Person.OnSuffixChanging(string value)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="500">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Employee_Person.OnSuffixChanged()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="501">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="string Employee_Person.Relationship" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="508">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string Employee_Person.Relationship.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="510">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Employee_Person.Relationship.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="514">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="74" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="8" />
+                          <Metric Name="ExecutableLines" Value="5" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="string Employee_Person._Relationship" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="523">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Employee_Person.OnRelationshipChanging(string value)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="524">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Employee_Person.OnRelationshipChanged()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="525">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="string Employee_Person.Sub_Group_ID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="532">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string Employee_Person.Sub_Group_ID.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="534">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Employee_Person.Sub_Group_ID.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="538">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="74" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="8" />
+                          <Metric Name="ExecutableLines" Value="5" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="string Employee_Person._Sub_Group_ID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="547">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Employee_Person.OnSub_Group_IDChanging(string value)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="548">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Employee_Person.OnSub_Group_IDChanged()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="549">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="string Employee_Person.Subscriber_Type" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="556">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string Employee_Person.Subscriber_Type.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="558">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Employee_Person.Subscriber_Type.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="562">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="74" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="8" />
+                          <Metric Name="ExecutableLines" Value="5" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="string Employee_Person._Subscriber_Type" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="571">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Employee_Person.OnSubscriber_TypeChanging(string value)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="572">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Employee_Person.OnSubscriber_TypeChanged()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="573">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="string Employee_Person.Call_Time" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="580">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string Employee_Person.Call_Time.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="582">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Employee_Person.Call_Time.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="586">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="74" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="8" />
+                          <Metric Name="ExecutableLines" Value="5" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="string Employee_Person._Call_Time" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="595">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Employee_Person.OnCall_TimeChanging(string value)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="596">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Employee_Person.OnCall_TimeChanged()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="597">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="string Employee_Person.Written_Language" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="604">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string Employee_Person.Written_Language.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="606">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Employee_Person.Written_Language.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="610">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="74" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="8" />
+                          <Metric Name="ExecutableLines" Value="5" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="string Employee_Person._Written_Language" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="619">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Employee_Person.OnWritten_LanguageChanging(string value)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="620">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Employee_Person.OnWritten_LanguageChanged()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="621">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="string Employee_Person.Spoken_Language" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="628">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string Employee_Person.Spoken_Language.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="630">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Employee_Person.Spoken_Language.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="634">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="74" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="8" />
+                          <Metric Name="ExecutableLines" Value="5" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="string Employee_Person._Spoken_Language" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="643">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Employee_Person.OnSpoken_LanguageChanging(string value)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="644">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Employee_Person.OnSpoken_LanguageChanged()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="645">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="int? Employee_Person.Override" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="652">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int? Employee_Person.Override.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="654">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Employee_Person.Override.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="658">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="75" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="8" />
+                          <Metric Name="ExecutableLines" Value="5" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="int? Employee_Person._Override" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="667">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Employee_Person.OnOverrideChanging(int? value)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="668">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Employee_Person.OnOverrideChanged()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="669">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="int? Employee_Person.Withdrawl" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="676">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int? Employee_Person.Withdrawl.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="678">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Employee_Person.Withdrawl.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="682">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="75" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="8" />
+                          <Metric Name="ExecutableLines" Value="5" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="int? Employee_Person._Withdrawl" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="691">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Employee_Person.OnWithdrawlChanging(int? value)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="692">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Employee_Person.OnWithdrawlChanged()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="693">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="HRSDEntities">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="90" />
+                  <Metric Name="CyclomaticComplexity" Value="7" />
+                  <Metric Name="ClassCoupling" Value="5" />
+                  <Metric Name="DepthOfInheritance" Value="2" />
+                  <Metric Name="SourceLines" Value="75" />
+                  <Metric Name="ExecutableLines" Value="10" />
+                </Metrics>
+                <Members>
+                  <Method Name="HRSDEntities.HRSDEntities()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="34">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="84" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="10" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="HRSDEntities.HRSDEntities(string connectionString)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="43">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="84" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="HRSDEntities.HRSDEntities(EntityConnection connection)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="52">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="84" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void HRSDEntities.OnContextCreated()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="62">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="ObjectSet&lt;Employee_Person&gt; HRSDEntities.Employee_Person" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="71">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="79" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="18" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="ObjectSet&lt;Employee_Person&gt; HRSDEntities.Employee_Person.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="73">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="79" />
+                          <Metric Name="CyclomaticComplexity" Value="2" />
+                          <Metric Name="ClassCoupling" Value="3" />
+                          <Metric Name="SourceLines" Value="8" />
+                          <Metric Name="ExecutableLines" Value="3" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="ObjectSet&lt;Employee_Person&gt; HRSDEntities._Employee_Person" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="82">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void HRSDEntities.AddToEmployee_Person(Employee_Person employee_Person)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\HRSDBirthdayFileExport\HRSDBirthdayFileExport\HRSD\HRSDModel.cs" Line="90">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="97" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="10" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

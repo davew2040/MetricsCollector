@@ -1,0 +1,1219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="PRDBAuditExtract.csproj">
+      <Assembly Name="PRDBAuditExtract, Version=1.0.0.11, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="68" />
+          <Metric Name="CyclomaticComplexity" Value="97" />
+          <Metric Name="ClassCoupling" Value="38" />
+          <Metric Name="DepthOfInheritance" Value="3" />
+          <Metric Name="SourceLines" Value="1343" />
+          <Metric Name="ExecutableLines" Value="368" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="PRDBAuditExtract">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="66" />
+              <Metric Name="CyclomaticComplexity" Value="91" />
+              <Metric Name="ClassCoupling" Value="26" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="1250" />
+              <Metric Name="ExecutableLines" Value="351" />
+            </Metrics>
+            <Types>
+              <NamedType Name="Helper">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="56" />
+                  <Metric Name="CyclomaticComplexity" Value="7" />
+                  <Metric Name="ClassCoupling" Value="9" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="147" />
+                  <Metric Name="ExecutableLines" Value="60" />
+                </Metrics>
+                <Members>
+                  <Field Name="string Helper.mModName" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\Helper.cs" Line="11">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Helper.LogException(string strModName, string strErrDesc, string strCurrRecord)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\Helper.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="45" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="77" />
+                      <Metric Name="ExecutableLines" Value="36" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Helper.GetDateForFile()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\Helper.cs" Line="91">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="51" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="46" />
+                      <Metric Name="ExecutableLines" Value="22" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Helper.GetSupportURL()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\Helper.cs" Line="146">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="14" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="ProviderAuditExtract">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="62" />
+                  <Metric Name="CyclomaticComplexity" Value="10" />
+                  <Metric Name="ClassCoupling" Value="14" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="182" />
+                  <Metric Name="ExecutableLines" Value="57" />
+                </Metrics>
+                <Members>
+                  <Field Name="string ProviderAuditExtract.mFileExt" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderAuditExtract.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ProviderAuditExtract.mModName" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderAuditExtract.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void ProviderAuditExtract.Main()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderAuditExtract.cs" Line="28">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="55" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="56" />
+                      <Metric Name="ExecutableLines" Value="17" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ProviderAuditExtract.DoExtract(string strFileName, int intExtractType)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderAuditExtract.cs" Line="85">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="61" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="50" />
+                      <Metric Name="ExecutableLines" Value="12" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool ProviderAuditExtract.DoBackUP(string strDirPath, string strFileName)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderAuditExtract.cs" Line="126">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="57" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="33" />
+                      <Metric Name="ExecutableLines" Value="14" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ProviderAuditExtract.DoCleanUP(string strDirPath)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderAuditExtract.cs" Line="160">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="59" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="32" />
+                      <Metric Name="ExecutableLines" Value="12" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="ProviderList">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="98" />
+                  <Metric Name="CyclomaticComplexity" Value="2" />
+                  <Metric Name="ClassCoupling" Value="0" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="30" />
+                  <Metric Name="ExecutableLines" Value="2" />
+                </Metrics>
+                <Members>
+                  <Field Name="string ProviderList.mPRDBID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderList.cs" Line="10">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="string ProviderList.ID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderList.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="24" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ProviderList.ID.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderList.cs" Line="26">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ProviderList.ID.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderList.cs" Line="30">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+              <NamedType Name="ProviderLOB">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="49" />
+                  <Metric Name="CyclomaticComplexity" Value="16" />
+                  <Metric Name="ClassCoupling" Value="7" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="133" />
+                  <Metric Name="ExecutableLines" Value="51" />
+                </Metrics>
+                <Members>
+                  <Field Name="string ProviderLOB.mModName" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderLOB.cs" Line="10">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="ProviderLOBInfo ProviderLOB.GetProviderLOBInfo(PSPPInfoLOBList piol, long PracticeID, string CSCProvID)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderLOB.cs" Line="23">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="39" />
+                      <Metric Name="CyclomaticComplexity" Value="16" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="127" />
+                      <Metric Name="ExecutableLines" Value="50" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="ProviderLOBInfo">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="84" />
+                  <Metric Name="CyclomaticComplexity" Value="10" />
+                  <Metric Name="ClassCoupling" Value="0" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="129" />
+                  <Metric Name="ExecutableLines" Value="10" />
+                </Metrics>
+                <Members>
+                  <Field Name="string ProviderLOBInfo.mCSCProvID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderLOBInfo.cs" Line="11">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ProviderLOBInfo.mCSCVendorID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderLOBInfo.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ProviderLOBInfo.mCSCSpecCode" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderLOBInfo.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ProviderLOBInfo.mPanelStatus" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderLOBInfo.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ProviderLOBInfo.mLOB" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderLOBInfo.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="string ProviderLOBInfo.CSCSpecCode" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderLOBInfo.cs" Line="32">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="26" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ProviderLOBInfo.CSCSpecCode.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderLOBInfo.cs" Line="34">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ProviderLOBInfo.CSCSpecCode.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderLOBInfo.cs" Line="38">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ProviderLOBInfo.LOB" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderLOBInfo.cs" Line="54">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="21" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ProviderLOBInfo.LOB.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderLOBInfo.cs" Line="56">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ProviderLOBInfo.LOB.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderLOBInfo.cs" Line="60">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ProviderLOBInfo.CSCProvID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderLOBInfo.cs" Line="80">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="21" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ProviderLOBInfo.CSCProvID.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderLOBInfo.cs" Line="82">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ProviderLOBInfo.CSCProvID.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderLOBInfo.cs" Line="86">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ProviderLOBInfo.CSCVendorID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderLOBInfo.cs" Line="101">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="21" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ProviderLOBInfo.CSCVendorID.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderLOBInfo.cs" Line="103">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ProviderLOBInfo.CSCVendorID.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderLOBInfo.cs" Line="107">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ProviderLOBInfo.PanelStatus" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderLOBInfo.cs" Line="123">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="21" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ProviderLOBInfo.PanelStatus.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderLOBInfo.cs" Line="125">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ProviderLOBInfo.PanelStatus.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderLOBInfo.cs" Line="129">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+              <NamedType Name="ProviderOffice">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="54" />
+                  <Metric Name="CyclomaticComplexity" Value="5" />
+                  <Metric Name="ClassCoupling" Value="6" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="79" />
+                  <Metric Name="ExecutableLines" Value="33" />
+                </Metrics>
+                <Members>
+                  <Field Name="string ProviderOffice.mModName" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOffice.cs" Line="11">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="ProviderOfficeInfo ProviderOffice.GetProviderOfficeInfo(ProviderInfoOfficeList piol, long PracticeID)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOffice.cs" Line="25">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="46" />
+                      <Metric Name="CyclomaticComplexity" Value="5" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="73" />
+                      <Metric Name="ExecutableLines" Value="32" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="ProviderOfficeInfo">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="82" />
+                  <Metric Name="CyclomaticComplexity" Value="30" />
+                  <Metric Name="ClassCoupling" Value="0" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="342" />
+                  <Metric Name="ExecutableLines" Value="30" />
+                </Metrics>
+                <Members>
+                  <Field Name="string ProviderOfficeInfo.mAddressLine1" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ProviderOfficeInfo.mAddressLine2" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ProviderOfficeInfo.mAddressLine3" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ProviderOfficeInfo.mCity" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ProviderOfficeInfo.mState" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ProviderOfficeInfo.mZip" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ProviderOfficeInfo.mAddressType" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ProviderOfficeInfo.mPhone" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="19">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ProviderOfficeInfo.mFaxPhone" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ProviderOfficeInfo.mAreaCodePhone" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="21">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ProviderOfficeInfo.mAreaCodeFax" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="long ProviderOfficeInfo.mOfficeID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="23">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="long ProviderOfficeInfo.mPracticeID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ProviderOfficeInfo.mRegionCode" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="25">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string ProviderOfficeInfo.mNPI" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="26">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="string ProviderOfficeInfo.NPI" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="47">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="30" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ProviderOfficeInfo.NPI.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="49">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ProviderOfficeInfo.NPI.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="53">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ProviderOfficeInfo.RegionCode" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="68">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="21" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ProviderOfficeInfo.RegionCode.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="70">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ProviderOfficeInfo.RegionCode.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="74">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="long ProviderOfficeInfo.PracticeID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="92">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="21" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="long ProviderOfficeInfo.PracticeID.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="94">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ProviderOfficeInfo.PracticeID.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="98">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="long ProviderOfficeInfo.OfficeID" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="113">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="21" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="long ProviderOfficeInfo.OfficeID.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="115">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ProviderOfficeInfo.OfficeID.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="119">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ProviderOfficeInfo.AddressLine1" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="137">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="19" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ProviderOfficeInfo.AddressLine1.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="139">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="3" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ProviderOfficeInfo.AddressLine1.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="142">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="3" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ProviderOfficeInfo.AddressLine2" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="157">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="19" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ProviderOfficeInfo.AddressLine2.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="159">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="3" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ProviderOfficeInfo.AddressLine2.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="162">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="3" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ProviderOfficeInfo.AddressLine3" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="177">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="19" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ProviderOfficeInfo.AddressLine3.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="179">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="3" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ProviderOfficeInfo.AddressLine3.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="182">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="3" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ProviderOfficeInfo.City" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="197">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="19" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ProviderOfficeInfo.City.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="199">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="3" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ProviderOfficeInfo.City.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="202">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="3" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ProviderOfficeInfo.State" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="216">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="19" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ProviderOfficeInfo.State.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="218">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="3" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ProviderOfficeInfo.State.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="221">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="3" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ProviderOfficeInfo.Zip" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="235">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="19" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ProviderOfficeInfo.Zip.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="237">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="3" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ProviderOfficeInfo.Zip.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="240">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="3" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ProviderOfficeInfo.AddressType" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="254">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="19" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ProviderOfficeInfo.AddressType.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="256">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="3" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ProviderOfficeInfo.AddressType.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="259">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="3" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ProviderOfficeInfo.AreaCodePhone" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="273">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="21" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ProviderOfficeInfo.AreaCodePhone.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="275">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ProviderOfficeInfo.AreaCodePhone.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="279">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ProviderOfficeInfo.Phone" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="294">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ProviderOfficeInfo.Phone.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="296">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ProviderOfficeInfo.Phone.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="300">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="3" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ProviderOfficeInfo.AreaCodeFax" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="316">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="21" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ProviderOfficeInfo.AreaCodeFax.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="318">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ProviderOfficeInfo.AreaCodeFax.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="322">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string ProviderOfficeInfo.FaxPhone" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="337">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="19" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ProviderOfficeInfo.FaxPhone.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="339">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="3" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ProviderOfficeInfo.FaxPhone.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderOfficeInfo.cs" Line="342">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="3" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+              <NamedType Name="ProviderPSPP">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="45" />
+                  <Metric Name="CyclomaticComplexity" Value="11" />
+                  <Metric Name="ClassCoupling" Value="11" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="179" />
+                  <Metric Name="ExecutableLines" Value="108" />
+                </Metrics>
+                <Members>
+                  <Field Name="string ProviderPSPP.mModName" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderPSPP.cs" Line="11">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void ProviderPSPP.GetProviderPSPPInfo(string strFileName, ProviderInfo provinfo, ProviderInfoPSPPList piol, ProviderInfoOfficeList piol2)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderPSPP.cs" Line="26">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="31" />
+                      <Metric Name="CyclomaticComplexity" Value="9" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="145" />
+                      <Metric Name="ExecutableLines" Value="99" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void ProviderPSPP.WriteFile(string varline, string strFileName)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\ProviderPSPP.cs" Line="159">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="65" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="26" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="PRDBAuditExtract.Properties">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="80" />
+              <Metric Name="CyclomaticComplexity" Value="6" />
+              <Metric Name="ClassCoupling" Value="12" />
+              <Metric Name="DepthOfInheritance" Value="3" />
+              <Metric Name="SourceLines" Value="93" />
+              <Metric Name="ExecutableLines" Value="17" />
+            </Metrics>
+            <Types>
+              <NamedType Name="Resources">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="75" />
+                  <Metric Name="CyclomaticComplexity" Value="5" />
+                  <Metric Name="ClassCoupling" Value="10" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="48" />
+                  <Metric Name="ExecutableLines" Value="13" />
+                </Metrics>
+                <Members>
+                  <Field Name="ResourceManager Resources.resourceMan" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\Properties\Resources.Designer.cs" Line="27">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="CultureInfo Resources.resourceCulture" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\Properties\Resources.Designer.cs" Line="29">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="Resources.Resources()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\Properties\Resources.Designer.cs" Line="32">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="3" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="ResourceManager Resources.ResourceManager" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\Properties\Resources.Designer.cs" Line="39">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="74" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="13" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="ResourceManager Resources.ResourceManager.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\Properties\Resources.Designer.cs" Line="40">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="74" />
+                          <Metric Name="CyclomaticComplexity" Value="2" />
+                          <Metric Name="ClassCoupling" Value="3" />
+                          <Metric Name="SourceLines" Value="7" />
+                          <Metric Name="ExecutableLines" Value="4" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="CultureInfo Resources.Culture" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\Properties\Resources.Designer.cs" Line="54">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="13" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="CultureInfo Resources.Culture.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\Properties\Resources.Designer.cs" Line="55">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="3" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Resources.Culture.set" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\Properties\Resources.Designer.cs" Line="58">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="3" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+              <NamedType Name="Settings">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="85" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="4" />
+                  <Metric Name="DepthOfInheritance" Value="3" />
+                  <Metric Name="SourceLines" Value="15" />
+                  <Metric Name="ExecutableLines" Value="4" />
+                </Metrics>
+                <Members>
+                  <Field Name="Settings Settings.defaultInstance" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\Properties\Settings.Designer.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="89" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="Settings Settings.Default" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\Properties\Settings.Designer.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="Settings Settings.Default.get" File="C:\Dev\Repos\TFSRoot\SHP\Applications\PRDBAuditExtract\PRDBAuditExtract\Properties\Settings.Designer.cs" Line="24">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

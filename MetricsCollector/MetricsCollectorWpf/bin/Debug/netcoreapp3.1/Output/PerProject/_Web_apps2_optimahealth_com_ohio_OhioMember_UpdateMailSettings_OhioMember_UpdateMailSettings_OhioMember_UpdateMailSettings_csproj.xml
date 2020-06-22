@@ -1,0 +1,1135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="OhioMember_UpdateMailSettings.csproj">
+      <Assembly Name="OhioMember_UpdateMailSettings, Version=1.0.0.12, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="77" />
+          <Metric Name="CyclomaticComplexity" Value="142" />
+          <Metric Name="ClassCoupling" Value="75" />
+          <Metric Name="DepthOfInheritance" Value="4" />
+          <Metric Name="SourceLines" Value="1409" />
+          <Metric Name="ExecutableLines" Value="333" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="OhioMember_UpdateMailSettings.Shared">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="77" />
+              <Metric Name="CyclomaticComplexity" Value="59" />
+              <Metric Name="ClassCoupling" Value="35" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="364" />
+              <Metric Name="ExecutableLines" Value="81" />
+            </Metrics>
+            <Types>
+              <NamedType Name="AuthTicket">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="14" />
+                  <Metric Name="ClassCoupling" Value="1" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="10" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+                <Members>
+                  <Property Name="int AuthTicket.Version" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\Shared\AuthTicket.cs" Line="7">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int AuthTicket.Version.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\Shared\AuthTicket.cs" Line="7">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void AuthTicket.Version.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\Shared\AuthTicket.cs" Line="7">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string AuthTicket.Name" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\Shared\AuthTicket.cs" Line="8">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string AuthTicket.Name.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\Shared\AuthTicket.cs" Line="8">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void AuthTicket.Name.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\Shared\AuthTicket.cs" Line="8">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DateTime AuthTicket.IssueDate" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\Shared\AuthTicket.cs" Line="9">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DateTime AuthTicket.IssueDate.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\Shared\AuthTicket.cs" Line="9">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void AuthTicket.IssueDate.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\Shared\AuthTicket.cs" Line="9">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DateTime AuthTicket.Expiration" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\Shared\AuthTicket.cs" Line="10">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DateTime AuthTicket.Expiration.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\Shared\AuthTicket.cs" Line="10">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void AuthTicket.Expiration.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\Shared\AuthTicket.cs" Line="10">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="bool AuthTicket.IsPersistent" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\Shared\AuthTicket.cs" Line="11">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="bool AuthTicket.IsPersistent.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\Shared\AuthTicket.cs" Line="11">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void AuthTicket.IsPersistent.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\Shared\AuthTicket.cs" Line="11">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string AuthTicket.UserData" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\Shared\AuthTicket.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string AuthTicket.UserData.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\Shared\AuthTicket.cs" Line="12">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void AuthTicket.UserData.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\Shared\AuthTicket.cs" Line="12">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string AuthTicket.CookiePath" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\Shared\AuthTicket.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string AuthTicket.CookiePath.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\Shared\AuthTicket.cs" Line="13">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void AuthTicket.CookiePath.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\Shared\AuthTicket.cs" Line="13">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+              <NamedType Name="Decryptor">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="60" />
+                  <Metric Name="CyclomaticComplexity" Value="12" />
+                  <Metric Name="ClassCoupling" Value="12" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="93" />
+                  <Metric Name="ExecutableLines" Value="30" />
+                </Metrics>
+                <Members>
+                  <Method Name="byte[] Decryptor.Decrypt(byte[] data, byte[] key)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\Shared\Decryptor.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="56" />
+                      <Metric Name="CyclomaticComplexity" Value="5" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="42" />
+                      <Metric Name="ExecutableLines" Value="15" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Decryptor.Decrypt(string data, string key)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\Shared\Decryptor.cs" Line="59">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="71" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="18" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="ICryptoTransform Decryptor.GetCryptoServiceProvider(byte[] key, byte[] IV)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\Shared\Decryptor.cs" Line="78">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="62" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="28" />
+                      <Metric Name="ExecutableLines" Value="10" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="Log">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="89" />
+                  <Metric Name="CyclomaticComplexity" Value="3" />
+                  <Metric Name="ClassCoupling" Value="4" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="36" />
+                  <Metric Name="ExecutableLines" Value="6" />
+                </Metrics>
+                <Members>
+                  <Field Name="ILog Log.logger" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\Shared\Log.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="90" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Log.LogError(string strErrorMessage)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\Shared\Log.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Log.LogInfo(string strInfoMessage)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\Shared\Log.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Log.LogElapsedTimeInfo(Stopwatch sw, string callInfo)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\Shared\Log.cs" Line="36">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="76" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="MemberHelpers">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="58" />
+                  <Metric Name="CyclomaticComplexity" Value="4" />
+                  <Metric Name="ClassCoupling" Value="15" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="36" />
+                  <Metric Name="ExecutableLines" Value="13" />
+                </Metrics>
+                <Members>
+                  <Method Name="MemberIdentity MemberHelpers.GetMemberIdentityByMbrID(string strMbrID)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\Shared\MemberHelpers.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="58" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="15" />
+                      <Metric Name="SourceLines" Value="33" />
+                      <Metric Name="ExecutableLines" Value="13" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="Utility">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="81" />
+                  <Metric Name="CyclomaticComplexity" Value="26" />
+                  <Metric Name="ClassCoupling" Value="5" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="174" />
+                  <Metric Name="ExecutableLines" Value="32" />
+                </Metrics>
+                <Members>
+                  <Method Name="string Utility.CheckStringForNull(object value)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\Shared\Utility.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="77" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="13" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool Utility.IsTimeCheckEnabled()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\Shared\Utility.cs" Line="30">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="85" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="11" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool Utility.IsTimeCheckLoggingEnabled()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\Shared\Utility.cs" Line="42">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="85" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="11" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool Utility.IsVerboseLoggingEnabled()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\Shared\Utility.cs" Line="54">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="84" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="12" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool Utility.IsAuditLoggingEnabled()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\Shared\Utility.cs" Line="67">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="84" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="12" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Utility.GetWebConfigValue(string configKey)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\Shared\Utility.cs" Line="81">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="78" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="14" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool Utility.IsElapsedTimeLoggingEnabled()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\Shared\Utility.cs" Line="95">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="84" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="11" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Utility.GetApplicationGUID()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\Shared\Utility.cs" Line="107">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="91" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Utility.GetApplicationName()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\Shared\Utility.cs" Line="116">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Utility.GetAuditLogType()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\Shared\Utility.cs" Line="125">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="91" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="int Utility.GetConnectionTimeout()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\Shared\Utility.cs" Line="133">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="91" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="int Utility.GetTimeCheckSeconds()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\Shared\Utility.cs" Line="142">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Utility.ReplaceSingleQuote(string strIn)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\Shared\Utility.cs" Line="147">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="92" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="double Utility.CheckDoubleForNull(object Value)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\Shared\Utility.cs" Line="152">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="77" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="SmartDate Utility.StringToSmartDate(object value)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\Shared\Utility.cs" Line="161">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="75" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="10" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="int Utility.CheckIntForNull(object value)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\Shared\Utility.cs" Line="172">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="77" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="OhioMember_UpdateMailSettings.UpdateMailSettings">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="78" />
+              <Metric Name="CyclomaticComplexity" Value="83" />
+              <Metric Name="ClassCoupling" Value="56" />
+              <Metric Name="DepthOfInheritance" Value="4" />
+              <Metric Name="SourceLines" Value="1045" />
+              <Metric Name="ExecutableLines" Value="252" />
+            </Metrics>
+            <Types>
+              <NamedType Name="UpdateMailSettings">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="4" />
+                  <Metric Name="DepthOfInheritance" Value="4" />
+                  <Metric Name="SourceLines" Value="27" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+                <Members>
+                  <Method Name="void UpdateMailSettings.Page_Load(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettings.aspx.cs" Line="8">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="HtmlForm UpdateMailSettings.form1" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettings.aspx.designer.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="UpdateMailSettingsControl UpdateMailSettings.updateMailSettingsCtrl" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettings.aspx.designer.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="UpdateMailSettingsControl">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="56" />
+                  <Metric Name="CyclomaticComplexity" Value="82" />
+                  <Metric Name="ClassCoupling" Value="54" />
+                  <Metric Name="DepthOfInheritance" Value="4" />
+                  <Metric Name="SourceLines" Value="986" />
+                  <Metric Name="ExecutableLines" Value="252" />
+                </Metrics>
+                <Members>
+                  <Field Name="string UpdateMailSettingsControl.MEMBER_LIST_TKN" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.cs" Line="19">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string UpdateMailSettingsControl.ERROR_PAGE_URL" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="AuthTicket UpdateMailSettingsControl._authTicket" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="MemberIdentity UpdateMailSettingsControl._currentMemberIdentity" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.cs" Line="23">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string UpdateMailSettingsControl._appName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.cs" Line="25">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string UpdateMailSettingsControl._appGuid" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.cs" Line="26">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="bool UpdateMailSettingsControl._useVerboseLogging" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.cs" Line="27">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="bool UpdateMailSettingsControl._useTimeCheck" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.cs" Line="28">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="bool UpdateMailSettingsControl._useTimeCheckLogging" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.cs" Line="29">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="int UpdateMailSettingsControl._timeCheckSeconds" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.cs" Line="30">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string UpdateMailSettingsControl.ChangeContactInfoUrl" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.cs" Line="32">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="90" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string UpdateMailSettingsControl.TermsOfUseUrl" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.cs" Line="33">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="90" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="bool UpdateMailSettingsControl.blnValidEmailAddress" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.cs" Line="35">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string UpdateMailSettingsControl.errMsg" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.cs" Line="36">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string UpdateMailSettingsControl.strEmailTo" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.cs" Line="37">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string UpdateMailSettingsControl.txtMemberEmailAddress" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.cs" Line="38">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string UpdateMailSettingsControl.txterrormsg" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.cs" Line="39">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string UpdateMailSettingsControl.txtradbuttonval" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.cs" Line="40">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="string UpdateMailSettingsControl.AuthType" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.cs" Line="42">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string UpdateMailSettingsControl.AuthType.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.cs" Line="44">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="93" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="3" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="AuthTicket UpdateMailSettingsControl.AuthTicket" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.cs" Line="50">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="63" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="29" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="AuthTicket UpdateMailSettingsControl.AuthTicket.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.cs" Line="52">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="63" />
+                          <Metric Name="CyclomaticComplexity" Value="3" />
+                          <Metric Name="ClassCoupling" Value="7" />
+                          <Metric Name="SourceLines" Value="23" />
+                          <Metric Name="ExecutableLines" Value="9" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Method Name="void UpdateMailSettingsControl.Page_Load(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.cs" Line="77">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="52" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="11" />
+                      <Metric Name="SourceLines" Value="49" />
+                      <Metric Name="ExecutableLines" Value="21" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void UpdateMailSettingsControl.GetConfigValues()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.cs" Line="130">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="69" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="13" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void UpdateMailSettingsControl.AuthenticateUser()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.cs" Line="144">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="62" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="33" />
+                      <Metric Name="ExecutableLines" Value="11" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void UpdateMailSettingsControl.ValidateAuthenticationTicket(AuthTicket authTicket)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.cs" Line="179">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="50" />
+                      <Metric Name="CyclomaticComplexity" Value="8" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="51" />
+                      <Metric Name="ExecutableLines" Value="23" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void UpdateMailSettingsControl.CreateApplicationContext()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.cs" Line="230">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="79" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="14" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool UpdateMailSettingsControl.ValidateLOB()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.cs" Line="246">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="56" />
+                      <Metric Name="CyclomaticComplexity" Value="5" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="44" />
+                      <Metric Name="ExecutableLines" Value="16" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void UpdateMailSettingsControl.BuildMemberList()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.cs" Line="296">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="59" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="13" />
+                      <Metric Name="SourceLines" Value="40" />
+                      <Metric Name="ExecutableLines" Value="12" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void UpdateMailSettingsControl.btnSelectMembers_Click(object sender, ImageClickEventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.cs" Line="340">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="56" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="47" />
+                      <Metric Name="ExecutableLines" Value="15" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="MemberIdentity[] UpdateMailSettingsControl.GetSelectedMembers()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.cs" Line="386">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="48" />
+                      <Metric Name="CyclomaticComplexity" Value="7" />
+                      <Metric Name="ClassCoupling" Value="13" />
+                      <Metric Name="SourceLines" Value="71" />
+                      <Metric Name="ExecutableLines" Value="26" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void UpdateMailSettingsControl.BindCurrentMemberEmail(MemberIdentity member)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.cs" Line="459">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="60" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="41" />
+                      <Metric Name="ExecutableLines" Value="11" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool UpdateMailSettingsControl.ValidateCriteria()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.cs" Line="499">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="50" />
+                      <Metric Name="CyclomaticComplexity" Value="10" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="60" />
+                      <Metric Name="ExecutableLines" Value="22" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void UpdateMailSettingsControl.btnSubmitChanges_Click(object sender, ImageClickEventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.cs" Line="562">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="73" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="23" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void UpdateMailSettingsControl.LoadPrivayFlags()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.cs" Line="584">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="56" />
+                      <Metric Name="CyclomaticComplexity" Value="7" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="48" />
+                      <Metric Name="ExecutableLines" Value="15" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void UpdateMailSettingsControl.ShowTransactionConfirmation(MemberIdentity[] members)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.cs" Line="635">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="40" />
+                      <Metric Name="CyclomaticComplexity" Value="15" />
+                      <Metric Name="ClassCoupling" Value="16" />
+                      <Metric Name="SourceLines" Value="115" />
+                      <Metric Name="ExecutableLines" Value="42" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="MemberIdentity UpdateMailSettingsControl.GetCurrentMemberIdentity()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.cs" Line="744">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="58" />
+                      <Metric Name="CyclomaticComplexity" Value="7" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="35" />
+                      <Metric Name="ExecutableLines" Value="12" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="Panel UpdateMailSettingsControl.pnlError" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.designer.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label UpdateMailSettingsControl.lblError" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.designer.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel UpdateMailSettingsControl.pnlFirstTime" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.designer.cs" Line="40">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Repeater UpdateMailSettingsControl.rptrMemberList" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.designer.cs" Line="49">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="ImageButton UpdateMailSettingsControl.btnSelectMembers" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.designer.cs" Line="58">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel UpdateMailSettingsControl.pnlPersonalPreferences" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.designer.cs" Line="67">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Repeater UpdateMailSettingsControl.rptrMemberList2" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.designer.cs" Line="76">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RadioButton UpdateMailSettingsControl.rbEOBElec" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.designer.cs" Line="85">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RadioButton UpdateMailSettingsControl.rbEOBMail" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.designer.cs" Line="94">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RadioButton UpdateMailSettingsControl.rbSOBElec" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.designer.cs" Line="103">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RadioButton UpdateMailSettingsControl.rbSOBMail" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.designer.cs" Line="112">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RadioButton UpdateMailSettingsControl.rbOtherElec" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.designer.cs" Line="121">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="RadioButton UpdateMailSettingsControl.rbOtherMail" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.designer.cs" Line="130">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="CheckBox UpdateMailSettingsControl.chkAccept" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.designer.cs" Line="139">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="ImageButton UpdateMailSettingsControl.btnSubmitChanges" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.designer.cs" Line="148">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel UpdateMailSettingsControl.pnlConfirmation" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.designer.cs" Line="157">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel UpdateMailSettingsControl.pnlSubmitConfirmation" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.designer.cs" Line="166">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label UpdateMailSettingsControl.lblMembers" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.designer.cs" Line="175">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Image UpdateMailSettingsControl.imgEOBElec" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.designer.cs" Line="184">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Image UpdateMailSettingsControl.imgEOBMail" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.designer.cs" Line="193">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Image UpdateMailSettingsControl.imgSOBElec" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.designer.cs" Line="202">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Image UpdateMailSettingsControl.imgSOBMail" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.designer.cs" Line="211">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Image UpdateMailSettingsControl.imgOtherElec" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.designer.cs" Line="220">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Image UpdateMailSettingsControl.imgOtherMail" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.designer.cs" Line="229">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label UpdateMailSettingsControl.lblConfirmationNumber" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\ohio\OhioMember_UpdateMailSettings\OhioMember_UpdateMailSettings\UpdateMailSettings\UpdateMailSettingsControl.ascx.designer.cs" Line="238">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

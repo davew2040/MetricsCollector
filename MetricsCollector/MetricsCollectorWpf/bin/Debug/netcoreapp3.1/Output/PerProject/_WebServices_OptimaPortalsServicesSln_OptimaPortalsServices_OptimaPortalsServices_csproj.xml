@@ -1,0 +1,685 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="OptimaPortalsServices.csproj">
+      <Assembly Name="OptimaPortalsServices, Version=1.0.0.65, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="54" />
+          <Metric Name="CyclomaticComplexity" Value="114" />
+          <Metric Name="ClassCoupling" Value="76" />
+          <Metric Name="DepthOfInheritance" Value="3" />
+          <Metric Name="SourceLines" Value="1710" />
+          <Metric Name="ExecutableLines" Value="773" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="Sentara.WebServices.OptimaPortalsServices">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="54" />
+              <Metric Name="CyclomaticComplexity" Value="114" />
+              <Metric Name="ClassCoupling" Value="76" />
+              <Metric Name="DepthOfInheritance" Value="3" />
+              <Metric Name="SourceLines" Value="1710" />
+              <Metric Name="ExecutableLines" Value="773" />
+            </Metrics>
+            <Types>
+              <NamedType Name="AffiliateRegistration">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="59" />
+                  <Metric Name="CyclomaticComplexity" Value="29" />
+                  <Metric Name="ClassCoupling" Value="25" />
+                  <Metric Name="DepthOfInheritance" Value="3" />
+                  <Metric Name="SourceLines" Value="330" />
+                  <Metric Name="ExecutableLines" Value="113" />
+                </Metrics>
+                <Members>
+                  <Field Name="string AffiliateRegistration.AppName" File="C:\Dev\Repos\TFSRoot\SHP\WebServices\OptimaPortalsServicesSln\OptimaPortalsServices\AffiliateRegistration.asmx.cs" Line="34">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string AffiliateRegistration.AppGuid" File="C:\Dev\Repos\TFSRoot\SHP\WebServices\OptimaPortalsServicesSln\OptimaPortalsServices\AffiliateRegistration.asmx.cs" Line="35">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="bool AffiliateRegistration.IsValidToRegister(string AffiliateNumber)" File="C:\Dev\Repos\TFSRoot\SHP\WebServices\OptimaPortalsServicesSln\OptimaPortalsServices\AffiliateRegistration.asmx.cs" Line="43">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="60" />
+                      <Metric Name="CyclomaticComplexity" Value="7" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="46" />
+                      <Metric Name="ExecutableLines" Value="13" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string AffiliateRegistration.RelationshipList(string AffiliateNumber)" File="C:\Dev\Repos\TFSRoot\SHP\WebServices\OptimaPortalsServicesSln\OptimaPortalsServices\AffiliateRegistration.asmx.cs" Line="89">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="66" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="25" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string AffiliateRegistration.ValidateRegistration(string AffiliateNumber, string SSN, DateTime DOB)" File="C:\Dev\Repos\TFSRoot\SHP\WebServices\OptimaPortalsServicesSln\OptimaPortalsServices\AffiliateRegistration.asmx.cs" Line="117">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="53" />
+                      <Metric Name="CyclomaticComplexity" Value="7" />
+                      <Metric Name="ClassCoupling" Value="8" />
+                      <Metric Name="SourceLines" Value="58" />
+                      <Metric Name="ExecutableLines" Value="20" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string AffiliateRegistration.RegisterUser(string LoginId, string NewPassword, int SQ, string SA, string emailAddress)" File="C:\Dev\Repos\TFSRoot\SHP\WebServices\OptimaPortalsServicesSln\OptimaPortalsServices\AffiliateRegistration.asmx.cs" Line="177">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="49" />
+                      <Metric Name="CyclomaticComplexity" Value="8" />
+                      <Metric Name="ClassCoupling" Value="8" />
+                      <Metric Name="SourceLines" Value="79" />
+                      <Metric Name="ExecutableLines" Value="30" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="Person AffiliateRegistration.GetPersonByAffiliateNumber(string AffiliateNumber)" File="C:\Dev\Repos\TFSRoot\SHP\WebServices\OptimaPortalsServicesSln\OptimaPortalsServices\AffiliateRegistration.asmx.cs" Line="253">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="65" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="28" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void AffiliateRegistration.SavePerson(ref Person p)" File="C:\Dev\Repos\TFSRoot\SHP\WebServices\OptimaPortalsServicesSln\OptimaPortalsServices\AffiliateRegistration.asmx.cs" Line="282">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="67" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="36" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool AffiliateRegistration.AlreadyActivated(string loginid)" File="C:\Dev\Repos\TFSRoot\SHP\WebServices\OptimaPortalsServicesSln\OptimaPortalsServices\AffiliateRegistration.asmx.cs" Line="320">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="56" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="38" />
+                      <Metric Name="ExecutableLines" Value="16" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="BrokerGroupInfo">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="50" />
+                  <Metric Name="CyclomaticComplexity" Value="4" />
+                  <Metric Name="ClassCoupling" Value="20" />
+                  <Metric Name="DepthOfInheritance" Value="3" />
+                  <Metric Name="SourceLines" Value="102" />
+                  <Metric Name="ExecutableLines" Value="53" />
+                </Metrics>
+                <Members>
+                  <Method Name="string BrokerGroupInfo.GetGroupOutstandingAR(string sBrokerID, string sARAge)" File="C:\Dev\Repos\TFSRoot\SHP\WebServices\OptimaPortalsServicesSln\OptimaPortalsServices\BrokerGroupInfo.asmx.cs" Line="23">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="52" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="13" />
+                      <Metric Name="SourceLines" Value="44" />
+                      <Metric Name="ExecutableLines" Value="22" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string BrokerGroupInfo.GetGroupOutstandingARDetail(string sBrokerID, string sARAge, string sGroupID)" File="C:\Dev\Repos\TFSRoot\SHP\WebServices\OptimaPortalsServicesSln\OptimaPortalsServices\BrokerGroupInfo.asmx.cs" Line="67">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="51" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="13" />
+                      <Metric Name="SourceLines" Value="47" />
+                      <Metric Name="ExecutableLines" Value="25" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="BrokerR2WAccess">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="51" />
+                  <Metric Name="CyclomaticComplexity" Value="3" />
+                  <Metric Name="ClassCoupling" Value="18" />
+                  <Metric Name="DepthOfInheritance" Value="3" />
+                  <Metric Name="SourceLines" Value="46" />
+                  <Metric Name="ExecutableLines" Value="24" />
+                </Metrics>
+                <Members>
+                  <Method Name="string BrokerR2WAccess.GetBrokerR2WAccess(string sBrokerID)" File="C:\Dev\Repos\TFSRoot\SHP\WebServices\OptimaPortalsServicesSln\OptimaPortalsServices\BrokerR2WAccess.asmx.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="55" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="13" />
+                      <Metric Name="SourceLines" Value="37" />
+                      <Metric Name="ExecutableLines" Value="18" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="EmployerGroupAR">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="50" />
+                  <Metric Name="CyclomaticComplexity" Value="4" />
+                  <Metric Name="ClassCoupling" Value="20" />
+                  <Metric Name="DepthOfInheritance" Value="3" />
+                  <Metric Name="SourceLines" Value="99" />
+                  <Metric Name="ExecutableLines" Value="50" />
+                </Metrics>
+                <Members>
+                  <Method Name="string EmployerGroupAR.GetEmpGroupOutstandingAR(string sEmpGroupIDs)" File="C:\Dev\Repos\TFSRoot\SHP\WebServices\OptimaPortalsServicesSln\OptimaPortalsServices\EmployerGroupAR.asmx.cs" Line="23">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="53" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="13" />
+                      <Metric Name="SourceLines" Value="43" />
+                      <Metric Name="ExecutableLines" Value="21" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string EmployerGroupAR.GetGroupOutstandingARDetail(string sEmpGroupIDs)" File="C:\Dev\Repos\TFSRoot\SHP\WebServices\OptimaPortalsServicesSln\OptimaPortalsServices\EmployerGroupAR.asmx.cs" Line="66">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="52" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="13" />
+                      <Metric Name="SourceLines" Value="45" />
+                      <Metric Name="ExecutableLines" Value="23" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="EmployerPaymentInformation">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="56" />
+                  <Metric Name="CyclomaticComplexity" Value="2" />
+                  <Metric Name="ClassCoupling" Value="18" />
+                  <Metric Name="DepthOfInheritance" Value="3" />
+                  <Metric Name="SourceLines" Value="79" />
+                  <Metric Name="ExecutableLines" Value="33" />
+                </Metrics>
+                <Members>
+                  <Method Name="string EmployerPaymentInformation.GetEmployerPaymentConfirmation(string sAcctName, string sRoutingNum, string sAcctNum, string sAcctType, string sDraftAmt, string sNote)" File="C:\Dev\Repos\TFSRoot\SHP\WebServices\OptimaPortalsServicesSln\OptimaPortalsServices\EmployerPaymentInformation.asmx.cs" Line="23">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="57" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="12" />
+                      <Metric Name="SourceLines" Value="35" />
+                      <Metric Name="ExecutableLines" Value="15" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string EmployerPaymentInformation.InsertEmployerPayment(string sEmpGroupID, string sInvoiceNum, string sInvoiceAmt, string sInvoicePaidAmt, string sConfirmationNum, string sUserID, string sInvoiceDate)" File="C:\Dev\Repos\TFSRoot\SHP\WebServices\OptimaPortalsServicesSln\OptimaPortalsServices\EmployerPaymentInformation.asmx.cs" Line="58">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="59" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="12" />
+                      <Metric Name="SourceLines" Value="33" />
+                      <Metric Name="ExecutableLines" Value="12" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="EOC">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="60" />
+                  <Metric Name="CyclomaticComplexity" Value="21" />
+                  <Metric Name="ClassCoupling" Value="25" />
+                  <Metric Name="DepthOfInheritance" Value="3" />
+                  <Metric Name="SourceLines" Value="172" />
+                  <Metric Name="ExecutableLines" Value="78" />
+                </Metrics>
+                <Members>
+                  <Field Name="int EOC.LOGON_TYPE_INTERACTIVE" File="C:\Dev\Repos\TFSRoot\SHP\WebServices\OptimaPortalsServicesSln\OptimaPortalsServices\EOC.asmx.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="int EOC.LOGON_TYPE_PROVIDER_DEFAULT" File="C:\Dev\Repos\TFSRoot\SHP\WebServices\OptimaPortalsServicesSln\OptimaPortalsServices\EOC.asmx.cs" Line="26">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string EOC.strEOC_PDF_PATH" File="C:\Dev\Repos\TFSRoot\SHP\WebServices\OptimaPortalsServicesSln\OptimaPortalsServices\EOC.asmx.cs" Line="28">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string EOC.strEOC_PDF_VD" File="C:\Dev\Repos\TFSRoot\SHP\WebServices\OptimaPortalsServicesSln\OptimaPortalsServices\EOC.asmx.cs" Line="29">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string EOC.strImpAccount" File="C:\Dev\Repos\TFSRoot\SHP\WebServices\OptimaPortalsServicesSln\OptimaPortalsServices\EOC.asmx.cs" Line="30">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string EOC.strImpDomain" File="C:\Dev\Repos\TFSRoot\SHP\WebServices\OptimaPortalsServicesSln\OptimaPortalsServices\EOC.asmx.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string EOC.strImpPassword" File="C:\Dev\Repos\TFSRoot\SHP\WebServices\OptimaPortalsServicesSln\OptimaPortalsServices\EOC.asmx.cs" Line="32">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="bool EOC.LogonUser(string lpszUsername, string lpszDomain, string lpszPassword, int dwLogonType, int dwLogonProvider, ref IntPtr phToken)" File="C:\Dev\Repos\TFSRoot\SHP\WebServices\OptimaPortalsServicesSln\OptimaPortalsServices\EOC.asmx.cs" Line="35">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="82" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="2" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool EOC.CloseHandle(IntPtr handle)" File="C:\Dev\Repos\TFSRoot\SHP\WebServices\OptimaPortalsServicesSln\OptimaPortalsServices\EOC.asmx.cs" Line="38">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="85" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="2" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string EOC.GetEOCPDF(string strGroupID, string type)" File="C:\Dev\Repos\TFSRoot\SHP\WebServices\OptimaPortalsServicesSln\OptimaPortalsServices\EOC.asmx.cs" Line="41">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="38" />
+                      <Metric Name="CyclomaticComplexity" Value="16" />
+                      <Metric Name="ClassCoupling" Value="16" />
+                      <Metric Name="SourceLines" Value="120" />
+                      <Metric Name="ExecutableLines" Value="53" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string EOC.GetLatest(ArrayList fileArray)" File="C:\Dev\Repos\TFSRoot\SHP\WebServices\OptimaPortalsServicesSln\OptimaPortalsServices\EOC.asmx.cs" Line="161">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="61" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="26" />
+                      <Metric Name="ExecutableLines" Value="11" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="Global">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="95" />
+                  <Metric Name="CyclomaticComplexity" Value="8" />
+                  <Metric Name="ClassCoupling" Value="5" />
+                  <Metric Name="DepthOfInheritance" Value="2" />
+                  <Metric Name="SourceLines" Value="56" />
+                  <Metric Name="ExecutableLines" Value="8" />
+                </Metrics>
+                <Members>
+                  <Method Name="void Global.Application_Start(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\WebServices\OptimaPortalsServicesSln\OptimaPortalsServices\Global.asax.cs" Line="11">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="69" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="22" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Global.Session_Start(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\WebServices\OptimaPortalsServicesSln\OptimaPortalsServices\Global.asax.cs" Line="34">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Global.Application_BeginRequest(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\WebServices\OptimaPortalsServicesSln\OptimaPortalsServices\Global.asax.cs" Line="39">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Global.Application_AuthenticateRequest(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\WebServices\OptimaPortalsServicesSln\OptimaPortalsServices\Global.asax.cs" Line="44">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Global.Application_Error(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\WebServices\OptimaPortalsServicesSln\OptimaPortalsServices\Global.asax.cs" Line="49">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Global.Session_End(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\WebServices\OptimaPortalsServicesSln\OptimaPortalsServices\Global.asax.cs" Line="54">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Global.Application_End(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\WebServices\OptimaPortalsServicesSln\OptimaPortalsServices\Global.asax.cs" Line="59">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="InsuranceGroup">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="46" />
+                  <Metric Name="CyclomaticComplexity" Value="8" />
+                  <Metric Name="ClassCoupling" Value="22" />
+                  <Metric Name="DepthOfInheritance" Value="3" />
+                  <Metric Name="SourceLines" Value="118" />
+                  <Metric Name="ExecutableLines" Value="70" />
+                </Metrics>
+                <Members>
+                  <Method Name="string InsuranceGroup.GetInsuranceGroup(string groupId, int personId)" File="C:\Dev\Repos\TFSRoot\SHP\WebServices\OptimaPortalsServicesSln\OptimaPortalsServices\InsuranceGroup.asmx.cs" Line="19">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="42" />
+                      <Metric Name="CyclomaticComplexity" Value="6" />
+                      <Metric Name="ClassCoupling" Value="15" />
+                      <Metric Name="SourceLines" Value="73" />
+                      <Metric Name="ExecutableLines" Value="45" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string InsuranceGroup.GetBrokerAssignedGroups(string sBrokerID)" File="C:\Dev\Repos\TFSRoot\SHP\WebServices\OptimaPortalsServicesSln\OptimaPortalsServices\InsuranceGroup.asmx.cs" Line="93">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="54" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="13" />
+                      <Metric Name="SourceLines" Value="33" />
+                      <Metric Name="ExecutableLines" Value="19" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="MemberAccumSummary">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="48" />
+                  <Metric Name="CyclomaticComplexity" Value="3" />
+                  <Metric Name="ClassCoupling" Value="19" />
+                  <Metric Name="DepthOfInheritance" Value="3" />
+                  <Metric Name="SourceLines" Value="53" />
+                  <Metric Name="ExecutableLines" Value="29" />
+                </Metrics>
+                <Members>
+                  <Method Name="string MemberAccumSummary.GetMemberAccumSummary(string sMemberID, string sSumDate)" File="C:\Dev\Repos\TFSRoot\SHP\WebServices\OptimaPortalsServicesSln\OptimaPortalsServices\MemberAccumSummary.asmx.cs" Line="23">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="52" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="14" />
+                      <Metric Name="SourceLines" Value="43" />
+                      <Metric Name="ExecutableLines" Value="23" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="MemberEligibilitySearch">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="34" />
+                  <Metric Name="CyclomaticComplexity" Value="2" />
+                  <Metric Name="ClassCoupling" Value="19" />
+                  <Metric Name="DepthOfInheritance" Value="3" />
+                  <Metric Name="SourceLines" Value="150" />
+                  <Metric Name="ExecutableLines" Value="90" />
+                </Metrics>
+                <Members>
+                  <Method Name="string MemberEligibilitySearch.GetMemberEligibility(string sMemberID, string sDOB, string sLastName, string sFirstName, string sSSN, string sDateOfService, string sUser, string X12Version)" File="C:\Dev\Repos\TFSRoot\SHP\WebServices\OptimaPortalsServicesSln\OptimaPortalsServices\MemberEligibilitySearch.asmx.cs" Line="23">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="35" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="14" />
+                      <Metric Name="SourceLines" Value="140" />
+                      <Metric Name="ExecutableLines" Value="84" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="MemberIdentity">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="48" />
+                  <Metric Name="CyclomaticComplexity" Value="20" />
+                  <Metric Name="ClassCoupling" Value="27" />
+                  <Metric Name="DepthOfInheritance" Value="3" />
+                  <Metric Name="SourceLines" Value="280" />
+                  <Metric Name="ExecutableLines" Value="138" />
+                </Metrics>
+                <Members>
+                  <Field Name="int MemberIdentity.identityCount" File="C:\Dev\Repos\TFSRoot\SHP\WebServices\OptimaPortalsServicesSln\OptimaPortalsServices\MemberIdentity.asmx.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="string MemberIdentity.GetSpecificMember(int personId, string memberId)" File="C:\Dev\Repos\TFSRoot\SHP\WebServices\OptimaPortalsServicesSln\OptimaPortalsServices\MemberIdentity.asmx.cs" Line="21">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="60" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="10" />
+                      <Metric Name="SourceLines" Value="32" />
+                      <Metric Name="ExecutableLines" Value="12" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string MemberIdentity.GetMember(int personId, bool defaultIdentity)" File="C:\Dev\Repos\TFSRoot\SHP\WebServices\OptimaPortalsServicesSln\OptimaPortalsServices\MemberIdentity.asmx.cs" Line="54">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="59" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="10" />
+                      <Metric Name="SourceLines" Value="38" />
+                      <Metric Name="ExecutableLines" Value="13" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string MemberIdentity.LoadMemberData(MemberIdentity mi)" File="C:\Dev\Repos\TFSRoot\SHP\WebServices\OptimaPortalsServicesSln\OptimaPortalsServices\MemberIdentity.asmx.cs" Line="92">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="40" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="14" />
+                      <Metric Name="SourceLines" Value="79" />
+                      <Metric Name="ExecutableLines" Value="59" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="MemberIdentity MemberIdentity.GetDefaultIdentity(Member mr)" File="C:\Dev\Repos\TFSRoot\SHP\WebServices\OptimaPortalsServicesSln\OptimaPortalsServices\MemberIdentity.asmx.cs" Line="172">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="53" />
+                      <Metric Name="CyclomaticComplexity" Value="5" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="50" />
+                      <Metric Name="ExecutableLines" Value="22" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="MemberIdentity[] MemberIdentity.GetFilteredMemberIdentities(Member mr)" File="C:\Dev\Repos\TFSRoot\SHP\WebServices\OptimaPortalsServicesSln\OptimaPortalsServices\MemberIdentity.asmx.cs" Line="223">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="49" />
+                      <Metric Name="CyclomaticComplexity" Value="8" />
+                      <Metric Name="ClassCoupling" Value="13" />
+                      <Metric Name="SourceLines" Value="66" />
+                      <Metric Name="ExecutableLines" Value="26" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="MemberList">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="50" />
+                  <Metric Name="CyclomaticComplexity" Value="3" />
+                  <Metric Name="ClassCoupling" Value="19" />
+                  <Metric Name="DepthOfInheritance" Value="3" />
+                  <Metric Name="SourceLines" Value="53" />
+                  <Metric Name="ExecutableLines" Value="27" />
+                </Metrics>
+                <Members>
+                  <Method Name="string MemberList.GetMemberList(int personId)" File="C:\Dev\Repos\TFSRoot\SHP\WebServices\OptimaPortalsServicesSln\OptimaPortalsServices\MemberList.asmx.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="53" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="14" />
+                      <Metric Name="SourceLines" Value="43" />
+                      <Metric Name="ExecutableLines" Value="21" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="SBCCostCalc">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="49" />
+                  <Metric Name="CyclomaticComplexity" Value="2" />
+                  <Metric Name="ClassCoupling" Value="18" />
+                  <Metric Name="DepthOfInheritance" Value="3" />
+                  <Metric Name="SourceLines" Value="52" />
+                  <Metric Name="ExecutableLines" Value="26" />
+                </Metrics>
+                <Members>
+                  <Method Name="string SBCCostCalc.GetSBCCostCalc(string BaseBen, string Scenario, string RxBenefit, string RxBenefitDeductible, string OOPLimit, string DeductibleLimit, string CategoryData)" File="C:\Dev\Repos\TFSRoot\SHP\WebServices\OptimaPortalsServicesSln\OptimaPortalsServices\SBCCostCalc.asmx.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="53" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="13" />
+                      <Metric Name="SourceLines" Value="41" />
+                      <Metric Name="ExecutableLines" Value="20" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="SOB">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="68" />
+                  <Metric Name="CyclomaticComplexity" Value="5" />
+                  <Metric Name="ClassCoupling" Value="20" />
+                  <Metric Name="DepthOfInheritance" Value="3" />
+                  <Metric Name="SourceLines" Value="73" />
+                  <Metric Name="ExecutableLines" Value="34" />
+                </Metrics>
+                <Members>
+                  <Field Name="int SOB.LOGON_TYPE_INTERACTIVE" File="C:\Dev\Repos\TFSRoot\SHP\WebServices\OptimaPortalsServicesSln\OptimaPortalsServices\SOB.asmx.cs" Line="23">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="int SOB.LOGON_TYPE_PROVIDER_DEFAULT" File="C:\Dev\Repos\TFSRoot\SHP\WebServices\OptimaPortalsServicesSln\OptimaPortalsServices\SOB.asmx.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string SOB.strImpAccount" File="C:\Dev\Repos\TFSRoot\SHP\WebServices\OptimaPortalsServicesSln\OptimaPortalsServices\SOB.asmx.cs" Line="26">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string SOB.strImpDomain" File="C:\Dev\Repos\TFSRoot\SHP\WebServices\OptimaPortalsServicesSln\OptimaPortalsServices\SOB.asmx.cs" Line="27">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string SOB.strImpPassword" File="C:\Dev\Repos\TFSRoot\SHP\WebServices\OptimaPortalsServicesSln\OptimaPortalsServices\SOB.asmx.cs" Line="28">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="bool SOB.LogonUser(string lpszUsername, string lpszDomain, string lpszPassword, int dwLogonType, int dwLogonProvider, ref IntPtr phToken)" File="C:\Dev\Repos\TFSRoot\SHP\WebServices\OptimaPortalsServicesSln\OptimaPortalsServices\SOB.asmx.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="82" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="2" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool SOB.CloseHandle(IntPtr handle)" File="C:\Dev\Repos\TFSRoot\SHP\WebServices\OptimaPortalsServicesSln\OptimaPortalsServices\SOB.asmx.cs" Line="34">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="85" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="2" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string SOB.SOBExists(string strSOB)" File="C:\Dev\Repos\TFSRoot\SHP\WebServices\OptimaPortalsServicesSln\OptimaPortalsServices\SOB.asmx.cs" Line="37">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="52" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="11" />
+                      <Metric Name="SourceLines" Value="51" />
+                      <Metric Name="ExecutableLines" Value="21" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

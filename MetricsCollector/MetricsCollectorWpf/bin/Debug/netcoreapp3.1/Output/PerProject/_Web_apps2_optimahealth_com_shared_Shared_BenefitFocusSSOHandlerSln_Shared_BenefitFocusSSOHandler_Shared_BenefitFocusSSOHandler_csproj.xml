@@ -1,0 +1,2586 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="Shared_BenefitFocusSSOHandler.csproj">
+      <Assembly Name="Shared_BenefitFocusSSOHandler, Version=1.0.0.22, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="72" />
+          <Metric Name="CyclomaticComplexity" Value="270" />
+          <Metric Name="ClassCoupling" Value="103" />
+          <Metric Name="DepthOfInheritance" Value="4" />
+          <Metric Name="SourceLines" Value="1875" />
+          <Metric Name="ExecutableLines" Value="589" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="Shared_BenefitFocusSSOHandler.BenefitFocusSSO">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="60" />
+              <Metric Name="CyclomaticComplexity" Value="114" />
+              <Metric Name="ClassCoupling" Value="73" />
+              <Metric Name="DepthOfInheritance" Value="4" />
+              <Metric Name="SourceLines" Value="1264" />
+              <Metric Name="ExecutableLines" Value="400" />
+            </Metrics>
+            <Types>
+              <NamedType Name="BenefitFocusSSOHandler">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="53" />
+                  <Metric Name="CyclomaticComplexity" Value="31" />
+                  <Metric Name="ClassCoupling" Value="31" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="227" />
+                  <Metric Name="ExecutableLines" Value="84" />
+                </Metrics>
+                <Members>
+                  <Field Name="MultiStringDictionary BenefitFocusSSOHandler.dUserInfo" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\BenefitFocusSSOHandler.ashx.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void BenefitFocusSSOHandler.ProcessRequest(HttpContext context)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\BenefitFocusSSOHandler.ashx.cs" Line="26">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="37" />
+                      <Metric Name="CyclomaticComplexity" Value="20" />
+                      <Metric Name="ClassCoupling" Value="18" />
+                      <Metric Name="SourceLines" Value="132" />
+                      <Metric Name="ExecutableLines" Value="52" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void BenefitFocusSSOHandler.HandleIdPSSORequest(HttpContext context, HttpResponse response)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\BenefitFocusSSOHandler.ashx.cs" Line="159">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="54" />
+                      <Metric Name="CyclomaticComplexity" Value="7" />
+                      <Metric Name="ClassCoupling" Value="10" />
+                      <Metric Name="SourceLines" Value="40" />
+                      <Metric Name="ExecutableLines" Value="18" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string BenefitFocusSSOHandler.setOpenToken(HttpContext context, string url, MultiStringDictionary userInfo)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\BenefitFocusSSOHandler.ashx.cs" Line="209">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="70" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="18" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void BenefitFocusSSOHandler.CreateApplicationContext()" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\BenefitFocusSSOHandler.ashx.cs" Line="219">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="75" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="14" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="bool BenefitFocusSSOHandler.IsReusable" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\BenefitFocusSSOHandler.ashx.cs" Line="236">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="bool BenefitFocusSSOHandler.IsReusable.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\BenefitFocusSSOHandler.ashx.cs" Line="238">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+              <NamedType Name="Employer_Empowered">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="65" />
+                  <Metric Name="CyclomaticComplexity" Value="9" />
+                  <Metric Name="ClassCoupling" Value="15" />
+                  <Metric Name="DepthOfInheritance" Value="4" />
+                  <Metric Name="SourceLines" Value="110" />
+                  <Metric Name="ExecutableLines" Value="29" />
+                </Metrics>
+                <Members>
+                  <Field Name="string Employer_Empowered.m_strMsg" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Employer_Empowered.aspx.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Property Name="string Employer_Empowered.AppName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Employer_Empowered.aspx.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string Employer_Empowered.AppName.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Employer_Empowered.aspx.cs" Line="16">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="93" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string Employer_Empowered.AppGuid" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Employer_Empowered.aspx.cs" Line="19">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string Employer_Empowered.AppGuid.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Employer_Empowered.aspx.cs" Line="21">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="93" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Method Name="void Employer_Empowered.Page_Load(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Employer_Empowered.aspx.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="48" />
+                      <Metric Name="CyclomaticComplexity" Value="7" />
+                      <Metric Name="ClassCoupling" Value="12" />
+                      <Metric Name="SourceLines" Value="65" />
+                      <Metric Name="ExecutableLines" Value="26" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="Panel Employer_Empowered.pnlResults" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Employer_Empowered.aspx.designer.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel Employer_Empowered.pnlError" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Employer_Empowered.aspx.designer.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label Employer_Empowered.lblError" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Employer_Empowered.aspx.designer.cs" Line="40">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="Employer_Enrollment">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="59" />
+                  <Metric Name="CyclomaticComplexity" Value="26" />
+                  <Metric Name="ClassCoupling" Value="36" />
+                  <Metric Name="DepthOfInheritance" Value="4" />
+                  <Metric Name="SourceLines" Value="275" />
+                  <Metric Name="ExecutableLines" Value="111" />
+                </Metrics>
+                <Members>
+                  <Property Name="string Employer_Enrollment.AuthType" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Employer_Enrollment.aspx.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string Employer_Enrollment.AuthType.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Employer_Enrollment.aspx.cs" Line="22">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="93" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="3" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="string Employer_Enrollment.AppName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Employer_Enrollment.aspx.cs" Line="25">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Employer_Enrollment.AppGuid" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Employer_Enrollment.aspx.cs" Line="26">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Employer_Enrollment.redirectURL" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Employer_Enrollment.aspx.cs" Line="28">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Employer_Enrollment.empoweredbenefitsURL" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Employer_Enrollment.aspx.cs" Line="29">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Employer_Enrollment.siebelURL" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Employer_Enrollment.aspx.cs" Line="30">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Employer_Enrollment.benefitFocusURL" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Employer_Enrollment.aspx.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Employer_Enrollment.errorURL" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Employer_Enrollment.aspx.cs" Line="32">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="bool Employer_Enrollment.isVerboseLoggingEnabled" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Employer_Enrollment.aspx.cs" Line="33">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Employer_Enrollment.Page_Load(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Employer_Enrollment.aspx.cs" Line="35">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="37" />
+                      <Metric Name="CyclomaticComplexity" Value="15" />
+                      <Metric Name="ClassCoupling" Value="15" />
+                      <Metric Name="SourceLines" Value="126" />
+                      <Metric Name="ExecutableLines" Value="58" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Employer_Enrollment.BuildSiebelURL(string customernum, string loginID)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Employer_Enrollment.aspx.cs" Line="162">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="64" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="17" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Employer_Enrollment.GetEncryptedAuthTicket(AuthTicket authTicket, string groupID)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Employer_Enrollment.aspx.cs" Line="180">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="69" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="17" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Employer_Enrollment.EncryptString(string strValue)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Employer_Enrollment.aspx.cs" Line="198">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="75" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="AssignedInsuranceGroupList Employer_Enrollment.GetAssignedInsuranceGroupList(Person p)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Employer_Enrollment.aspx.cs" Line="206">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="72" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="13" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Employer_Enrollment.GetGroupInfo(string groupID)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Employer_Enrollment.aspx.cs" Line="220">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="69" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="11" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Employer_Enrollment.FetchCSC(string groupID)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Employer_Enrollment.aspx.cs" Line="232">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="52" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="8" />
+                      <Metric Name="SourceLines" Value="48" />
+                      <Metric Name="ExecutableLines" Value="22" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="HtmlForm Employer_Enrollment.form1" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Employer_Enrollment.aspx.designer.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="Empowered">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="54" />
+                  <Metric Name="CyclomaticComplexity" Value="11" />
+                  <Metric Name="ClassCoupling" Value="23" />
+                  <Metric Name="DepthOfInheritance" Value="4" />
+                  <Metric Name="SourceLines" Value="147" />
+                  <Metric Name="ExecutableLines" Value="48" />
+                </Metrics>
+                <Members>
+                  <Property Name="string Empowered.AuthType" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Member_Empowered.aspx.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string Empowered.AuthType.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Member_Empowered.aspx.cs" Line="15">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="93" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="3" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="string Empowered.m_strMsg" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Member_Empowered.aspx.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Empowered.pstrAnalyticsFile" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Member_Empowered.aspx.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Empowered.Page_Load(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Member_Empowered.aspx.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="42" />
+                      <Metric Name="CyclomaticComplexity" Value="8" />
+                      <Metric Name="ClassCoupling" Value="16" />
+                      <Metric Name="SourceLines" Value="92" />
+                      <Metric Name="ExecutableLines" Value="41" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="Person Empowered.GetPerson(string userLoginId, string siteFlag)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Member_Empowered.aspx.cs" Line="113">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="69" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="15" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="Panel Empowered.pnlResults" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Member_Empowered.aspx.designer.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel Empowered.pnlError" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Member_Empowered.aspx.designer.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label Empowered.lblError" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Member_Empowered.aspx.designer.cs" Line="40">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="ErrorPage">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="81" />
+                  <Metric Name="CyclomaticComplexity" Value="2" />
+                  <Metric Name="ClassCoupling" Value="7" />
+                  <Metric Name="DepthOfInheritance" Value="4" />
+                  <Metric Name="SourceLines" Value="30" />
+                  <Metric Name="ExecutableLines" Value="2" />
+                </Metrics>
+                <Members>
+                  <Method Name="void ErrorPage.Page_Load(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\ErrorPage.aspx.cs" Line="9">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="81" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="HtmlForm ErrorPage.form1" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\ErrorPage.aspx.designer.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label ErrorPage.lblError" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\ErrorPage.aspx.designer.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+              <NamedType Name="Member_Enrollment">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="53" />
+                  <Metric Name="CyclomaticComplexity" Value="35" />
+                  <Metric Name="ClassCoupling" Value="45" />
+                  <Metric Name="DepthOfInheritance" Value="4" />
+                  <Metric Name="SourceLines" Value="391" />
+                  <Metric Name="ExecutableLines" Value="126" />
+                </Metrics>
+                <Members>
+                  <Property Name="string Member_Enrollment.AuthType" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Member_Enrollment.aspx.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string Member_Enrollment.AuthType.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Member_Enrollment.aspx.cs" Line="20">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="93" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="3" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Field Name="string Member_Enrollment.AppName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Member_Enrollment.aspx.cs" Line="23">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Member_Enrollment.AppGuid" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Member_Enrollment.aspx.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Member_Enrollment.targURLEmpowered" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Member_Enrollment.aspx.cs" Line="25">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Member_Enrollment.targURLSiebel" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Member_Enrollment.aspx.cs" Line="26">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Member_Enrollment.targURLBenefitFocus" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Member_Enrollment.aspx.cs" Line="27">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="bool Member_Enrollment.isVerboseLoggingEnabled" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Member_Enrollment.aspx.cs" Line="28">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Member_Enrollment.strSSN" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Member_Enrollment.aspx.cs" Line="29">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="string Member_Enrollment.strMemberID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Member_Enrollment.aspx.cs" Line="30">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Member_Enrollment.Page_Load(object sender, EventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Member_Enrollment.aspx.cs" Line="32">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="46" />
+                      <Metric Name="CyclomaticComplexity" Value="6" />
+                      <Metric Name="ClassCoupling" Value="16" />
+                      <Metric Name="SourceLines" Value="70" />
+                      <Metric Name="ExecutableLines" Value="31" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Member_Enrollment.btnSubmit_Click(object sender, ImageClickEventArgs e)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Member_Enrollment.aspx.cs" Line="103">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="40" />
+                      <Metric Name="CyclomaticComplexity" Value="12" />
+                      <Metric Name="ClassCoupling" Value="21" />
+                      <Metric Name="SourceLines" Value="92" />
+                      <Metric Name="ExecutableLines" Value="43" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Member_Enrollment.GetEncryptedAuthTicket(AuthTicket authTicket, string accessCode)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Member_Enrollment.aspx.cs" Line="196">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="69" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="17" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="HttpCookie Member_Enrollment.GetHttpCookie(string userID, string userCustomData)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Member_Enrollment.aspx.cs" Line="214">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="58" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="34" />
+                      <Metric Name="ExecutableLines" Value="10" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Member_Enrollment.BuildSiebelSSOURL(string siterole, string ssn, string memberid)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Member_Enrollment.aspx.cs" Line="249">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="57" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="28" />
+                      <Metric Name="ExecutableLines" Value="14" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="bool Member_Enrollment.IsPotentialMember(Person p, string memberID)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Member_Enrollment.aspx.cs" Line="279">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="52" />
+                      <Metric Name="CyclomaticComplexity" Value="10" />
+                      <Metric Name="ClassCoupling" Value="12" />
+                      <Metric Name="SourceLines" Value="44" />
+                      <Metric Name="ExecutableLines" Value="19" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Member_Enrollment.EncryptString(string strValue)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Member_Enrollment.aspx.cs" Line="324">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="75" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                  <Field Name="HtmlForm Member_Enrollment.MbrErollmentForm" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Member_Enrollment.aspx.designer.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel Member_Enrollment.pnlDisplayPersonalInfo" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Member_Enrollment.aspx.designer.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Panel Member_Enrollment.pnlError" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Member_Enrollment.aspx.designer.cs" Line="40">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label Member_Enrollment.lblFirstName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Member_Enrollment.aspx.designer.cs" Line="49">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label Member_Enrollment.lblLastName" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Member_Enrollment.aspx.designer.cs" Line="58">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="Label Member_Enrollment.lblDOB" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Member_Enrollment.aspx.designer.cs" Line="67">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="TextBox Member_Enrollment.employeraccesscode" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Member_Enrollment.aspx.designer.cs" Line="76">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="ImageButton Member_Enrollment.btnSubmit" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\BenefitFocusSSO\Member_Enrollment.aspx.designer.cs" Line="85">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="Shared_BenefitFocusSSOHandler.Shared">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="79" />
+              <Metric Name="CyclomaticComplexity" Value="156" />
+              <Metric Name="ClassCoupling" Value="41" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="611" />
+              <Metric Name="ExecutableLines" Value="189" />
+            </Metrics>
+            <Types>
+              <NamedType Name="AuthTicket">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="72" />
+                  <Metric Name="CyclomaticComplexity" Value="25" />
+                  <Metric Name="ClassCoupling" Value="6" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="79" />
+                  <Metric Name="ExecutableLines" Value="36" />
+                </Metrics>
+                <Members>
+                  <Property Name="int AuthTicket.version" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\AuthTicket.cs" Line="9">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int AuthTicket.version.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\AuthTicket.cs" Line="9">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void AuthTicket.version.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\AuthTicket.cs" Line="9">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string AuthTicket.name" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\AuthTicket.cs" Line="10">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string AuthTicket.name.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\AuthTicket.cs" Line="10">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void AuthTicket.name.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\AuthTicket.cs" Line="10">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DateTime AuthTicket.issueDate" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\AuthTicket.cs" Line="11">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DateTime AuthTicket.issueDate.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\AuthTicket.cs" Line="11">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void AuthTicket.issueDate.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\AuthTicket.cs" Line="11">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DateTime AuthTicket.expiration" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\AuthTicket.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DateTime AuthTicket.expiration.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\AuthTicket.cs" Line="12">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void AuthTicket.expiration.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\AuthTicket.cs" Line="12">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="bool AuthTicket.isPersistent" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\AuthTicket.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="bool AuthTicket.isPersistent.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\AuthTicket.cs" Line="13">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void AuthTicket.isPersistent.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\AuthTicket.cs" Line="13">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string AuthTicket.userData" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\AuthTicket.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string AuthTicket.userData.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\AuthTicket.cs" Line="14">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void AuthTicket.userData.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\AuthTicket.cs" Line="14">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string AuthTicket.cookiePath" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\AuthTicket.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string AuthTicket.cookiePath.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\AuthTicket.cs" Line="15">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void AuthTicket.cookiePath.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\AuthTicket.cs" Line="15">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Method Name="AuthTicket AuthTicket.Load(string ticket)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\AuthTicket.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="44" />
+                      <Metric Name="CyclomaticComplexity" Value="11" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="67" />
+                      <Metric Name="ExecutableLines" Value="36" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="BenefitFocusBroker">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="91" />
+                  <Metric Name="CyclomaticComplexity" Value="19" />
+                  <Metric Name="ClassCoupling" Value="1" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="25" />
+                  <Metric Name="ExecutableLines" Value="9" />
+                </Metrics>
+                <Members>
+                  <Property Name="string BenefitFocusBroker.SUBJECT" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusBroker.cs" Line="5">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string BenefitFocusBroker.SUBJECT.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusBroker.cs" Line="5">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitFocusBroker.SUBJECT.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusBroker.cs" Line="5">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string BenefitFocusBroker.SSN" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusBroker.cs" Line="6">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string BenefitFocusBroker.SSN.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusBroker.cs" Line="6">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitFocusBroker.SSN.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusBroker.cs" Line="6">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string BenefitFocusBroker.EMPLOYEE_ID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusBroker.cs" Line="7">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string BenefitFocusBroker.EMPLOYEE_ID.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusBroker.cs" Line="7">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitFocusBroker.EMPLOYEE_ID.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusBroker.cs" Line="7">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string BenefitFocusBroker.GROUP_ID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusBroker.cs" Line="8">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string BenefitFocusBroker.GROUP_ID.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusBroker.cs" Line="8">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitFocusBroker.GROUP_ID.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusBroker.cs" Line="8">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string BenefitFocusBroker.USER_NM" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusBroker.cs" Line="9">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string BenefitFocusBroker.USER_NM.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusBroker.cs" Line="9">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitFocusBroker.USER_NM.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusBroker.cs" Line="9">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string BenefitFocusBroker.ROLE" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusBroker.cs" Line="10">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string BenefitFocusBroker.ROLE.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusBroker.cs" Line="10">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitFocusBroker.ROLE.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusBroker.cs" Line="10">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string BenefitFocusBroker.CWOL" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusBroker.cs" Line="11">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string BenefitFocusBroker.CWOL.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusBroker.cs" Line="11">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitFocusBroker.CWOL.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusBroker.cs" Line="11">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string BenefitFocusBroker.KAURL" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusBroker.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string BenefitFocusBroker.KAURL.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusBroker.cs" Line="12">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitFocusBroker.KAURL.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusBroker.cs" Line="12">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string BenefitFocusBroker.RETURL" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusBroker.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string BenefitFocusBroker.RETURL.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusBroker.cs" Line="13">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitFocusBroker.RETURL.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusBroker.cs" Line="13">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Method Name="BenefitFocusBroker.BenefitFocusBroker(string loginId, string cwol, string kaurl, string returl)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusBroker.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="63" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="12" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="BenefitFocusEmployee">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="88" />
+                  <Metric Name="CyclomaticComplexity" Value="21" />
+                  <Metric Name="ClassCoupling" Value="10" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="45" />
+                  <Metric Name="ExecutableLines" Value="16" />
+                </Metrics>
+                <Members>
+                  <Property Name="string BenefitFocusEmployee.SUBJECT" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployee.cs" Line="11">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string BenefitFocusEmployee.SUBJECT.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployee.cs" Line="11">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitFocusEmployee.SUBJECT.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployee.cs" Line="11">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string BenefitFocusEmployee.SSN" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployee.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string BenefitFocusEmployee.SSN.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployee.cs" Line="12">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitFocusEmployee.SSN.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployee.cs" Line="12">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string BenefitFocusEmployee.EMPLOYEE_ID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployee.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string BenefitFocusEmployee.EMPLOYEE_ID.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployee.cs" Line="13">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitFocusEmployee.EMPLOYEE_ID.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployee.cs" Line="13">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string BenefitFocusEmployee.GROUP_ID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployee.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string BenefitFocusEmployee.GROUP_ID.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployee.cs" Line="14">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitFocusEmployee.GROUP_ID.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployee.cs" Line="14">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string BenefitFocusEmployee.USER_NM" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployee.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string BenefitFocusEmployee.USER_NM.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployee.cs" Line="15">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitFocusEmployee.USER_NM.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployee.cs" Line="15">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string BenefitFocusEmployee.ROLE" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployee.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string BenefitFocusEmployee.ROLE.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployee.cs" Line="16">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitFocusEmployee.ROLE.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployee.cs" Line="16">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string BenefitFocusEmployee.CWOL" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployee.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string BenefitFocusEmployee.CWOL.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployee.cs" Line="17">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitFocusEmployee.CWOL.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployee.cs" Line="17">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string BenefitFocusEmployee.KAURL" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployee.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string BenefitFocusEmployee.KAURL.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployee.cs" Line="18">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitFocusEmployee.KAURL.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployee.cs" Line="18">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string BenefitFocusEmployee.RETURL" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployee.cs" Line="19">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string BenefitFocusEmployee.RETURL.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployee.cs" Line="19">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitFocusEmployee.RETURL.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployee.cs" Line="19">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Method Name="BenefitFocusEmployee.BenefitFocusEmployee(Person person, string cwol, string kaurl, string returl)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployee.cs" Line="21">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="65" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="11" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string BenefitFocusEmployee.GetEmployeeId(Person person)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployee.cs" Line="33">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="63" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="BenefitFocusEmployer">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="91" />
+                  <Metric Name="CyclomaticComplexity" Value="19" />
+                  <Metric Name="ClassCoupling" Value="1" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="25" />
+                  <Metric Name="ExecutableLines" Value="9" />
+                </Metrics>
+                <Members>
+                  <Property Name="string BenefitFocusEmployer.SUBJECT" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployer.cs" Line="5">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string BenefitFocusEmployer.SUBJECT.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployer.cs" Line="5">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitFocusEmployer.SUBJECT.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployer.cs" Line="5">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string BenefitFocusEmployer.SSN" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployer.cs" Line="6">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string BenefitFocusEmployer.SSN.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployer.cs" Line="6">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitFocusEmployer.SSN.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployer.cs" Line="6">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string BenefitFocusEmployer.EMPLOYEE_ID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployer.cs" Line="7">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string BenefitFocusEmployer.EMPLOYEE_ID.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployer.cs" Line="7">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitFocusEmployer.EMPLOYEE_ID.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployer.cs" Line="7">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string BenefitFocusEmployer.GROUP_ID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployer.cs" Line="8">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string BenefitFocusEmployer.GROUP_ID.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployer.cs" Line="8">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitFocusEmployer.GROUP_ID.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployer.cs" Line="8">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string BenefitFocusEmployer.USER_NM" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployer.cs" Line="9">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string BenefitFocusEmployer.USER_NM.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployer.cs" Line="9">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitFocusEmployer.USER_NM.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployer.cs" Line="9">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string BenefitFocusEmployer.ROLE" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployer.cs" Line="10">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string BenefitFocusEmployer.ROLE.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployer.cs" Line="10">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitFocusEmployer.ROLE.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployer.cs" Line="10">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string BenefitFocusEmployer.CWOL" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployer.cs" Line="11">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string BenefitFocusEmployer.CWOL.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployer.cs" Line="11">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitFocusEmployer.CWOL.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployer.cs" Line="11">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string BenefitFocusEmployer.KAURL" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployer.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string BenefitFocusEmployer.KAURL.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployer.cs" Line="12">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitFocusEmployer.KAURL.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployer.cs" Line="12">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string BenefitFocusEmployer.RETURL" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployer.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string BenefitFocusEmployer.RETURL.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployer.cs" Line="13">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitFocusEmployer.RETURL.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployer.cs" Line="13">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Method Name="BenefitFocusEmployer.BenefitFocusEmployer(string loginId, string groupId, string cwol, string kaurl, string returl)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusEmployer.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="63" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="12" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="BenefitFocusFactory">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="73" />
+                  <Metric Name="CyclomaticComplexity" Value="5" />
+                  <Metric Name="ClassCoupling" Value="6" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="24" />
+                  <Metric Name="ExecutableLines" Value="3" />
+                </Metrics>
+                <Members>
+                  <Method Name="IBenefitFocus BenefitFocusFactory.CreateBenefitFocus(string type, Person person, string memberId, string loginId, string groupId, string cwol, string kaurl, string returl)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusFactory.cs" Line="7">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="73" />
+                      <Metric Name="CyclomaticComplexity" Value="5" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="21" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="BenefitFocusMember">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="91" />
+                  <Metric Name="CyclomaticComplexity" Value="19" />
+                  <Metric Name="ClassCoupling" Value="2" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="25" />
+                  <Metric Name="ExecutableLines" Value="9" />
+                </Metrics>
+                <Members>
+                  <Property Name="string BenefitFocusMember.SUBJECT" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusMember.cs" Line="7">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string BenefitFocusMember.SUBJECT.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusMember.cs" Line="7">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitFocusMember.SUBJECT.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusMember.cs" Line="7">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string BenefitFocusMember.SSN" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusMember.cs" Line="8">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string BenefitFocusMember.SSN.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusMember.cs" Line="8">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitFocusMember.SSN.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusMember.cs" Line="8">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string BenefitFocusMember.EMPLOYEE_ID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusMember.cs" Line="9">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string BenefitFocusMember.EMPLOYEE_ID.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusMember.cs" Line="9">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitFocusMember.EMPLOYEE_ID.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusMember.cs" Line="9">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string BenefitFocusMember.GROUP_ID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusMember.cs" Line="10">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string BenefitFocusMember.GROUP_ID.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusMember.cs" Line="10">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitFocusMember.GROUP_ID.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusMember.cs" Line="10">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string BenefitFocusMember.USER_NM" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusMember.cs" Line="11">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string BenefitFocusMember.USER_NM.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusMember.cs" Line="11">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitFocusMember.USER_NM.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusMember.cs" Line="11">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string BenefitFocusMember.ROLE" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusMember.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string BenefitFocusMember.ROLE.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusMember.cs" Line="12">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitFocusMember.ROLE.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusMember.cs" Line="12">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string BenefitFocusMember.CWOL" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusMember.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string BenefitFocusMember.CWOL.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusMember.cs" Line="13">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitFocusMember.CWOL.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusMember.cs" Line="13">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string BenefitFocusMember.KAURL" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusMember.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string BenefitFocusMember.KAURL.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusMember.cs" Line="14">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitFocusMember.KAURL.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusMember.cs" Line="14">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string BenefitFocusMember.RETURL" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusMember.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string BenefitFocusMember.RETURL.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusMember.cs" Line="15">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitFocusMember.RETURL.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusMember.cs" Line="15">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Method Name="BenefitFocusMember.BenefitFocusMember(Person person, string groupId, string cwol, string kaurl, string returl)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\BenefitFocusMember.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="63" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="12" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="Decryptor">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="60" />
+                  <Metric Name="CyclomaticComplexity" Value="12" />
+                  <Metric Name="ClassCoupling" Value="12" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="102" />
+                  <Metric Name="ExecutableLines" Value="30" />
+                </Metrics>
+                <Members>
+                  <Method Name="byte[] Decryptor.Decrypt(byte[] data, byte[] key)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\Decryptor.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="56" />
+                      <Metric Name="CyclomaticComplexity" Value="5" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="43" />
+                      <Metric Name="ExecutableLines" Value="15" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Decryptor.Decrypt(string data, string key)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\Decryptor.cs" Line="61">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="71" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="19" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="ICryptoTransform Decryptor.GetCryptoServiceProvider(byte[] key, byte[] IV)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\Decryptor.cs" Line="80">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="62" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="35" />
+                      <Metric Name="ExecutableLines" Value="10" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="Encryptor">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="62" />
+                  <Metric Name="CyclomaticComplexity" Value="9" />
+                  <Metric Name="ClassCoupling" Value="12" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="99" />
+                  <Metric Name="ExecutableLines" Value="29" />
+                </Metrics>
+                <Members>
+                  <Method Name="byte[] Encryptor.Encrypt(byte[] bytesData, byte[] bytesKey)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\Encryptor.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="57" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="41" />
+                      <Metric Name="ExecutableLines" Value="14" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string Encryptor.Encrypt(string data, string key)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\Encryptor.cs" Line="58">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="70" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="18" />
+                      <Metric Name="ExecutableLines" Value="5" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="ICryptoTransform Encryptor.GetCryptoServiceProvider(byte[] bytesKey, out byte[] IV)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\Encryptor.cs" Line="77">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="62" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="35" />
+                      <Metric Name="ExecutableLines" Value="10" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="IBenefitFocus">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="18" />
+                  <Metric Name="ClassCoupling" Value="0" />
+                  <Metric Name="DepthOfInheritance" Value="0" />
+                  <Metric Name="SourceLines" Value="12" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+                <Members>
+                  <Property Name="string IBenefitFocus.SUBJECT" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\IBenefitFocus.cs" Line="5">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string IBenefitFocus.SUBJECT.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\IBenefitFocus.cs" Line="5">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void IBenefitFocus.SUBJECT.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\IBenefitFocus.cs" Line="5">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string IBenefitFocus.SSN" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\IBenefitFocus.cs" Line="6">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string IBenefitFocus.SSN.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\IBenefitFocus.cs" Line="6">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void IBenefitFocus.SSN.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\IBenefitFocus.cs" Line="6">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string IBenefitFocus.EMPLOYEE_ID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\IBenefitFocus.cs" Line="7">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string IBenefitFocus.EMPLOYEE_ID.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\IBenefitFocus.cs" Line="7">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void IBenefitFocus.EMPLOYEE_ID.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\IBenefitFocus.cs" Line="7">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string IBenefitFocus.GROUP_ID" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\IBenefitFocus.cs" Line="8">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string IBenefitFocus.GROUP_ID.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\IBenefitFocus.cs" Line="8">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void IBenefitFocus.GROUP_ID.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\IBenefitFocus.cs" Line="8">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string IBenefitFocus.USER_NM" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\IBenefitFocus.cs" Line="9">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string IBenefitFocus.USER_NM.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\IBenefitFocus.cs" Line="9">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void IBenefitFocus.USER_NM.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\IBenefitFocus.cs" Line="9">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string IBenefitFocus.ROLE" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\IBenefitFocus.cs" Line="10">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string IBenefitFocus.ROLE.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\IBenefitFocus.cs" Line="10">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void IBenefitFocus.ROLE.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\IBenefitFocus.cs" Line="10">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string IBenefitFocus.CWOL" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\IBenefitFocus.cs" Line="11">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string IBenefitFocus.CWOL.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\IBenefitFocus.cs" Line="11">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void IBenefitFocus.CWOL.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\IBenefitFocus.cs" Line="11">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string IBenefitFocus.KAURL" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\IBenefitFocus.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string IBenefitFocus.KAURL.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\IBenefitFocus.cs" Line="12">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void IBenefitFocus.KAURL.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\IBenefitFocus.cs" Line="12">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string IBenefitFocus.RETURL" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\IBenefitFocus.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string IBenefitFocus.RETURL.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\IBenefitFocus.cs" Line="13">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void IBenefitFocus.RETURL.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\IBenefitFocus.cs" Line="13">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+              <NamedType Name="Log">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="89" />
+                  <Metric Name="CyclomaticComplexity" Value="3" />
+                  <Metric Name="ClassCoupling" Value="4" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="36" />
+                  <Metric Name="ExecutableLines" Value="6" />
+                </Metrics>
+                <Members>
+                  <Field Name="ILog Log.logger" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\Log.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="90" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="void Log.LogError(string strErrorMessage)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\Log.cs" Line="23">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Log.LogInfo(string strInfoMessage)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\Log.cs" Line="32">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Log.LogElapsedTimeInfo(Stopwatch sw, string callInfo)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\Log.cs" Line="37">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="76" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="SQLDataAccess">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="57" />
+                  <Metric Name="CyclomaticComplexity" Value="6" />
+                  <Metric Name="ClassCoupling" Value="11" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="108" />
+                  <Metric Name="ExecutableLines" Value="42" />
+                </Metrics>
+                <Members>
+                  <Method Name="int SQLDataAccess.Create(string cmdtext, List&lt;SqlParameter&gt; cmdparms, string connectionStringKey, CommandType cmdtype)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\SQLDataAccess.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="60" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="26" />
+                      <Metric Name="ExecutableLines" Value="12" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="DataTable SQLDataAccess.Fetch(string sp_name, List&lt;SqlParameter&gt; sp_parms, string connectionStringKey)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\SQLDataAccess.cs" Line="48">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="56" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="11" />
+                      <Metric Name="SourceLines" Value="44" />
+                      <Metric Name="ExecutableLines" Value="16" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="DataTable SQLDataAccess.Fetch(string cmdtext, List&lt;SqlParameter&gt; cmdparms, string connectionStringKey, CommandType cmdtype)" File="C:\Dev\Repos\TFSRoot\SHP\Web\apps2.optimahealth.com\shared\Shared_BenefitFocusSSOHandlerSln\Shared_BenefitFocusSSOHandler\Shared\SQLDataAccess.cs" Line="86">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="58" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="29" />
+                      <Metric Name="ExecutableLines" Value="14" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

@@ -1,0 +1,1469 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="Optima.BenefitRepository.Model.EF.csproj">
+      <Assembly Name="Optima.BenefitRepository.Model.EF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="72" />
+          <Metric Name="CyclomaticComplexity" Value="145" />
+          <Metric Name="ClassCoupling" Value="80" />
+          <Metric Name="DepthOfInheritance" Value="2" />
+          <Metric Name="SourceLines" Value="537" />
+          <Metric Name="ExecutableLines" Value="175" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="Optima.BenefitRepository.Model.EF">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="72" />
+              <Metric Name="CyclomaticComplexity" Value="145" />
+              <Metric Name="ClassCoupling" Value="80" />
+              <Metric Name="DepthOfInheritance" Value="2" />
+              <Metric Name="SourceLines" Value="537" />
+              <Metric Name="ExecutableLines" Value="175" />
+            </Metrics>
+            <Types>
+              <NamedType Name="BenefitRepositoryContext">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="89" />
+                  <Metric Name="CyclomaticComplexity" Value="84" />
+                  <Metric Name="ClassCoupling" Value="58" />
+                  <Metric Name="DepthOfInheritance" Value="2" />
+                  <Metric Name="SourceLines" Value="157" />
+                  <Metric Name="ExecutableLines" Value="43" />
+                </Metrics>
+                <Members>
+                  <Property Name="DbSet&lt;ApprovedCorePlanPdf&gt; BenefitRepositoryContext.ApprovedCorePlanPdfs" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="2" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DbSet&lt;ApprovedCorePlanPdf&gt; BenefitRepositoryContext.ApprovedCorePlanPdfs.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="16">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitRepositoryContext.ApprovedCorePlanPdfs.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="16">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DbSet&lt;PrescriptionDrugOption&gt; BenefitRepositoryContext.PrescriptionDrugOptions" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DbSet&lt;PrescriptionDrugOption&gt; BenefitRepositoryContext.PrescriptionDrugOptions.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="17">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitRepositoryContext.PrescriptionDrugOptions.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="17">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DbSet&lt;PlanException&gt; BenefitRepositoryContext.PlanExceptions" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DbSet&lt;PlanException&gt; BenefitRepositoryContext.PlanExceptions.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="18">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitRepositoryContext.PlanExceptions.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="18">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DbSet&lt;GroupType&gt; BenefitRepositoryContext.GroupTypes" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="19">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DbSet&lt;GroupType&gt; BenefitRepositoryContext.GroupTypes.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="19">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitRepositoryContext.GroupTypes.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="19">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DbSet&lt;Product&gt; BenefitRepositoryContext.Products" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DbSet&lt;Product&gt; BenefitRepositoryContext.Products.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="20">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitRepositoryContext.Products.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="20">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DbSet&lt;PrescriptionDrugOptionExpense&gt; BenefitRepositoryContext.PrescriptionDrugOptionExpenses" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="21">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DbSet&lt;PrescriptionDrugOptionExpense&gt; BenefitRepositoryContext.PrescriptionDrugOptionExpenses.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="21">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitRepositoryContext.PrescriptionDrugOptionExpenses.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="21">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DbSet&lt;CorePlanExcludedBenefit&gt; BenefitRepositoryContext.CorePlanExcludedBenefits" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="22">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DbSet&lt;CorePlanExcludedBenefit&gt; BenefitRepositoryContext.CorePlanExcludedBenefits.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="22">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitRepositoryContext.CorePlanExcludedBenefits.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="22">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DbSet&lt;GroupSize&gt; BenefitRepositoryContext.GroupSizes" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="23">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DbSet&lt;GroupSize&gt; BenefitRepositoryContext.GroupSizes.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="23">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitRepositoryContext.GroupSizes.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="23">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DbSet&lt;BenefitExcludedService&gt; BenefitRepositoryContext.BenefitExcludedServices" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DbSet&lt;BenefitExcludedService&gt; BenefitRepositoryContext.BenefitExcludedServices.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="24">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitRepositoryContext.BenefitExcludedServices.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="24">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DbSet&lt;CorePlan&gt; BenefitRepositoryContext.CorePlans" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="25">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DbSet&lt;CorePlan&gt; BenefitRepositoryContext.CorePlans.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="25">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitRepositoryContext.CorePlans.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="25">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DbSet&lt;AuditRejection&gt; BenefitRepositoryContext.AuditRejections" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="26">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DbSet&lt;AuditRejection&gt; BenefitRepositoryContext.AuditRejections.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="26">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitRepositoryContext.AuditRejections.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="26">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DbSet&lt;Benefit&gt; BenefitRepositoryContext.Benefits" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="27">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DbSet&lt;Benefit&gt; BenefitRepositoryContext.Benefits.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="27">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitRepositoryContext.Benefits.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="27">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DbSet&lt;BenefitExpenseLimitQualifier&gt; BenefitRepositoryContext.BenefitExpenseLimitQualifiers" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="28">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DbSet&lt;BenefitExpenseLimitQualifier&gt; BenefitRepositoryContext.BenefitExpenseLimitQualifiers.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="28">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitRepositoryContext.BenefitExpenseLimitQualifiers.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="28">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DbSet&lt;CorePlanService&gt; BenefitRepositoryContext.CorePlanServices" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="29">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DbSet&lt;CorePlanService&gt; BenefitRepositoryContext.CorePlanServices.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="29">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitRepositoryContext.CorePlanServices.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="29">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DbSet&lt;BenefitCategory&gt; BenefitRepositoryContext.BenefitCategories" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="30">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DbSet&lt;BenefitCategory&gt; BenefitRepositoryContext.BenefitCategories.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="30">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitRepositoryContext.BenefitCategories.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="30">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DbSet&lt;InNetworkCoreBenefitExpense&gt; BenefitRepositoryContext.InNetworkBenefitExpenses" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="32">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="2" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DbSet&lt;InNetworkCoreBenefitExpense&gt; BenefitRepositoryContext.InNetworkBenefitExpenses.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="32">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitRepositoryContext.InNetworkBenefitExpenses.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="32">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DbSet&lt;OutOfNetworkCoreBenefitExpense&gt; BenefitRepositoryContext.OutOfNetworkBenefitExpenses" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="33">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DbSet&lt;OutOfNetworkCoreBenefitExpense&gt; BenefitRepositoryContext.OutOfNetworkBenefitExpenses.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="33">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitRepositoryContext.OutOfNetworkBenefitExpenses.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="33">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DbSet&lt;BenefitException&gt; BenefitRepositoryContext.BenefitExceptions" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="34">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DbSet&lt;BenefitException&gt; BenefitRepositoryContext.BenefitExceptions.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="34">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitRepositoryContext.BenefitExceptions.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="34">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DbSet&lt;PlanType&gt; BenefitRepositoryContext.PlanTypes" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="35">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DbSet&lt;PlanType&gt; BenefitRepositoryContext.PlanTypes.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="35">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitRepositoryContext.PlanTypes.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="35">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DbSet&lt;PlanCategory&gt; BenefitRepositoryContext.PlanCategories" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="36">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DbSet&lt;PlanCategory&gt; BenefitRepositoryContext.PlanCategories.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="36">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitRepositoryContext.PlanCategories.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="36">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DbSet&lt;BenefitExpenseQualifier&gt; BenefitRepositoryContext.BenefitExpenseQualifiers" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="37">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DbSet&lt;BenefitExpenseQualifier&gt; BenefitRepositoryContext.BenefitExpenseQualifiers.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="37">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitRepositoryContext.BenefitExpenseQualifiers.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="37">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DbSet&lt;ProductCategory&gt; BenefitRepositoryContext.ProductCategories" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="38">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DbSet&lt;ProductCategory&gt; BenefitRepositoryContext.ProductCategories.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="38">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitRepositoryContext.ProductCategories.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="38">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DbSet&lt;DeductibleException&gt; BenefitRepositoryContext.DeductibleExceptions" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="39">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DbSet&lt;DeductibleException&gt; BenefitRepositoryContext.DeductibleExceptions.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="39">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitRepositoryContext.DeductibleExceptions.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="39">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DbSet&lt;CommonMedicalEvent&gt; BenefitRepositoryContext.CommonMedicalEvent" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="40">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DbSet&lt;CommonMedicalEvent&gt; BenefitRepositoryContext.CommonMedicalEvent.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="40">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitRepositoryContext.CommonMedicalEvent.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="40">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DbSet&lt;CommonMedicalEventService&gt; BenefitRepositoryContext.CommonMedicalEventService" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="41">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DbSet&lt;CommonMedicalEventService&gt; BenefitRepositoryContext.CommonMedicalEventService.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="41">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitRepositoryContext.CommonMedicalEventService.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="41">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DbSet&lt;CoveredService&gt; BenefitRepositoryContext.CoveredServices" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="42">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DbSet&lt;CoveredService&gt; BenefitRepositoryContext.CoveredServices.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="42">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitRepositoryContext.CoveredServices.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="42">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DbSet&lt;CorePlanBenefit&gt; BenefitRepositoryContext.CorePlanBenefits" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="43">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DbSet&lt;CorePlanBenefit&gt; BenefitRepositoryContext.CorePlanBenefits.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="43">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitRepositoryContext.CorePlanBenefits.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="43">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DbSet&lt;ExampleBenefitCoverage&gt; BenefitRepositoryContext.ExampleBenefitCoverage" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="44">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DbSet&lt;ExampleBenefitCoverage&gt; BenefitRepositoryContext.ExampleBenefitCoverage.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="44">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitRepositoryContext.ExampleBenefitCoverage.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="44">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DbSet&lt;ExampleBenefitCoverageCare&gt; BenefitRepositoryContext.ExampleBenefitCoverageCare" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="45">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DbSet&lt;ExampleBenefitCoverageCare&gt; BenefitRepositoryContext.ExampleBenefitCoverageCare.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="45">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitRepositoryContext.ExampleBenefitCoverageCare.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="45">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DbSet&lt;PlanStatus&gt; BenefitRepositoryContext.PlanStatuses" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="46">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DbSet&lt;PlanStatus&gt; BenefitRepositoryContext.PlanStatuses.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="46">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitRepositoryContext.PlanStatuses.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="46">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DbSet&lt;LimitType&gt; BenefitRepositoryContext.LimitTypes" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="47">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DbSet&lt;LimitType&gt; BenefitRepositoryContext.LimitTypes.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="47">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitRepositoryContext.LimitTypes.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="47">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DbSet&lt;NetworkType&gt; BenefitRepositoryContext.NetworkTypes" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="48">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DbSet&lt;NetworkType&gt; BenefitRepositoryContext.NetworkTypes.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="48">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitRepositoryContext.NetworkTypes.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="48">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DbSet&lt;PaymentType&gt; BenefitRepositoryContext.PaymentTypes" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="49">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DbSet&lt;PaymentType&gt; BenefitRepositoryContext.PaymentTypes.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="49">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitRepositoryContext.PaymentTypes.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="49">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DbSet&lt;GroupPlan&gt; BenefitRepositoryContext.GroupPlans" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="50">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DbSet&lt;GroupPlan&gt; BenefitRepositoryContext.GroupPlans.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="50">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitRepositoryContext.GroupPlans.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="50">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DbSet&lt;GroupPlanBenefitCoPayCoIns&gt; BenefitRepositoryContext.GroupPlanBenefitCoPayCoIns" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="51">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DbSet&lt;GroupPlanBenefitCoPayCoIns&gt; BenefitRepositoryContext.GroupPlanBenefitCoPayCoIns.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="51">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitRepositoryContext.GroupPlanBenefitCoPayCoIns.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="51">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DbSet&lt;GroupPlanBenefit&gt; BenefitRepositoryContext.GroupPlanBenefits" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="52">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DbSet&lt;GroupPlanBenefit&gt; BenefitRepositoryContext.GroupPlanBenefits.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="52">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitRepositoryContext.GroupPlanBenefits.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="52">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DbSet&lt;GroupPlanPrescriptionDrugExpense&gt; BenefitRepositoryContext.GroupPlanPrescriptionDrugExpenses" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="53">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DbSet&lt;GroupPlanPrescriptionDrugExpense&gt; BenefitRepositoryContext.GroupPlanPrescriptionDrugExpenses.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="53">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitRepositoryContext.GroupPlanPrescriptionDrugExpenses.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="53">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DbSet&lt;GroupPlanCostCalculation&gt; BenefitRepositoryContext.GroupPlanCostCalculations" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="54">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DbSet&lt;GroupPlanCostCalculation&gt; BenefitRepositoryContext.GroupPlanCostCalculations.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="54">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitRepositoryContext.GroupPlanCostCalculations.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="54">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DbSet&lt;GroupPlanPlanException&gt; BenefitRepositoryContext.GroupPlanPlanExceptions" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="55">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DbSet&lt;GroupPlanPlanException&gt; BenefitRepositoryContext.GroupPlanPlanExceptions.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="55">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitRepositoryContext.GroupPlanPlanExceptions.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="55">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DbSet&lt;GroupPlanBenefitException&gt; BenefitRepositoryContext.GroupPlanBenefitExceptions" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="56">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DbSet&lt;GroupPlanBenefitException&gt; BenefitRepositoryContext.GroupPlanBenefitExceptions.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="56">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitRepositoryContext.GroupPlanBenefitExceptions.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="56">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="DbSet&lt;PrescriptionDrugException&gt; BenefitRepositoryContext.PrescriptionDrugExceptions" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="57">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="DbSet&lt;PrescriptionDrugException&gt; BenefitRepositoryContext.PrescriptionDrugExceptions.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="57">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void BenefitRepositoryContext.PrescriptionDrugExceptions.set" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="57">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="ObjectContext BenefitRepositoryContext.ObjectContext" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="64">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="13" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="ObjectContext BenefitRepositoryContext.ObjectContext.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="66">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="2" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Method Name="void BenefitRepositoryContext.OnModelCreating(DbModelBuilder modelBuilder)" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContext.cs" Line="72">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="42" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="19" />
+                      <Metric Name="SourceLines" Value="92" />
+                      <Metric Name="ExecutableLines" Value="42" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="BenefitRepositoryContextExtension">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="66" />
+                  <Metric Name="CyclomaticComplexity" Value="3" />
+                  <Metric Name="ClassCoupling" Value="7" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="32" />
+                  <Metric Name="ExecutableLines" Value="7" />
+                </Metrics>
+                <Members>
+                  <Method Name="void BenefitRepositoryContextExtension.AttachToOrGet&lt;T&gt;(BenefitRepositoryContext benefitRepositoryContext, string entitySetName, ref T entity)" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\BenefitRepositoryContextExtension.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="66" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="28" />
+                      <Metric Name="ExecutableLines" Value="7" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="CorePlanRepository">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="63" />
+                  <Metric Name="CyclomaticComplexity" Value="58" />
+                  <Metric Name="ClassCoupling" Value="39" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="339" />
+                  <Metric Name="ExecutableLines" Value="125" />
+                </Metrics>
+                <Members>
+                  <Field Name="BenefitRepositoryContext CorePlanRepository.db" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\CorePlanRepository.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="ICorePlanValidator CorePlanRepository.corePlanValidator" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\CorePlanRepository.cs" Line="19">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="CorePlanRepository.CorePlanRepository(ICorePlanValidator corePlanValidator)" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\CorePlanRepository.cs" Line="21">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="78" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="IQueryable&lt;CorePlan&gt; CorePlanRepository.CorePlans" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\CorePlanRepository.cs" Line="29">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="IQueryable&lt;CorePlan&gt; CorePlanRepository.CorePlans.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\CorePlanRepository.cs" Line="31">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="93" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="6" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="IQueryable&lt;ApprovedCorePlanPdf&gt; CorePlanRepository.ApprovedCorePlanPdfs" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\CorePlanRepository.cs" Line="37">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="7" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="IQueryable&lt;ApprovedCorePlanPdf&gt; CorePlanRepository.ApprovedCorePlanPdfs.get" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\CorePlanRepository.cs" Line="39">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="93" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="6" />
+                          <Metric Name="SourceLines" Value="4" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Method Name="void CorePlanRepository.SaveNewCorePlanForAudit(CorePlan corePlan)" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\CorePlanRepository.cs" Line="45">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="68" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="13" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void CorePlanRepository.SaveCorePlanPdf(ApprovedCorePlanPdf corePlanPdf)" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\CorePlanRepository.cs" Line="59">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="77" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void CorePlanRepository.SaveNewCorePlanDraft(CorePlan corePlan)" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\CorePlanRepository.cs" Line="66">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="60" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="22" />
+                      <Metric Name="ExecutableLines" Value="11" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void CorePlanRepository.validateCorePlan(CorePlan corePlan)" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\CorePlanRepository.cs" Line="89">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="81" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void CorePlanRepository.UpdateCorePlanDraft(CorePlan corePlan)" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\CorePlanRepository.cs" Line="96">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="81" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="3" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void CorePlanRepository.saveUpdatedCorePlan(CorePlan corePlan)" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\CorePlanRepository.cs" Line="103">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="33" />
+                      <Metric Name="CyclomaticComplexity" Value="22" />
+                      <Metric Name="ClassCoupling" Value="22" />
+                      <Metric Name="SourceLines" Value="167" />
+                      <Metric Name="ExecutableLines" Value="65" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void CorePlanRepository.ApproveCorePlan(CorePlan corePlan)" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\CorePlanRepository.cs" Line="271">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="67" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="12" />
+                      <Metric Name="ExecutableLines" Value="7" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void CorePlanRepository.SaveRejectedCorePlan(CorePlan corePlan)" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\CorePlanRepository.cs" Line="284">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="75" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="11" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void CorePlanRepository.Dispose()" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\CorePlanRepository.cs" Line="296">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void CorePlanRepository.AttachCorePlanDependencies(CorePlan corePlan)" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\CorePlanRepository.cs" Line="302">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="63" />
+                      <Metric Name="CyclomaticComplexity" Value="8" />
+                      <Metric Name="ClassCoupling" Value="11" />
+                      <Metric Name="SourceLines" Value="20" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void CorePlanRepository.AttachCorePlanBenefitDependencies(CorePlanBenefit corePlanBenefit)" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\CorePlanRepository.cs" Line="322">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="58" />
+                      <Metric Name="CyclomaticComplexity" Value="10" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="25" />
+                      <Metric Name="ExecutableLines" Value="9" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void CorePlanRepository.AttachPrescriptionDrugOptionExpenseDependencies(PrescriptionDrugOptionExpense expense)" File="C:\Dev\Repos\TFSRoot\SHP\Web\Optima.BenefitRepository\Optima.BenefitRepository.Model.EF\CorePlanRepository.cs" Line="348">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="87" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

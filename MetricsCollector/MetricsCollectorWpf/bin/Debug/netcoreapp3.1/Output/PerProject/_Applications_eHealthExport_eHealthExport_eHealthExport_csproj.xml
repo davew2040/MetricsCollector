@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="eHealthExport.csproj">
+      <Assembly Name="eHealthExport, Version=1.0.0.25, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="45" />
+          <Metric Name="CyclomaticComplexity" Value="54" />
+          <Metric Name="ClassCoupling" Value="33" />
+          <Metric Name="DepthOfInheritance" Value="1" />
+          <Metric Name="SourceLines" Value="431" />
+          <Metric Name="ExecutableLines" Value="178" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="eHealthExport">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="45" />
+              <Metric Name="CyclomaticComplexity" Value="54" />
+              <Metric Name="ClassCoupling" Value="33" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="431" />
+              <Metric Name="ExecutableLines" Value="178" />
+            </Metrics>
+            <Types>
+              <NamedType Name="eHealthExportMain">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="45" />
+                  <Metric Name="CyclomaticComplexity" Value="54" />
+                  <Metric Name="ClassCoupling" Value="33" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="428" />
+                  <Metric Name="ExecutableLines" Value="178" />
+                </Metrics>
+                <Members>
+                  <Method Name="void eHealthExportMain.Main()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\eHealthExport\eHealthExport\eHealthExportMain.cs" Line="30">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="14" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void eHealthExportMain.Export()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\eHealthExport\eHealthExport\eHealthExportMain.cs" Line="35">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="21" />
+                      <Metric Name="CyclomaticComplexity" Value="48" />
+                      <Metric Name="ClassCoupling" Value="16" />
+                      <Metric Name="SourceLines" Value="261" />
+                      <Metric Name="ExecutableLines" Value="138" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="DataSet eHealthExportMain.GetDataSet(string sGeneratedTable)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\eHealthExport\eHealthExport\eHealthExportMain.cs" Line="297">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="55" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="31" />
+                      <Metric Name="ExecutableLines" Value="15" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void eHealthExportMain.SendEmail()" File="C:\Dev\Repos\TFSRoot\SHP\Applications\eHealthExport\eHealthExport\eHealthExportMain.cs" Line="338">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="59" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="10" />
+                      <Metric Name="SourceLines" Value="44" />
+                      <Metric Name="ExecutableLines" Value="10" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void eHealthExportMain.CreateLogFile(string error)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\eHealthExport\eHealthExport\eHealthExportMain.cs" Line="384">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="64" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="31" />
+                      <Metric Name="ExecutableLines" Value="8" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="string eHealthExportMain.DecryptCredentials(string sEncPassword)" File="C:\Dev\Repos\TFSRoot\SHP\Applications\eHealthExport\eHealthExport\eHealthExportMain.cs" Line="423">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="69" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="4" />
+                      <Metric Name="SourceLines" Value="34" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>
