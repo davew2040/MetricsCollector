@@ -11,6 +11,7 @@ namespace MetricsCollector
         private const string CsProjExtension = "csproj";
         private const string MsBuildExe = "msbuild.exe";
         private const string RootOutputDirectory = "Output";
+        private const string ResultsFilename = "Results.xml";
         private readonly string MetricsExePath = "included_files" + Path.DirectorySeparatorChar + "metrics" + Path.DirectorySeparatorChar + "metrics.exe";
         private readonly string ProjectMetricsOutputDirectory = RootOutputDirectory + Path.DirectorySeparatorChar + "PerProject";
         private readonly Action<string> statusUpdater;
@@ -37,17 +38,11 @@ namespace MetricsCollector
 
             this.statusUpdater("Completed reading all projects.");
 
-            var metrics = await MetricsCompiler.CompileFromDirectory(this.GetOutputPath());
+            var metrics = await MetricsCompiler.CompileFromDirectory(this.GetPerProjectOutputPath());
 
-            foreach (var metricsRow in metrics)
-            {
-                this.statusUpdater($"{metricsRow.ProjectName}:");
-                this.statusUpdater($"  MaintainabilityIndex - {metricsRow.MaintainabilityIndex}");
-                this.statusUpdater($"  CyclomaticComplexity - {metricsRow.CyclomaticComplexity}");
-                this.statusUpdater($"  ClassCoupling - {metricsRow.ClassCoupling}");
-                this.statusUpdater($"  DepthOfInheritance - {metricsRow.DepthOfInheritance}");
-                this.statusUpdater($"  SourceLines - {metricsRow.SourceLines}");
-            }
+            var resultsPath = this.GetResultsPath();
+            CompletedMetricsHandler.WriteMetrics(metrics, resultsPath);
+            this.statusUpdater($"Wrote results to {resultsPath}.");
         }
 
         public void Traverse(DirectoryInfo currentDirectory, CollectionConfiguration config, List<Task> tasks)
@@ -68,9 +63,9 @@ namespace MetricsCollector
 
         private async Task CollectMetricsAsync(string projPath, CollectionConfiguration config)
         {
-            if (!Directory.Exists(this.GetOutputPath()))
+            if (!Directory.Exists(this.GetPerProjectOutputPath()))
             {
-                Directory.CreateDirectory(this.GetOutputPath());
+                Directory.CreateDirectory(this.GetPerProjectOutputPath());
             }
 
             this.ClearExistingOutputFiles();
@@ -146,9 +141,14 @@ namespace MetricsCollector
             Console.WriteLine(e.Data.ToString());
         }
 
+        private void HandleCollectedMetrics(IEnumerable<MetricsRow> metrics)
+        {
+            CompletedMetricsHandler.WriteMetrics(metrics, this.GetPerProjectOutputPath());
+        }
+
         private void ClearExistingOutputFiles()
         {
-            var outputPath = this.GetOutputPath();
+            var outputPath = this.GetPerProjectOutputPath();
 
             foreach (var file in Directory.GetFiles(outputPath))
             {
@@ -167,7 +167,12 @@ namespace MetricsCollector
             return appLocation.FullName;
         }
 
-        private string GetOutputPath()
+        private string GetResultsPath()
+        {
+            return Path.Combine(this.GetExecutingPath(), RootOutputDirectory, ResultsFilename);
+        }
+
+        private string GetPerProjectOutputPath()
         {
             return Path.Combine(this.GetExecutingPath(), ProjectMetricsOutputDirectory);
         }
@@ -185,7 +190,7 @@ namespace MetricsCollector
                 .Replace(":", "_")
                 .Replace(".", "_");
 
-            var fullOutputPath = Path.Combine(this.GetOutputPath(), escapedPath + ".xml");
+            var fullOutputPath = Path.Combine(this.GetPerProjectOutputPath(), escapedPath + ".xml");
 
             return fullOutputPath;
         }

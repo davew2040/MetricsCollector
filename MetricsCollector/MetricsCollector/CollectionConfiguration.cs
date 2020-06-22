@@ -13,7 +13,6 @@ namespace MetricsCollector
     public class CollectionConfiguration
     {
         public string RootDirectory { get; set; }
-        public string OutputFile { get; set; }
         public string MsBuildPath { get; set; }
         public CollectionMethod CollectionMethod { get; set; }
     }

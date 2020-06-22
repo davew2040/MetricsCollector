@@ -15,7 +15,6 @@ namespace MetricsCollector.Parsing
             {
                 var xmlConfig = new XElement("Config",
                     new XElement(nameof(config.CollectionMethod), config.CollectionMethod.ToString()),
-                    new XElement(nameof(config.OutputFile), config.OutputFile),
                     new XElement(nameof(config.MsBuildPath), config.MsBuildPath),
                     new XElement(nameof(config.RootDirectory), config.RootDirectory)
                 );
@@ -45,7 +44,6 @@ namespace MetricsCollector.Parsing
                 var config = new CollectionConfiguration();
 
                 config.MsBuildPath = root.Element(nameof(config.MsBuildPath)).Value;
-                config.OutputFile = root.Element(nameof(config.OutputFile)).Value;
                 config.RootDirectory = root.Element(nameof(config.RootDirectory)).Value;
 
                 string collectionStringValue = root.Element(nameof(config.CollectionMethod)).Value;
