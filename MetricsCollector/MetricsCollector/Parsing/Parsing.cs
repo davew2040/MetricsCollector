@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,6 +12,8 @@ namespace MetricsCollector.Parsing
     {
         public static class Config
         {
+            public const string DefaultConfigFilename = "config.xml";
+
             public static string WriteXml(CollectionConfiguration config)
             {
                 var xmlConfig = new XElement("Config",
@@ -33,6 +36,11 @@ namespace MetricsCollector.Parsing
 
             public static async Task<CollectionConfiguration> LoadConfig(string path)
             {
+                if (!File.Exists(path))
+                {
+                    return null;
+                }
+
                 string text;
                 using (System.IO.StreamReader reader = new System.IO.StreamReader(path))
                 {

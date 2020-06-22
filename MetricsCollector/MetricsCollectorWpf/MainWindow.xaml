@@ -1,0 +1,61 @@
+﻿<Window x:Class="MetricsCollectorWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MetricsCollectorWpf"
+        xmlns:Converters="clr-namespace:MetricsCollectorWpf.Converters"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        DataContext="{Binding}"
+        Loaded="Window_Loaded">
+    
+    <Window.Resources>
+        <Converters:RadioButtonToCollectionMethodConverter x:Key="radioButtonToCollectionMethodConverter" />
+    </Window.Resources>
+
+    <Grid>
+        <Grid Width="Auto">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"></RowDefinition>
+                <RowDefinition Height="30"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="30"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="150"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="75"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock VerticalAlignment="Center">Root Search Directory:</TextBlock>
+            <TextBox Text="{Binding Path=RootSearchDirectory}" Grid.Column="1" Width="Auto" VerticalAlignment="Center" Margin="5,5,5,5"></TextBox>
+            <Button Click="BrowseRootSearchDirectory" Grid.Column="2" Margin="5,5,5,5">Browse</Button>
+
+            <TextBlock VerticalAlignment="Center" Grid.Row="1">MSBUILD Path:</TextBlock>
+            <TextBox Text="{Binding Path=MsBuildPath}" Grid.Row="1" Grid.Column="1" Width="Auto" VerticalAlignment="Center" Margin="5,5,5,5"></TextBox>
+            <Button Click="BrowseMsBuild" Grid.Row="1" Grid.Column="2" Margin="5,5,5,5">Browse</Button>
+
+            <TextBlock VerticalAlignment="Center" Grid.Row="2">Collection Type:</TextBlock>
+            <StackPanel Orientation="Horizontal" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" Margin="0,10,0,10">
+                <RadioButton GroupName="CollectionType" 
+                             IsChecked="{Binding Path=CollectionMethod, Converter={StaticResource radioButtonToCollectionMethodConverter}, ConverterParameter=ProjectNuGet}">
+                    Project NuGet
+                </RadioButton>
+                <RadioButton GroupName="CollectionType" 
+                             IsChecked="{Binding Path=CollectionMethod, Converter={StaticResource radioButtonToCollectionMethodConverter}, ConverterParameter=ProvidedMetricsExe}" 
+                             Margin="20,0,0,0">
+                    Metrics.exe
+                </RadioButton>
+            </StackPanel>
+
+            <Button IsEnabled="{Binding Path=CanCollectMetrics}" Grid.Row="3" Grid.ColumnSpan="3" Width="150" Click="CollectMetricsAsync">Collect Metrics</Button>
+
+            <StackPanel Grid.Row="4" Grid.ColumnSpan="3" Orientation="Vertical" Margin="5,20,5,0">
+                <TextBlock>Output:</TextBlock>
+                <TextBlock TextWrapping="Wrap" Text="{Binding Path=ToolOutput}" Grid.Row="4" Grid.ColumnSpan="3" Background="LightGray"></TextBlock>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

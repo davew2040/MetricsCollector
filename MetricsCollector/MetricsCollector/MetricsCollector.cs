@@ -70,7 +70,7 @@ namespace MetricsCollector
 
             this.ClearExistingOutputFiles();
 
-            if (config.CollectionMethod == CollectionMethod.AttachedNuget)
+            if (config.CollectionMethod == CollectionMethod.ProjectNuGet)
             {
                 await this.CollectMetricsMsBuildAsync(projPath, config);
             }

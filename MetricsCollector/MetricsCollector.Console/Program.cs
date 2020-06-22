@@ -7,11 +7,9 @@ namespace MetricsCollector.Console
 {
     class Program
     {
-        private const string ConfigPath = "config.xml";
-
         static async Task Main(string[] args)
         {
-            var config = await Parsing.Parsing.Config.LoadConfig(ConfigPath);
+            var config = await Parsing.Parsing.Config.LoadConfig(Parsing.Parsing.Config.DefaultConfigFilename);
 
             var collector = new MetricsCollector(statusUpdater: 
                 update => System.Console.WriteLine(update)

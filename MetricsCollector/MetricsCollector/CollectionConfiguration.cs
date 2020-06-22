@@ -6,7 +6,7 @@ namespace MetricsCollector
 {
     public enum CollectionMethod
     {
-        AttachedNuget,
+        ProjectNuGet,
         ProvidedMetricsExe // See https://docs.microsoft.com/en-us/visualstudio/code-quality/how-to-generate-code-metrics-data?view=vs-2019#metricsexe
     }
 
